@@ -776,7 +776,7 @@ StatsScreen_LoadGFX:
 	dw wBufferMonOT
 
 IDNoString:
-	db "<ID>№.@"
+	db "ID/@"
 
 OTString:
 	db "OT/@"
