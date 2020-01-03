@@ -25,18 +25,18 @@ CherrygroveEvolutionSpeechHouseBookshelf:
 	jumpstd magazinebookshelf
 
 CherrygroveEvolutionSpeechHouseYoungsterText:
-	text "#MON gain expe-"
-	line "rience in battle"
-
-	para "and change their"
-	line "form."
+	text "Hmph! So rude"
+	line "to just barge"
+	cont "right into our"
+	cont "home!"
 	done
 
 CherrygroveEvolutionSpeechHouseLassText:
-	text "#MON change?"
+	text "AYIEE!"
 
-	para "I would be shocked"
-	line "if one did that!"
+	para "Get out of my"
+	line "house you nasty"
+	cont "looking freak!"
 	done
 
 CherrygroveEvolutionSpeechHouse_MapEvents:

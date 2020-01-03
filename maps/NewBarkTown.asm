@@ -109,15 +109,15 @@ NewBarkTownSilverScript:
 	writetext NewBarkTownRivalText1
 	waitbutton
 	closetext
-	turnobject NEWBARKTOWN_SILVER, LEFT
+	turnobject NEWBARKTOWN_SILVER, DOWN ; edit
 	opentext
 	writetext NewBarkTownRivalText2
 	waitbutton
 	closetext
-	follow PLAYER, NEWBARKTOWN_SILVER
-	applymovement PLAYER, Movement_SilverPushesYouAway_NBT
-	stopfollow
-	pause 5
+	;follow PLAYER, NEWBARKTOWN_SILVER
+	;applymovement PLAYER, Movement_SilverPushesYouAway_NBT
+	;stopfollow
+	;pause 5
 	turnobject NEWBARKTOWN_SILVER, DOWN
 	pause 5
 	playsound SFX_TACKLE
@@ -183,15 +183,17 @@ Movement_SilverShovesYouOut_NBT:
 	step_end
 
 Movement_SilverReturnsToTheShadows_NBT:
-	step RIGHT
+	turn_head RIGHT
 	step_end
 
 Text_GearIsImpressive:
-	text "Wow, your #GEAR"
-	line "is impressive!"
+	text "Things sure have"
+	line "changed since the"
 
-	para "Did your mom get"
-	line "it for you?"
+	para "METEOR. I guess"
+	line "I'll get used to"
+	cont "all this sand"
+	cont "someday!"
 	done
 
 Text_WaitPlayer:
@@ -218,7 +220,8 @@ Text_ItsDangerousToGoAlone:
 Text_YourMonIsAdorable:
 	text "Oh! Your #MON"
 	line "is adorable!"
-	cont "I wish I had one!"
+	cont "What kind is it"
+	cont "though?"
 	done
 
 Text_TellMomIfLeaving:
@@ -244,27 +247,32 @@ Text_ElmDiscoveredNewMon:
 	para "I hear PROF.ELM"
 	line "discovered some"
 	cont "new #MON."
+	
+	para "near where they"
+	line "built that new"
+	cont "tower in"
+	cont "ECRUTEAK!"
 	done
 
 NewBarkTownRivalText1:
 	text "<……>"
 
-	para "So this is the"
-	line "famous ELM #MON"
-	cont "LAB…"
+	para "Those #MON…"
+	line "Could it really"
+	cont "be true?"
 	done
 
 NewBarkTownRivalText2:
-	text "…What are you"
-	line "staring at?"
+	text "Eep! Get away"
+	line "from me weirdo!"
 	done
 
 NewBarkTownSignText:
 	text "NEW BARK TOWN"
 
-	para "The Town Where the"
-	line "Winds of a New"
-	cont "Beginning Blow"
+	para "From the sand and"
+	line "soil, a new"
+	cont "beginning grows."
 	done
 
 NewBarkTownPlayersHouseSignText:

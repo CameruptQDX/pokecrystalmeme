@@ -152,7 +152,7 @@ CherrygroveSilverSceneNorth:
 .AfterVictorious:
 	playmusic MUSIC_RIVAL_AFTER
 	opentext
-	writetext CherrygroveRivalText_YouWon
+	writetext CherrygroveRivalText_PostBattle
 	waitbutton
 	closetext
 	jump .FinishRival
@@ -160,7 +160,7 @@ CherrygroveSilverSceneNorth:
 .AfterYourDefeat:
 	playmusic MUSIC_RIVAL_AFTER
 	opentext
-	writetext CherrygroveRivalText_YouLost
+	writetext CherrygroveRivalText_PostBattle
 	waitbutton
 	closetext
 .FinishRival:
@@ -317,10 +317,6 @@ CherrygroveCity_RivalPushesYouOutOfTheWay:
 	turn_head UP
 	step_end
 
-CherrygroveCity_UnusedMovementData:
-	step LEFT
-	turn_head DOWN
-	step_end
 
 CherrygroveCity_RivalExitsStageLeft:
 	big_step LEFT
@@ -336,19 +332,19 @@ CherrygroveCity_RivalExitsStageLeft:
 GuideGentIntroText:
 	text "You're a rookie"
 	line "trainer, aren't"
-	cont "you? I can tell!"
+	cont "you? It can't be"
 
-	para "That's OK! Every-"
-	line "one is a rookie"
-	cont "at some point!"
+	para "helped… Well I"
+	line "suppose I'll"
+	cont "have to teach"
 
-	para "If you'd like, I"
-	line "can teach you a"
-	cont "few things."
+	para "you a few things"
+	line "if you're"
+	cont "willing that is."
 	done
 
 GuideGentTourText1:
-	text "OK, then!"
+	text "Very well!"
 	line "Follow me!"
 	done
 
@@ -401,8 +397,8 @@ GuideGentGiftText:
 	text "Here…"
 
 	para "It's my house!"
-	line "Thanks for your"
-	cont "company."
+	line "I suppose your"
+	cont "company was good."
 
 	para "Let me give you a"
 	line "small gift."
@@ -433,88 +429,96 @@ GuideGentNoText:
 CherrygroveRivalText_Seen:
 	text "<……> <……> <……>"
 
-	para "You got a #MON"
-	line "at the LAB."
+	para "So you got a #MON"
+	line "at the LAB!"
 
-	para "What a waste."
-	line "A wimp like you."
+	para "Jeez, how could"
+	line "PROFESSOR ELM"
+	cont "possibly entrust"
+	cont "one of the"
+	cont "#MON of myth to"
+	cont "someone so punk-"
+	cont "like?"
 
-	para "<……> <……> <……>"
-
-	para "Don't you get what"
-	line "I'm saying?"
-
-	para "Well, I too, have"
-	line "a good #MON."
-
-	para "I'll show you"
-	line "what I mean!"
+	para "I'll just battle"
+	line "to prove my"
+	cont "superiority to"
+	cont "my new partner!"
 	done
 
 SilverCherrygroveWinText:
-	text "Humph. Are you"
-	line "happy you won?"
+	text "Kya! This must"
+	line "be a fluke or"
+	cont "something!"
 	done
 
-CherrygroveRivalText_YouLost:
+CherrygroveRivalText_PostBattle:
 	text "<……> <……> <……>"
 
-	para "My name's ???."
+	para "My name's ???!"
+	line "one of the"
+	cont "BLACKTHORN DRAGON"
+	cont "CLAN!"
 
 	para "I'm going to be"
 	line "the world's great-"
 	cont "est #MON"
-	cont "trainer."
+	cont "trainer and"
+	cont "prove the myths"
+	cont "of ECRUTEAK are"
+	cont "real!"
+	
+	para "Don't try and"
+	line "catch up to me!"
 	done
 
 SilverCherrygroveLossText:
-	text "Humph. That was a"
-	line "waste of time."
-	done
-
-CherrygroveRivalText_YouWon:
-	text "<……> <……> <……>"
-
-	para "My name's ???."
-
-	para "I'm going to be"
-	line "the world's great-"
-	cont "est #MON"
-	cont "trainer."
+	text "Hah! Just like"
+	line "I expected! All"
+	cont "show and no bite!"
 	done
 
 CherrygroveTeacherText_NoMapCard:
-	text "Did you talk to"
-	line "the old man by the"
-	cont "#MON CENTER?"
+	text "Did you need a"
+	line "map to find your"
+	cont "way out of"
+	cont "Sandbox Town?"
 
-	para "He'll put a MAP of"
-	line "JOHTO on your"
-	cont "#GEAR."
+	para "Ohohohoho!"
 	done
 
 CherrygroveTeacherText_HaveMapCard:
-	text "When you're with"
-	line "#MON, going"
-	cont "anywhere is fun."
+	text "It's not our"
+	line "fault your"
+	cont "podunk town"
+	cont "can't be as"
+	cont "beautiful and"
+	cont "prosperous as"
+	cont "CHERRYGROVE is!"
 	done
 
 CherrygroveYoungsterText_NoPokedex:
-	text "MR.#MON's house"
-	line "is still farther"
-	cont "up ahead."
+	text "MR.#MON's house?"
+	line "Yeah it's on"
+	cont "ROUTE 30."
+	
+	para "<……>"
+	line "Dumb hick."
 	done
 
 CherrygroveYoungsterText_HavePokedex:
-	text "I battled the"
-	line "trainers on the"
-	cont "road."
+	text "You're a"
+	line "#MON trainer?"
 
-	para "My #MON lost."
-	line "They're a mess! I"
+	para "Don't you have"
+	line "anything better"
+	cont "to do with your"
+	cont "life? Like"
+	cont "getting an"
+	cont "education?"
 
-	para "must take them to"
-	line "a #MON CENTER."
+	para "I guess not,"
+	line "dressed as you are."
 	done
 
 MysticWaterGuyTextBefore:
@@ -536,8 +540,8 @@ MysticWaterGuyTextAfter:
 CherrygroveCitySignText:
 	text "CHERRYGROVE CITY"
 
-	para "The City of Cute,"
-	line "Fragrant Flowers"
+	para "The Elegant, posh"
+	line "city of Flowers."
 	done
 
 GuideGentsHouseSignText:

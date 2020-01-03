@@ -62,18 +62,6 @@ MeetMomScript:
 	iffalse .SetDayOfWeek
 .DayOfWeekDone:
 	writetext ComeHomeForDSTText
-	yesorno
-	iffalse .ExplainPhone
-	jump .KnowPhone
-
-.KnowPhone:
-	writetext KnowTheInstructionsText
-	buttonsound
-	jump .FinishPhone
-
-.ExplainPhone:
-	writetext DontKnowTheInstructionsText
-	buttonsound
 	jump .FinishPhone
 
 .FinishPhone:
@@ -262,32 +250,9 @@ ComeHomeForDSTText:
 	cont "the PHONE?"
 	done
 
-KnowTheInstructionsText:
-	text "Don't you just"
-	line "turn the #GEAR"
-
-	para "on and select the"
-	line "PHONE icon?"
-	done
-
-DontKnowTheInstructionsText:
-	text "I'll read the"
-	line "instructions."
-
-	para "Turn the #GEAR"
-	line "on and select the"
-	cont "PHONE icon."
-	done
-
 InstructionsNextText:
-	text "Phone numbers are"
-	line "stored in memory."
-
-	para "Just choose a name"
-	line "you want to call."
-
-	para "Gee, isn't that"
-	line "convenient?"
+	text "Oh, I'm sure you"
+	line "aready do…"
 	done
 
 HurryUpElmIsWaitingText:
@@ -354,33 +319,33 @@ NeighborText:
 StoveText:
 	text "Mom's specialty!"
 
-	para "CINNABAR VOLCANO"
-	line "BURGER!"
+	para "VOLCANO BAKEMEAT…"
+	line "Yikes."
 	done
 
 SinkText:
 	text "The sink is spot-"
-	line "less. Mom likes it"
-	cont "clean."
+	line "less. My work is"
+	cont "never done."
 	done
 
 FridgeText:
 	text "Let's see what's"
 	line "in the fridge…"
 
-	para "FRESH WATER and"
-	line "tasty LEMONADE!"
+	para "leftover egg"
+	line "salad. Still good!"
 	done
 
 TVText:
 	text "There's a movie on"
-	line "TV: Stars dot the"
+	line "TV: A clown is"
 
-	para "sky as two boys"
-	line "ride on a train…"
+	para "vehemently ranting"
+	line "about society…"
 
 	para "I'd better get"
-	line "rolling too!"
+	line "gaming too!"
 	done
 
 PlayersHouse1F_MapEvents:
