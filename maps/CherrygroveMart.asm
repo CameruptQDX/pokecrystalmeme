@@ -44,8 +44,10 @@ CherrygroveMartCooltrainerMText:
 	text "They're fresh out"
 	line "of # BALLS!"
 
-	para "When will they get"
-	line "more of them?"
+	para "But maybe if I"
+	line "just leave a few"
+	cont "bucks in the"
+	cont "clerk's pocket<……>"
 	done
 
 CherrygroveMartCooltrainerMText_PokeBallsInStock:
@@ -61,12 +63,10 @@ CherrygroveMartYoungsterText:
 	para "bug #MON poi-"
 	line "soned my #MON!"
 
-	para "I just kept going,"
-	line "but then my"
-	cont "#MON fainted."
-
-	para "You should keep an"
-	line "ANTIDOTE with you."
+	para "How crude<……>"
+	line "If I could pay to"
+	cont "wipe out all"
+	cont "WEEDLE, I would!"
 	done
 
 CherrygroveMart_MapEvents:

@@ -23,11 +23,13 @@ CherrygroveGymSpeechHousePokefanMText:
 	para "are as a #MON"
 	line "trainer?"
 
-	para "You better visit"
-	line "the #MON GYMS"
+	para "Fat chance,"
+	line "I doubt a punkish"
 
-	para "all over JOHTO and"
-	line "collect BADGES."
+	para "piece of plebian"
+	line "scum of your sort"
+	cont "will collect a"
+	cont "single BADGE!"
 	done
 
 CherrygroveGymSpeechHouseBugCatcherText:
@@ -35,11 +37,12 @@ CherrygroveGymSpeechHouseBugCatcherText:
 	line "I'm going to be a"
 	cont "GYM LEADER!"
 
-	para "I make my #MON"
-	line "battle with my"
-
-	para "friend's to make"
-	line "them tougher!"
+	para "But even then"
+	line "I wouldn't let"
+	cont "riffraff like you"
+	cont "within 300 feet"
+	cont "of my prestigious"
+	cont "#MON GYM!"
 	done
 
 CherrygroveGymSpeechHouse_MapEvents:
