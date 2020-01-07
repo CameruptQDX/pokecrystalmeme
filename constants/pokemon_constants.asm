@@ -19,15 +19,15 @@
 ; - FramesPointers (see gfx/pokemon/frame_pointers.asm)
 ; - Footprints (see gfx/footprints.asm)
 	const_def 1
-	const BULBASAUR  ; 01
-	const IVYSAUR    ; 02
-	const VENUSAUR   ; 03
-	const CHARMANDER ; 04
-	const CHARMELEON ; 05
-	const CHARIZARD  ; 06
-	const SQUIRTLE   ; 07
-	const WARTORTLE  ; 08
-	const BLASTOISE  ; 09
+	const RAIKO  ; 01
+	const RAI    ; 02
+	const PERITOP   ; 03
+	const ENKO ; 04
+	const EN ; 05
+	const PRISMAN  ; 06
+	const SUIKO   ; 07
+	const SUI  ; 08
+	const LAKETOISE  ; 09
 	const CATERPIE   ; 0a
 	const METAPOD    ; 0b
 	const BUTTERFREE ; 0c
@@ -156,20 +156,20 @@
 	const JOLTEON    ; 87
 	const FLAREON    ; 88
 	const PORYGON    ; 89
-	const OMANYTE    ; 8a
-	const OMASTAR    ; 8b
-	const KABUTO     ; 8c
-	const KABUTOPS   ; 8d
-	const AERODACTYL ; 8e
+	const DOSEETAN    ; 8a
+	const COMETTON    ; 8b
+	const UNLUCKY     ; 8c
+	const MARIN   ; 8d
+	const DRACHILLES ; 8e
 	const SNORLAX    ; 8f
-	const ARTICUNO   ; 90
-	const ZAPDOS     ; 91
-	const MOLTRES    ; 92
+	const GOGO   ; 90
+	const FIJI     ; 91
+	const ZIEKEADA    ; 92
 	const DRATINI    ; 93
 	const DRAGONAIR  ; 94
 	const DRAGONITE  ; 95
-	const MEWTWO     ; 96
-	const MEW        ; 97
+	const DIAZE     ; 96
+	const XU_XU        ; 97
 JOHTO_POKEMON EQU const_value
 	const CHIKORITA  ; 98
 	const BAYLEEF    ; 99
@@ -220,7 +220,7 @@ JOHTO_POKEMON EQU const_value
 	const MURKROW    ; c6
 	const SLOWKING   ; c7
 	const MISDREAVUS ; c8
-	const UNOWN      ; c9
+	const MISSINGNO      ; c9
 	const WOBBUFFET  ; ca
 	const GIRAFARIG  ; cb
 	const PINECO     ; cc
@@ -270,11 +270,11 @@ JOHTO_POKEMON EQU const_value
 	const TYRANITAR  ; f8
 	const LUGIA      ; f9
 	const HO_OH      ; fa
-	const CELEBI     ; fb
+	const GRITESPEC     ; fb
 NUM_POKEMON EQU const_value + -1
-	const MON_FC     ; fc
+	const DOOMSDAY     ; fc
 	const EGG        ; fd
-	const MON_FE     ; fe
+	const OMEGA_ZERO     ; fe
 
 ; Unown forms
 ; indexes for:
