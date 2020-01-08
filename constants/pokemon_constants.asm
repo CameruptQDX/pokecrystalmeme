@@ -271,10 +271,10 @@ JOHTO_POKEMON EQU const_value
 	const LUGIA      ; f9
 	const HO_OH      ; fa
 	const GRITESPEC     ; fb
-NUM_POKEMON EQU const_value + -1
 	const DOOMSDAY     ; fc
-	const EGG        ; fd
-	const OMEGA_ZERO     ; fe
+	const OMEGA_ZERO        ; fd
+NUM_POKEMON EQU const_value + -1
+	const EGG     ; fe
 
 ; Unown forms
 ; indexes for:

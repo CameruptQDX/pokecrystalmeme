@@ -40,6 +40,8 @@ SPECIAL EQU const_value
 	const ICE
 	const DRAGON
 	const DARK
+	const CRYSTAL
+	const STAR
 TYPES_END EQU const_value
 
 NUM_TYPES EQU TYPES_END + UNUSED_TYPES - UNUSED_TYPES_END

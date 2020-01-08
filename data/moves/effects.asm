@@ -1034,6 +1034,28 @@ TriAttack:
 	tristatuschance
 	endmove
 
+EggCrack:
+	checkobedience
+	usedmovetext
+	doturn
+	critical
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	checkhit
+	effectchance
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	checkfaint
+	buildopponentrage
+	cursetarget
+	endmove
+	
+	
 Toxic:
 DoPoison:
 	checkobedience
@@ -1166,7 +1188,7 @@ Disable:
 	disable
 	endmove
 
-RazorWind:
+PhoneHome:
 	checkcharge
 	checkobedience
 	doturn

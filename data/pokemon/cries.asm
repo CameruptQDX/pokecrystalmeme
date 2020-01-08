@@ -257,6 +257,6 @@ PokemonCries::
 	mon_cry CRY_AIPOM,       $000,  $180 ; HO_OH
 	mon_cry CRY_NIDORAN_M,      0,     0 ; GRITESPEC
 	mon_cry CRY_NIDORAN_M,      0,     0 ; DOOMSDAY
-	mon_cry CRY_NIDORAN_M,      0,     0 ; 253 (egg)
 	mon_cry CRY_NIDORAN_M,      0,     0 ; OMEGA ZERO
+	mon_cry CRY_NIDORAN_M,      0,     0 ; egg
 	mon_cry CRY_NIDORAN_M,      0,     0 ; 255

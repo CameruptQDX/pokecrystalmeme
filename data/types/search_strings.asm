@@ -18,3 +18,5 @@ PokedexTypeSearchStrings:
 	db " DRAGON @"
 	db "  DARK  @"
 	db " STEEL  @"
+	db "  STAR  @"
+	db "CRYSTAL @"

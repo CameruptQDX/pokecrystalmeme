@@ -251,7 +251,7 @@ PokemonNames::
 	db "HO-OH@@@@@"
 	db "GRITESPEC@"
 	db "DOOMSDAY@@"
-	db "EGG@@@@@@@"
 	db "OMEGA ZERO"
+	db "EGG@@@@@@@"
 	db "?????@@@@@"
 	db "?????@@@@@"

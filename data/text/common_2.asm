@@ -687,11 +687,6 @@ UnknownText_0x1c0d06::
 UnknownText_0x1c0d0e::
 	text "<USER>@@"
 
-UnknownText_0x1c0d12::
-	text_start
-	line "made a whirlwind!"
-	prompt
-
 UnknownText_0x1c0d26::
 	text_start
 	line "took in sunlight!"
@@ -702,6 +697,11 @@ UnknownText_0x1c0d3a::
 	line "lowered its head!"
 	prompt
 
+PhoneHomeText::
+	text_start
+	line "signaled to space!"
+	prompt
+	
 UnknownText_0x1c0d4e::
 	text_start
 	line "is glowing!"

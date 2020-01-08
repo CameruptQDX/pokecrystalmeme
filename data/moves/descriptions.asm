@@ -11,15 +11,15 @@ MoveDescriptions::
 	dw ThunderpunchDescription
 	dw ScratchDescription
 	dw VicegripDescription
-	dw GuillotineDescription
-	dw RazorWindDescription
+	dw HighThunderDescription
+	dw HolyGaleDescription
 	dw SwordsDanceDescription
 	dw CutDescription
 	dw GustDescription
 	dw WingAttackDescription
 	dw WhirlwindDescription
 	dw FlyDescription
-	dw BindDescription
+	dw DazzlingRayDescription
 	dw SlamDescription
 	dw VineWhipDescription
 	dw StompDescription
@@ -31,7 +31,7 @@ MoveDescriptions::
 	dw HeadbuttDescription
 	dw HornAttackDescription
 	dw FuryAttackDescription
-	dw HornDrillDescription
+	dw CrystalBeamDescription
 	dw TackleDescription
 	dw BodySlamDescription
 	dw WrapDescription
@@ -89,7 +89,7 @@ MoveDescriptions::
 	dw ThunderDescription
 	dw RockThrowDescription
 	dw EarthquakeDescription
-	dw FissureDescription
+	dw RingFrisbeeDescription
 	dw DigDescription
 	dw ToxicDescription
 	dw ConfusionDescription
@@ -109,14 +109,14 @@ MoveDescriptions::
 	dw MinimizeDescription
 	dw SmokescreenDescription
 	dw ConfuseRayDescription
-	dw WithdrawDescription
+	dw StormyOrbitDescription
 	dw DefenseCurlDescription
 	dw BarrierDescription
 	dw LightScreenDescription
 	dw HazeDescription
 	dw ReflectDescription
 	dw FocusEnergyDescription
-	dw BideDescription
+	dw CometTailDescription
 	dw MetronomeDescription
 	dw MirrorMoveDescription
 	dw SelfdestructDescription
@@ -131,7 +131,7 @@ MoveDescriptions::
 	dw SwiftDescription
 	dw SkullBashDescription
 	dw SpikeCannonDescription
-	dw ConstrictDescription
+	dw PhoneHomeDescription
 	dw AmnesiaDescription
 	dw KinesisDescription
 	dw SoftboiledDescription
@@ -217,7 +217,7 @@ MoveDescriptions::
 	dw HealBellDescription
 	dw ReturnDescription
 	dw PresentDescription
-	dw FrustrationDescription
+	dw EggCrackDescription
 	dw SafeguardDescription
 	dw PainSplitDescription
 	dw SacredFireDescription
@@ -251,9 +251,9 @@ MoveDescriptions::
 	dw RockSmashDescription
 	dw WhirlpoolDescription
 	dw BeatUpDescription
-	dw MoveFCDescription
-	dw MoveFDDescription
-	dw MoveFEDescription
+	dw CrystalClawDescription
+	dw DarkeningDescription
+	dw ZeroCannonDescription
 	dw MoveFFDescription
 	dw Move00Description
 
@@ -308,13 +308,13 @@ VicegripDescription:
 	db   "Grips with power-"
 	next "ful pincers.@"
 
-GuillotineDescription:
-	db   "A one-hit KO,"
-	next "pincer attack.@"
+HighThunderDescription:
+	db   "An attack that may"
+	next "cause paralysis.@"
 
-RazorWindDescription:
-	db   "1st turn: Prepare"
-	next "2nd turn: Attack@"
+HolyGaleDescription:
+	db   "An attack that may"
+	next "freeze the foe.@"
 
 SwordsDanceDescription:
 	db   "A dance that in-"
@@ -388,9 +388,9 @@ FuryAttackDescription:
 	db   "Jabs the target"
 	next "2-5 times.@"
 
-HornDrillDescription:
-	db   "A one-hit KO,"
-	next "drill attack.@"
+CrystalBeamDescription:
+	db   "A high heat"
+	next "laser attack.@"
 
 TackleDescription:
 	db   "A full-body charge"
@@ -620,9 +620,9 @@ EarthquakeDescription:
 	db   "Tough but useless"
 	next "vs. flying foes.@"
 
-FissureDescription:
-	db   "A ground-type,"
-	next "one-hit KO attack.@"
+RingFrisbeeDescription:
+	db   "Throws a freezing"
+	next "ring of ice.@"
 
 DigDescription:
 	db   "1st turn: Burrow"
@@ -700,9 +700,9 @@ ConfuseRayDescription:
 	db   "A move that causes"
 	next "confusion.@"
 
-WithdrawDescription:
-	db   "Heightens the"
-	next "user's DEFENSE.@"
+StormyOrbitDescription:
+	db   "Spins around the"
+	next "foe to confuse.@"
 
 DefenseCurlDescription:
 	db   "Heightens the"
@@ -728,9 +728,9 @@ FocusEnergyDescription:
 	db   "Raises the criti-"
 	next "cal hit ratio.@"
 
-BideDescription:
-	db   "Waits 2-3 turns &"
-	next "hits back double.@"
+CometTailDescription:
+	db   "Slams the foe"
+	next "with icy tail.@"
 
 MetronomeDescription:
 	db   "Randomly uses any"
@@ -788,9 +788,9 @@ SpikeCannonDescription:
 	db   "Fires spikes to"
 	next "hit 2-5 times.@"
 
-ConstrictDescription:
-	db   "An attack that may"
-	next "lower SPEED.@"
+PhoneHomeDescription:
+	db   "Calls down UFO"
+	next "power to attack.@"
 
 AmnesiaDescription:
 	db   "Sharply raises the"
@@ -1132,9 +1132,9 @@ PresentDescription:
 	db   "A bomb that may"
 	next "restore HP.@"
 
-FrustrationDescription:
-	db   "An attack based on"
-	next "lack of loyalty.@"
+EggCrackDescription:
+	db   "Cracks an egg of"
+	next "pure misfortune.@"
 
 SafeguardDescription:
 	db   "Prevents all"
@@ -1267,3 +1267,11 @@ WhirlpoolDescription:
 BeatUpDescription:
 	db   "Party #MON join"
 	next "in the attack.@"
+	
+CrystalClawDescription:
+	db   "Has a high criti-"
+	next "cal hit ratio.@"
+	
+ZeroCannonDescription:
+	db   "1st turn: Attack"
+	next "2nd turn: Rest@"

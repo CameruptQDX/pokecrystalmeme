@@ -1,15 +1,15 @@
 ; Evolutions and attacks are grouped together since they're both checked at level-up.
 
 EvosAttacksPointers::
-	dw BulbasaurEvosAttacks
-	dw IvysaurEvosAttacks
-	dw VenusaurEvosAttacks
-	dw CharmanderEvosAttacks
-	dw CharmeleonEvosAttacks
-	dw CharizardEvosAttacks
-	dw SquirtleEvosAttacks
-	dw WartortleEvosAttacks
-	dw BlastoiseEvosAttacks
+	dw RaikoEvosAttacks
+	dw RaiEvosAttacks
+	dw PeritopEvosAttacks
+	dw EnkoEvosAttacks
+	dw EnEvosAttacks
+	dw PrismanEvosAttacks
+	dw SuikoEvosAttacks
+	dw SuiEvosAttacks
+	dw LaketoiseEvosAttacks
 	dw CaterpieEvosAttacks
 	dw MetapodEvosAttacks
 	dw ButterfreeEvosAttacks
@@ -138,20 +138,20 @@ EvosAttacksPointers::
 	dw JolteonEvosAttacks
 	dw FlareonEvosAttacks
 	dw PorygonEvosAttacks
-	dw OmanyteEvosAttacks
-	dw OmastarEvosAttacks
-	dw KabutoEvosAttacks
-	dw KabutopsEvosAttacks
-	dw AerodactylEvosAttacks
+	dw DoseetanEvosAttacks
+	dw ComettonEvosAttacks
+	dw UnluckyEvosAttacks
+	dw MarinEvosAttacks
+	dw DrachillesEvosAttacks
 	dw SnorlaxEvosAttacks
-	dw ArticunoEvosAttacks
-	dw ZapdosEvosAttacks
-	dw MoltresEvosAttacks
+	dw GogoEvosAttacks
+	dw FijiEvosAttacks
+	dw ZiekeadaEvosAttacks
 	dw DratiniEvosAttacks
 	dw DragonairEvosAttacks
 	dw DragoniteEvosAttacks
-	dw MewtwoEvosAttacks
-	dw MewEvosAttacks
+	dw DiazeEvosAttacks
+	dw XuXuEvosAttacks
 	dw ChikoritaEvosAttacks
 	dw BayleefEvosAttacks
 	dw MeganiumEvosAttacks
@@ -201,7 +201,7 @@ EvosAttacksPointers::
 	dw MurkrowEvosAttacks
 	dw SlowkingEvosAttacks
 	dw MisdreavusEvosAttacks
-	dw UnownEvosAttacks
+	dw MissingnoEvosAttacks
 	dw WobbuffetEvosAttacks
 	dw GirafarigEvosAttacks
 	dw PinecoEvosAttacks
@@ -251,4 +251,6 @@ EvosAttacksPointers::
 	dw TyranitarEvosAttacks
 	dw LugiaEvosAttacks
 	dw HoOhEvosAttacks
-	dw CelebiEvosAttacks
+	dw GritespecEvosAttacks
+	dw DoomsdayEvosAttacks
+	dw OmegaZeroEvosAttacks

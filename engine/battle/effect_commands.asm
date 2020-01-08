@@ -5640,10 +5640,6 @@ BattleCommand_Charge:
 	start_asm
 	ld a, BATTLE_VARS_MOVE_ANIM
 	call GetBattleVar
-	cp RAZOR_WIND
-	ld hl, .RazorWind
-	jr z, .done
-
 	cp SOLARBEAM
 	ld hl, .Solarbeam
 	jr z, .done
@@ -5652,6 +5648,10 @@ BattleCommand_Charge:
 	ld hl, .SkullBash
 	jr z, .done
 
+	cp PHONE_HOME
+	ld hl, .PhoneHome
+	jr z, .done
+	
 	cp SKY_ATTACK
 	ld hl, .SkyAttack
 	jr z, .done
@@ -5666,11 +5666,6 @@ BattleCommand_Charge:
 .done
 	ret
 
-.RazorWind:
-; 'made a whirlwind!'
-	text_jump UnknownText_0x1c0d12
-	db "@"
-
 .Solarbeam:
 ; 'took in sunlight!'
 	text_jump UnknownText_0x1c0d26
@@ -5679,6 +5674,11 @@ BattleCommand_Charge:
 .SkullBash:
 ; 'lowered its head!'
 	text_jump UnknownText_0x1c0d3a
+	db "@"
+	
+.PhoneHome:
+; "signaled to space!"
+	text_jump PhoneHomeText
 	db "@"
 
 .SkyAttack:
@@ -5844,6 +5844,29 @@ BattleCommand_ConfuseTarget:
 	ret nz
 	jr BattleCommand_FinishConfusingTarget
 
+	
+BattleCommand_CurseTarget:
+; cursetarget (new)
+
+	call CheckSubstituteOpp
+	jr nz, .failed
+
+	ld a, BATTLE_VARS_SUBSTATUS1_OPP
+	call GetBattleVarAddr
+	bit SUBSTATUS_CURSE, [hl]
+	jr nz, .failed
+
+	set SUBSTATUS_CURSE, [hl]
+	call AnimateCurrentMove
+	ld hl, PutACurseText
+	jp StdBattleTextBox
+
+.failed
+	call AnimateFailedMove
+	jp PrintButItFailed
+
+	
+	
 BattleCommand_Confuse:
 ; confuse
 

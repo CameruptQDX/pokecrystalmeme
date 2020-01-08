@@ -37,9 +37,9 @@ MoveEffectsPointers:
 	dw PayDay
 	dw LightScreen
 	dw TriAttack
-	dw NormalHit
+	dw EggCrack
 	dw OHKOHit
-	dw RazorWind
+	dw PhoneHome
 	dw SuperFang
 	dw StaticDamage
 	dw TrapTarget
