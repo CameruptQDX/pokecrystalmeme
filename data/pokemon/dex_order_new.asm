@@ -1,15 +1,15 @@
 ; Every Pokémon sorted in New Pokédex Order.
 
 NewPokedexOrder:
-	db CHIKORITA
-	db BAYLEEF
-	db MEGANIUM
-	db CYNDAQUIL
-	db QUILAVA
-	db TYPHLOSION
-	db TOTODILE
-	db CROCONAW
-	db FERALIGATR
+	db RAIKO
+	db RAI
+	db RAIKOU
+	db ENKO
+	db EN
+	db ENTEI
+	db SUIKO
+	db SUI
+	db SUICUNE
 	db PIDGEY
 	db PIDGEOTTO
 	db PIDGEOT
@@ -61,7 +61,6 @@ NewPokedexOrder:
 	db GASTLY
 	db HAUNTER
 	db GENGAR
-	db UNOWN
 	db ONIX
 	db STEELIX
 	db BELLSPROUT
@@ -219,28 +218,32 @@ NewPokedexOrder:
 	db PORYGON2
 	db CHANSEY
 	db BLISSEY
+	db UNLUCKY
+	db PERITOP
+	db LAKETOISE
+	db PRISMAN
+	db DOSEETAN
+	db COMETTON
+	db MARIN
+	db DRACHILLES
+	db GRITESPEC
 	db LAPRAS
-	db OMANYTE
-	db OMASTAR
-	db KABUTO
-	db KABUTOPS
-	db AERODACTYL
 	db SNORLAX
-	db BULBASAUR
-	db IVYSAUR
-	db VENUSAUR
-	db CHARMANDER
-	db CHARMELEON
-	db CHARIZARD
-	db SQUIRTLE
-	db WARTORTLE
-	db BLASTOISE
-	db ARTICUNO
-	db ZAPDOS
-	db MOLTRES
-	db RAIKOU
-	db ENTEI
-	db SUICUNE
+	db CHIKORITA
+	db BAYLEEF
+	db MEGANIUM
+	db CYNDAQUIL
+	db QUILAVA
+	db TYPHLOSION
+	db TOTODILE
+	db CROCONAW
+	db FERALIGATR
+	db MISSINGNO
+	db GOGO
+	db FIJI
+	db ZIEKEADA
+	db DIAZE
+	db XU_XU
 	db DRATINI
 	db DRAGONAIR
 	db DRAGONITE
@@ -249,6 +252,5 @@ NewPokedexOrder:
 	db TYRANITAR
 	db LUGIA
 	db HO_OH
-	db MEWTWO
-	db MEW
-	db CELEBI
+	db DOOMSDAY
+	db OMEGA_ZERO

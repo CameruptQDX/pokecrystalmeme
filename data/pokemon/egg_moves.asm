@@ -13,33 +13,13 @@ SECTION "Egg Moves", ROMX
 
 INCLUDE "data/pokemon/egg_move_pointers.asm"
 
-BulbasaurEggMoves:
-	db LIGHT_SCREEN
-	db SKULL_BASH
-	db SAFEGUARD
-if !_CRYSTAL
-	db CHARM
-endc
-	db RAZOR_WIND
-	db PETAL_DANCE
+PeritopEggMoves:
 	db -1 ; end
 
-CharmanderEggMoves:
-	db BELLY_DRUM
-	db ANCIENTPOWER
-	db ROCK_SLIDE
-	db BITE
-	db OUTRAGE
-	db BEAT_UP
+PrismanEggMoves:
 	db -1 ; end
-
-SquirtleEggMoves:
-	db MIRROR_COAT
-	db HAZE
-	db MIST
-	db CONFUSION
-	db FORESIGHT
-	db FLAIL
+	
+LaketoiseEggMoves:
 	db -1 ; end
 
 PidgeyEggMoves:
@@ -441,29 +421,16 @@ EeveeEggMoves:
 	db CHARM
 	db -1 ; end
 
-OmanyteEggMoves:
-	db BUBBLEBEAM
-	db AURORA_BEAM
-	db SLAM
-	db SUPERSONIC
-	db HAZE
+DoseetanEggMoves:
 	db -1 ; end
-
-KabutoEggMoves:
-	db BUBBLEBEAM
-	db AURORA_BEAM
-	db RAPID_SPIN
-	db DIG
-	db FLAIL
+	
+UnluckyEggMoves:
 	db -1 ; end
-
-AerodactylEggMoves:
-	db WHIRLWIND
-	db PURSUIT
-	db FORESIGHT
-if !_CRYSTAL
-	db STEEL_WING
-endc
+	
+MarinEggMoves:
+	db -1 ; end
+	
+DrachillesEggMoves:
 	db -1 ; end
 
 SnorlaxEggMoves:
@@ -862,6 +829,9 @@ LarvitarEggMoves:
 	db OUTRAGE
 	db FOCUS_ENERGY
 	db ANCIENTPOWER
+	db -1 ; end
+	
+GritespecEggMoves:
 	db -1 ; end
 
 NoEggMoves:

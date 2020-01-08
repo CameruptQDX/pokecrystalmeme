@@ -1,14 +1,14 @@
 PokedexDataPointerTable:
 ; entries correspond to constants/pokemon_constants.asm
-	dw BulbasaurPokedexEntry
-	dw IvysaurPokedexEntry
-	dw VenusaurPokedexEntry
-	dw CharmanderPokedexEntry
-	dw CharmeleonPokedexEntry
-	dw CharizardPokedexEntry
-	dw SquirtlePokedexEntry
-	dw WartortlePokedexEntry
-	dw BlastoisePokedexEntry
+	dw RaikoPokedexEntry
+	dw RaiPokedexEntry
+	dw PeritopPokedexEntry
+	dw EnkoPokedexEntry
+	dw EnPokedexEntry
+	dw PrismanPokedexEntry
+	dw SuikoPokedexEntry
+	dw SuiPokedexEntry
+	dw LaketoisePokedexEntry
 	dw CaterpiePokedexEntry
 	dw MetapodPokedexEntry
 	dw ButterfreePokedexEntry
@@ -137,20 +137,20 @@ PokedexDataPointerTable:
 	dw JolteonPokedexEntry
 	dw FlareonPokedexEntry
 	dw PorygonPokedexEntry
-	dw OmanytePokedexEntry
-	dw OmastarPokedexEntry
-	dw KabutoPokedexEntry
-	dw KabutopsPokedexEntry
-	dw AerodactylPokedexEntry
+	dw DoseetanPokedexEntry
+	dw ComettonPokedexEntry
+	dw UnluckyPokedexEntry
+	dw MarinPokedexEntry
+	dw DrachillesPokedexEntry
 	dw SnorlaxPokedexEntry
-	dw ArticunoPokedexEntry
-	dw ZapdosPokedexEntry
-	dw MoltresPokedexEntry
+	dw GogoPokedexEntry
+	dw FijiPokedexEntry
+	dw ZiekeadaPokedexEntry
 	dw DratiniPokedexEntry
 	dw DragonairPokedexEntry
 	dw DragonitePokedexEntry
-	dw MewtwoPokedexEntry
-	dw MewPokedexEntry
+	dw DiazePokedexEntry
+	dw XuXuPokedexEntry
 	dw ChikoritaPokedexEntry
 	dw BayleefPokedexEntry
 	dw MeganiumPokedexEntry
@@ -200,7 +200,7 @@ PokedexDataPointerTable:
 	dw MurkrowPokedexEntry
 	dw SlowkingPokedexEntry
 	dw MisdreavusPokedexEntry
-	dw UnownPokedexEntry
+	dw MissingnoPokedexEntry
 	dw WobbuffetPokedexEntry
 	dw GirafarigPokedexEntry
 	dw PinecoPokedexEntry
@@ -250,4 +250,6 @@ PokedexDataPointerTable:
 	dw TyranitarPokedexEntry
 	dw LugiaPokedexEntry
 	dw HoOhPokedexEntry
-	dw CelebiPokedexEntry
+	dw GritespecPokedexEntry
+	dw DoomsdayPokedexEntry
+	dw OmegaZeroPokedexEntry

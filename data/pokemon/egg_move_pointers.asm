@@ -1,13 +1,13 @@
 EggMovePointers::
-	dw BulbasaurEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw CharmanderEggMoves
+	dw PeritopEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw SquirtleEggMoves
+	dw PrismanEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
+	dw LaketoiseEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
@@ -140,11 +140,11 @@ endc
 	dw NoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw OmanyteEggMoves
+	dw DoseetanEggMoves
 	dw NoEggMoves
-	dw KabutoEggMoves
-	dw NoEggMoves
-	dw AerodactylEggMoves
+	dw UnluckyEggMoves
+	dw MarinEggMoves
+	dw DrachillesEggMoves
 	dw SnorlaxEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
@@ -252,5 +252,7 @@ endc
 	dw NoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
+	dw NoEggMoves
+	dw GritespecEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
