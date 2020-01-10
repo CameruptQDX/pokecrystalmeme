@@ -2,24 +2,24 @@
 
 PokemonPicPointers::
 ; entries correspond to Pokémon species, two apiece
-	dba_pic BulbasaurFrontpic
-	dba_pic BulbasaurBackpic
-	dba_pic IvysaurFrontpic
-	dba_pic IvysaurBackpic
-	dba_pic VenusaurFrontpic
-	dba_pic VenusaurBackpic
-	dba_pic CharmanderFrontpic
-	dba_pic CharmanderBackpic
-	dba_pic CharmeleonFrontpic
-	dba_pic CharmeleonBackpic
-	dba_pic CharizardFrontpic
-	dba_pic CharizardBackpic
-	dba_pic SquirtleFrontpic
-	dba_pic SquirtleBackpic
-	dba_pic WartortleFrontpic
-	dba_pic WartortleBackpic
-	dba_pic BlastoiseFrontpic
-	dba_pic BlastoiseBackpic
+	dba_pic RaikoFrontpic
+	dba_pic RaikoBackpic
+	dba_pic RaiFrontpic
+	dba_pic RaiBackpic
+	dba_pic PeritopFrontpic
+	dba_pic PeritopBackpic
+	dba_pic EnkoFrontpic
+	dba_pic EnkoBackpic
+	dba_pic EnFrontpic
+	dba_pic EnBackpic
+	dba_pic PrismanFrontpic
+	dba_pic PrismanBackpic
+	dba_pic SuikoFrontpic
+	dba_pic SuikoBackpic
+	dba_pic SuiFrontpic
+	dba_pic SuiBackpic
+	dba_pic LaketoiseFrontpic
+	dba_pic LaketoiseBackpic
 	dba_pic CaterpieFrontpic
 	dba_pic CaterpieBackpic
 	dba_pic MetapodFrontpic
@@ -276,34 +276,34 @@ PokemonPicPointers::
 	dba_pic FlareonBackpic
 	dba_pic PorygonFrontpic
 	dba_pic PorygonBackpic
-	dba_pic OmanyteFrontpic
-	dba_pic OmanyteBackpic
-	dba_pic OmastarFrontpic
-	dba_pic OmastarBackpic
-	dba_pic KabutoFrontpic
-	dba_pic KabutoBackpic
-	dba_pic KabutopsFrontpic
-	dba_pic KabutopsBackpic
-	dba_pic AerodactylFrontpic
-	dba_pic AerodactylBackpic
+	dba_pic DoseetanFrontpic
+	dba_pic DoseetanBackpic
+	dba_pic ComettonFrontpic
+	dba_pic ComettonBackpic
+	dba_pic UnluckyFrontpic
+	dba_pic UnluckyBackpic
+	dba_pic MarinFrontpic
+	dba_pic MarinBackpic
+	dba_pic DrachillesFrontpic
+	dba_pic DrachillesBackpic
 	dba_pic SnorlaxFrontpic
 	dba_pic SnorlaxBackpic
-	dba_pic ArticunoFrontpic
-	dba_pic ArticunoBackpic
-	dba_pic ZapdosFrontpic
-	dba_pic ZapdosBackpic
-	dba_pic MoltresFrontpic
-	dba_pic MoltresBackpic
+	dba_pic GogoFrontpic
+	dba_pic GogoBackpic
+	dba_pic FijiFrontpic
+	dba_pic FijiBackpic
+	dba_pic ZiekeadaFrontpic
+	dba_pic ZiekeadaBackpic
 	dba_pic DratiniFrontpic
 	dba_pic DratiniBackpic
 	dba_pic DragonairFrontpic
 	dba_pic DragonairBackpic
 	dba_pic DragoniteFrontpic
 	dba_pic DragoniteBackpic
-	dba_pic MewtwoFrontpic
-	dba_pic MewtwoBackpic
-	dba_pic MewFrontpic
-	dba_pic MewBackpic
+	dba_pic DiazeFrontpic
+	dba_pic DiazeBackpic
+	dba_pic XuXuFrontpic
+	dba_pic XuXuBackpic
 	dba_pic ChikoritaFrontpic
 	dba_pic ChikoritaBackpic
 	dba_pic BayleefFrontpic
@@ -505,9 +505,11 @@ PokemonPicPointers::
 	dba_pic LugiaBackpic
 	dba_pic HoOhFrontpic
 	dba_pic HoOhBackpic
-	dba_pic CelebiFrontpic
-	dba_pic CelebiBackpic
-	dbw -1, -1 ; unused
-	dbw -1, -1 ; unused
+	dba_pic GritespecFrontpic
+	dba_pic GritespecBackpic
+	dba_pic DoomsdayFrontpic
+	dba_pic DoomsdayBackpic
+	dba_pic OmegaZeroFrontpic
+	dba_pic OmegaZeroBackpic
 	dba_pic EggPic
 	dbw -1, -1 ; unused

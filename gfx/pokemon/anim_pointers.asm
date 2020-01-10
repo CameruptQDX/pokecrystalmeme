@@ -1,13 +1,13 @@
 AnimationPointers:
-	dw BulbasaurAnimation
-	dw IvysaurAnimation
-	dw VenusaurAnimation
-	dw CharmanderAnimation
-	dw CharmeleonAnimation
-	dw CharizardAnimation
-	dw SquirtleAnimation
-	dw WartortleAnimation
-	dw BlastoiseAnimation
+	dw RaikoAnimation
+	dw RaiAnimation
+	dw PeritopAnimation
+	dw EnkoAnimation
+	dw EnAnimation
+	dw PrismanAnimation
+	dw SuikoAnimation
+	dw SuiAnimation
+	dw LaketoiseAnimation
 	dw CaterpieAnimation
 	dw MetapodAnimation
 	dw ButterfreeAnimation
@@ -136,20 +136,20 @@ AnimationPointers:
 	dw JolteonAnimation
 	dw FlareonAnimation
 	dw PorygonAnimation
-	dw OmanyteAnimation
-	dw OmastarAnimation
-	dw KabutoAnimation
-	dw KabutopsAnimation
-	dw AerodactylAnimation
+	dw DoseetanAnimation
+	dw ComettonAnimation
+	dw UnluckyAnimation
+	dw MarinAnimation
+	dw DrachillesAnimation
 	dw SnorlaxAnimation
-	dw ArticunoAnimation
-	dw ZapdosAnimation
-	dw MoltresAnimation
+	dw GogoAnimation
+	dw FijiAnimation
+	dw ZiekeadaAnimation
 	dw DratiniAnimation
 	dw DragonairAnimation
 	dw DragoniteAnimation
-	dw MewtwoAnimation
-	dw MewAnimation
+	dw DiazeAnimation
+	dw XuXuAnimation
 	dw ChikoritaAnimation
 	dw BayleefAnimation
 	dw MeganiumAnimation
@@ -199,7 +199,7 @@ AnimationPointers:
 	dw MurkrowAnimation
 	dw SlowkingAnimation
 	dw MisdreavusAnimation
-	dw UnownAnimation
+	dw MissingnoAnimation
 	dw WobbuffetAnimation
 	dw GirafarigAnimation
 	dw PinecoAnimation
@@ -249,4 +249,6 @@ AnimationPointers:
 	dw TyranitarAnimation
 	dw LugiaAnimation
 	dw HoOhAnimation
-	dw CelebiAnimation
+	dw GritespecAnimation
+	dw DoomsdayAnimation
+	dw OmegaZeroAnimation

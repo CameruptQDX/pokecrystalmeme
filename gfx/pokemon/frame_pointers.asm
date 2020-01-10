@@ -1,13 +1,13 @@
 FramesPointers:
-	dw BulbasaurFrames
-	dw IvysaurFrames
-	dw VenusaurFrames
-	dw CharmanderFrames
-	dw CharmeleonFrames
-	dw CharizardFrames
-	dw SquirtleFrames
-	dw WartortleFrames
-	dw BlastoiseFrames
+	dw RaikoFrames
+	dw RaiFrames
+	dw PeritopFrames
+	dw EnkoFrames
+	dw EnFrames
+	dw PrismanFrames
+	dw SuikoFrames
+	dw SuiFrames
+	dw LaketoiseFrames
 	dw CaterpieFrames
 	dw MetapodFrames
 	dw ButterfreeFrames
@@ -136,20 +136,20 @@ FramesPointers:
 	dw JolteonFrames
 	dw FlareonFrames
 	dw PorygonFrames
-	dw OmanyteFrames
-	dw OmastarFrames
-	dw KabutoFrames
-	dw KabutopsFrames
-	dw AerodactylFrames
+	dw DoseetanFrames
+	dw ComettonFrames
+	dw UnluckyFrames
+	dw MarinFrames
+	dw DrachillesFrames
 	dw SnorlaxFrames
-	dw ArticunoFrames
-	dw ZapdosFrames
-	dw MoltresFrames
+	dw GogoFrames
+	dw FijiFrames
+	dw ZiekeadaFrames
 	dw DratiniFrames
 	dw DragonairFrames
 	dw DragoniteFrames
-	dw MewtwoFrames
-	dw MewFrames
+	dw DiazeFrames
+	dw XuXuFrames
 	dw ChikoritaFrames
 	dw BayleefFrames
 	dw MeganiumFrames
@@ -199,7 +199,7 @@ FramesPointers:
 	dw MurkrowFrames
 	dw SlowkingFrames
 	dw MisdreavusFrames
-	dw UnownFrames
+	dw MissingnoFrames
 	dw WobbuffetFrames
 	dw GirafarigFrames
 	dw PinecoFrames
@@ -249,4 +249,6 @@ FramesPointers:
 	dw TyranitarFrames
 	dw LugiaFrames
 	dw HoOhFrames
-	dw CelebiFrames
+	dw GritespecFrames
+	dw DoomsdayFrames
+	dw OmegaZeroFrames

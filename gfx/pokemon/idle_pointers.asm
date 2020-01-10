@@ -1,13 +1,13 @@
 AnimationIdlePointers:
-	dw BulbasaurAnimationIdle
-	dw IvysaurAnimationIdle
-	dw VenusaurAnimationIdle
-	dw CharmanderAnimationIdle
-	dw CharmeleonAnimationIdle
-	dw CharizardAnimationIdle
-	dw SquirtleAnimationIdle
-	dw WartortleAnimationIdle
-	dw BlastoiseAnimationIdle
+	dw RaikoAnimationIdle
+	dw RaiAnimationIdle
+	dw PeritopAnimationIdle
+	dw EnkoAnimationIdle
+	dw EnAnimationIdle
+	dw PrismanAnimationIdle
+	dw SuikoAnimationIdle
+	dw SuiAnimationIdle
+	dw LaketoiseAnimationIdle
 	dw CaterpieAnimationIdle
 	dw MetapodAnimationIdle
 	dw ButterfreeAnimationIdle
@@ -136,20 +136,20 @@ AnimationIdlePointers:
 	dw JolteonAnimationIdle
 	dw FlareonAnimationIdle
 	dw PorygonAnimationIdle
-	dw OmanyteAnimationIdle
-	dw OmastarAnimationIdle
-	dw KabutoAnimationIdle
-	dw KabutopsAnimationIdle
-	dw AerodactylAnimationIdle
+	dw DoseetanAnimationIdle
+	dw ComettonAnimationIdle
+	dw UnluckyAnimationIdle
+	dw MarinAnimationIdle
+	dw DrachillesAnimationIdle
 	dw SnorlaxAnimationIdle
-	dw ArticunoAnimationIdle
-	dw ZapdosAnimationIdle
-	dw MoltresAnimationIdle
+	dw GogoAnimationIdle
+	dw FijiAnimationIdle
+	dw ZiekeadaAnimationIdle
 	dw DratiniAnimationIdle
 	dw DragonairAnimationIdle
 	dw DragoniteAnimationIdle
-	dw MewtwoAnimationIdle
-	dw MewAnimationIdle
+	dw DiazeAnimationIdle
+	dw XuXuAnimationIdle
 	dw ChikoritaAnimationIdle
 	dw BayleefAnimationIdle
 	dw MeganiumAnimationIdle
@@ -199,7 +199,7 @@ AnimationIdlePointers:
 	dw MurkrowAnimationIdle
 	dw SlowkingAnimationIdle
 	dw MisdreavusAnimationIdle
-	dw UnownAnimationIdle
+	dw MissingnoAnimationIdle
 	dw WobbuffetAnimationIdle
 	dw GirafarigAnimationIdle
 	dw PinecoAnimationIdle
@@ -249,4 +249,6 @@ AnimationIdlePointers:
 	dw TyranitarAnimationIdle
 	dw LugiaAnimationIdle
 	dw HoOhAnimationIdle
-	dw CelebiAnimationIdle
+	dw GritespecAnimationIdle
+	dw DoomsdayAnimationIdle
+	dw OmegaZeroAnimationIdle

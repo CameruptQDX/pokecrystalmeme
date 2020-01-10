@@ -1,13 +1,13 @@
 BitmasksPointers:
-	dw BulbasaurBitmasks
-	dw IvysaurBitmasks
-	dw VenusaurBitmasks
-	dw CharmanderBitmasks
-	dw CharmeleonBitmasks
-	dw CharizardBitmasks
-	dw SquirtleBitmasks
-	dw WartortleBitmasks
-	dw BlastoiseBitmasks
+	dw RaikoBitmasks
+	dw RaiBitmasks
+	dw PeritopBitmasks
+	dw EnkoBitmasks
+	dw EnBitmasks
+	dw PrismanBitmasks
+	dw SuikoBitmasks
+	dw SuiBitmasks
+	dw LaketoiseBitmasks
 	dw CaterpieBitmasks
 	dw MetapodBitmasks
 	dw ButterfreeBitmasks
@@ -136,20 +136,20 @@ BitmasksPointers:
 	dw JolteonBitmasks
 	dw FlareonBitmasks
 	dw PorygonBitmasks
-	dw OmanyteBitmasks
-	dw OmastarBitmasks
-	dw KabutoBitmasks
-	dw KabutopsBitmasks
-	dw AerodactylBitmasks
+	dw DoseetanBitmasks
+	dw ComettonBitmasks
+	dw UnluckyBitmasks
+	dw MarinBitmasks
+	dw DrachillesBitmasks
 	dw SnorlaxBitmasks
-	dw ArticunoBitmasks
-	dw ZapdosBitmasks
-	dw MoltresBitmasks
+	dw GogoBitmasks
+	dw FijiBitmasks
+	dw ZiekeadaBitmasks
 	dw DratiniBitmasks
 	dw DragonairBitmasks
 	dw DragoniteBitmasks
-	dw MewtwoBitmasks
-	dw MewBitmasks
+	dw DiazeBitmasks
+	dw XuXuBitmasks
 	dw ChikoritaBitmasks
 	dw BayleefBitmasks
 	dw MeganiumBitmasks
@@ -199,7 +199,7 @@ BitmasksPointers:
 	dw MurkrowBitmasks
 	dw SlowkingBitmasks
 	dw MisdreavusBitmasks
-	dw UnownBitmasks
+	dw MissingnoBitmasks
 	dw WobbuffetBitmasks
 	dw GirafarigBitmasks
 	dw PinecoBitmasks
@@ -249,4 +249,6 @@ BitmasksPointers:
 	dw TyranitarBitmasks
 	dw LugiaBitmasks
 	dw HoOhBitmasks
-	dw CelebiBitmasks
+	dw GritespecBitmasks
+	dw DoomsdayBitmasks
+	dw OmegaZeroBitmasks
