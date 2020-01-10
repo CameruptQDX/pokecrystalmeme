@@ -37,7 +37,7 @@ GetUnownLetter:
 	ldh [hDividend], a
 	ldh [hDividend + 1], a
 	ldh [hDividend + 2], a
-	ld a, $ff / NUM_UNOWN + 1
+	ld a, $ff / NUM_MISSINGNO + 1
 	ldh [hDivisor], a
 	ld b, 4
 	call Divide
@@ -117,7 +117,7 @@ _GetFrontpic:
 
 GetFrontpicPointer:
 	ld a, [wCurPartySpecies]
-	cp UNOWN
+	cp MISSINGNO
 	jr z, .unown
 	ld a, [wCurPartySpecies]
 	ld d, BANK(PokemonPicPointers)
@@ -247,7 +247,7 @@ GetMonBackpic:
 	ld hl, PokemonPicPointers ; UnownPicPointers
 	ld a, b
 	ld d, BANK(PokemonPicPointers)
-	cp UNOWN
+	cp MISSINGNO
 	jr nz, .ok
 	ld a, c
 	ld d, BANK(UnownPicPointers)

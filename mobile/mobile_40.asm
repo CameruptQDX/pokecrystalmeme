@@ -6397,7 +6397,7 @@ Function102d48:
 
 .asm_102d6d
 	ld a, [wTempSpecies]
-	cp UNOWN
+	cp MISSINGNO
 	jr nz, .asm_102d98
 	ld a, [wcd4c]
 	dec a

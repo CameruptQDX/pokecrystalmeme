@@ -21,7 +21,7 @@ TMHMMoves:
 	db RAIN_DANCE
 	db GIGA_DRAIN
 	db ENDURE
-	db FRUSTRATION
+	db MEAN_LOOK ; used to be frustration
 	db SOLARBEAM
 	db IRON_TAIL
 	db DRAGONBREATH

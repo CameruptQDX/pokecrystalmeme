@@ -10,7 +10,6 @@ MoveGrammar:
 	db HARDEN
 	db MINIMIZE
 	db SMOKESCREEN
-	db WITHDRAW
 	db DEFENSE_CURL
 	db EGG_BOMB
 	db SMOG
@@ -38,7 +37,6 @@ MoveGrammar:
 ; 1: originally "[mon]の¯[move]した!" ("[mon]¯did [move]!")
 	db RECOVER
 	db TELEPORT
-	db BIDE
 	db SELFDESTRUCT
 	db AMNESIA
 	db FLAIL
@@ -61,7 +59,6 @@ MoveGrammar:
 	db VICEGRIP
 	db WING_ATTACK
 	db FLY
-	db BIND
 	db SLAM
 	db HORN_ATTACK
 	db WRAP
@@ -76,14 +73,12 @@ MoveGrammar:
 	db ABSORB
 	db STRING_SHOT
 	db EARTHQUAKE
-	db FISSURE
 	db DIG
 	db TOXIC
 	db SCREECH
 	db METRONOME
 	db LICK
 	db CLAMP
-	db CONSTRICT
 	db POISON_GAS
 	db BUBBLE
 	db SLASH

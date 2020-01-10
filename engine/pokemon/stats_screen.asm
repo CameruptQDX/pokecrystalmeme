@@ -811,7 +811,7 @@ StatsScreen_PlaceFrontpic:
 	ld hl, wcf64
 	set 5, [hl]
 	ld a, [wCurPartySpecies]
-	cp UNOWN
+	cp MISSINGNO
 	jr z, .unown
 	hlcoord 0, 0
 	call PrepMonFrontpic
@@ -826,7 +826,7 @@ StatsScreen_PlaceFrontpic:
 
 .AnimateEgg:
 	ld a, [wCurPartySpecies]
-	cp UNOWN
+	cp MISSINGNO
 	jr z, .unownegg
 	ld a, TRUE
 	ld [wBoxAlignment], a

@@ -321,7 +321,7 @@ ChooseWildEncounter:
 	jr c, .nowildbattle
 
 	ld a, b ; This is in the wrong place.
-	cp UNOWN
+	cp MISSINGNO
 	jr nz, .done
 
 	ld a, [wUnlockedUnowns]

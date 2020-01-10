@@ -216,7 +216,7 @@ PrintPartyMonPage1:
 	xor a
 	ld [hl], a
 	ld a, [wCurPartySpecies]
-	cp UNOWN
+	cp MISSINGNO
 	jr z, .asm_1dc469
 	inc [hl]
 

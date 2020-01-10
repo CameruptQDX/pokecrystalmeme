@@ -302,7 +302,7 @@ EvolveAfterBattle_MasterLoop:
 	call SetSeenAndCaughtMon
 
 	ld a, [wTempSpecies]
-	cp UNOWN
+	cp MISSINGNO
 	jr nz, .skip_unown
 
 	ld hl, wTempMonDVs

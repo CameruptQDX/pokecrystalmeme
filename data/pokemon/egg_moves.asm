@@ -401,7 +401,6 @@ ScytherEggMoves:
 	db COUNTER
 	db SAFEGUARD
 	db BATON_PASS
-	db RAZOR_WIND
 	db REVERSAL
 	db LIGHT_SCREEN
 	db -1 ; end
@@ -472,7 +471,6 @@ TotodileEggMoves:
 	db THRASH
 	db HYDRO_PUMP
 	db ANCIENTPOWER
-	db RAZOR_WIND
 	db ROCK_SLIDE
 	db -1 ; end
 
@@ -497,7 +495,6 @@ endc
 
 LedybaEggMoves:
 	db PSYBEAM
-	db BIDE
 	db LIGHT_SCREEN
 	db -1 ; end
 
@@ -517,7 +514,6 @@ ChinchouEggMoves:
 
 PichuEggMoves:
 	db REVERSAL
-	db BIDE
 	db PRESENT
 	db ENCORE
 	db DOUBLESLAP
@@ -643,7 +639,6 @@ PinecoEggMoves:
 	db -1 ; end
 
 DunsparceEggMoves:
-	db BIDE
 	db ANCIENTPOWER
 	db ROCK_SLIDE
 	db BITE
@@ -653,7 +648,6 @@ DunsparceEggMoves:
 GligarEggMoves:
 	db METAL_CLAW
 	db WING_ATTACK
-	db RAZOR_WIND
 	db COUNTER
 	db -1 ; end
 
@@ -681,7 +675,6 @@ ShuckleEggMoves:
 
 HeracrossEggMoves:
 	db HARDEN
-	db BIDE
 	db FLAIL
 	db -1 ; end
 

@@ -1688,8 +1688,6 @@ BattleCommand_CheckHit:
 
 	cp EARTHQUAKE
 	ret z
-	cp FISSURE
-	ret z
 	cp MAGNITUDE
 	ret z
 
@@ -1745,8 +1743,6 @@ BattleCommand_CheckHit:
 	call GetBattleVar
 
 	cp EARTHQUAKE
-	ret z
-	cp FISSURE
 	ret z
 	cp MAGNITUDE
 	ret
@@ -5750,7 +5746,6 @@ BattleCommand_TrapTarget:
 	jp StdBattleTextBox
 
 .Traps:
-	dbw BIND,      UsedBindText      ; 'used BIND on'
 	dbw WRAP,      WrappedByText     ; 'was WRAPPED by'
 	dbw FIRE_SPIN, FireSpinTrapText  ; 'was trapped!'
 	dbw CLAMP,     ClampedByText     ; 'was CLAMPED by'

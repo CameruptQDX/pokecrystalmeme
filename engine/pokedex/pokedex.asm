@@ -2505,7 +2505,7 @@ Pokedex_LoadUnownFrontpicTiles:
 	add hl, de
 	ld a, [hl]
 	ld [wUnownLetter], a
-	ld a, UNOWN
+	ld a, MISSINGNO
 	ld [wCurPartySpecies], a
 	call GetBaseData
 	ld de, vTiles2 tile $00

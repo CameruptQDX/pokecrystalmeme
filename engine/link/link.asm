@@ -1888,17 +1888,17 @@ LinkTrade:
 	ld b, $1
 	pop af
 	ld c, a
-	cp MEW
+	cp DOOMSDAY
 	jr z, .loop
 	ld a, [wCurPartySpecies]
-	cp MEW
+	cp DOOMSDAY
 	jr z, .loop
 	ld b, $2
 	ld a, c
-	cp CELEBI
+	cp OMEGA_ZERO
 	jr z, .loop
 	ld a, [wCurPartySpecies]
-	cp CELEBI
+	cp OMEGA_ZERO
 	jr z, .loop
 	ld b, $0
 

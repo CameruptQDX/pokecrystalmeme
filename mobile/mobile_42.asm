@@ -1703,11 +1703,11 @@ DebugMobileTrade:
 	ret
 
 .DebugTradeData:
-	db VENUSAUR
+	db PERITOP
 	db "ゲーフり@@"
 	dw $0123
 	db "かびーん@@"
-	db CHARIZARD
+	db PRISMAN
 	db "クりーチャ@"
 	dw $0456
 	db "マツミヤ@@"

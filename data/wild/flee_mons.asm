@@ -12,16 +12,13 @@ SometimesFleeMons:
 	db DRAGONAIR
 	db TOGETIC
 	db UMBREON
-	db UNOWN
+	db MISSINGNO
 	db SNUBBULL
 	db HERACROSS
 	db -1
 
 OftenFleeMons:
 	db CUBONE
-	db ARTICUNO
-	db ZAPDOS
-	db MOLTRES
 	db QUAGSIRE
 	db DELIBIRD
 	db PHANPY

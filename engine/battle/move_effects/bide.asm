@@ -58,7 +58,7 @@ BattleCommand_StoreEnergy:
 
 	ld a, BATTLE_VARS_MOVE_ANIM
 	call GetBattleVarAddr
-	ld a, BIDE
+	ld a, $FF ; this used to call Bide's move constant but bide is removed
 	ld [hl], a
 
 	ld b, unleashenergy_command
