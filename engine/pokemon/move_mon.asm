@@ -347,7 +347,7 @@ endr
 	and $f
 	jr nz, .done
 	ld a, [wCurPartySpecies]
-	cp UNOWN
+	cp MISSINGNO
 	jr nz, .done
 	ld hl, wPartyMon1DVs
 	ld a, [wPartyCount]
@@ -456,7 +456,7 @@ AddTempmonToParty:
 .egg
 
 	ld a, [wCurPartySpecies]
-	cp UNOWN
+	cp MISSINGNO
 	jr nz, .done
 	ld hl, wPartyMon1DVs
 	ld a, [wPartyCount]
@@ -1039,7 +1039,7 @@ SendMonIntoBox:
 	dec a
 	call SetSeenAndCaughtMon
 	ld a, [wCurPartySpecies]
-	cp UNOWN
+	cp MISSINGNO
 	jr nz, .not_unown
 	ld hl, sBoxMon1DVs
 	predef GetUnownLetter

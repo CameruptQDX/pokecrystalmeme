@@ -724,9 +724,9 @@ SECTION "Pics 20", ROMX
 UrsaringFrontpic:    INCBIN "gfx/pokemon/ursaring/front.animated.2bpp.lz"
 ButterfreeFrontpic:  INCBIN "gfx/pokemon/butterfree/front.animated.2bpp.lz"
 DoomsdayFrontpic:  INCBIN "gfx/pokemon/doomsday/front.animated.2bpp.lz"
-DoomsdayBackpic:  INCBIN "gfx/pokemon/doomsday/back.animated.2bpp.lz"
+DoomsdayBackpic:  INCBIN "gfx/pokemon/doomsday/back.2bpp.lz"
 OmegaZeroFrontpic:  INCBIN "gfx/pokemon/omegazero/front.animated.2bpp.lz"
-OmegaZeroBackpic:  INCBIN "gfx/pokemon/omegazero/back.animated.2bpp.lz"
+OmegaZeroBackpic:  INCBIN "gfx/pokemon/omegazero/back.2bpp.lz"
 
 SECTION "Pics 21", ROMX
 

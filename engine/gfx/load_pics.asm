@@ -37,7 +37,7 @@ GetUnownLetter:
 	ldh [hDividend], a
 	ldh [hDividend + 1], a
 	ldh [hDividend + 2], a
-	ld a, $ff / NUM_MISSINGNO + 1
+	ld a, $ff / NUM_UNOWN + 1
 	ldh [hDivisor], a
 	ld b, 4
 	call Divide

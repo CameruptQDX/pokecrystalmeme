@@ -340,6 +340,10 @@ FlyDescription:
 	db   "1st turn: Fly"
 	next "2nd turn: Attack@"
 
+DazzlingRayDescription:
+	db   "Sharply lowers the"
+	next "foe's ATTACK.@"
+	
 BindDescription:
 	db   "Binds the target"
 	next "for 2-5 turns.@"
@@ -1271,6 +1275,10 @@ BeatUpDescription:
 CrystalClawDescription:
 	db   "Has a high criti-"
 	next "cal hit ratio.@"
+	
+DarkeningDescription:
+	db   "Steals 1/2 of the"
+	next "damage inflicted.@"
 	
 ZeroCannonDescription:
 	db   "1st turn: Attack"

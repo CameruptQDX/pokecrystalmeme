@@ -131,7 +131,7 @@ BattleCommand_SleepTalk:
 
 	cp EFFECT_SKULL_BASH
 	ret z
-	cp EFFECT_RAZOR_WIND
+	cp EFFECT_PHONE_HOME
 	ret z
 	cp EFFECT_SKY_ATTACK
 	ret z

@@ -1,6 +1,6 @@
 SpriteMons:
 ; entries correspond to SPRITE_* constants past SPRITE_POKEMON
-	db UNOWN
+	db MISSINGNO ; unown
 	db GEODUDE
 	db GROWLITHE
 	db WEEDLE
@@ -9,17 +9,17 @@ SpriteMons:
 	db GENGAR
 	db ZUBAT
 	db MAGIKARP
-	db SQUIRTLE
+	db SUIKO ; squirtle
 	db TOGEPI
 	db BUTTERFREE
 	db DIGLETT
 	db POLIWAG
 	db PIKACHU
 	db CLEFAIRY
-	db CHARMANDER
+	db ENKO ; charmander
 	db JYNX
 	db STARMIE
-	db BULBASAUR
+	db RAIKO ; bulbasaur
 	db JIGGLYPUFF
 	db GRIMER
 	db EKANS
@@ -30,7 +30,7 @@ SpriteMons:
 	db VOLTORB
 	db LAPRAS
 	db RHYDON
-	db MOLTRES
+	db ZIEKEADA ; moltres
 	db SNORLAX
 	db GYARADOS
 	db LUGIA
