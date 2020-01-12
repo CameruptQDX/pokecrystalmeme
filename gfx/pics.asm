@@ -95,7 +95,7 @@ JolteonFrontpic:     INCBIN "gfx/pokemon/jolteon/front.animated.2bpp.lz"
 DonphanFrontpic:     INCBIN "gfx/pokemon/donphan/front.animated.2bpp.lz"
 PinsirFrontpic:      INCBIN "gfx/pokemon/pinsir/front.animated.2bpp.lz"
 UnownEFrontpic:      INCBIN "gfx/pokemon/unown_e/front.animated.2bpp.lz"
-RaiFrontpic:     INCBIN "gfx/pokemon/rai/front.animated.2bpp.lz"
+
 
 
 SECTION "Pics 5", ROMX
@@ -727,6 +727,7 @@ DoomsdayFrontpic:  INCBIN "gfx/pokemon/doomsday/front.animated.2bpp.lz"
 DoomsdayBackpic:  INCBIN "gfx/pokemon/doomsday/back.2bpp.lz"
 OmegaZeroFrontpic:  INCBIN "gfx/pokemon/omegazero/front.animated.2bpp.lz"
 OmegaZeroBackpic:  INCBIN "gfx/pokemon/omegazero/back.2bpp.lz"
+RaiFrontpic:     INCBIN "gfx/pokemon/rai/front.animated.2bpp.lz"
 
 SECTION "Pics 21", ROMX
 
