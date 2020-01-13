@@ -2480,15 +2480,42 @@ BattleAnim_DrillPeck:
 	anim_ret
 
 BattleAnim_HighThunder:
-	anim_1gfx ANIM_GFX_HIT
-	anim_call BattleAnim_FollowPlayerHead_0
-	anim_bgeffect ANIM_BG_TACKLE, $0, $1, $0
-	anim_wait 4
-	anim_sound 0, 1, SFX_TACKLE
-	anim_obj ANIM_OBJ_00, 136, 48, $0
-	anim_wait 8
-	anim_call BattleAnim_ShowMon_0
-	anim_ret
+    anim_3gfx ANIM_GFX_LIGHTNING, ANIM_GFX_EXPLOSION, ANIM_GFX_SPEED
+    anim_bgp $1b
+    anim_sound 0, 0, SFX_ZAP_CANNON
+    anim_obj ANIM_OBJ_THUNDER_WAVE, 48, 92, $0
+    anim_wait 24
+    anim_incobj 1
+    anim_call BattleAnim_FollowEnemyFeet_0
+.loop
+    anim_sound 0, 0, SFX_RAZOR_WIND
+    anim_obj ANIM_OBJ_47, 44, 108, $6
+    anim_wait 2
+    anim_obj ANIM_OBJ_47, 36, 108, $6
+    anim_wait 2
+    anim_obj ANIM_OBJ_47, 52, 108, $8
+    anim_wait 2
+    anim_obj ANIM_OBJ_47, 28, 108, $8
+    anim_wait 2
+    anim_obj ANIM_OBJ_47, 60, 108, $6
+    anim_wait 2
+    anim_obj ANIM_OBJ_47, 20, 108, $8
+    anim_wait 2
+    anim_obj ANIM_OBJ_47, 68, 108, $8
+    anim_wait 2
+    anim_loop 3, .loop
+    anim_wait 8
+    anim_call BattleAnim_ShowMon_0
+    anim_sound 0, 1, SFX_THUNDER
+    anim_obj ANIM_OBJ_2D, 136, 68, $0
+    anim_wait 16
+    anim_obp0 $30
+    anim_sound 0, 1, SFX_THUNDERSHOCK
+    anim_obj ANIM_OBJ_LIGHTNING_BOLT, 136, 56, $2
+    anim_wait 16
+    anim_obj ANIM_OBJ_31, 136, 56, $0
+    anim_wait 128
+    anim_ret
 
 BattleAnim_Flash:
 	anim_1gfx ANIM_GFX_SPEED
