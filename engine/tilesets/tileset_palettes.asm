@@ -12,7 +12,12 @@ LoadSpecialMapPalette:
 	jr z, .radio_tower
 	cp TILESET_MANSION
 	jr z, .mansion_mobile
+	cp TILESET_JOHTO_MODERN
+	jr z, .johto_modern_desert
 	jr .do_nothing
+
+
+
 
 .pokecom_2f
 	call LoadPokeComPalette
@@ -48,6 +53,12 @@ LoadSpecialMapPalette:
 	scf
 	ret
 
+.johto_modern_desert
+	call LoadJohtoModernPalette
+	scf
+	ret
+	
+	
 .do_nothing
 	and a
 	ret
@@ -135,3 +146,45 @@ LoadMansionPalette:
 
 MansionPalette2:
 INCLUDE "gfx/tilesets/mansion_2.pal"
+
+
+LoadJohtoModernPalette:
+	ld a, [wTimeOfDay]
+	cp MORN_F
+	jr z, .morningJM
+	cp NITE_F
+	jr z, .nightJM
+	jr .dayJM
+
+.morningJM
+	ld a, BANK(wBGPals1)
+	ld de, wBGPals1
+	ld hl, JohtoModernMorningPalette
+	ld bc, 8 palettes
+	call FarCopyWRAM
+	ret
+
+.dayJM
+	ld a, BANK(wBGPals1)
+	ld de, wBGPals1
+	ld hl, JohtoModernDayPalette
+	ld bc, 8 palettes
+	call FarCopyWRAM
+	ret
+
+.nightJM
+	ld a, BANK(wBGPals1)
+	ld de, wBGPals1
+	ld hl, JohtoModernNightPalette
+	ld bc, 8 palettes
+	call FarCopyWRAM
+	ret
+	
+JohtoModernMorningPalette:
+INCLUDE "gfx/tilesets/JohtoModernMorning.pal"
+
+JohtoModernDayPalette:
+INCLUDE "gfx/tilesets/JohtoModernDay.pal"
+
+JohtoModernNightPalette:
+INCLUDE "gfx/tilesets/JohtoModernNight.pal"
