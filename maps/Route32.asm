@@ -941,7 +941,7 @@ Route32_MapEvents:
 
 	db 6 ; bg events
 	bg_event 13,  5, BGEVENT_READ, Route32Sign
-	bg_event  9,  1, BGEVENT_READ, Route32RuinsSign
+	bg_event 11,  3, BGEVENT_READ, Route32RuinsSign
 	bg_event 10, 84, BGEVENT_READ, Route32UnionCaveSign
 	bg_event 12, 73, BGEVENT_READ, Route32PokecenterSign
 	bg_event 12, 67, BGEVENT_ITEM, Route32HiddenGreatBall

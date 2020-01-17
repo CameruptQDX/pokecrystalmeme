@@ -224,15 +224,7 @@ INCBIN "data/tilesets/gate_metatiles.bin"
 TilesetGateColl:
 INCLUDE "data/tilesets/gate_collision.asm"
 
-TilesetJohtoModernGFX:
-TilesetBattleTowerOutsideGFX:
-INCBIN "gfx/tilesets/johto_modern.2bpp.lz"
-
-TilesetJohtoModernMeta:
-INCBIN "data/tilesets/johto_modern_metatiles.bin"
-
-TilesetJohtoModernColl:
-INCLUDE "data/tilesets/johto_modern_collision.asm"
+;johto modern moved to another bank
 
 TilesetTraditionalHouseGFX:
 INCBIN "gfx/tilesets/traditional_house.2bpp.lz"
@@ -322,6 +314,7 @@ TilesetRuinsOfAlphColl:
 INCLUDE "data/tilesets/ruins_of_alph_collision.asm"
 
 
+
 SECTION "Tileset Data 8", ROMX
 
 TilesetHoOhWordRoomMeta:
@@ -335,3 +328,13 @@ INCBIN "data/tilesets/omanyte_word_room_metatiles.bin"
 
 TilesetAerodactylWordRoomMeta:
 INCBIN "data/tilesets/aerodactyl_word_room_metatiles.bin"
+
+TilesetJohtoModernGFX:
+TilesetBattleTowerOutsideGFX:
+INCBIN "gfx/tilesets/johto_modern.2bpp.lz"
+
+TilesetJohtoModernMeta:
+INCBIN "data/tilesets/johto_modern_metatiles.bin"
+
+TilesetJohtoModernColl:
+INCLUDE "data/tilesets/johto_modern_collision.asm"
