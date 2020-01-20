@@ -238,8 +238,6 @@ INCLUDE "data/tilesets/traditional_house_collision.asm"
 
 SECTION "Tileset Data 6", ROMX
 
-TilesetForestGFX:
-INCBIN "gfx/tilesets/forest.2bpp.lz"
 
 TilesetChampionsRoomGFX:
 INCBIN "gfx/tilesets/champions_room.2bpp.lz"
@@ -268,8 +266,6 @@ INCBIN "data/tilesets/lighthouse_metatiles.bin"
 TilesetLighthouseColl:
 INCLUDE "data/tilesets/lighthouse_collision.asm"
 
-TilesetForestColl:
-INCLUDE "data/tilesets/forest_collision.asm"
 
 TilesetFacilityGFX:
 INCBIN "gfx/tilesets/facility.2bpp.lz"
@@ -313,6 +309,12 @@ INCBIN "data/tilesets/ruins_of_alph_metatiles.bin"
 TilesetRuinsOfAlphColl:
 INCLUDE "data/tilesets/ruins_of_alph_collision.asm"
 
+;moved from bank 6
+TilesetForestGFX:
+INCBIN "gfx/tilesets/forest.2bpp.lz"
+
+TilesetForestColl:
+INCLUDE "data/tilesets/forest_collision.asm"
 
 
 SECTION "Tileset Data 8", ROMX
