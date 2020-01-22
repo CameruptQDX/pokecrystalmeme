@@ -36,10 +36,10 @@ Route36RuinsOfAlphGate_MapEvents:
 	db 0, 0 ; filler
 
 	db 4 ; warp events
-	warp_event  4,  0, ROUTE_36, 3
-	warp_event  5,  0, ROUTE_36, 4
-	warp_event  4,  7, RUINS_OF_ALPH_OUTSIDE, 9
-	warp_event  5,  7, RUINS_OF_ALPH_OUTSIDE, 9
+	warp_event  4,  0, VIOLET_CITY, 10
+	warp_event  5,  0, VIOLET_CITY, 11
+	warp_event  4,  7, ROUTE_32, 2
+	warp_event  5,  7, ROUTE_32, 2
 
 	db 0 ; coord events
 

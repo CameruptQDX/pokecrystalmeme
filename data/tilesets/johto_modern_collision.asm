@@ -206,3 +206,7 @@
 	tilecoll WALL, WALL, WALL, WALL ; cd
 	tilecoll WALL, WALL, DOOR, WALL ; ce
 	tilecoll WALL, WALL, WALL, WALL ; cf
+	tilecoll WALL, WALL, WALL, WALL ; d0
+	tilecoll WALL, WALL, WALL, WALL ; d1
+	tilecoll WALL, WALL, WALL, WALL ; d2
+	tilecoll WALL, WALL, WALL, WALL ; d3

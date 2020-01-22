@@ -18,13 +18,35 @@ SECTION "Evolutions and Attacks", ROMX
 INCLUDE "data/pokemon/evos_attacks_pointers.asm"
 
 RaikoEvosAttacks:
+	db EVOLVE_LEVEL, 20, RAI
 	db 0 ; no more evolutions
-	db 1, HIDDEN_POWER
+	db 1, SCRATCH
+	db 1, LEER
+	db 9, THUNDERSHOCK
+	db 13, BITE
+	db 17, ROAR
+	db 19, QUICK_ATTACK
+	db 25, SPARK
+	db 31, REFLECT
+	db 40, CRUNCH
+	db 51, DETECT
+	db 60, THUNDER
 	db 0 ; no more level-up moves
 
 RaiEvosAttacks:
+	db EVOLVE_ITEM, SACRED_ASH, RAIKOU
 	db 0 ; no more evolutions
-	db 1, HIDDEN_POWER
+	db 1, SCRATCH
+	db 1, LEER
+	db 9, THUNDERSHOCK
+	db 13, BITE
+	db 17, ROAR
+	db 19, QUICK_ATTACK
+	db 25, SPARK
+	db 35, REFLECT
+	db 45, CRUNCH
+	db 55, DETECT
+	db 65, THUNDER
 	db 0 ; no more level-up moves
 
 PeritopEvosAttacks:
@@ -33,13 +55,35 @@ PeritopEvosAttacks:
 	db 0 ; no more level-up moves
 
 EnkoEvosAttacks:
+	db EVOLVE_LEVEL, 20, EN
 	db 0 ; no more evolutions
-	db 1, HIDDEN_POWER
-	db 0 ; no more level-up movess
+	db 1, SCRATCH
+	db 1, LEER
+	db 9, EMBER
+	db 13, BITE
+	db 17, ROAR
+	db 19, FIRE_SPIN
+	db 25, STOMP
+	db 31, ENDURE
+	db 40, FLAMETHROWER
+	db 51, SWAGGER
+	db 60, FIRE_BLAST
+	db 0 ; no more level-up moves
 
 EnEvosAttacks:
+	db EVOLVE_ITEM, SACRED_ASH, ENTEI
 	db 0 ; no more evolutions
-	db 1, HIDDEN_POWER
+	db 1, SCRATCH
+	db 1, LEER
+	db 9, EMBER
+	db 13, BITE
+	db 17, ROAR
+	db 19, FIRE_SPIN
+	db 25, STOMP
+	db 35, ENDURE
+	db 45, FLAMETHROWER
+	db 55, SWAGGER
+	db 65, FIRE_BLAST
 	db 0 ; no more level-up moves
 
 PrismanEvosAttacks:
@@ -48,13 +92,35 @@ PrismanEvosAttacks:
 	db 0 ; no more level-up moves
 
 SuikoEvosAttacks:
+	db EVOLVE_LEVEL, 20, SUI
 	db 0 ; no more evolutions
-	db 1, HIDDEN_POWER
+	db 1, SCRATCH
+	db 1, LEER
+	db 9, WATER_GUN
+	db 13, BITE
+	db 17, ROAR
+	db 19, GUST
+	db 25, BUBBLEBEAM
+	db 31, MIST
+	db 40, MIND_READER
+	db 51, MIRROR_COAT
+	db 60, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
 SuiEvosAttacks:
+	db EVOLVE_ITEM, SACRED_ASH, SUICUNE
 	db 0 ; no more evolutions
-	db 1, HIDDEN_POWER
+	db 1, SCRATCH
+	db 1, LEER
+	db 9, WATER_GUN
+	db 13, BITE
+	db 17, ROAR
+	db 19, GUST
+	db 25, BUBBLEBEAM
+	db 35, MIST
+	db 45, MIND_READER
+	db 55, MIRROR_COAT
+	db 65, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
 LaketoiseEvosAttacks:

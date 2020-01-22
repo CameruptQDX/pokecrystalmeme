@@ -930,20 +930,20 @@ Route32_MapEvents:
 	db 0, 0 ; filler
 
 	db 4 ; warp events
-	warp_event 11, 73, ROUTE_32_POKECENTER_1F, 1
-	warp_event  6,  3, ROUTE_32_RUINS_OF_ALPH_GATE, 3
-	warp_event  6,  4, ROUTE_32_RUINS_OF_ALPH_GATE, 4
-	warp_event  6, 79, UNION_CAVE_1F, 4
+	warp_event 13, 73, ROUTE_32_POKECENTER_1F, 1
+	warp_event 13,  5, ROUTE_36_RUINS_OF_ALPH_GATE, 3
+	warp_event  0,  1, ROUTE_36_RUINS_OF_ALPH_GATE, 4
+	warp_event 19, 74, UNION_CAVE_1F, 4
 
 	db 2 ; coord events
 	coord_event 18,  8, SCENE_DEFAULT, Route32CooltrainerMStopsYouScene
 	coord_event  7, 71, SCENE_ROUTE32_OFFER_SLOWPOKETAIL, Route32WannaBuyASlowpokeTailScript
 
 	db 6 ; bg events
-	bg_event 13,  5, BGEVENT_READ, Route32Sign
-	bg_event 11,  3, BGEVENT_READ, Route32RuinsSign
+	bg_event 11,  5, BGEVENT_READ, Route32Sign
+	bg_event 10,  5, BGEVENT_READ, Route32RuinsSign
 	bg_event 10, 84, BGEVENT_READ, Route32UnionCaveSign
-	bg_event 12, 73, BGEVENT_READ, Route32PokecenterSign
+	bg_event 14, 73, BGEVENT_READ, Route32PokecenterSign
 	bg_event 12, 67, BGEVENT_ITEM, Route32HiddenGreatBall
 	bg_event 11, 40, BGEVENT_ITEM, Route32HiddenSuperPotion
 
