@@ -157,28 +157,6 @@ UnknownText_0x69712:
 	line "take the EGG?"
 	done
 
-UnknownText_0x6972d:
-	text "I've been thinking"
-	line "it'd be great to"
-
-	para "be able to link up"
-	line "and battle with my"
-
-	para "friends who live"
-	line "far away."
-	done
-
-UnknownText_0x69791:
-	text "I just battled a"
-	line "friend in CIANWOOD"
-	cont "over a link."
-
-	para "If you connect a"
-	line "MOBILE ADAPTER,"
-
-	para "you can link with"
-	line "a friend far away."
-	done
 
 VioletPokecenter1FGameboyKidText:
 	text "A guy named BILL"
@@ -190,13 +168,15 @@ VioletPokecenter1FGentlemanText:
 	text "It was around"
 	line "three years ago."
 
-	para "TEAM ROCKET was up"
-	line "to no good with"
-	cont "#MON."
-
-	para "But justice pre-"
-	line "vailed--a young"
-	cont "kid broke 'em up."
+	para "A meteor fell"
+	line "west of CIANWOOD"
+	cont "and shook the"
+	cont "whole region."
+	
+	para "A lot's changed"
+	line "since then but"
+	cont "VIOLET's remained"
+	cont "mostly the same."
 	done
 
 VioletPokecenter1FYoungsterText:

@@ -152,15 +152,19 @@ ReceivedZephyrBadgeText:
 	done
 
 FalknerZephyrBadgeText:
-	text "ZEPHYRBADGE"
-	line "raises the attack"
-	cont "power of #MON."
+	text "People used to say"
+	line "gaining badges"
+	cont "raised the stats"
+	cont "of #MON but"
+	cont "it's just an old"
+	cont "myth, sorry."
 
-	para "It also enables"
-	line "#MON to use"
-
-	para "FLASH, if they"
-	line "have it, anytime."
+	para "My ZEPHYRBADGE"
+	line "will however"
+	cont "enable a"
+	cont "#MON to use"
+	cont "FLASH, if they"
+	cont "have it, anytime."
 
 	para "Here--take this"
 	line "too."
@@ -196,15 +200,13 @@ FalknerFightDoneText:
 	line "GYMS in cities and"
 	cont "towns ahead."
 
-	para "You should test"
-	line "your skills at"
-	cont "these GYMS."
-
-	para "I'm going to train"
-	line "harder to become"
-
-	para "the greatest bird"
-	line "master!"
+	para "Trainers of the"
+	line "new JOHTO LEAGUE"
+	cont "are working very"
+	cont "hard to establish"
+	cont "themselves."
+	
+	para "Good luck!"
 	done
 
 BirdKeeperRodSeenText:

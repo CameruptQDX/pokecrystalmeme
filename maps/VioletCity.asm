@@ -200,6 +200,10 @@ Text_HereTeacherIAm:
 	text "Here, teacher I"
 	line "am. Good it is"
 	cont "you study here!"
+	
+	para "Too cool for"
+	line "school? Then"
+	cont "a fool you are!"
 	done
 
 VioletCityLassText:
@@ -207,22 +211,23 @@ VioletCityLassText:
 	line "to appear in"
 	cont "SPROUT TOWER."
 
-	para "They said normal-"
-	line "type #MON moves"
-
-	para "had no effect on"
-	line "ghosts."
+	para "There's a move"
+	line "called FORESIGHT"
+	cont "that allows NORMAL"
+	cont "moves to hit"
+	cont "GHOST types."
+	
+	para "I heard the sages"
+	line "train HOOTHOOT"
+	cont "because of that!"
 	done
 
 VioletCitySuperNerdText:
 	text "Hey, you're a"
 	line "#MON trainer?"
 
-	para "If you beat the"
-	line "GYM LEADER here,"
-
-	para "you'll be ready"
-	line "for prime time!"
+	para "Jeez don't scowl"
+	line "at me like that."
 	done
 
 VioletCityGrampsText:

@@ -84,12 +84,12 @@ Route32Pokecenter1FFishingGuruText_After:
 	done
 
 Route32Pokecenter1FCooltrainerFText:
-	text "What should I make"
-	line "my #MON hold?"
-
-	para "Maybe an item that"
-	line "increases ATTACK"
-	cont "power…"
+	text "Even though the"
+	line "whole roof of"
+	cont "UNION CAVE was"
+	cont "blown off they"
+	cont "rebuilt this"
+	cont "#MON CENTER."
 	done
 
 Route32Pokecenter1F_MapEvents:

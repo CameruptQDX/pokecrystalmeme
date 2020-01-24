@@ -144,7 +144,7 @@ Route33FruitTree:
 
 HikerAnthony2SeenText:
 	text "I came through the"
-	line "tunnel, but I"
+	line "desert, but I"
 
 	para "still have plenty"
 	line "of energy left."
@@ -159,6 +159,10 @@ HikerAnthony2AfterText:
 	text "We HIKERS are at"
 	line "our best in the"
 	cont "mountains."
+	
+	para "That is to say I"
+	line "like my stone in"
+	cont "non-powdered form."
 	done
 
 HikerAnthonyDunsparceText:
@@ -175,17 +179,11 @@ HikerAnthonyDunsparceText:
 Route33LassText:
 	text "Pant, pant…"
 
-	para "I finally got"
-	line "through that cave."
-
-	para "It was much bigger"
-	line "than I'd expected."
-
-	para "I got too tired to"
-	line "explore the whole"
-
-	para "thing, so I came"
-	line "outside."
+	para "That desert is"
+	line "way too big…"
+	
+	para "H-hey got any"
+	line "water?"
 	done
 
 Route33SignText:
@@ -195,13 +193,13 @@ Route33SignText:
 Route33_MapEvents:
 	db 0, 0 ; filler
 
-	db 1 ; warp events
-	warp_event 11,  9, UNION_CAVE_1F, 3
+	db 0 ; warp events
+
 
 	db 0 ; coord events
 
 	db 1 ; bg events
-	bg_event 11, 11, BGEVENT_READ, Route33Sign
+	bg_event 13, 11, BGEVENT_READ, Route33Sign
 
 	db 3 ; object events
 	object_event  6, 13, SPRITE_POKEFAN_M, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 2, TrainerHikerAnthony, -1

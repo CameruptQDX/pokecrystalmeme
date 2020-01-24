@@ -14,24 +14,21 @@ Route29Route46GateYoungsterScript:
 	jumptextfaceplayer Route29Route46GateYoungsterText
 
 Route29Route46GateOfficerText:
-	text "You can't climb"
-	line "ledges."
-
-	para "But you can jump"
-	line "down from them to"
-	cont "take a shortcut."
+	text "I hope you brought"
+	line "a hat and gloves!"
 	done
 
 Route29Route46GateYoungsterText:
-	text "Different kinds of"
-	line "#MON appear"
-	cont "past here."
-
-	para "If you want to"
+	text "If you want to"
 	line "catch them all,"
-
-	para "you have to look"
-	line "everywhere."
+	cont "you have to look"
+	cont "everywhere."
+	
+	para "B-but it's too"
+	line "cold out here"
+	cont "for me!"
+	
+	para "ACHOO!"
 	done
 
 Route29Route46Gate_MapEvents:
