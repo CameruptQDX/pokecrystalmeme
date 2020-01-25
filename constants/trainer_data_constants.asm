@@ -64,4 +64,7 @@ TRAINERTYPE_DVS        EQU 1 << TRAINERTYPE_DVS_F
 TRAINERTYPE_STAT_EXP   EQU 1 << TRAINERTYPE_STAT_EXP_F
 
 PERFECT_DV EQU $11 ; treated as $FF in enemy party data
+;I Thought these might need to be here but apparently they're already in constants/battle_constants.asm
+;ATKDEFDV_SHINY EQU $FA ; 15 attack, 10 def
+;SPDSPCDV_SHINY EQU $AA ; 10 speed, 10 special
 PERFECT_STAT_EXP EQU $1337 ; treated as $FFFF in enemy party data

@@ -36,7 +36,7 @@ INCLUDE "maps/RuinsOfAlphHoOhWordRoom.asm"
 INCLUDE "maps/RuinsOfAlphKabutoWordRoom.asm"
 INCLUDE "maps/RuinsOfAlphOmanyteWordRoom.asm"
 INCLUDE "maps/RuinsOfAlphAerodactylWordRoom.asm"
-INCLUDE "maps/UnionCave1F.asm"
+;union cave 1f deleted
 INCLUDE "maps/UnionCaveB1F.asm"
 INCLUDE "maps/UnionCaveB2F.asm"
 INCLUDE "maps/SlowpokeWellB1F.asm"

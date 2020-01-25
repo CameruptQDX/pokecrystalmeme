@@ -14,9 +14,22 @@ SECTION "Enemy Trainer Parties 1", ROMX
 
 FalknerGroup:
 	; FALKNER (1)
-	db "FALKNER@", TRAINERTYPE_MOVES
-	db  7, PIDGEY,     TACKLE, MUD_SLAP, NO_MOVE, NO_MOVE
-	db  9, PIDGEOTTO,  TACKLE, MUD_SLAP, GUST, NO_MOVE
+	db "FALKNER@", TRAINERTYPE_DVS | TRAINERTYPE_STAT_EXP | TRAINERTYPE_ITEM | TRAINERTYPE_MOVES
+	db 12, NATU
+		db PERFECT_DV, PERFECT_DV
+		dw $0050, $0050, $0050, $0070
+		db NO_ITEM
+		db PECK, LEER, NIGHT_SHADE, FAINT_ATTACK
+	db 12, HOOTHOOT
+		db PERFECT_DV, PERFECT_DV
+		dw $0070, $0050, $0050, $0070
+		dw PSNCUREBERRY
+		db TACKLE, MUD_SLAP, FORESIGHT, SUPERSONIC
+	db 14, PIDGEOTTO
+		db PERFECT_DV, $de
+		dw $0060, $0050, $0050, $0050
+		dw BERRY
+		db GUST, MUD_SLAP, SAND_ATTACK, NO_MOVE
 	db -1 ; end
 
 WhitneyGroup:
@@ -78,17 +91,17 @@ ClairGroup:
 Rival1Group:
 	; RIVAL1 (1)
 	db "?@", TRAINERTYPE_NORMAL
-	db  5, CHIKORITA
+	db  5, RAIKO
 	db -1 ; end
 
 	; RIVAL1 (2)
 	db "?@", TRAINERTYPE_NORMAL
-	db  5, CYNDAQUIL
+	db  5, ENKO
 	db -1 ; end
 
 	; RIVAL1 (3)
 	db "?@", TRAINERTYPE_NORMAL
-	db  5, TOTODILE
+	db  5, SUIKO
 	db -1 ; end
 
 	; RIVAL1 (4)
@@ -338,15 +351,16 @@ ErikaGroup:
 	db -1 ; end
 
 YoungsterGroup:
-	; YOUNGSTER (1)
-	db "JOEY@", TRAINERTYPE_NORMAL
+	; YOUNGSTER (1) EDIT
+	db "JOEY@", TRAINERTYPE_DVS
 	db  4, RATTATA
+		db PERFECT_DV, PERFECT_DV
 	db -1 ; end
 
-	; YOUNGSTER (2)
+	; YOUNGSTER (2) EDIT
 	db "MIKEY@", TRAINERTYPE_NORMAL
-	db  2, PIDGEY
-	db  4, RATTATA
+	db  3, PIDGEY
+	db  4, SENTRET
 	db -1 ; end
 
 	; YOUNGSTER (3)
@@ -573,15 +587,15 @@ SchoolboyGroup:
 	db -1 ; end
 
 BirdKeeperGroup:
-	; BIRD_KEEPER (1)
+	; BIRD_KEEPER (1) EDIT
 	db "ROD@", TRAINERTYPE_NORMAL
-	db  7, PIDGEY
-	db  7, PIDGEY
+	db  9, PIDGEY
+	db  10, PIDGEY
 	db -1 ; end
 
-	; BIRD_KEEPER (2)
+	; BIRD_KEEPER (2) EDIT
 	db "ABE@", TRAINERTYPE_NORMAL
-	db  9, SPEAROW
+	db  11, SPEAROW
 	db -1 ; end
 
 	; BIRD_KEEPER (3)
@@ -1496,10 +1510,10 @@ SabrinaGroup:
 	db -1 ; end
 
 BugCatcherGroup:
-	; BUG_CATCHER (1)
+	; BUG_CATCHER (1) EDIT
 	db "DON@", TRAINERTYPE_NORMAL
-	db  3, CATERPIE
-	db  3, CATERPIE
+	db  4, LEDYBA
+	db  3, SPINARAK
 	db -1 ; end
 
 	; BUG_CATCHER (2)
@@ -1515,12 +1529,12 @@ BugCatcherGroup:
 	db 30, BEEDRILL
 	db -1 ; end
 
-	; BUG_CATCHER (4)
+	; BUG_CATCHER (4) EDIT
 	db "WADE@", TRAINERTYPE_NORMAL
-	db  2, CATERPIE
-	db  2, CATERPIE
-	db  3, WEEDLE
-	db  2, CATERPIE
+	db  4, CATERPIE
+	db  5, WEEDLE
+	db  5, METAPOD
+	db  6, LEDYBA
 	db -1 ; end
 
 	; BUG_CATCHER (5)
@@ -3075,29 +3089,29 @@ ExecutiveFGroup:
 	db -1 ; end
 
 SageGroup:
-	; SAGE (1)
+	; SAGE (1) EDIT
 	db "CHOW@", TRAINERTYPE_NORMAL
-	db  3, BELLSPROUT
-	db  3, BELLSPROUT
-	db  3, BELLSPROUT
+	db  5, BELLSPROUT
+	db  5, BELLSPROUT
+	db  5, BELLSPROUT
 	db -1 ; end
 
-	; SAGE (2)
+	; SAGE (2) EDIT
 	db "NICO@", TRAINERTYPE_NORMAL
-	db  3, BELLSPROUT
-	db  3, BELLSPROUT
-	db  3, BELLSPROUT
+	db  5, BELLSPROUT
+	db  5, BELLSPROUT
+	db  6, HOOTHOOT
 	db -1 ; end
 
-	; SAGE (3)
+	; SAGE (3) EDIT
 	db "JIN@", TRAINERTYPE_NORMAL
-	db  6, BELLSPROUT
+	db  9, BELLSPROUT
 	db -1 ; end
 
-	; SAGE (4)
+	; SAGE (4) EDIT
 	db "TROY@", TRAINERTYPE_NORMAL
-	db  7, BELLSPROUT
-	db  7, HOOTHOOT
+	db  9, BELLSPROUT
+	db  9, HOOTHOOT
 	db -1 ; end
 
 	; SAGE (5)
@@ -3114,23 +3128,33 @@ SageGroup:
 	db 16, GASTLY
 	db -1 ; end
 
-	; SAGE (7)
+	; SAGE (7) EDIT
 	db "EDMOND@", TRAINERTYPE_NORMAL
-	db  3, BELLSPROUT
-	db  3, BELLSPROUT
-	db  3, BELLSPROUT
-	db -1 ; end
-
-	; SAGE (8)
-	db "NEAL@", TRAINERTYPE_NORMAL
 	db  6, BELLSPROUT
+	db  6, BELLSPROUT
+	db  7, PICHU
 	db -1 ; end
 
-	; SAGE (9)
-	db "LI@", TRAINERTYPE_NORMAL
-	db  7, BELLSPROUT
-	db  7, BELLSPROUT
-	db 10, HOOTHOOT
+	; SAGE (8) EDIT
+	db "NEAL@", TRAINERTYPE_NORMAL
+	db  8, BELLSPROUT
+	db  8, GASTLY
+	db -1 ; end
+
+	; SAGE (9) WILL BECOME HIS OWN CLASS LATER, TEMPORARY
+	db "LI@", TRAINERTYPE_DVS | TRAINERTYPE_ITEM | TRAINERTYPE_MOVES
+	db  9, BELLSPROUT
+		db PERFECT_DV, PERFECT_DV
+		db BERRY
+		db VINE_WHIP, GROWTH, FLASH, NO_MOVE
+	db  10, ZUBAT
+		db PERFECT_DV, PERFECT_DV
+		db NO_ITEM
+		db LEECH_LIFE, GUST, SUPERSONIC, NO_MOVE
+	db  10, BELLSPROUT
+		db ATKDEFDV_SHINY, SPDSPCDV_SHINY
+		db MIRACLE_SEED
+		db VINE_WHIP, GROWTH, FLASH, SYNTHESIS
 	db -1 ; end
 
 	; SAGE (10)

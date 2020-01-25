@@ -58,12 +58,6 @@ Route32CooltrainerMContinueScene:
 	closetext
 	end
 
-.Unreferenced:
-	writetext Route32CooltrainerMText_UnusedSproutTower
-	waitbutton
-	closetext
-	end
-
 .GiveMiracleSeed:
 	writetext Route32CooltrainerMText_HaveThisSeed
 	buttonsound
@@ -620,7 +614,7 @@ Text_RefusedToBuySlowpokeTail:
 	line "by while the"
 	cont "beaurocrats in"
 	cont "KANTO keep lording"
-	cont "over us?
+	cont "over us?"
 	
 	para "Give it a thought!"
 	done

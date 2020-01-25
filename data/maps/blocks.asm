@@ -455,8 +455,7 @@ UnionCaveB1F_Blocks:
 UnionCaveB2F_Blocks:
 	INCBIN "maps/UnionCaveB2F.blk"
 
-UnionCave1F_Blocks:
-	INCBIN "maps/UnionCave1F.blk"
+;union cave 1f deleted
 
 NationalPark_Blocks:
 NationalParkBugContest_Blocks:

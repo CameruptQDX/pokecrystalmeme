@@ -156,8 +156,8 @@ UnionCaveB1F_MapEvents:
 	db 5 ; warp events
 	warp_event  3,  3, RUINS_OF_ALPH_OUTSIDE, 7
 	warp_event  3, 11, RUINS_OF_ALPH_OUTSIDE, 8
-	warp_event  7, 19, UNION_CAVE_1F, 1
-	warp_event  3, 33, UNION_CAVE_1F, 2
+	warp_event  7, 19, ROUTE_33, 1 ; dummy for now, fix later on
+	warp_event  3, 33, ROUTE_33, 1
 	warp_event 17, 31, UNION_CAVE_B2F, 1
 
 	db 0 ; coord events

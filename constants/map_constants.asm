@@ -91,7 +91,7 @@ ENDM
 	map_const RUINS_OF_ALPH_KABUTO_WORD_ROOM,              10,  7 ; 34
 	map_const RUINS_OF_ALPH_OMANYTE_WORD_ROOM,             10,  8 ; 35
 	map_const RUINS_OF_ALPH_AERODACTYL_WORD_ROOM,          10,  7 ; 36
-	map_const UNION_CAVE_1F,                               10, 18 ; 37
+;union cave 1f deleted
 	map_const UNION_CAVE_B1F,                              10, 18 ; 38
 	map_const UNION_CAVE_B2F,                              10, 18 ; 39
 	map_const SLOWPOKE_WELL_B1F,                           10,  9 ; 40

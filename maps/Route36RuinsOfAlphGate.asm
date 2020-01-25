@@ -14,22 +14,19 @@ Route36RuinsOfAlphGateGrampsScript:
 	jumptextfaceplayer Route36RuinsOfAlphGateGrampsText
 
 Route36RuinsOfAlphGateOfficerText:
-	text "Don't you wonder"
-	line "who'd make some-"
-	cont "thing like this?"
-	cont "And why?"
+	text "How in the world"
+	line "did an explosion"
+	cont "all the way in"
+	cont "CIANWOOD create"
+	cont "a desert next to"
+	cont "VIOLET CITY?"
 	done
 
 Route36RuinsOfAlphGateGrampsText:
-	text "Did you see that"
-	line "strange tree in"
-	cont "the road?"
-
-	para "That may explain"
-	line "why fewer people"
-
-	para "are visiting the"
-	line "RUINS OF ALPH."
+	text "Don't forget to"
+	line "bring some"
+	cont "Potions for the"
+	cont "long road ahead."
 	done
 
 Route36RuinsOfAlphGate_MapEvents:
