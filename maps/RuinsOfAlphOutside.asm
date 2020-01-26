@@ -203,6 +203,7 @@ ScientistRCText:
 	line "and I'm still in"
 	cont "complete shock"
 	cont "and awe."
+	done
 	
 
 RuinsOfAlphOutside_MapEvents:

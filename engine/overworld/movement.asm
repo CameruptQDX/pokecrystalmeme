@@ -679,6 +679,7 @@ NormalStep:
 
 .shake_grass
 	call ShakeGrass
+	jr .skip_grass
 
 .splash_puddle
 	call SplashPuddle
