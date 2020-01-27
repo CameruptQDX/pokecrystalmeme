@@ -1492,49 +1492,50 @@ UnknownText_0x1c1cf3::
 	done
 
 _OakText1::
-	text "Hello! Sorry to"
-	line "keep you waiting!"
+	text "Alright! Alright!"
+	line "Sorry to keep you"
+	cont "waiting!"
 
 	para "Welcome to the"
 	line "world of #MON!"
 
 	para "My name is OAK."
 
-	para "People call me the"
-	line "#MON PROF."
+	para "I'm what you might"
+	line "call a #MON"
+	cont "PROFESSOR!"
 	prompt
 
 _OakText2::
-	text "This world is in-"
-	line "habited by crea-"
-	cont "tures that we call"
-	cont "#MON.@@"
+	text "This world is full"
+	line "of these creatures"
+	cont "that we call"
+	cont "POCKET MONSTERS,"
+	cont "or #MON for"
+	cont "short!@@"
 
 _OakText3::
 	text_waitbutton
 	db "@@"
 
 _OakText4::
-	text "People and #MON"
-	line "live together by"
-
-	para "supporting each"
-	line "other."
-
-	para "Some people play"
-	line "with #MON, some"
-	cont "battle with them."
-	prompt
-
-_OakText5::
 	text "But we don't know"
 	line "everything about"
 	cont "#MON yet."
 
 	para "There are still"
 	line "many mysteries to"
-	cont "solve."
+	cont "be solved…"
 
-	para "That's why I study"
-	line "#MON every day."
+	para "That's what a"
+	line "PROFESSOR like me"
+	cont "is out here for!"
+	prompt
+
+_OakText5::
+	text "But hey you're a"
+	line "trainer aint'cha?"
+	
+	para "Let's cut right"
+	line "to the chase!"
 	prompt

@@ -649,7 +649,7 @@ OakSpeech:
 	call RotateThreePalettesRight
 	call ClearTileMap
 
-	ld a, WOOPER
+	ld a, KOFFING
 	ld [wCurSpecies], a
 	ld [wCurPartySpecies], a
 	call GetBaseData
@@ -709,7 +709,7 @@ OakText1:
 OakText2:
 	text_jump _OakText2
 	start_asm
-	ld a, WOOPER
+	ld a, KOFFING
 	call PlayMonCry
 	call WaitSFX
 	ld hl, OakText3
@@ -776,9 +776,9 @@ NamePlayer:
 	ret
 
 .Chris:
-	db "CHRIS@@@@@@"
+	db "LEAD@@@@@@@"
 .Kris:
-	db "KRIS@@@@@@@"
+	db "LEDA@@@@@@@"
 
 Unreferenced_Function60e9:
 	call LoadMenuHeader

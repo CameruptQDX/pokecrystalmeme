@@ -1,11 +1,11 @@
 _OakText6::
-	text "Now, what did you"
+	text "Hey, what did you"
 	line "say your name was?"
 	prompt
 
 _OakText7::
-	text "<PLAYER>, are you"
-	line "ready?"
+	text "<PLAYER>, you"
+	line "better get ready!"
 
 	para "Your very own"
 	line "#MON story is"
@@ -15,14 +15,14 @@ _OakText7::
 	line "times and tough"
 	cont "challenges."
 
-	para "A world of dreams"
-	line "and adventures"
+	para "Its a real world"
+	line "of adventure, kid!"
 
-	para "with #MON"
-	line "awaits! Let's go!"
+	para "I won't keep you"
+	line "any longer, so get"
+	cont "a move on!"
 
-	para "I'll be seeing you"
-	line "later!"
+	para "See you around…"
 	done
 
 UnknownText_0x1c40e6::

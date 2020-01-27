@@ -201,20 +201,20 @@ MrPokemonIntroText3:
 	line "so I sent mail to"
 	cont "PROF.ELM."
 
-	para "For #MON evolu-"
-	line "tion, PROF.ELM is"
-	cont "the authority."
+	para "ELM seemed more"
+	line "concerned with"
+	cont "some other recent"
+	cont "discovery though…"
 	done
 
 MrPokemonIntroText4:
-	text "Even PROF.OAK here"
-	line "recognizes that."
+	text "In fact I was just"
+	line "discussing that"
+	cont "with PROF.OAK he-"
 	done
 
 MrPokemonIntroText5:
-	text "If my assumption"
-	line "is correct, PROF."
-	cont "ELM will know it."
+	text "OAK: Hm?!"
 	done
 
 MrPokemonsHouse_MrPokemonHealText:
@@ -244,47 +244,27 @@ MrPokemonsHouse_OakText1:
 	line "you're <PLAY_G>!"
 
 	para "I'm OAK! A #MON"
-	line "researcher."
+	line "researcher!"
 
 	para "I was just visit-"
-	line "ing my old friend"
-	cont "MR.#MON."
+	line "ing my good friend"
+	cont "MR.#MON, yeah!"
 
-	para "I heard you were"
-	line "running an errand"
+	para "I heard you had"
+	line "recieved a rare"
+	cont "#MON from"
+	cont "PROF.ELM, so I"
+	cont "waited here."
 
-	para "for PROF.ELM, so I"
-	line "waited here."
-
-	para "Oh! What's this?"
-	line "A rare #MON!"
-
-	para "Let's see…"
+	para "Oh! So that's"
+	line "The rare #MON?"
 
 	para "Hm, I see!"
 
-	para "I understand why"
-	line "PROF.ELM gave you"
-
-	para "a #MON for this"
-	line "errand."
-
-	para "To researchers"
-	line "like PROF.ELM and"
-
-	para "I, #MON are our"
-	line "friends."
-
-	para "He saw that you"
-	line "would treat your"
-
-	para "#MON with love"
-	line "and care."
-
-	para "…Ah!"
+	para "So, listen."
 
 	para "You seem to be"
-	line "dependable."
+	line "dependable…"
 
 	para "How would you like"
 	line "to help me out?"
@@ -295,12 +275,10 @@ MrPokemonsHouse_OakText1:
 
 	para "It automatically"
 	line "records data on"
-
-	para "#MON you've"
-	line "seen or caught."
-
-	para "It's a hi-tech"
-	line "encyclopedia!"
+	cont "#MON you've"
+	cont "seen or caught"
+	cont "like a hi-tech"
+	cont "encyclopedia!"
 	done
 
 MrPokemonsHouse_GetDexText:
@@ -309,21 +287,32 @@ MrPokemonsHouse_GetDexText:
 	done
 
 MrPokemonsHouse_OakText2:
-	text "Go meet many kinds"
-	line "of #MON and"
+	text "…Expensive?"
+	
+	para "Don't sweat it"
+	line "kid… PROFESSORS"
+	cont "like me are"
+	cont "loaded! It's"
+	cont "nothing really…"
 
-	para "complete that"
+	para "Complete that"
 	line "#DEX!"
 
-	para "But I've stayed"
-	line "too long."
+	para "Ah! I've stayed"
+	line "too long!"
 
 	para "I have to get to"
 	line "GOLDENROD for my"
 	cont "usual radio show."
 
-	para "<PLAY_G>, I'm"
-	line "counting on you!"
+	para "Thank you for"
+	line "everything,"
+	cont "MR.#MON!"
+	
+	para "And good luck to"
+	line "you, <PLAY_G>!"
+	
+	para "…hah"
 	done
 
 MrPokemonText_GimmeTheScale:

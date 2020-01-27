@@ -150,14 +150,16 @@ UnknownText_0x1bc272::
 UnknownText_0x1bc288::
 	text "CARD FOLDER open.@@"
 
-UnknownText_0x1bc29c::
+UnknownText_0x1bc29c:: ;OAK INTRO
 	text "<……><……><……><……><……><……>"
 	line "<……><……><……><……><……><……>"
 
 	para "Zzz… Hm? Wha…?"
-	line "You woke me up!"
+	line "H-hey who are y-!"
+	
+	para "Eh, I mean uhh…"
 
-	para "Will you check the"
+	para "Can you check the"
 	line "clock for me?"
 	prompt
 
