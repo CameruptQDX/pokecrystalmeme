@@ -429,11 +429,11 @@ GuideGentNoText:
 CherrygroveRivalText_Seen:
 	text "<……> <……> <……>"
 
-	para "So you got a #MON"
-	line "at the LAB!"
+	para "So you got a"
+	line "#MON from ELM!"
 
 	para "Jeez, how could"
-	line "PROFESSOR ELM"
+	line "the PROFESSOR"
 	cont "possibly entrust"
 	cont "one of the"
 	cont "#MON of myth to"

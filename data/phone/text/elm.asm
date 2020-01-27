@@ -129,18 +129,24 @@ ElmPhonePokerusText:
 	cont "about. Bye!"
 	done
 
-ElmPhoneDisasterText:
-	text "H-hello? <PLAY_G>?"
-	line "It's a disaster!"
+ElmPhoneDisasterText: ;edited
+	text "Hello? <PLAY_G>?"
+	line "Ah good there you"
+	cont "are!"
+	
+	para "Something strange"
+	line "just happened"
+	cont "back at the lab."
+	
+	para "Could you come"
+	line "back quickly?"
+	
+	para "There's also"
+	line "someone special"
+	cont "here I'd like you"
+	cont "to meet!"
 
-	para "Uh, um, it's just"
-	line "terrible!"
-
-	para "What should I do?"
-	line "It… Oh, no…"
-
-	para "Please get back"
-	line "here now!"
+	para "See you soon!"
 	done
 
 ElmPhoneEggAssistantText:

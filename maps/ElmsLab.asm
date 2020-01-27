@@ -549,7 +549,8 @@ MeetCopScript2:
 
 MeetCopScript:
 	applymovement PLAYER, MeetCopScript_WalkUp
-CopScript:
+CopScript: ;now has eusine music
+	playmusic MUSIC_MYSTICALMAN_ENCOUNTER
 	turnobject ELMSLAB_OFFICER, LEFT
 	opentext
 	writetext ElmsLabOfficerText1
@@ -560,6 +561,7 @@ CopScript:
 	closetext
 	applymovement ELMSLAB_OFFICER, OfficerLeavesMovement
 	disappear ELMSLAB_OFFICER
+	playmusic MUSIC_PROF_ELM
 	setscene SCENE_ELMSLAB_NOTHING
 	end
 
@@ -1259,12 +1261,11 @@ ElmsLabOfficerText1: ;is eusine now
 	cont "here to see the"
 	cont "rare #MON…"
 	
-	para "Until some girl"
+	para "Then some girl"
 	line "stomped through"
 	cont "the lab until poor"
-	
-	para "ELM here had to"
-	line "give up one of"
+	cont "ELM here had to"
+	cont "give one of"
 	cont "them up…"
 
 	para "What?"
