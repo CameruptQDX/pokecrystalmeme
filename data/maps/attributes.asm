@@ -109,7 +109,7 @@ ENDM
 	connection west, Route36, ROUTE_36, 0
 	connection east, Route31, ROUTE_31, 9
 
-	map_attributes AzaleaTown, AZALEA_TOWN, $05, WEST | EAST
+	map_attributes AzaleaTown, AZALEA_TOWN, $80, WEST | EAST
 	connection west, Route34, ROUTE_34, -18
 	connection east, Route33, ROUTE_33, 0
 
@@ -167,15 +167,15 @@ ENDM
 	connection south, Route30, ROUTE_30, 10
 	connection west, VioletCity, VIOLET_CITY, -9
 
-	map_attributes RuinsOfAlphOutside, RUINS_OF_ALPH_OUTSIDE, $05, EAST
+	map_attributes RuinsOfAlphOutside, RUINS_OF_ALPH_OUTSIDE, $80, EAST
 	connection east, Route32, ROUTE_32, 2
 	
-	map_attributes Route32, ROUTE_32, $05, NORTH | SOUTH | WEST
+	map_attributes Route32, ROUTE_32, $80, NORTH | SOUTH | WEST
 	connection north, VioletCity, VIOLET_CITY, 0
 	connection south, Route33, ROUTE_33, 0
 	connection west, RuinsOfAlphOutside,RUINS_OF_ALPH_OUTSIDE, -2
 
-	map_attributes Route33, ROUTE_33, $05, NORTH | WEST
+	map_attributes Route33, ROUTE_33, $80, NORTH | WEST
 	connection north, Route32, ROUTE_32, 0
 	connection west, AzaleaTown, AZALEA_TOWN, 0
 

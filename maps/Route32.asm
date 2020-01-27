@@ -591,8 +591,8 @@ Route32CooltrainerMText_ExperiencesShouldBeUseful:
 Text_MillionDollarSlowpokeTail:
 	text "Hey there kid, you"
 	line "ever consider"
-	cont "joining a political"
-	cont "movement?"
+	cont "joining a"
+	cont "political party?"
 	
 	para "If you'd like to"
 	line "help protect the"

@@ -76,7 +76,7 @@ ENDM
 	map_const RADIO_TOWER_3F,                               9,  4 ; 19
 	map_const RADIO_TOWER_4F,                               9,  4 ; 20
 	map_const RADIO_TOWER_5F,                               9,  4 ; 21
-	map_const RUINS_OF_ALPH_OUTSIDE,                       10, 18 ; 22
+;moved
 	map_const RUINS_OF_ALPH_HO_OH_CHAMBER,                  4,  5 ; 23
 	map_const RUINS_OF_ALPH_KABUTO_CHAMBER,                 4,  5 ; 24
 	map_const RUINS_OF_ALPH_OMANYTE_CHAMBER,                4,  5 ; 25
@@ -212,6 +212,8 @@ ENDM
 	map_const AZALEA_GYM,                                   5,  8 ;  5
 	map_const ROUTE_33,                                    10,  9 ;  6
 	map_const AZALEA_TOWN,                                 20,  9 ;  7
+	map_const ROUTE_32,                                    10, 45 ;  8
+	map_const RUINS_OF_ALPH_OUTSIDE,                       10, 18 ; 9
 
 	newgroup                                                      ;  9
 
@@ -224,7 +226,7 @@ ENDM
 
 	newgroup                                                      ; 10
 
-	map_const ROUTE_32,                                    10, 45 ;  1
+;moved
 	map_const ROUTE_35,                                    10, 18 ;  2
 	map_const ROUTE_36,                                    30,  9 ;  3
 	map_const ROUTE_37,                                    10,  9 ;  4
