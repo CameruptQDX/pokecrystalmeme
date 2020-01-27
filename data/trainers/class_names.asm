@@ -30,7 +30,7 @@ TrainerClassNames::
 	db "COOLTRAINER@"
 	db "BEAUTY@"
 	db "#MANIAC@"
-	db "ROCKET@"
+	db "SEPRATIST@"
 	db "GENTLEMAN@"
 	db "SKIER@"
 	db "TEACHER@"

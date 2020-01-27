@@ -176,8 +176,8 @@ KurtLeaveSlowpokeWellText:
 	text "KURT: Way to go,"
 	line "<PLAYER>!"
 
-	para "TEAM ROCKET has"
-	line "taken off."
+	para "The SEPRATISTS"
+	line "have taken off."
 
 	para "My back's better"
 	line "too. Let's get out"
@@ -187,9 +187,8 @@ KurtLeaveSlowpokeWellText:
 GruntM29SeenText:
 	text "Darn! I was stand-"
 	line "ing guard up top"
-
-	para "when some old coot"
-	line "yelled at me."
+	cont "when some old coot"
+	cont "yelled at me."
 
 	para "He startled me so"
 	line "much that I fell"
@@ -206,28 +205,24 @@ GruntM29BeatenText:
 	done
 
 GruntM29AfterBattleText:
-	text "Sure, we've been"
-	line "hacking the tails"
-
-	para "off SLOWPOKE and"
-	line "selling them."
-
-	para "Everything we do"
-	line "is for profit."
-
-	para "That's right!"
-	line "We're TEAM ROCKET,"
-
-	para "and we'll do any-"
-	line "thing for money!"
+	text "We're here on a"
+	line "mission of"
+	cont "enviromental"
+	cont "conservation!"
+	
+	para "What reason do"
+	line "you have to"
+	cont "interfere?"
 	done
 
 GruntM1SeenText:
-	text "What do you want?"
-
-	para "If you interrupt"
-	line "our work, don't"
-	cont "expect any mercy!"
+	text "Hey who are you?"
+	
+	para "You don't look"
+	line "like one of us,"
+	cont "so I guess I'll"
+	cont "just have to make"
+	cont "you scram!"
 	done
 
 GruntM1BeatenText:
@@ -237,26 +232,35 @@ GruntM1BeatenText:
 	done
 
 TrainerGruntM1WhenTalkText:
-	text "Yeah, TEAM ROCKET"
-	line "was broken up"
-	cont "three years ago."
-
-	para "But we continued"
-	line "our activities"
-	cont "underground."
-
-	para "Now you can have"
-	line "fun watching us"
-	cont "stir up trouble!"
+	text "We don't play"
+	line "nice with anyone"
+	cont "outside our"
+	cont "party line!"
+	
+	para "You've got a"
+	line "lot of nerve"
+	cont "getting involved"
+	cont "in a political"
+	cont "matter, you little"
+	cont "punk!"
+	
+	para "We WILL make our"
+	line "JOHTO region the"
+	cont "greatest and it"
+	cont "starts with small"
+	cont "steps like this."
+	
+	para "Stay out of our"
+	line "way or else!"
 	done
 
 GruntM2SeenText:
-	text "Quit taking SLOW-"
-	line "POKETAILS?"
-
-	para "If we obeyed you,"
-	line "TEAM ROCKET's rep"
-	cont "would be ruined!"
+	text "What are we doing"
+	line "down here?"
+	
+	para "Beat me and maybe"
+	line "I'll give you an"
+	cont "answer!"
 	done
 
 GruntM2BeatenText:
@@ -265,19 +269,35 @@ GruntM2BeatenText:
 	done
 
 GruntM2AfterBattleText:
-	text "We need the money,"
-	line "but selling SLOW-"
-	cont "POKETAILS?"
-
-	para "It's tough being a"
-	line "ROCKET GRUNT!"
+	text "You really want"
+	line "to know?"
+	
+	para "We're here on a"
+	line "catch and release"
+	cont "mission!"
+	
+	para "We're rounding up"
+	line "all the invasive"
+	cont "SLOWPOKE and"
+	cont "hauling them back"
+	cont "to KANTO where"
+	cont "they belong!"
+	
+	para "This well should"
+	line "be a WOOPER"
+	cont "habitat!"
 	done
 
 GruntF1SeenText:
-	text "Stop taking TAILS?"
-
-	para "Yeah, just try to"
-	line "defeat all of us!"
+	text "Stop messing with"
+	line "nature?"
+	
+	para "If our ancestors"
+	line "hadn't done so"
+	cont "already then"
+	cont "we wouldn't"
+	cont "need to fix it"
+	cont "for them!"
 	done
 
 GruntF1BeatenText:
@@ -285,16 +305,17 @@ GruntF1BeatenText:
 	done
 
 GruntF1AfterBattleText:
-	text "SLOWPOKETAILS"
-	line "grow back fast!"
-
-	para "What's wrong with"
-	line "selling them?"
+	text "SLOWPOKE is a"
+	line "KANTO #MON!"
+	
+	para "They don't belong"
+	line "in JOHTO's"
+	cont "culture and lore!"
 	done
 
 SlowpokeWellB1FSlowpokeWithMailText:
-	text "A SLOWPOKE with"
-	line "its TAIL cut off…"
+	text "A SLOWPOKE that's"
+	line "been hogtied…"
 
 	para "Huh? It has MAIL."
 	line "Read it?"
@@ -314,8 +335,8 @@ SlowpokeWellB1FSlowpokeMailText:
 	done
 
 SlowpokeWellB1FTaillessSlowpokeText:
-	text "A SLOWPOKE with"
-	line "its TAIL cut off…"
+	text "A tied up"
+	line "SLOWPOKE…"
 	done
 
 SlowpokeWellB1F_MapEvents:

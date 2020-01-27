@@ -749,7 +749,7 @@ IlexForestApprenticeIntroText:
 
 	para "I can't go looking"
 	line "for it here in the"
-	cont "ILEX FOREST."
+	cont "ILEX JUNGLE."
 
 	para "It's too big, dark"
 	line "and scary for me…"
@@ -844,7 +844,7 @@ Text_IlexForestLass:
 	done
 
 IlexForestSignpostText:
-	text "ILEX FOREST is"
+	text "ILEX JUNGLE is"
 	line "so overgrown with"
 
 	para "trees that you"
@@ -856,7 +856,7 @@ IlexForestSignpostText:
 	done
 
 Text_IlexForestShrine:
-	text "ILEX FOREST"
+	text "ILEX JUNGLE"
 	line "SHRINE…"
 
 	para "It's in honor of"
@@ -865,7 +865,7 @@ Text_IlexForestShrine:
 	done
 
 Text_ShrineCelebiEvent:
-	text "ILEX FOREST"
+	text "ILEX JUNGLE"
 	line "SHRINE…"
 
 	para "It's in honor of"

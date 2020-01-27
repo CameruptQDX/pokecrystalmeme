@@ -458,30 +458,27 @@ UnknownText_0x18e473:
 	para "Sorry, but that'll"
 	line "have to wait."
 
-	para "Do you know TEAM"
-	line "ROCKET? Ah, don't"
+	para "Have you noticed"
+	line "those strange"
+	cont "political activist"
+	cont "around town?"
+	
+	para "I have an odd"
+	line "feeling that they"
+	cont "may be behind the"
+	cont "SLOWPOKE that are"
+	cont "disappearing!"
 
-	para "worry. I'll tell"
-	line "you anyhow."
+	para "I don't know"
+	line "exactly why they"
+	cont "would want to"
+	cont "harm the SLOWPOKE,"
+	cont "but it's worth a"
+	cont "look into."
 
-	para "TEAM ROCKET's an"
-	line "evil gang that"
-
-	para "uses #MON for"
-	line "their dirty work."
-
-	para "They're supposed"
-	line "to have disbanded"
-	cont "three years ago."
-
-	para "Anyway, they're at"
-	line "the WELL, cutting"
-
-	para "off SLOWPOKETAILS"
-	line "for sale!"
-
-	para "So I'm going to"
-	line "go give them a"
+	para "If they are, then"
+	line "I'm going to"
+	cont "go give them a"
 	cont "lesson in pain!"
 
 	para "Hang on, SLOWPOKE!"
@@ -621,9 +618,7 @@ KurtsGranddaughterLonelyText:
 KurtsGranddaughterSlowpokeBackText:
 	text "The SLOWPOKE my"
 	line "dad gave me came"
-
-	para "back! Its TAIL is"
-	line "growing back too!"
+	cont "back!"
 	done
 
 KurtsGranddaughterDadText:

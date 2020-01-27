@@ -245,66 +245,69 @@ AzaleaTownPlayerLeavesKurtsHouseMovement:
 	step_end
 
 AzaleaTownRivalBeforeText:
-	text "…Tell me some-"
-	line "thing."
-
-	para "Is it true that"
-	line "TEAM ROCKET has"
-	cont "returned?"
-
-	para "What? You beat"
-	line "them? Hah! Quit"
-	cont "lying."
-
-	para "You're not joking?"
-	line "Then let's see how"
-	cont "good you are."
+	text "Hey you!"
+	
+	para "Still straggling"
+	line "along in my"
+	cont "shadow are you?"
+	
+	para "Well, maybe I"
+	line "should give you"
+	cont "the benefit of"
+	cont "the doubt and"
+	cont "assume you've"
+	cont "become at least"
+	cont "a LITTLE bit"
+	cont "stronger than"
+	cont "before…"
+	
+	para "Lets see how"
+	line "you fare against"
+	cont "my newly evolved"
+	cont "partner!"
 	done
 
 AzaleaTownRivalWinText:
-	text "… Humph! Useless"
-	line "#MON!"
-
-	para "Listen, you. You"
-	line "only won because"
-
-	para "my #MON were"
-	line "weak."
+	text "C-come again?"
 	done
 
 AzaleaTownRivalAfterText:
-	text "I hate the weak."
-
-	para "#MON, trainers."
-	line "It doesn't matter"
-	cont "who or what."
-
-	para "I'm going to be"
-	line "strong and wipe"
-	cont "out the weak."
-
-	para "That goes for TEAM"
-	line "ROCKET too."
-
-	para "They act big and"
-	line "tough in a group."
-
-	para "But get them"
-	line "alone, and they're"
-	cont "weak."
-
-	para "I hate them all."
-
-	para "You stay out of my"
-	line "way. A weakling"
-
-	para "like you is only a"
-	line "distraction."
+	text "Okay you might"
+	line "have gotten lucky"
+	cont "this time but"
+	cont "I'll still prove"
+	cont "to you the"
+	cont "superiority of"
+	cont "my CLAN someday!"
+	
+	para "By the way…"
+	
+	para "What's up with"
+	line "those political"
+	cont "activist clowns"
+	cont "that were hanging"
+	cont "around here?"
+	
+	para "Don't tell me"
+	line "you've got some"
+	cont "stake in their"
+	cont "wacky circus!"
+	
+	para "Listen, if I'm"
+	line "going to become"
+	cont "the greatest"
+	cont "trainer then I"
+	cont "have no time for"
+	cont "reactionaries in"
+	cont "my way."
+	
+	para "Au revoir,"
+	line "chump!"
 	done
 
 AzaleaTownRivalLossText:
-	text "…Humph! I knew"
-	line "you were lying."
+	text "Ohoho!"
+	line "Just as expected!"
 	done
 
 AzaleaTownRocket1Text:
@@ -317,12 +320,13 @@ AzaleaTownRocket1Text:
 	done
 
 AzaleaTownRocket2Text:
-	text "Do you know about"
-	line "SLOWPOKETAIL? I"
-	cont "heard it's tasty!"
-
-	para "Aren't you glad I"
-	line "told you that?"
+	text "Hello citizen!"
+	line "Fine day today"
+	cont "isn't it!"
+	
+	para "Blocking? I'm not"
+	line "trying to block"
+	cont "anything!"
 	done
 
 AzaleaTownGrampsTextBefore:
@@ -330,20 +334,32 @@ AzaleaTownGrampsTextBefore:
 	line "disappeared from"
 	cont "town…"
 
-	para "I heard their"
-	line "TAILS are being"
-	cont "sold somewhere."
+	para "It might be a"
+	line "hunch, but I"
+	cont "think those"
+	cont "activists may"
+	cont "have something"
+	cont "to do with it."
 	done
 
 AzaleaTownGrampsTextAfter:
-	text "The SLOWPOKE have"
-	line "returned."
-
-	para "Knowing them, they"
-	line "could've just been"
-
-	para "goofing off some-"
-	line "where."
+	text "SLOWPOKE's YAWN"
+	line "is said to have"
+	cont "ended a drought"
+	cont "centuries ago"
+	
+	para "That thought makes"
+	line "me glad to have"
+	cont "them around now"
+	cont "that AZALEA has"
+	cont "turned into a"
+	cont "desert."
+	
+	para "In fact I believe"
+	line "the rain they"
+	cont "summon must be"
+	cont "what feeds the"
+	cont "ILEX JUNGLE."
 	done
 
 AzaleaTownTeacherText:
@@ -358,17 +374,16 @@ AzaleaTownTeacherText:
 AzaleaTownYoungsterText:
 	text "Cut through AZALEA"
 	line "and you'll be in"
-	cont "ILEX FOREST."
+	cont "ILEX JUNGLE."
 
-	para "But these skinny"
-	line "trees make it"
-
-	para "impossible to get"
-	line "through."
+	para "It's a very dense"
+	line "place, with trees"
+	cont "that block the"
+	cont "path through it."
 
 	para "The CHARCOAL MAN's"
 	line "#MON can CUT"
-	cont "down trees."
+	cont "down trees though."
 	done
 
 AzaleaTownSlowpokeText1:
@@ -447,7 +462,7 @@ CharcoalKilnSignText:
 	done
 
 AzaleaTownIlexForestSignText:
-	text "ILEX FOREST"
+	text "ILEX JUNGLE"
 
 	para "Enter through the"
 	line "gate."
@@ -485,7 +500,7 @@ AzaleaTown_MapEvents:
 	db 12 ; object events
 	object_event 31,  9, SPRITE_AZALEA_ROCKET, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, AzaleaTownRocket1Script, EVENT_AZALEA_TOWN_SLOWPOKETAIL_ROCKET
 	object_event 21,  9, SPRITE_GRAMPS, SPRITEMOVEDATA_WANDER, 1, 2, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, AzaleaTownGrampsScript, -1
-	object_event 15, 13, SPRITE_TEACHER, SPRITEMOVEDATA_WALK_UP_DOWN, 0, 2, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, AzaleaTownTeacherScript, -1
+	object_event 16, 13, SPRITE_TEACHER, SPRITEMOVEDATA_WALK_UP_DOWN, 0, 2, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, AzaleaTownTeacherScript, -1
 	object_event  7,  9, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, AzaleaTownYoungsterScript, -1
 	object_event  8, 17, SPRITE_SLOWPOKE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, AzaleaTownSlowpokeScript, EVENT_AZALEA_TOWN_SLOWPOKES
 	object_event 18,  9, SPRITE_SLOWPOKE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, AzaleaTownSlowpokeScript, EVENT_AZALEA_TOWN_SLOWPOKES
