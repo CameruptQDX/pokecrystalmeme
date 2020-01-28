@@ -6,4 +6,5 @@ CriticalHitMoves:
 	db AEROBLAST
 	db CROSS_CHOP
 	db CRYSTAL_CLAW
+	db SKY_ATTACK
 	db -1

@@ -1,6 +1,6 @@
 	db GRITESPEC ; replaces celebi
 
-	db 75, 65, 60, 80, 85, 70
+	db 75, 70, 50, 95, 105, 60
 	;   hp  atk  def  spd  sat  sdf
 
 	db PSYCHIC, PSYCHIC ; type

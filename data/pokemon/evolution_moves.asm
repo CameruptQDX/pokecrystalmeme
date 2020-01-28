@@ -1,0 +1,255 @@
+EvolutionMoves::
+	db NO_MOVE      
+	db NO_MOVE      ; RAI
+	db NO_MOVE      
+	db NO_MOVE      
+	db NO_MOVE      ; EN
+	db NO_MOVE      
+	db NO_MOVE      
+	db NO_MOVE      ; SUI
+	db NO_MOVE      
+	db NO_MOVE      ; CATERPIE
+	db HARDEN       ; METAPOD
+	db GUST         ; BUTTERFREE
+	db NO_MOVE      ; WEEDLE
+	db HARDEN       ; KAKUNA
+	db FURY_ATTACK  ; BEEDRILL
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db SCARY_FACE   ; RATICATE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db CRUNCH       ; ARBOK
+	db NO_MOVE
+	db THUNDERBOLT  ; RAICHU
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db BODY_SLAM    ; NIDOQUEEN
+	db NO_MOVE
+	db NO_MOVE
+	db THRASH       ; NIDOKING
+	db NO_MOVE
+	db METRONOME    ; CLEFABLE
+	db NO_MOVE
+	db FIRE_SPIN    ; NINETALES
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db SCREECH      ; GOLBAT
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db GUST         ; VENOMOTH
+	db NO_MOVE
+	db TRI_ATTACK   ; DUGTRIO
+	db NO_MOVE
+	db SWIFT        ; PERSIAN
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db RAGE         ; PRIMEAPE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db SUBMISSION   ; POLIWRATH
+	db NO_MOVE
+	db KINESIS      ; KADABRA
+	db KINESIS      ; ALAKAZAM
+	db NO_MOVE
+	db NO_MOVE
+	db STRENGTH     ; MACHAMP
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db WRAP         ; TENTACRUEL
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db FURY_ATTACK  ; RAPIDASH
+	db NO_MOVE
+	db NO_MOVE ;was withdraw but that move is gone     ; SLOWBRO
+	db NO_MOVE
+	db TRI_ATTACK   ; MAGNETON
+	db NO_MOVE
+	db NO_MOVE
+	db TRI_ATTACK   ; DODRIO
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db SPIKE_CANNON  ; CLOYSTER
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NIGHTMARE    ; HYPNO
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db STOMP        ; EXEGGUTOR
+	db NO_MOVE
+	db NO_MOVE
+	db DOUBLE_KICK  ; HITMONLEE
+	db COMET_PUNCH  ; HITMONCHAN
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db BITE         ; GYARADOS
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db WATER_GUN    ; VAPOREON
+	db THUNDERSHOCK ; JOLTEON
+	db EMBER        ; FLAREON
+	db NO_MOVE
+	db NO_MOVE      
+	db NO_MOVE      ; COMETTON
+	db NO_MOVE      
+	db NO_MOVE      
+	db NO_MOVE      
+	db NO_MOVE
+	db NO_MOVE      ;GOGO
+	db NO_MOVE      ;FIJI
+	db NO_MOVE      ;ZIEKEADA
+	db NO_MOVE
+	db NO_MOVE
+	db WING_ATTACK  ; DRAGONITE
+	db NO_MOVE      ;DIAZE
+	db NO_MOVE      ;XUXU
+	db NO_MOVE
+	db NO_MOVE
+	db PETAL_DANCE  ; MEGANIUM
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db AGILITY      ; FURRET
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db SWORDS_DANCE ; ARIADOS
+	db SLUDGE_BOMB ; CROBAT
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db WING_ATTACK ; TOGETIC
+	db NO_MOVE
+	db WING_ATTACK ; XATU
+	db NO_MOVE
+	db NO_MOVE
+	db THUNDERPUNCH ; AMPHAROS
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db PERISH_SONG  ; POLITOED
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db PETAL_DANCE ; SUNFLORA
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db CONFUSION    ; ESPEON
+	db PURSUIT      ; UMBREON
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db IRON_TAIL    ; STEELIX
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db METAL_CLAW   ; SCIZOR
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db ANCIENTPOWER  ; PILOSWINE
+	db NO_MOVE
+	db NO_MOVE
+	db OCTAZOOKA    ; OCTILLERY
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db FURY_ATTACK  ; DONPHAN
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db ROLLING_KICK ; HITMONTOP
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db HIGH_THUNDER ; RAIKOU
+	db SACRED_FIRE  ; ENTEI
+	db HOLY_GALE    ; SUICUNE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE
+	db NO_MOVE      ; GRITESPEC
+	db NO_MOVE
+	db NO_MOVE
+	
