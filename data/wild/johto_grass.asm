@@ -356,29 +356,29 @@ JohtoGrassWildMons:
 	map_id RUINS_OF_ALPH_OUTSIDE ;done
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	db 4, EKANS
-	db 5, SANDSHREW
-	db 7, NATU
-	db 6, NATU
-	db 7, NATU
-	db 6, SMEARGLE
-	db 7, SMEARGLE
+	db 8, EKANS
+	db 9, SANDSHREW
+	db 11, NATU
+	db 10, NATU
+	db 11, NATU
+	db 10, SMEARGLE
+	db 11, SMEARGLE
 	; day
-	db 4, EKANS
-	db 5, SANDSHREW
-	db 7, NATU
-	db 6, NATU
-	db 7, NATU
-	db 6, SMEARGLE
-	db 7, SMEARGLE
+	db 8, EKANS
+	db 9, SANDSHREW
+	db 11, NATU
+	db 10, NATU
+	db 11, NATU
+	db 10, SMEARGLE
+	db 11, SMEARGLE
 	; nite
-	db 4, EKANS
-	db 5, SANDSHREW
-	db 7, WOOPER
-	db 6, WOOPER
-	db 7, HOOTHOOT
-	db 6, SMEARGLE
-	db 7, SMEARGLE
+	db 8, EKANS
+	db 9, SANDSHREW
+	db 11, WOOPER
+	db 10, WOOPER
+	db 11, HOOTHOOT
+	db 10, SMEARGLE
+	db 11, SMEARGLE
 
 	map_id RUINS_OF_ALPH_INNER_CHAMBER
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
@@ -461,32 +461,32 @@ JohtoGrassWildMons:
 	db 23, ONIX
 	db 23, ONIX
 
-	map_id SLOWPOKE_WELL_B1F
+	map_id SLOWPOKE_WELL_B1F ; done
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 5, ZUBAT
-	db 6, ZUBAT
-	db 7, ZUBAT
-	db 6, SLOWPOKE
-	db 8, ZUBAT
-	db 8, SLOWPOKE
-	db 8, SLOWPOKE
+	db 10, SLOWPOKE
+	db 11, ZUBAT
+	db 12, WOOPER
+	db 11, SLOWPOKE
+	db 13, ZUBAT
+	db 13, SLOWPOKE
+	db 13, SLOWPOKE
 	; day
-	db 5, ZUBAT
-	db 6, ZUBAT
-	db 7, ZUBAT
-	db 6, SLOWPOKE
-	db 8, ZUBAT
-	db 8, SLOWPOKE
-	db 8, SLOWPOKE
+	db 10, SLOWPOKE
+	db 11, ZUBAT
+	db 12, WOOPER
+	db 11, SLOWPOKE
+	db 13, ZUBAT
+	db 13, SLOWPOKE
+	db 13, SLOWPOKE
 	; nite
-	db 5, ZUBAT
-	db 6, ZUBAT
-	db 7, ZUBAT
-	db 6, SLOWPOKE
-	db 8, ZUBAT
-	db 8, SLOWPOKE
-	db 8, SLOWPOKE
+	db 10, SLOWPOKE
+	db 11, ZUBAT
+	db 12, WOOPER
+	db 11, SLOWPOKE
+	db 13, WOOPER
+	db 13, SLOWPOKE
+	db 13, SLOWPOKE
 
 	map_id SLOWPOKE_WELL_B2F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
@@ -515,32 +515,32 @@ JohtoGrassWildMons:
 	db 23, SLOWPOKE
 	db 23, SLOWPOKE
 
-	map_id ILEX_FOREST
+	map_id ILEX_FOREST ; done
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	db 5, CATERPIE
-	db 5, WEEDLE
-	db 7, METAPOD
-	db 7, KAKUNA
-	db 7, PIDGEY
-	db 6, PARAS
-	db 6, PARAS
+	db 12, PARAS
+	db 12, VENONAT
+	db 14, PARAS
+	db 14, PSYDUCK
+	db 14, MARILL
+	db 13, PARAS
+	db 12, TOTODILE
 	; day
-	db 5, CATERPIE
-	db 5, WEEDLE
-	db 7, METAPOD
-	db 7, KAKUNA
-	db 7, PIDGEY
-	db 6, PARAS
-	db 6, PARAS
+	db 12, PARAS
+	db 12, VENONAT
+	db 14, PSYDUCK
+	db 14, PSYDUCK
+	db 14, MARILL
+	db 13, PARAS
+	db 12, TOTODILE
 	; nite
-	db 5, ODDISH
-	db 5, VENONAT
-	db 7, ODDISH
-	db 7, PSYDUCK
-	db 7, HOOTHOOT
-	db 6, PARAS
-	db 6, PARAS
+	db 12, ODDISH
+	db 12, VENONAT
+	db 14, ODDISH
+	db 14, PSYDUCK
+	db 14, MARILL
+	db 13, PARAS
+	db 12, TOTODILE
 
 	map_id MOUNT_MORTAR_1F_OUTSIDE
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
@@ -1247,56 +1247,56 @@ JohtoGrassWildMons:
 	map_id ROUTE_32 ; done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 4, EKANS
-	db 5, SANDSHREW
-	db 7, NATU
-	db 6, NATU
-	db 7, ABRA
-	db 7, SANDSHREW
-	db 5, CYNDAQUIL
+	db 8, EKANS
+	db 9, SANDSHREW
+	db 11, NATU
+	db 10, NATU
+	db 11, ABRA
+	db 11, SANDSHREW
+	db 9, CYNDAQUIL
 	; day
-	db 4, EKANS
-	db 5, SANDSHREW
-	db 7, NATU
-	db 6, NATU
-	db 7, ABRA
-	db 7, SANDSHREW
-	db 5, CYNDAQUIL
+	db 8, EKANS
+	db 9, SANDSHREW
+	db 11, NATU
+	db 10, NATU
+	db 11, ABRA
+	db 11, SANDSHREW
+	db 9, CYNDAQUIL
 	; nite
-	db 4, EKANS
-	db 5, SANDSHREW
-	db 7, ABRA
-	db 6, WOOPER
-	db 7, HOOTHOOT
-	db 7, SANDSHREW
-	db 5, CYNDAQUIL
+	db 8, EKANS
+	db 9, SANDSHREW
+	db 11, ABRA
+	db 10, WOOPER
+	db 11, HOOTHOOT
+	db 11, SANDSHREW
+	db 9, CYNDAQUIL
 
 	map_id ROUTE_33 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 6, EKANS
-	db 6, SPEAROW
-	db 6, GEODUDE
-	db 6, SANDSHREW
-	db 7, EKANS
-	db 7, ABRA
-	db 5, CYNDAQUIL
+	db 10, EKANS
+	db 10, SPEAROW
+	db 10, GEODUDE
+	db 10, SANDSHREW
+	db 11, EKANS
+	db 11, ABRA
+	db 9, CYNDAQUIL
 	; day
-	db 6, EKANS
-	db 6, SPEAROW
-	db 6, GEODUDE
-	db 6, SANDSHREW
-	db 7, EKANS
-	db 7, ABRA
-	db 5, CYNDAQUIL
+	db 10, EKANS
+	db 10, SPEAROW
+	db 10, GEODUDE
+	db 10, SANDSHREW
+	db 11, EKANS
+	db 11, ABRA
+	db 9, CYNDAQUIL
 	; nite
-	db 6, EKANS
-	db 6, SANDSHREW
-	db 6, GEODUDE
-	db 6, WOOPER
-	db 7, GEODUDE
-	db 7, HOOTHOOT
-	db 5, CYNDAQUIL
+	db 10, EKANS
+	db 10, SANDSHREW
+	db 10, GEODUDE
+	db 10, WOOPER
+	db 11, GEODUDE
+	db 11, HOOTHOOT
+	db 9, CYNDAQUIL
 
 	map_id ROUTE_34
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite

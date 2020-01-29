@@ -47,17 +47,17 @@ BugsyGroup:
 		dw $0150, $0150, $0150, $0150, $0150
 		db SILVERPOWDER
 		db PROTECT, SELFDESTRUCT, REFLECT, PIN_MISSILE
-	db 19, YANMA
+	db 18, YANMA
 		db PERFECT_DV, PERFECT_DV
 		dw $0150, $0150, $0150, $0150, $0150
 		db NO_ITEM
 		db DOUBLE_TEAM, SONICBOOM, QUICK_ATTACK, NO_MOVE
-	db 20, BEEDRILL
+	db 19, BEEDRILL
 		db PERFECT_DV, PERFECT_DV
 		dw $0150, $0150, $0150, $0150, $0150
 		db NO_ITEM
 		db FURY_ATTACK, FOCUS_ENERGY, TWINEEDLE, NO_MOVE
-	db 21, SCYTHER
+	db 20, SCYTHER
 		db PERFECT_DV, PERFECT_DV
 		dw $0150, $0150, $0150, $0150, $0150
 		db SILVERPOWDER
@@ -122,24 +122,75 @@ Rival1Group:
 	db -1 ; end
 
 	; RIVAL1 (4)
-	db "?@", TRAINERTYPE_NORMAL
-	db 12, GASTLY
-	db 14, ZUBAT
-	db 16, BAYLEEF
+	db "?@", TRAINERTYPE_DVS | TRAINERTYPE_STAT_EXP | TRAINERTYPE_ITEM | TRAINERTYPE_MOVES
+	db 18, GLIGAR
+		db PERFECT_DV, PERFECT_DV
+		dw $0150, $0150, $0150, $0150, $0150
+		db KINGS_ROCK
+		db POISON_STING, SAND_ATTACK, QUICK_ATTACK, FURY_CUTTER
+	db 19, STARYU
+		db PERFECT_DV, PERFECT_DV
+		dw $0150, $0150, $0150, $0150, $0150
+		db MYSTIC_WATER
+		db WATER_GUN, RAPID_SPIN, RECOVER, PSYWAVE
+	db 19, VULPIX
+		db PERFECT_DV, PERFECT_DV
+		dw $0150, $0150, $0150, $0150, $0150
+		db CHARCOAL
+		db EMBER, QUICK_ATTACK, ROAR, CONFUSE_RAY
+	db 20, RAI
+		db PERFECT_DV, PERFECT_DV
+		dw $0150, $0150, $0150, $0150, $0150
+		db BERRY_JUICE
+		db THUNDERSHOCK, BITE, ROAR, QUICK_ATTACK
 	db -1 ; end
 
 	; RIVAL1 (5)
-	db "?@", TRAINERTYPE_NORMAL
-	db 12, GASTLY
-	db 14, ZUBAT
-	db 16, QUILAVA
+	db "?@", TRAINERTYPE_DVS | TRAINERTYPE_STAT_EXP | TRAINERTYPE_ITEM | TRAINERTYPE_MOVES
+	db 18, GLIGAR
+		db PERFECT_DV, PERFECT_DV
+		dw $0150, $0150, $0150, $0150, $0150
+		db KINGS_ROCK
+		db POISON_STING, SAND_ATTACK, QUICK_ATTACK, FURY_CUTTER
+	db 19, STARYU
+		db PERFECT_DV, PERFECT_DV
+		dw $0150, $0150, $0150, $0150, $0150
+		db MYSTIC_WATER
+		db WATER_GUN, RAPID_SPIN, RECOVER, PSYWAVE
+	db 19, PIKACHU
+		db PERFECT_DV, PERFECT_DV
+		dw $0150, $0150, $0150, $0150, $0150
+		db MAGNET
+		db THUNDER_WAVE, QUICK_ATTACK, DOUBLE_TEAM, SPARK
+	db 20, EN
+		db PERFECT_DV, PERFECT_DV
+		dw $0150, $0150, $0150, $0150, $0150
+		db BERRY_JUICE
+		db EMBER, BITE, ROAR, FIRE_SPIN
 	db -1 ; end
 
 	; RIVAL1 (6)
 	db "?@", TRAINERTYPE_NORMAL
-	db 12, GASTLY
-	db 14, ZUBAT
-	db 16, CROCONAW
+	db 18, GLIGAR
+		db PERFECT_DV, PERFECT_DV
+		dw $0150, $0150, $0150, $0150, $0150
+		db KINGS_ROCK
+		db POISON_STING, SAND_ATTACK, QUICK_ATTACK, FURY_CUTTER
+	db 19, VULPIX
+		db PERFECT_DV, PERFECT_DV
+		dw $0150, $0150, $0150, $0150, $0150
+		db CHARCOAL
+		db EMBER, QUICK_ATTACK, ROAR, CONFUSE_RAY
+	db 19, PIKACHU
+		db PERFECT_DV, PERFECT_DV
+		dw $0150, $0150, $0150, $0150, $0150
+		db MAGNET
+		db THUNDER_WAVE, QUICK_ATTACK, DOUBLE_TEAM, SPARK
+	db 20, SUI
+		db PERFECT_DV, PERFECT_DV
+		dw $0150, $0150, $0150, $0150, $0150
+		db BERRY_JUICE
+		db WATER_GUN, BITE, ROAR, GUST
 	db -1 ; end
 
 	; RIVAL1 (7)
@@ -382,15 +433,20 @@ YoungsterGroup:
 	db  4, SENTRET
 	db -1 ; end
 
-	; YOUNGSTER (3)
-	db "ALBERT@", TRAINERTYPE_NORMAL
-	db  6, RATTATA
-	db  8, ZUBAT
+	; YOUNGSTER (3) EDIT
+	db "ALBERT@", TRAINERTYPE_ITEM
+	db  10, RATTATA
+		db NO_ITEM
+	db  10, ZUBAT
+		db NO_ITEM
+	db  11, SANDSHREW
+		db BERRY
 	db -1 ; end
 
-	; YOUNGSTER (4)
+	; YOUNGSTER (4) EDIT
 	db "GORDON@", TRAINERTYPE_NORMAL
-	db 10, WOOPER
+	db 13, WOOPER
+	db 13, EKANS
 	db -1 ; end
 
 	; YOUNGSTER (5)
@@ -681,11 +737,14 @@ BirdKeeperGroup:
 	db 36, FARFETCH_D
 	db -1 ; end
 
-	; BIRD_KEEPER (13)
-	db "PETER@", TRAINERTYPE_NORMAL
-	db  6, PIDGEY
-	db  6, PIDGEY
-	db  8, SPEAROW
+	; BIRD_KEEPER (13) EDIT
+	db "PETER@", TRAINERTYPE_ITEM
+	db  10, PIDGEY
+		db NO_ITEM
+	db  11, SPEAROW
+		db NO_ITEM
+	db  13, DODUO
+		db BERRY
 	db -1 ; end
 
 	; BIRD_KEEPER (14)
@@ -1193,9 +1252,9 @@ BeautyGroup:
 	db -1 ; end
 
 PokemaniacGroup:
-	; POKEMANIAC (1)
+	; POKEMANIAC (1) EDIT
 	db "LARRY@", TRAINERTYPE_NORMAL
-	db 10, SLOWPOKE
+	db 12, SLOWPOKE
 	db -1 ; end
 
 	; POKEMANIAC (2)
@@ -1274,16 +1333,27 @@ PokemaniacGroup:
 	db -1 ; end
 
 GruntMGroup:
-	; GRUNTM (1)
-	db "PEON@", TRAINERTYPE_NORMAL
-	db 14, KOFFING
+	; GRUNTM (1) slowpoke well boss
+	db "PEON@", TRAINERTYPE_STAT_EXP | TRAINERTYPE_ITEM | TRAINERTYPE_MOVES
+	db 14, SNUBBULL
+		dw $0150, $0150, $0150, $0150, $0150
+		db BITTER_BERRY
+		db BITE, CHARM, SCARY_FACE, NO_MOVE
+	db 15, HOUNDOUR
+		dw $0150, $0150, $0150, $0150, $0150
+		db CHARCOAL
+		db EMBER, ROAR, SMOG, NO_MOVE
+	db 17, DUNSPARCE
+		dw $0150, $0150, $0150, $0150, $0150
+		db PSNCUREBERRY
+		db ROLLOUT, PURSUIT, SCREECH, ANCIENTPOWER
 	db -1 ; end
 
-	; GRUNTM (2)
+	; GRUNTM (2) slowpoke well
 	db "PEON@", TRAINERTYPE_NORMAL
-	db  7, RATTATA
-	db  9, ZUBAT
-	db  9, ZUBAT
+	db  13, SENTRET
+	db  15, NATU
+	db  15, NATU
 	db -1 ; end
 
 	; GRUNTM (3)
@@ -1446,10 +1516,10 @@ GruntMGroup:
 	db 19, RATICATE
 	db -1 ; end
 
-	; GRUNTM (29)
+	; GRUNTM (29) slowpoke well
 	db "PEON@", TRAINERTYPE_NORMAL
-	db  9, RATTATA
-	db  9, RATTATA
+	db  15, SNUBBULL
+	db  17, SPINARAK
 	db -1 ; end
 
 	; GRUNTM (30)
@@ -1556,22 +1626,22 @@ BugCatcherGroup:
 	db  6, LEDYBA
 	db -1 ; end
 
-	; BUG_CATCHER (5)
+	; BUG_CATCHER (5) EDIT
 	db "BENNY@", TRAINERTYPE_NORMAL
-	db  7, WEEDLE
-	db  9, KAKUNA
-	db 12, BEEDRILL
+	db  15, WEEDLE
+	db  15, KAKUNA
+	db  15, BEEDRILL
 	db -1 ; end
 
-	; BUG_CATCHER (6)
+	; BUG_CATCHER (6) EDIT
 	db "AL@", TRAINERTYPE_NORMAL
-	db 12, CATERPIE
-	db 12, WEEDLE
+	db 17, PARAS
+	db 16, VENONAT
 	db -1 ; end
 
-	; BUG_CATCHER (7)
+	; BUG_CATCHER (7) EDIT
 	db "JOSH@", TRAINERTYPE_NORMAL
-	db 13, PARAS
+	db 18, YANMA
 	db -1 ; end
 
 	; BUG_CATCHER (8)
@@ -1642,24 +1712,25 @@ BugCatcherGroup:
 	db 40, VENOMOTH,   GUST, SUPERSONIC, PSYCHIC_M, TOXIC
 	db -1 ; end
 
-	; BUG_CATCHER (19)
+	; BUG_CATCHER (19) EDIT
 	db "WAYNE@", TRAINERTYPE_NORMAL
-	db  8, LEDYBA
-	db 10, PARAS
+	db  18, LEDIAN
+	db  19, PINECO
 	db -1 ; end
 
 FisherGroup:
-	; FISHER (1)
+	; FISHER (1) EDIT
 	db "JUSTIN@", TRAINERTYPE_NORMAL
-	db  5, MAGIKARP
-	db  5, MAGIKARP
+	db  9, MAGIKARP
+	db  9, MAGIKARP
 	db 15, MAGIKARP
-	db  5, MAGIKARP
+	db  9, MAGIKARP
 	db -1 ; end
 
-	; FISHER (2)
+	; FISHER (2) EDIT
 	db "RALPH@", TRAINERTYPE_NORMAL
-	db 10, GOLDEEN
+	db 11, GOLDEEN
+	db 13, WOOPER
 	db -1 ; end
 
 	; FISHER (3)
@@ -1674,10 +1745,10 @@ FisherGroup:
 	db 31, SEAKING
 	db -1 ; end
 
-	; FISHER (5)
+	; FISHER (5) EDIT
 	db "HENRY@", TRAINERTYPE_NORMAL
-	db  8, POLIWAG
-	db  8, POLIWAG
+	db  11, POLIWAG
+	db  12, GOLDEEN
 	db -1 ; end
 
 	; FISHER (6)
@@ -2309,11 +2380,11 @@ HikerGroup:
 	db 18, MACHAMP
 	db -1 ; end
 
-	; HIKER (2)
+	; HIKER (2) EDIT
 	db "RUSSELL@", TRAINERTYPE_NORMAL
-	db  4, GEODUDE
 	db  6, GEODUDE
 	db  8, GEODUDE
+	db  11, GEODUDE
 	db -1 ; end
 
 	; HIKER (3)
@@ -2329,10 +2400,10 @@ HikerGroup:
 	db 25, MACHOP
 	db -1 ; end
 
-	; HIKER (5)
+	; HIKER (5) ; EDIT, this one is actually his first battle for some reason
 	db "ANTHONY@", TRAINERTYPE_NORMAL
-	db 11, GEODUDE
-	db 11, MACHOP
+	db 13, GEODUDE
+	db 14, MACHOP
 	db -1 ; end
 
 	; HIKER (6)
@@ -2416,7 +2487,7 @@ HikerGroup:
 	db 35, MACHAMP
 	db -1 ; end
 
-	; HIKER (18)
+	; HIKER (18) EDIT
 	db "DANIEL@", TRAINERTYPE_NORMAL
 	db 11, ONIX
 	db -1 ; end
@@ -2562,10 +2633,11 @@ FirebreatherGroup:
 	db 32, SLUGMA
 	db -1 ; end
 
-	; FIREBREATHER (5)
+	; FIREBREATHER (5) EDIT
 	db "BILL@", TRAINERTYPE_NORMAL
-	db  6, KOFFING
-	db  6, KOFFING
+	db  10, KOFFING
+	db  10, KOFFING
+	db  12, CYNDAQUIL
 	db -1 ; end
 
 	; FIREBREATHER (6)
@@ -2574,9 +2646,9 @@ FirebreatherGroup:
 	db 13, MAGMAR
 	db -1 ; end
 
-	; FIREBREATHER (7)
+	; FIREBREATHER (7) EDIT
 	db "RAY@", TRAINERTYPE_NORMAL
-	db  9, VULPIX
+	db  13, VULPIX
 	db -1 ; end
 
 	; FIREBREATHER (8)
@@ -2795,9 +2867,9 @@ PsychicGroup:
 	db -1 ; end
 
 PicnickerGroup:
-	; PICNICKER (1)
+	; PICNICKER (1) EDIT
 	db "LIZ@", TRAINERTYPE_NORMAL
-	db  9, NIDORAN_F
+	db  13, NIDORAN_F
 	db -1 ; end
 
 	; PICNICKER (2)
@@ -2950,9 +3022,10 @@ PicnickerGroup:
 	db -1 ; end
 
 CamperGroup:
-	; CAMPER (1)
+	; CAMPER (1) EDIT
 	db "ROLAND@", TRAINERTYPE_NORMAL
-	db  9, NIDORAN_M
+	db  12, NIDORAN_M
+	db  13, AIPOM
 	db -1 ; end
 
 	; CAMPER (2)
@@ -3372,10 +3445,12 @@ KimonoGirlGroup:
 	db -1 ; end
 
 TwinsGroup:
-	; TWINS (1)
-	db "AMY & MAY@", TRAINERTYPE_NORMAL
-	db 10, SPINARAK
-	db 10, LEDYBA
+	; TWINS (1) EDIT
+	db "AMY & MAY@", TRAINERTYPE_ITEM
+	db 16, SPINARAK
+		db BERRY
+	db 16, LEDYBA
+		db BERRY
 	db -1 ; end
 
 	; TWINS (2)
@@ -3502,10 +3577,10 @@ OfficerGroup:
 	db -1 ; end
 
 GruntFGroup:
-	; GRUNTF (1)
+	; GRUNTF (1) slowpoke well
 	db "PEON@", TRAINERTYPE_NORMAL
-	db  9, ZUBAT
-	db 11, EKANS
+	db 15, HOOTHOOT
+	db 15, MAREEP
 	db -1 ; end
 
 	; GRUNTF (2)
