@@ -716,12 +716,13 @@ BallMultiplierFunctionTable:
 	dbw ULTRA_BALL,  UltraBallMultiplier
 	dbw GREAT_BALL,  GreatBallMultiplier
 	dbw SAFARI_BALL, SafariBallMultiplier ; Safari Ball, leftover from RBY
-	dbw HEAVY_BALL,  HeavyBallMultiplier
+	dbw HEAVY_BALL,  HeavyBallMultiplier ; dawn ball
 	dbw LEVEL_BALL,  LevelBallMultiplier
-	dbw LURE_BALL,   LureBallMultiplier
+	dbw LURE_BALL,   LureBallMultiplier ; cave ball
 	dbw FAST_BALL,   FastBallMultiplier
-	dbw MOON_BALL,   MoonBallMultiplier
-	dbw LOVE_BALL,   LoveBallMultiplier
+	dbw MOON_BALL,   MoonBallMultiplier ; tropic ball
+	dbw LOVE_BALL,   LoveBallMultiplier ; lust ball
+	dbw FRIEND_BALL, FriendBallMultiplier ; bond ball
 	dbw PARK_BALL,   ParkBallMultiplier
 	db -1 ; end
 
@@ -744,132 +745,11 @@ ParkBallMultiplier:
 	ld b, $ff
 	ret
 
-GetPokedexEntryBank:
-	push hl
-	push de
-	ld a, [wEnemyMonSpecies]
-	rlca
-	rlca
-	maskbits NUM_DEX_ENTRY_BANKS
-	ld hl, .PokedexEntryBanks
-	ld d, 0
-	ld e, a
-	add hl, de
-	ld a, [hl]
-	pop de
-	pop hl
-	ret
+;GetPokedexEntryBank for heavy ball used to be here
 
-.PokedexEntryBanks:
-	db BANK("Pokedex Entries 001-064")
-	db BANK("Pokedex Entries 065-128")
-	db BANK("Pokedex Entries 129-192")
-	db BANK("Pokedex Entries 193-251")
-
-HeavyBallMultiplier:
-; subtract 20 from catch rate if weight < 102.4 kg
-; else add 0 to catch rate if weight < 204.8 kg
-; else add 20 to catch rate if weight < 307.2 kg
-; else add 30 to catch rate if weight < 409.6 kg
-; else add 40 to catch rate (never happens)
-	ld a, [wEnemyMonSpecies]
-	ld hl, PokedexDataPointerTable
-	dec a
-	ld e, a
-	ld d, 0
-	add hl, de
-	add hl, de
-	ld a, BANK(PokedexDataPointerTable)
-	call GetFarHalfword
-
-.SkipText:
-	call GetPokedexEntryBank
-	call GetFarByte
-	inc hl
-	cp "@"
-	jr nz, .SkipText
-
-	call GetPokedexEntryBank
-	push bc
-	inc hl
-	inc hl
-	call GetFarHalfword
-
-	srl h
-	rr l
-	ld b, h
-	ld c, l
-
-rept 4
-	srl b
-	rr c
-endr
-	call .subbc
-
-	srl b
-	rr c
-	call .subbc
-
-	ld a, h
-	pop bc
-	jr .compare
-
-.subbc
-	; subtract bc from hl
-	push bc
-	ld a, b
-	cpl
-	ld b, a
-	ld a, c
-	cpl
-	ld c, a
-	inc bc
-	add hl, bc
-	pop bc
-	ret
-
-.compare
-	ld c, a
-	cp HIGH(1024) ; 102.4 kg
-	jr c, .lightmon
-
-	ld hl, .WeightsTable
-.lookup
-	ld a, c
-	cp [hl]
-	jr c, .heavymon
-	inc hl
-	inc hl
-	jr .lookup
-
-.heavymon
-	inc hl
-	ld a, b
-	add [hl]
-	ld b, a
-	ret nc
-	ld b, $ff
-	ret
-
-.lightmon
-	ld a, b
-	sub 20
-	ld b, a
-	ret nc
-	ld b, $1
-	ret
-
-.WeightsTable:
-; weight factor, boost
-	db HIGH(2048),   0
-	db HIGH(3072),  20
-	db HIGH(4096),  30
-	db HIGH(65280), 40
-
-LureBallMultiplier:
-; multiply catch rate by 3 if this is a fishing rod battle
-	ld a, [wBattleType]
-	cp BATTLETYPE_FISH
+HeavyBallMultiplier: ; turned into dawn ball
+	ld a, [wTimeOfDay]
+	cp MORNING
 	ret nz
 
 	ld a, b
@@ -884,10 +764,27 @@ LureBallMultiplier:
 	ld b, a
 	ret
 
-MoonBallMultiplier:
-; This function is buggy.
-; Intent:  multiply catch rate by 4 if mon evolves with moon stone
-; Reality: no boost
+
+LureBallMultiplier: ; turned into cave ball, the most ez of these new balls
+; multiply catch rate by 3 if you're currently in a map considered a cave
+	ld a, [wEnviroment]
+	cp CAVE
+	ret nz
+
+	ld a, b
+	add a
+	jr c, .max
+
+	add b
+	jr nc, .done
+.max
+	ld a, $ff
+.done
+	ld b, a
+	ret
+
+FriendBallMultiplier:
+; new function for bond ball based on code from moon ball
 	push bc
 	ld a, [wTempEnemyMonSpecies]
 	dec a
@@ -903,7 +800,7 @@ MoonBallMultiplier:
 	push bc
 	ld a, BANK("Evolutions and Attacks")
 	call GetFarByte
-	cp EVOLVE_ITEM
+	cp EVOLVE_HAPPINESS
 	pop bc
 	ret nz
 
@@ -911,16 +808,7 @@ MoonBallMultiplier:
 	inc hl
 	inc hl
 
-; Moon Stone's constant from Pokémon Red is used.
-; No Pokémon evolve with Burn Heal,
-; so Moon Balls always have a catch rate of 1×.
-	push bc
-	ld a, BANK("Evolutions and Attacks")
-	call GetFarByte
-	cp MOON_STONE_RED ; BURN_HEAL
-	pop bc
-	ret nz
-
+;this is where moon ball's stone check was but that's not needed for bond ball
 	sla b
 	jr c, .max
 	sla b
@@ -929,106 +817,169 @@ MoonBallMultiplier:
 	ld b, $ff
 .done
 	ret
+	
+	
+	
+MoonBallMultiplier: ; tropic ball
+	farcall RegionCheck
+	ld a, e
+	and a
+	jr nz, .bonusAwarded ; if in Marina Islands (kantooooo)
+	
+	ld a, [wMapGroup]
+	cp GROUP_AZALEA_TOWN ; when you're in the desert areas
+	jr z, .bonusAwarded
+	
+	ld a, [wMapGroup]
+	cp GROUP_DUNGEONS
+	jr nz, .forceEnd
+	ld a, [wMapNumber]
+	cp MAP_ILEX_FOREST ; or ilex forest specifically
+	jr z, .bonusAwarded
+	
+.forceEnd
+	ret ; when you're not in M.I. or one of the select johto maps
+	
+.bonusAwarded ;this whole part for a 3x multiplier is from lure ball, I hope it works
+	ld a, b
+	add a
+	jr c, .max
 
-LoveBallMultiplier:
-; This function is buggy.
-; Intent:  multiply catch rate by 8 if mons are of same species, different sex
-; Reality: multiply catch rate by 8 if mons are of same species, same sex
+	add b
+	jr nc, .done
+.max
+	ld a, $ff
+.done
+	ld b, a
+	ret
 
-	; does species match?
-	ld a, [wTempEnemyMonSpecies]
-	ld c, a
+	
+LoveBallMultiplier: ;lust ball; a shitload of modified breed check code
+	call .CheckBreedingGroupCompatibilityLB
+	ld c, $0
+	jp nc, .done
 	ld a, [wTempBattleMonSpecies]
-	cp c
-	ret nz
+	;in the breeding code this was where DV checks were
+	predef GetGender
+	jr c, .genderless
+	ld b, $1
+	jr nz, .breedmon2
+	inc b
 
-	; check player mon species
+.breedmon2
 	push bc
-	ld a, [wTempBattleMonSpecies]
-	ld [wCurPartySpecies], a
-	xor a ; PARTYMON
-	ld [wMonType], a
-	ld a, [wCurBattleMon]
-	ld [wCurPartyMon], a
-	farcall GetGender
-	jr c, .done1 ; no effect on genderless
-
-	ld d, 0 ; male
-	jr nz, .playermale
-	inc d   ; female
-.playermale
-
-	; check wild mon species
-	push de
 	ld a, [wTempEnemyMonSpecies]
-	ld [wCurPartySpecies], a
-	ld a, WILDMON
-	ld [wMonType], a
-	farcall GetGender
-	jr c, .done2 ; no effect on genderless
+	;DVs
+	predef GetGender
+	pop bc
+	jr c, .genderless
+	ld a, $1
+	jr nz, .compare_gender
+	inc a
 
-	ld d, 0 ; male
-	jr nz, .wildmale
-	inc d   ; female
-.wildmale
+.compare_gender
+	cp b
+	jr nz, .done
+
+.genderless
+	ld c, $0
+	ld a, [wTempBattleMonSpecies]
+	cp DITTO
+	jr z, .ditto1
+	ld a, [wTempEnemyMonSpecies]
+	cp DITTO
+	jr nz, .done
+	jr .compute
+
+.ditto1
+	ld a, [wTempEnemyMonSpecies]
+	cp DITTO
+	jr z, .done
+
+.done
+	ld a, c
+	ld [wBreedingCompatibility], a
+	ret
+
+
+.CheckBreedingGroupCompatibilityLB:
+; If either mon is in the No Eggs group,
+; they are not compatible.
+	ld a, [wTempEnemyMonSpecies]
+	ld [wCurSpecies], a
+	call GetBaseData
+	ld a, [wBaseEggGroups]
+	cp EGG_NONE * $11
+	jr z, .Incompatible
+
+	ld a, [wTempBattleMonSpecies]
+	ld [wCurSpecies], a
+	call GetBaseData
+	ld a, [wBaseEggGroups]
+	cp EGG_NONE * $11
+	jr z, .Incompatible
+
+; Ditto is automatically compatible with everything.
+; If not Ditto, load the breeding groups into b/c and d/e.
+	ld a, [wTempEnemyMonSpecies]
+	cp DITTO
+	jr z, .Compatible
+	ld [wCurSpecies], a
+	call GetBaseData
+	ld a, [wBaseEggGroups]
+	push af
+	and $f
+	ld b, a
+	pop af
+	and $f0
+	swap a
+	ld c, a
+
+	ld a, [wTempBattleMonSpecies]
+	cp DITTO
+	jr z, .Compatible
+	ld [wCurSpecies], a
+	push bc
+	call GetBaseData
+	pop bc
+	ld a, [wBaseEggGroups]
+	push af
+	and $f
+	ld d, a
+	pop af
+	and $f0
+	swap a
+	ld e, a
 
 	ld a, d
-	pop de
-	cp d
-	pop bc
-	ret nz ; for the intended effect, this should be "ret z"
-
-	sla b
-	jr c, .max
-	sla b
-	jr c, .max
-	sla b
-	ret nc
-.max
-	ld b, $ff
-	ret
-
-.done2
-	pop de
-
-.done1
-	pop bc
-	ret
-
-FastBallMultiplier:
-; This function is buggy.
-; Intent:  multiply catch rate by 4 if enemy mon is in one of the three
-;          FleeMons tables.
-; Reality: multiply catch rate by 4 if enemy mon is one of the first three in
-;          the first FleeMons table.
-	ld a, [wTempEnemyMonSpecies]
-	ld c, a
-	ld hl, FleeMons
-	ld d, 3
-
-.loop
-	ld a, BANK(FleeMons)
-	call GetFarByte
-
-	inc hl
-	cp -1
-	jr z, .next
+	cp b
+	jr z, .Compatible
 	cp c
-	jr nz, .next ; for the intended effect, this should be "jr nz, .loop"
-	sla b
-	jr c, .max
+	jr z, .Compatible
 
-	sla b
-	ret nc
+	ld a, e
+	cp b
+	jr z, .Compatible
+	cp c
+	jr z, .Compatible
+
+.Incompatible:
+	and a
+	ret
+
+.Compatible:
+	scf
+	sla b ; code from level ball for 4x? hopefully
+	jr c, .max
 
 .max
 	ld b, $ff
 	ret
 
-.next
-	dec d
-	jr nz, .loop
-	ret
+
+	
+FastBallMultiplier: ; palette ball
+; work in bepis 1/30
 
 LevelBallMultiplier:
 ; multiply catch rate by 8 if player mon level / 4 > enemy mon level
