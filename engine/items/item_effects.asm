@@ -163,12 +163,12 @@ ItemEffects:
 	dw NoEffect            ; ITEM_94
 	dw NoEffect            ; ITEM_95
 	dw RestorePPEffect     ; MYSTERYBERRY
-	dw NoEffect            ; DRAGON_SCALE
+	dw EvoStoneEffect            ; DRAGON_SCALE (you can just use it on kingdra now)
 	dw NoEffect            ; BERSERK_GENE
-	dw NoEffect            ; ITEM_99
-	dw NoEffect            ; ITEM_9A
-	dw NoEffect            ; ITEM_9B
-	dw SacredAshEffect     ; SACRED_ASH
+	dw EvoStoneEffect            ; CROWN_STONE (evo stone version of king's rock)
+	dw EvoStoneEffect            ; METAL_ADAPTER (evo stone version of metal coat)
+	dw SacredAshEffect            ; TEAM MEDKIT
+	dw EvoStoneEffect     ; SACRED_ASH (changed to the evo item for the legendary beasts)
 	dw PokeBallEffect      ; HEAVY_BALL
 	dw NoEffect            ; FLOWER_MAIL
 	dw PokeBallEffect      ; LEVEL_BALL
@@ -328,7 +328,7 @@ PokeBallEffect:
 	and 1 << FRZ | SLP
 	ld c, 10
 	jr nz, .addstatus
-	; ld a, [wEnemyMonStatus]
+	ld a, [wEnemyMonStatus] ;uncommented
 	and a
 	ld c, 5
 	jr nz, .addstatus
@@ -346,7 +346,7 @@ PokeBallEffect:
 	ld d, a
 	push de
 	ld a, [wBattleMonItem]
-	; ld b, a
+	ld b, a ;uncommented
 	farcall GetItemHeldEffect
 	ld a, b
 	cp HELD_CATCH_CHANCE
@@ -719,7 +719,7 @@ BallMultiplierFunctionTable:
 	dbw HEAVY_BALL,  HeavyBallMultiplier ; dawn ball
 	dbw LEVEL_BALL,  LevelBallMultiplier
 	dbw LURE_BALL,   LureBallMultiplier ; cave ball
-	dbw FAST_BALL,   FastBallMultiplier
+	dbw FAST_BALL,   FastBallMultiplier ; palette ball
 	dbw MOON_BALL,   MoonBallMultiplier ; tropic ball
 	dbw LOVE_BALL,   LoveBallMultiplier ; lust ball
 	dbw FRIEND_BALL, FriendBallMultiplier ; bond ball
@@ -749,7 +749,7 @@ ParkBallMultiplier:
 
 HeavyBallMultiplier: ; turned into dawn ball
 	ld a, [wTimeOfDay]
-	cp MORNING
+	cp MORN_F
 	ret nz
 
 	ld a, b
@@ -767,7 +767,7 @@ HeavyBallMultiplier: ; turned into dawn ball
 
 LureBallMultiplier: ; turned into cave ball, the most ez of these new balls
 ; multiply catch rate by 3 if you're currently in a map considered a cave
-	ld a, [wEnviroment]
+	ld a, [wEnvironment]
 	cp CAVE
 	ret nz
 
@@ -821,7 +821,9 @@ FriendBallMultiplier:
 	
 	
 MoonBallMultiplier: ; tropic ball
+	push bc ; putting bc in stack
 	farcall RegionCheck
+	pop bc ; pulling bc out of the stack
 	ld a, e
 	and a
 	jr nz, .bonusAwarded ; if in Marina Islands (kantooooo)
@@ -831,14 +833,11 @@ MoonBallMultiplier: ; tropic ball
 	jr z, .bonusAwarded
 	
 	ld a, [wMapGroup]
-	cp GROUP_DUNGEONS
-	jr nz, .forceEnd
+	cp GROUP_ILEX_FOREST ; figured this would be group_dungeons but rangi suggested
+	ret nz ; return if not in this group, no more places to check
 	ld a, [wMapNumber]
 	cp MAP_ILEX_FOREST ; or ilex forest specifically
-	jr z, .bonusAwarded
-	
-.forceEnd
-	ret ; when you're not in M.I. or one of the select johto maps
+	ret nz
 	
 .bonusAwarded ;this whole part for a 3x multiplier is from lure ball, I hope it works
 	ld a, b
@@ -855,24 +854,28 @@ MoonBallMultiplier: ; tropic ball
 
 	
 LoveBallMultiplier: ;lust ball; a shitload of modified breed check code
-	call .CheckBreedingGroupCompatibilityLB
+	push bc ; stack (ball)
+	call CheckBreedingGroupCompatibilityLB
+	pop bc ; stack (empty)
 	ld c, $0
 	jp nc, .done
 	ld a, [wTempBattleMonSpecies]
-	;in the breeding code this was where DV checks were
+	;in the breeding code this was where DV checks were but that's not needed here
+	push bc ; stack (ball)
 	predef GetGender
 	jr c, .genderless
 	ld b, $1
 	jr nz, .breedmon2
 	inc b
+	pop bc ; stack (empty)
 
 .breedmon2
-	push bc
+	push bc ; stack (ball)
 	ld a, [wTempEnemyMonSpecies]
-	;DVs
+	;DV checks were here
 	predef GetGender
-	pop bc
 	jr c, .genderless
+	pop bc ; stack (empty)
 	ld a, $1
 	jr nz, .compare_gender
 	inc a
@@ -889,7 +892,7 @@ LoveBallMultiplier: ;lust ball; a shitload of modified breed check code
 	ld a, [wTempEnemyMonSpecies]
 	cp DITTO
 	jr nz, .done
-	jr .compute
+	;jr .compute
 
 .ditto1
 	ld a, [wTempEnemyMonSpecies]
@@ -902,7 +905,7 @@ LoveBallMultiplier: ;lust ball; a shitload of modified breed check code
 	ret
 
 
-.CheckBreedingGroupCompatibilityLB:
+CheckBreedingGroupCompatibilityLB:
 ; If either mon is in the No Eggs group,
 ; they are not compatible.
 	ld a, [wTempEnemyMonSpecies]
@@ -927,10 +930,10 @@ LoveBallMultiplier: ;lust ball; a shitload of modified breed check code
 	ld [wCurSpecies], a
 	call GetBaseData
 	ld a, [wBaseEggGroups]
-	push af
+	push af ; stack (af)
 	and $f
 	ld b, a
-	pop af
+	pop af ; stack (empty)
 	and $f0
 	swap a
 	ld c, a
@@ -939,14 +942,14 @@ LoveBallMultiplier: ;lust ball; a shitload of modified breed check code
 	cp DITTO
 	jr z, .Compatible
 	ld [wCurSpecies], a
-	push bc
+	push bc ; stack (bc)
 	call GetBaseData
-	pop bc
+	pop bc ; stack (empty)
 	ld a, [wBaseEggGroups]
-	push af
+	push af ; stack (af)
 	and $f
 	ld d, a
-	pop af
+	pop af ; stack (empty)
 	and $f0
 	swap a
 	ld e, a
@@ -964,11 +967,13 @@ LoveBallMultiplier: ;lust ball; a shitload of modified breed check code
 	jr z, .Compatible
 
 .Incompatible:
+	; b should at this point be where it needs to be
 	and a
 	ret
 
 .Compatible:
-	scf
+	; b should at this point be where it needs to be
+	scf ; not sure what this bit does
 	sla b ; code from level ball for 4x? hopefully
 	jr c, .max
 
@@ -976,10 +981,46 @@ LoveBallMultiplier: ;lust ball; a shitload of modified breed check code
 	ld b, $ff
 	ret
 
-
+INCLUDE "data/pokemon/dex_colors.asm" ; so I don't have to bankswitch
 	
-FastBallMultiplier: ; palette ball
-; work in bepis 1/30
+FastBallMultiplier: ; palette ball, work in progress
+	push bc
+	ld a, [wTempBattleMonSpecies]
+	dec a ; have to decrement a because pokemon start at 1 not 0; BULBASAUR == 1 but is the 0th entry in DexColors
+	ld c, a
+	ld b, 0
+	ld hl, DexColors ;DexColors is a byte lookup list with some constants in national dex order
+	add hl, bc ; get the table position of your battle mon
+	ld a, [hl]
+	;there was an "and a" in these parts, no longer here because it was used with ret z to and a to itself for the zero check
+	ld d, a ; moving the result from the first check to register d
+	
+	ld a, [wTempEnemyMonSpecies] ; doing the same thing but with enemy mon
+	dec a
+	ld c, a
+	ld b, 0
+	ld hl, DexColors
+	add hl, bc ; get the table position of enemy mon
+	ld a, [hl]
+	;there was an "and a" in these parts, no longer here because it was used with ret z to and a to itself for the zero check
+	
+	cp d ; comparing the value for enemy now in a to the player mon value in d
+	pop bc ; pop the ball multiplier back out
+	ret nz ; return if not a match, fallthrough to bonus if it is
+	
+.colorsMatch ; bonus awarded here
+	ld a, b
+	add a
+	jr c, .max
+
+	add b
+	jr nc, .done
+.max
+	ld a, $ff
+.done
+	ld b, a
+	ret
+	
 
 LevelBallMultiplier:
 ; multiply catch rate by 8 if player mon level / 4 > enemy mon level

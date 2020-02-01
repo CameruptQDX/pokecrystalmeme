@@ -1,16 +1,16 @@
 ;dex colors as seen in later gens
 ;I'm setting this up for the Palette Ball but I'll actually make it dex searchable later too
-
-DEX_RED EQU $00
-DEX_BLUE EQU $01
-DEX_YELLOW EQU $02
-DEX_GREEN EQU $03
-DEX_BLACK EQU $04
-DEX_BROWN EQU $05
-DEX_PURPLE EQU $06
-DEX_GRAY EQU $07
-DEX_WHITE EQU $08
-DEX_PINK EQU $09
+	const_def
+	const DEX_RED
+	const DEX_BLUE
+	const DEX_YELLOW
+	const DEX_GREEN
+	const DEX_BLACK
+	const DEX_BROWN
+	const DEX_PURPLE
+	const DEX_GRAY
+	const DEX_WHITE
+	const DEX_PINK
 
 ; these are in national dex order as usual with these lists
 
@@ -30,7 +30,7 @@ DexColors::
 	db DEX_BROWN
 	db DEX_YELLOW
 	db DEX_YELLOW
-	db DEX_BROWN
+	db DEX_BROWN ; pidgey
 	db DEX_BROWN
 	db DEX_BROWN
 	db DEX_PURPLE
@@ -179,7 +179,7 @@ DexColors::
     db DEX_BROWN
     db DEX_BROWN
     db DEX_BROWN
-    db DEX_RED
+    db DEX_RED ; ledyba
     db DEX_RED
     db DEX_GREEN
     db DEX_RED
