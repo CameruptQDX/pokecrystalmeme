@@ -986,23 +986,11 @@ INCLUDE "data/pokemon/dex_colors.asm" ; so I don't have to bankswitch
 FastBallMultiplier: ; palette ball, work in progress
 	push bc
 	ld a, [wTempBattleMonSpecies]
-	dec a ; have to decrement a because pokemon start at 1 not 0; BULBASAUR == 1 but is the 0th entry in DexColors
-	ld c, a
-	ld b, 0
-	ld hl, DexColors ;DexColors is a byte lookup list with some constants in national dex order
-	add hl, bc ; get the table position of your battle mon
-	ld a, [hl]
-	;there was an "and a" in these parts, no longer here because it was used with ret z to and a to itself for the zero check
+	call GetDexColor
 	ld d, a ; moving the result from the first check to register d
 	
 	ld a, [wTempEnemyMonSpecies] ; doing the same thing but with enemy mon
-	dec a
-	ld c, a
-	ld b, 0
-	ld hl, DexColors
-	add hl, bc ; get the table position of enemy mon
-	ld a, [hl]
-	;there was an "and a" in these parts, no longer here because it was used with ret z to and a to itself for the zero check
+	call GetDexColor
 	
 	cp d ; comparing the value for enemy now in a to the player mon value in d
 	pop bc ; pop the ball multiplier back out
@@ -1020,7 +1008,15 @@ FastBallMultiplier: ; palette ball, work in progress
 .done
 	ld b, a
 	ret
-	
+
+GetDexColor:
+    dec a ; have to decrement a because pokemon start at 1 not 0; BULBASAUR == 1 but is the 0th entry in DexColors
+	ld c, a
+	ld b, 0
+	ld hl, DexColors ;DexColors is a byte lookup list with some constants in national dex order
+	add hl, bc ; get the table position of your battle mon
+	ld a, [hl]
+	ret
 
 LevelBallMultiplier:
 ; multiply catch rate by 8 if player mon level / 4 > enemy mon level
