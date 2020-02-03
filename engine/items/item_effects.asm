@@ -853,137 +853,74 @@ MoonBallMultiplier: ; tropic ball
 	ret
 
 	
-LoveBallMultiplier: ;lust ball; a shitload of modified breed check code
-	push bc ; stack (ball)
-	call CheckBreedingGroupCompatibilityLB
-	pop bc ; stack (empty)
-	ld c, $0
-	jp nc, .done
-	ld a, [wTempBattleMonSpecies]
-	;in the breeding code this was where DV checks were but that's not needed here
-	push bc ; stack (ball)
-	predef GetGender
-	jr c, .genderless
-	ld b, $1
-	jr nz, .breedmon2
-	inc b
-	pop bc ; stack (empty)
+LoveBallMultiplier: ;lust ball, just put love ball code back for now
+; This function is buggy.
+; Intent:  multiply catch rate by 8 if mons are of same species, different sex
+; Reality: multiply catch rate by 8 if mons are of same species, same sex
 
-.breedmon2
-	push bc ; stack (ball)
+	; does species match?
 	ld a, [wTempEnemyMonSpecies]
-	;DV checks were here
-	predef GetGender
-	jr c, .genderless
-	pop bc ; stack (empty)
-	ld a, $1
-	jr nz, .compare_gender
-	inc a
-
-.compare_gender
-	cp b
-	jr nz, .done
-
-.genderless
-	ld c, $0
-	ld a, [wTempBattleMonSpecies]
-	cp DITTO
-	jr z, .ditto1
-	ld a, [wTempEnemyMonSpecies]
-	cp DITTO
-	jr nz, .done
-	;jr .compute
-
-.ditto1
-	ld a, [wTempEnemyMonSpecies]
-	cp DITTO
-	jr z, .done
-
-.done
-	ld a, c
-	ld [wBreedingCompatibility], a
-	ret
-
-
-CheckBreedingGroupCompatibilityLB:
-; If either mon is in the No Eggs group,
-; they are not compatible.
-	ld a, [wTempEnemyMonSpecies]
-	ld [wCurSpecies], a
-	call GetBaseData
-	ld a, [wBaseEggGroups]
-	cp EGG_NONE * $11
-	jr z, .Incompatible
-
-	ld a, [wTempBattleMonSpecies]
-	ld [wCurSpecies], a
-	call GetBaseData
-	ld a, [wBaseEggGroups]
-	cp EGG_NONE * $11
-	jr z, .Incompatible
-
-; Ditto is automatically compatible with everything.
-; If not Ditto, load the breeding groups into b/c and d/e.
-	ld a, [wTempEnemyMonSpecies]
-	cp DITTO
-	jr z, .Compatible
-	ld [wCurSpecies], a
-	call GetBaseData
-	ld a, [wBaseEggGroups]
-	push af ; stack (af)
-	and $f
-	ld b, a
-	pop af ; stack (empty)
-	and $f0
-	swap a
 	ld c, a
-
 	ld a, [wTempBattleMonSpecies]
-	cp DITTO
-	jr z, .Compatible
-	ld [wCurSpecies], a
-	push bc ; stack (bc)
-	call GetBaseData
-	pop bc ; stack (empty)
-	ld a, [wBaseEggGroups]
-	push af ; stack (af)
-	and $f
-	ld d, a
-	pop af ; stack (empty)
-	and $f0
-	swap a
-	ld e, a
+	cp c
+	ret nz
+
+	; check player mon species
+	push bc
+	ld a, [wTempBattleMonSpecies]
+	ld [wCurPartySpecies], a
+	xor a ; PARTYMON
+	ld [wMonType], a
+	ld a, [wCurBattleMon]
+	ld [wCurPartyMon], a
+	farcall GetGender
+	jr c, .done1 ; no effect on genderless
+
+	ld d, 0 ; male
+	jr nz, .playermale
+	inc d   ; female
+.playermale
+
+	; check wild mon species
+	push de
+	ld a, [wTempEnemyMonSpecies]
+	ld [wCurPartySpecies], a
+	ld a, WILDMON
+	ld [wMonType], a
+	farcall GetGender
+	jr c, .done2 ; no effect on genderless
+
+	ld d, 0 ; male
+	jr nz, .wildmale
+	inc d   ; female
+.wildmale
 
 	ld a, d
-	cp b
-	jr z, .Compatible
-	cp c
-	jr z, .Compatible
+	pop de
+	cp d
+	pop bc
+	ret z ; for the intended effect, this should be "ret z"
 
-	ld a, e
-	cp b
-	jr z, .Compatible
-	cp c
-	jr z, .Compatible
-
-.Incompatible:
-	; b should at this point be where it needs to be
-	and a
-	ret
-
-.Compatible:
-	; b should at this point be where it needs to be
-	scf ; not sure what this bit does
-	sla b ; code from level ball for 4x? hopefully
+	sla b
 	jr c, .max
-
+	sla b
+	jr c, .max
+	sla b
+	ret nc
 .max
 	ld b, $ff
 	ret
 
+.done2
+	pop de
+
+.done1
+	pop bc
+	ret
+
 INCLUDE "data/pokemon/dex_colors.asm" ; so I don't have to bankswitch
 	
-FastBallMultiplier: ; palette ball, work in progress
+FastBallMultiplier: ; palette ball, finished
 	push bc
 	ld a, [wTempBattleMonSpecies]
 	call GetDexColor
