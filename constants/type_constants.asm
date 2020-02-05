@@ -15,7 +15,7 @@ PHYSICAL EQU const_value
 	const ROCK
 	const BIRD
 	const BUG
-	const GHOST
+	const DARK ; switched properties with Ghost
 	const STEEL
 
 UNUSED_TYPES EQU const_value
@@ -39,7 +39,7 @@ SPECIAL EQU const_value
 	const PSYCHIC
 	const ICE
 	const DRAGON
-	const DARK
+	const GHOST
 	const CRYSTAL
 	const STAR
 TYPES_END EQU const_value

@@ -1258,11 +1258,12 @@ BattleCommand_Stab:
 	pop de
 	pop hl
 
-	push de
-	push bc
-	farcall DoBadgeTypeBoosts
-	pop bc
-	pop de
+	;>giving out more free boosts in an already easy game
+	;push de
+	;push bc
+	;farcall DoBadgeTypeBoosts
+	;pop bc
+	;pop de
 
 	ld a, [wCurType]
 	cp b

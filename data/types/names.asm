@@ -8,7 +8,7 @@ TypeNames:
 	dw Rock
 	dw Bird
 	dw Bug
-	dw Ghost
+	dw Dark
 	dw Steel
 	dw Normal
 	dw Normal
@@ -27,7 +27,7 @@ TypeNames:
 	dw Psychic
 	dw Ice
 	dw Dragon
-	dw Dark
+	dw Ghost
 	dw Crystal
 	dw Star
 
