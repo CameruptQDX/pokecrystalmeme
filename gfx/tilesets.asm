@@ -125,14 +125,7 @@ INCBIN "data/tilesets/mart_metatiles.bin"
 TilesetMartColl:
 INCLUDE "data/tilesets/mart_collision.asm"
 
-TilesetGameCornerGFX:
-INCBIN "gfx/tilesets/game_corner.2bpp.lz"
-
-TilesetGameCornerMeta:
-INCBIN "data/tilesets/game_corner_metatiles.bin"
-
-TilesetGameCornerColl:
-INCLUDE "data/tilesets/game_corner_collision.asm"
+;game corner moved
 
 TilesetTrainStationGFX:
 INCBIN "gfx/tilesets/train_station.2bpp.lz"
@@ -340,3 +333,12 @@ INCBIN "data/tilesets/johto_modern_metatiles.bin"
 
 TilesetJohtoModernColl:
 INCLUDE "data/tilesets/johto_modern_collision.asm"
+
+TilesetGameCornerGFX:
+INCBIN "gfx/tilesets/game_corner.2bpp.lz"
+
+TilesetGameCornerMeta:
+INCBIN "data/tilesets/game_corner_metatiles.bin"
+
+TilesetGameCornerColl:
+INCLUDE "data/tilesets/game_corner_collision.asm"
