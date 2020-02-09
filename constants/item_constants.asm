@@ -158,9 +158,9 @@
 	const MYSTERYBERRY ; 96
 	const DRAGON_SCALE ; 97
 	const BERSERK_GENE ; 98
-	const ITEM_99      ; 99
-	const ITEM_9A      ; 9a
-	const ITEM_9B      ; 9b
+	const CROWN_STONE      ; 99
+	const METAL_ADAPTER      ; 9a
+	const TEAM_MEDKIT      ; 9b
 	const SACRED_ASH   ; 9c
 	const HEAVY_BALL   ; 9d
 	const FLOWER_MAIL  ; 9e
@@ -175,8 +175,8 @@
 	const NORMAL_BOX   ; a7
 	const GORGEOUS_BOX ; a8
 	const SUN_STONE    ; a9
-	const POLKADOT_BOW ; aa
-	const ITEM_AB      ; ab
+	const QUARTZ_PRISM ; aa
+	const COMET_SHARD      ; ab
 	const UP_GRADE     ; ac
 	const BERRY        ; ad
 	const GOLD_BERRY   ; ae

@@ -64,7 +64,7 @@ ItemNames::
 	db "ETHER@"
 	db "MAX ETHER@"
 	db "ELIXER@"
-	db "RED SCALE@"
+	db "VANTABLK INK@" ; replaces red scale for the octillery
 	db "SECRETPOTION@"
 	db "S.S.TICKET@"
 	db "MYSTERY EGG@"
@@ -95,7 +95,7 @@ ItemNames::
 	db "CLEANSE TAG@"
 	db "MYSTIC WATER@"
 	db "TWISTEDSPOON@"
-	db "WHT APRICORN@"
+	db "IRD APRICORN@"
 	db "BLACKBELT@"
 	db "CYN APRICORN@"
 	db "TERU-SAMA@"
