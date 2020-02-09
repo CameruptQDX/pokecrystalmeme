@@ -5,7 +5,7 @@ ItemNames::
 	db "GREAT BALL@"
 	db "# BALL@"
 	db "TERU-SAMA@"
-	db "BICYCLE@"
+	db "HOVERBOARD@"
 	db "MOON STONE@"
 	db "ANTIDOTE@"
 	db "BURN HEAL@"

@@ -280,8 +280,8 @@ TeruSama1Desc:
 	db   "?@"
 
 BicycleDesc:
-	db   "A collapsible bike"
-	next "for fast movement.@"
+	db   "A hoverboard that"
+	next "rides over ground.@"
 
 MoonStoneDesc:
 	db   "Evolves certain"
