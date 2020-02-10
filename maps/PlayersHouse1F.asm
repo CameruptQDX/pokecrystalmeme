@@ -40,6 +40,8 @@ MeetMomScript:
 	scall PlayersHouse1FReceiveItemStd
 	setflag ENGINE_POKEGEAR
 	setflag ENGINE_PHONE_CARD
+	setflag EVENT_MADE_UNOWN_APPEAR_IN_RUINS ; see below, there's no way the player can't have this flag set
+	setflag ENGINE_UNLOCKED_UNOWNS_A_TO_K ; to make the missingno in the secret lab appear regardless; this unlocks the whole set
 	addcellnum PHONE_MOM
 	setscene SCENE_FINISHED
 	setevent EVENT_PLAYERS_HOUSE_MOM_1

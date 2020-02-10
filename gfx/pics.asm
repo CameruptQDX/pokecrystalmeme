@@ -266,7 +266,7 @@ AbraFrontpic:        INCBIN "gfx/pokemon/abra/front.animated.2bpp.lz"
 HitmontopBackpic:    INCBIN "gfx/pokemon/hitmontop/back.2bpp.lz"
 CloysterBackpic:     INCBIN "gfx/pokemon/cloyster/back.2bpp.lz"
 HoothootFrontpic:    INCBIN "gfx/pokemon/hoothoot/front.animated.2bpp.lz"
-UnownFBackpic:       INCBIN "gfx/pokemon/unown_f/back.2bpp.lz"
+
 
 
 SECTION "Pics 11", ROMX
@@ -555,7 +555,7 @@ UnownZFrontpic:      INCBIN "gfx/pokemon/unown_z/front.animated.2bpp.lz"
 SwinubFrontpic:      INCBIN "gfx/pokemon/swinub/front.animated.2bpp.lz"
 LarvitarBackpic:     INCBIN "gfx/pokemon/larvitar/back.2bpp.lz"
 PorygonBackpic:      INCBIN "gfx/pokemon/porygon/back.2bpp.lz"
-UnownHBackpic:       INCBIN "gfx/pokemon/unown_h/back.2bpp.lz"
+
 
 
 SECTION "Pics 17", ROMX
@@ -589,7 +589,6 @@ UrsaringBackpic:     INCBIN "gfx/pokemon/ursaring/back.2bpp.lz"
 SagePic:             INCBIN "gfx/trainers/sage.2bpp.lz"
 TeddiursaBackpic:    INCBIN "gfx/pokemon/teddiursa/back.2bpp.lz"
 PhanpyBackpic:       INCBIN "gfx/pokemon/phanpy/back.2bpp.lz"
-UnownVFrontpic:      INCBIN "gfx/pokemon/unown_v/front.animated.2bpp.lz"
 KakunaBackpic:       INCBIN "gfx/pokemon/kakuna/back.2bpp.lz"
 WobbuffetBackpic:    INCBIN "gfx/pokemon/wobbuffet/back.2bpp.lz"
 TogepiBackpic:       INCBIN "gfx/pokemon/togepi/back.2bpp.lz"
@@ -598,16 +597,12 @@ BlisseyBackpic:      INCBIN "gfx/pokemon/blissey/back.2bpp.lz"
 AmpharosBackpic:     INCBIN "gfx/pokemon/ampharos/back.2bpp.lz"
 IgglybuffBackpic:    INCBIN "gfx/pokemon/igglybuff/back.2bpp.lz"
 AzumarillBackpic:    INCBIN "gfx/pokemon/azumarill/back.2bpp.lz"
-UnownSFrontpic:      INCBIN "gfx/pokemon/unown_s/front.animated.2bpp.lz"
 HorseaBackpic:       INCBIN "gfx/pokemon/horsea/back.2bpp.lz"
 SentretBackpic:      INCBIN "gfx/pokemon/sentret/back.2bpp.lz"
-UnownOFrontpic:      INCBIN "gfx/pokemon/unown_o/front.animated.2bpp.lz"
-UnownTFrontpic:      INCBIN "gfx/pokemon/unown_t/front.animated.2bpp.lz"
 WigglytuffBackpic:   INCBIN "gfx/pokemon/wigglytuff/back.2bpp.lz"
 GogoBackpic:     INCBIN "gfx/pokemon/gogo/back.2bpp.lz"
 DittoBackpic:        INCBIN "gfx/pokemon/ditto/back.2bpp.lz"
 WeedleBackpic:       INCBIN "gfx/pokemon/weedle/back.2bpp.lz"
-UnownHFrontpic:      INCBIN "gfx/pokemon/unown_h/front.animated.2bpp.lz"
 CleffaBackpic:       INCBIN "gfx/pokemon/cleffa/back.2bpp.lz"
 DrowzeeBackpic:      INCBIN "gfx/pokemon/drowzee/back.2bpp.lz"
 FearowBackpic:       INCBIN "gfx/pokemon/fearow/back.2bpp.lz"
@@ -618,7 +613,7 @@ SkarmoryBackpic:     INCBIN "gfx/pokemon/skarmory/back.2bpp.lz"
 MetapodBackpic:      INCBIN "gfx/pokemon/metapod/back.2bpp.lz"
 JigglypuffBackpic:   INCBIN "gfx/pokemon/jigglypuff/back.2bpp.lz"
 OddishBackpic:       INCBIN "gfx/pokemon/oddish/back.2bpp.lz"
-UnownDBackpic:       INCBIN "gfx/pokemon/unown_d/back.2bpp.lz"
+
 
 
 SECTION "Pics 18", ROMX
@@ -631,14 +626,11 @@ PoliwagBackpic:      INCBIN "gfx/pokemon/poliwag/back.2bpp.lz"
 SuikoBackpic:     INCBIN "gfx/pokemon/suiko/back.2bpp.lz"
 ShuckleBackpic:      INCBIN "gfx/pokemon/shuckle/back.2bpp.lz"
 DewgongBackpic:      INCBIN "gfx/pokemon/dewgong/back.2bpp.lz"
-UnownBFrontpic:      INCBIN "gfx/pokemon/unown_b/front.animated.2bpp.lz"
 SlowpokeBackpic:     INCBIN "gfx/pokemon/slowpoke/back.2bpp.lz"
 DunsparceBackpic:    INCBIN "gfx/pokemon/dunsparce/back.2bpp.lz"
 DonphanBackpic:      INCBIN "gfx/pokemon/donphan/back.2bpp.lz"
 WooperBackpic:       INCBIN "gfx/pokemon/wooper/back.2bpp.lz"
 TaurosBackpic:       INCBIN "gfx/pokemon/tauros/back.2bpp.lz"
-UnownXFrontpic:      INCBIN "gfx/pokemon/unown_x/front.animated.2bpp.lz"
-UnownNFrontpic:      INCBIN "gfx/pokemon/unown_n/front.animated.2bpp.lz"
 TangelaBackpic:      INCBIN "gfx/pokemon/tangela/back.2bpp.lz"
 VoltorbBackpic:      INCBIN "gfx/pokemon/voltorb/back.2bpp.lz"
 UnownJFrontpic:      INCBIN "gfx/pokemon/unown_j/front.animated.2bpp.lz"
@@ -654,35 +646,12 @@ UnownUFrontpic:      INCBIN "gfx/pokemon/unown_u/front.animated.2bpp.lz"
 DiglettBackpic:      INCBIN "gfx/pokemon/diglett/back.2bpp.lz"
 UnownQFrontpic:      INCBIN "gfx/pokemon/unown_q/front.animated.2bpp.lz"
 UnownPFrontpic:      INCBIN "gfx/pokemon/unown_p/front.animated.2bpp.lz"
-UnownCBackpic:       INCBIN "gfx/pokemon/unown_c/back.2bpp.lz"
 JynxBackpic:         INCBIN "gfx/pokemon/jynx/back.2bpp.lz"
 GolbatBackpic:       INCBIN "gfx/pokemon/golbat/back.2bpp.lz"
 UnownYFrontpic:      INCBIN "gfx/pokemon/unown_y/front.animated.2bpp.lz"
-UnownGBackpic:       INCBIN "gfx/pokemon/unown_g/back.2bpp.lz"
 UnownIFrontpic:      INCBIN "gfx/pokemon/unown_i/front.animated.2bpp.lz"
-UnownVBackpic:       INCBIN "gfx/pokemon/unown_v/back.2bpp.lz"
 ForretressBackpic:   INCBIN "gfx/pokemon/forretress/back.2bpp.lz"
-UnownSBackpic:       INCBIN "gfx/pokemon/unown_s/back.2bpp.lz"
 UnownRFrontpic:      INCBIN "gfx/pokemon/unown_r/front.animated.2bpp.lz"
-UnownEBackpic:       INCBIN "gfx/pokemon/unown_e/back.2bpp.lz"
-UnownJBackpic:       INCBIN "gfx/pokemon/unown_j/back.2bpp.lz"
-UnownBBackpic:       INCBIN "gfx/pokemon/unown_b/back.2bpp.lz"
-UnownOBackpic:       INCBIN "gfx/pokemon/unown_o/back.2bpp.lz"
-UnownZBackpic:       INCBIN "gfx/pokemon/unown_z/back.2bpp.lz"
-UnownWBackpic:       INCBIN "gfx/pokemon/unown_w/back.2bpp.lz"
-UnownNBackpic:       INCBIN "gfx/pokemon/unown_n/back.2bpp.lz"
-UnownABackpic:       INCBIN "gfx/pokemon/unown_a/back.2bpp.lz"
-UnownMBackpic:       INCBIN "gfx/pokemon/unown_m/back.2bpp.lz"
-UnownKBackpic:       INCBIN "gfx/pokemon/unown_k/back.2bpp.lz"
-UnownTBackpic:       INCBIN "gfx/pokemon/unown_t/back.2bpp.lz"
-UnownXBackpic:       INCBIN "gfx/pokemon/unown_x/back.2bpp.lz"
-UnownLBackpic:       INCBIN "gfx/pokemon/unown_l/back.2bpp.lz"
-UnownUBackpic:       INCBIN "gfx/pokemon/unown_u/back.2bpp.lz"
-UnownQBackpic:       INCBIN "gfx/pokemon/unown_q/back.2bpp.lz"
-UnownYBackpic:       INCBIN "gfx/pokemon/unown_y/back.2bpp.lz"
-UnownPBackpic:       INCBIN "gfx/pokemon/unown_p/back.2bpp.lz"
-UnownIBackpic:       INCBIN "gfx/pokemon/unown_i/back.2bpp.lz"
-UnownRBackpic:       INCBIN "gfx/pokemon/unown_r/back.2bpp.lz"
 MrMimeFrontpic:      INCBIN "gfx/pokemon/mr__mime/front.animated.2bpp.lz"
 ParasFrontpic:       INCBIN "gfx/pokemon/paras/front.animated.2bpp.lz"
 PoliwhirlFrontpic:   INCBIN "gfx/pokemon/poliwhirl/front.animated.2bpp.lz"
@@ -729,11 +698,47 @@ OmegaZeroFrontpic:  INCBIN "gfx/pokemon/omegazero/front.animated.2bpp.lz"
 OmegaZeroBackpic:  INCBIN "gfx/pokemon/omegazero/back.2bpp.lz"
 RaiFrontpic:     INCBIN "gfx/pokemon/rai/front.animated.2bpp.lz"
 
+
+UnownEBackpic:
+UnownJBackpic:
+UnownBBackpic:
+UnownOBackpic:
+UnownZBackpic:
+UnownWBackpic:
+UnownNBackpic:
+UnownABackpic:
+UnownMBackpic:
+UnownKBackpic:
+UnownTBackpic:
+UnownXBackpic:
+UnownLBackpic:
+UnownUBackpic:
+UnownQBackpic:
+UnownYBackpic:
+UnownPBackpic:
+UnownIBackpic:
+UnownRBackpic:
+UnownFBackpic:
+UnownHBackpic:
+UnownDBackpic:
+UnownCBackpic:
+UnownGBackpic:
+UnownVBackpic:
+UnownSBackpic:
+INCBIN "gfx/pokemon/missingno/back.2bpp.lz"
+
 SECTION "Pics 21", ROMX
+UnownOFrontpic:      INCBIN "gfx/pokemon/unown_o/front.animated.2bpp.lz"
+UnownTFrontpic:      INCBIN "gfx/pokemon/unown_t/front.animated.2bpp.lz"
+UnownHFrontpic:      INCBIN "gfx/pokemon/unown_h/front.animated.2bpp.lz"
+UnownSFrontpic:      INCBIN "gfx/pokemon/unown_s/front.animated.2bpp.lz"
 
 
 SECTION "Pics 22", ROMX
-
+UnownVFrontpic:      INCBIN "gfx/pokemon/unown_v/front.animated.2bpp.lz"
+UnownXFrontpic:      INCBIN "gfx/pokemon/unown_x/front.animated.2bpp.lz"
+UnownNFrontpic:      INCBIN "gfx/pokemon/unown_n/front.animated.2bpp.lz"
+UnownBFrontpic:      INCBIN "gfx/pokemon/unown_b/front.animated.2bpp.lz"
 
 SECTION "Pics 23", ROMX
 
