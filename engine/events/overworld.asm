@@ -289,9 +289,9 @@ OWFlash:
 	ld de, ENGINE_ZEPHYRBADGE
 	farcall CheckBadge
 	jr c, .nozephyrbadge
-	push hl
-	farcall SpecialAerodactylChamber
-	pop hl
+	;push hl
+	;farcall SpecialAerodactylChamber ; disabled because no unown halls
+	;pop hl
 	jr c, .useflash
 	ld a, [wTimeOfDayPalset]
 	cp %11111111 ; 3, 3, 3, 3
@@ -818,7 +818,7 @@ dig_incave
 	ret
 
 .escaperope
-	farcall SpecialKabutoChamber
+	;farcall SpecialKabutoChamber ; not sure if this will cause issue with escape rope
 	ld hl, .UsedEscapeRopeScript
 	call QueueScript
 	ld a, $81

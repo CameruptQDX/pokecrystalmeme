@@ -268,11 +268,7 @@ INCBIN "gfx/tilesets/forest.2bpp.lz"
 TilesetForestColl:
 INCLUDE "data/tilesets/forest_collision.asm"
 
-;moved from bank 1
-Tileset0GFX:
-TilesetJohtoGFX:
-INCBIN "gfx/tilesets/johto.2bpp.lz"
-
+;johto in bank 8
 Tileset0Meta:
 TilesetJohtoMeta:
 INCBIN "data/tilesets/johto_metatiles.bin"
@@ -302,3 +298,10 @@ INCBIN "data/tilesets/game_corner_metatiles.bin"
 
 TilesetGameCornerColl:
 INCLUDE "data/tilesets/game_corner_collision.asm"
+
+;moved from bank 1
+Tileset0GFX:
+TilesetJohtoGFX:
+INCBIN "gfx/tilesets/johto.2bpp.lz"
+
+

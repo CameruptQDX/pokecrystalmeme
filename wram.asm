@@ -2598,11 +2598,6 @@ wBurnedTowerB1FSceneID::                          db ; d9a8
 wRadioTower5FSceneID::                            db ; d9a9
 wRuinsOfAlphOutsideSceneID::                      db ; d9aa
 wRuinsOfAlphResearchCenterSceneID::               db ; d9ab
-wRuinsOfAlphHoOhChamberSceneID::                  db ; d9ac
-wRuinsOfAlphKabutoChamberSceneID::                db ; d9ad
-wRuinsOfAlphOmanyteChamberSceneID::               db ; d9ae
-wRuinsOfAlphAerodactylChamberSceneID::            db ; d9af
-wRuinsOfAlphInnerChamberSceneID::                 db ; d9b0
 wMahoganyMart1FSceneID::                          db ; d9b1
 wTeamRocketBaseB1FSceneID::                       db ; d9b2
 wTeamRocketBaseB2FSceneID::                       db ; d9b3
@@ -2620,7 +2615,7 @@ wMountMoonSquareSceneID::                         db ; d9be
 wMobileTradeRoomSceneID::                         db ; d9bf
 wMobileBattleRoomSceneID::                        db ; d9c0
 
-	ds 49
+	ds 54
 
 ; fight counts
 wJackFightCount::    db ; d9f2

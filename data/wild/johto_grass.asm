@@ -380,33 +380,6 @@ JohtoGrassWildMons:
 	db 10, SMEARGLE
 	db 11, SMEARGLE
 
-	map_id RUINS_OF_ALPH_INNER_CHAMBER
-	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
-	; morn
-	db 5, MISSINGNO
-	db 5, MISSINGNO
-	db 5, MISSINGNO
-	db 5, MISSINGNO
-	db 5, MISSINGNO
-	db 5, MISSINGNO
-	db 5, MISSINGNO
-	; day
-	db 5, MISSINGNO
-	db 5, MISSINGNO
-	db 5, MISSINGNO
-	db 5, MISSINGNO
-	db 5, MISSINGNO
-	db 5, MISSINGNO
-	db 5, MISSINGNO
-	; nite
-	db 5, MISSINGNO
-	db 5, MISSINGNO
-	db 5, MISSINGNO
-	db 5, MISSINGNO
-	db 5, MISSINGNO
-	db 5, MISSINGNO
-	db 5, MISSINGNO
-
 	map_id UNION_CAVE_B1F
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
