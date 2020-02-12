@@ -1,4 +1,4 @@
-	tilepal 0, RED, RED, RED, RED, GREEN, RED, RED, RED
+	tilepal 0, RED, RED, RED, RED, RED, RED, RED, RED
 	tilepal 0, RED, RED, RED, RED, RED, RED, RED, RED
 	tilepal 0, RED, RED, RED, RED, WATER, RED, BROWN, BROWN
 	tilepal 0, RED, RED, RED, RED, RED, RED, RED, RED

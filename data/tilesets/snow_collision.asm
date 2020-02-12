@@ -26,10 +26,10 @@
 	tilecoll WALL, WALL, DOOR, WALL ; 19
 	tilecoll WALL, WALL, WALL, WALL ; 1a
 	tilecoll 01, 01, 01, 01 ; 1b
-	tilecoll 01, 01, 01, 01 ; 1c
-	tilecoll 01, 01, 01, 01 ; 1d
-	tilecoll 01, 01, 01, 01 ; 1e
-	tilecoll 01, 01, 01, 01 ; 1f
+	tilecoll WALL, WALL, WALL, WALL ; 1c
+	tilecoll WALL, WALL, WALL, WALL ; 1d
+	tilecoll WALL, WALL, WALL, WALL ; 1e
+	tilecoll WALL, WALL, WALL, WALL ; 1f
 	tilecoll 01, 01, 01, 01 ; 20
 	tilecoll 01, 01, 01, 01 ; 21
 	tilecoll 01, 01, 01, 01 ; 22

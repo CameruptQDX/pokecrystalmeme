@@ -202,3 +202,7 @@
 	tilecoll WHIRLPOOL, WATER, BUOY, BUOY ; c9
 	tilecoll FLOOR, WALL, CAVE, WALL ; ca
 	tilecoll FLOOR, WALL, WALL, WALL ; cb
+	tilecoll WALL, WALL, WALL, WALL ; cc
+	tilecoll WALL, WALL, WALL, WALL ; cd
+	tilecoll WALL, WALL, WALL, WALL ; ce
+	tilecoll WALL, WALL, WALL, WALL ; cf
