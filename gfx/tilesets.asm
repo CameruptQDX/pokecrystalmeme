@@ -15,18 +15,6 @@ INCBIN "data/tilesets/kanto_metatiles.bin"
 TilesetKantoColl:
 INCLUDE "data/tilesets/kanto_collision.asm"
 
-Tileset0GFX:
-TilesetJohtoGFX:
-INCBIN "gfx/tilesets/johto.2bpp.lz"
-
-Tileset0Meta:
-TilesetJohtoMeta:
-INCBIN "data/tilesets/johto_metatiles.bin"
-
-Tileset0Coll:
-TilesetJohtoColl:
-INCLUDE "data/tilesets/johto_collision.asm"
-
 TilesetIcePathGFX:
 INCBIN "gfx/tilesets/ice_path.2bpp.lz"
 
@@ -181,12 +169,6 @@ INCLUDE "data/tilesets/underground_collision.asm"
 TilesetDarkCaveGFX:
 INCBIN "gfx/tilesets/dark_cave.2bpp.lz"
 
-UnusedTilesetDarkCaveMeta:
-INCBIN "data/tilesets/unused_dark_cave_metatiles.bin"
-
-UnusedTilesetDarkCaveColl:
-INCLUDE "data/tilesets/unused_dark_cave_collision.asm"
-
 
 SECTION "Tileset Data 5", ROMX
 
@@ -275,32 +257,9 @@ INCBIN "data/tilesets/battle_tower_outside_metatiles.bin"
 TilesetBattleTowerOutsideColl:
 INCLUDE "data/tilesets/battle_tower_outside_collision.asm"
 
-TilesetBetaWordRoomMeta:
-INCBIN "data/tilesets/beta_word_room_metatiles.bin"
-
-TilesetBetaWordRoomColl:
-TilesetHoOhWordRoomColl:
-TilesetKabutoWordRoomColl:
-TilesetOmanyteWordRoomColl:
-TilesetAerodactylWordRoomColl:
-INCLUDE "data/tilesets/beta_word_room_collision.asm"
 
 
 SECTION "Tileset Data 7", ROMX
-
-TilesetRuinsOfAlphGFX:
-TilesetBetaWordRoomGFX:
-TilesetHoOhWordRoomGFX:
-TilesetKabutoWordRoomGFX:
-TilesetOmanyteWordRoomGFX:
-TilesetAerodactylWordRoomGFX:
-INCBIN "gfx/tilesets/ruins_of_alph.2bpp.lz"
-
-TilesetRuinsOfAlphMeta:
-INCBIN "data/tilesets/ruins_of_alph_metatiles.bin"
-
-TilesetRuinsOfAlphColl:
-INCLUDE "data/tilesets/ruins_of_alph_collision.asm"
 
 ;moved from bank 6
 TilesetForestGFX:
@@ -309,20 +268,21 @@ INCBIN "gfx/tilesets/forest.2bpp.lz"
 TilesetForestColl:
 INCLUDE "data/tilesets/forest_collision.asm"
 
+;moved from bank 1
+Tileset0GFX:
+TilesetJohtoGFX:
+INCBIN "gfx/tilesets/johto.2bpp.lz"
+
+Tileset0Meta:
+TilesetJohtoMeta:
+INCBIN "data/tilesets/johto_metatiles.bin"
+
+Tileset0Coll:
+TilesetJohtoColl:
+INCLUDE "data/tilesets/johto_collision.asm"
+
 
 SECTION "Tileset Data 8", ROMX
-
-TilesetHoOhWordRoomMeta:
-INCBIN "data/tilesets/ho_oh_word_room_metatiles.bin"
-
-TilesetKabutoWordRoomMeta:
-INCBIN "data/tilesets/kabuto_word_room_metatiles.bin"
-
-TilesetOmanyteWordRoomMeta:
-INCBIN "data/tilesets/omanyte_word_room_metatiles.bin"
-
-TilesetAerodactylWordRoomMeta:
-INCBIN "data/tilesets/aerodactyl_word_room_metatiles.bin"
 
 TilesetJohtoModernGFX:
 TilesetBattleTowerOutsideGFX:

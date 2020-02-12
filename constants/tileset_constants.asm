@@ -25,17 +25,17 @@
 	const TILESET_TOWER                ; 17
 	const TILESET_CAVE                 ; 18
 	const TILESET_PARK                 ; 19
-	const TILESET_RUINS_OF_ALPH        ; 1a
+	;const TILESET_RUINS_OF_ALPH        ; 1a
 	const TILESET_RADIO_TOWER          ; 1b
 	const TILESET_UNDERGROUND          ; 1c
 	const TILESET_ICE_PATH             ; 1d
 	const TILESET_DARK_CAVE            ; 1e
 	const TILESET_FOREST               ; 1f
-	const TILESET_BETA_WORD_ROOM       ; 20
-	const TILESET_HO_OH_WORD_ROOM      ; 21
-	const TILESET_KABUTO_WORD_ROOM     ; 22
-	const TILESET_OMANYTE_WORD_ROOM    ; 23
-	const TILESET_AERODACTYL_WORD_ROOM ; 24
+	;const TILESET_BETA_WORD_ROOM       ; 20
+	;const TILESET_HO_OH_WORD_ROOM      ; 21
+	;const TILESET_KABUTO_WORD_ROOM     ; 22
+	;const TILESET_OMANYTE_WORD_ROOM    ; 23
+	;const TILESET_AERODACTYL_WORD_ROOM ; 24
 
 ; bg palette values (see gfx/tilesets/*_palette_map.asm)
 ; TilesetBGPalette indexes (see gfx/tilesets/bg_tiles.pal)

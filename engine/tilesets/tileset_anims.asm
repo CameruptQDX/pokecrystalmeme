@@ -260,14 +260,14 @@ TilesetLighthouseAnim:
 TilesetPlayersRoomAnim:
 TilesetPokeComCenterAnim:
 TilesetBattleTowerAnim:
-TilesetRuinsOfAlphAnim:
+;TilesetRuinsOfAlphAnim:
 TilesetRadioTowerAnim:
 TilesetUndergroundAnim:
-TilesetBetaWordRoomAnim:
-TilesetHoOhWordRoomAnim:
-TilesetKabutoWordRoomAnim:
-TilesetOmanyteWordRoomAnim:
-TilesetAerodactylWordRoomAnim:
+;TilesetBetaWordRoomAnim:
+;TilesetHoOhWordRoomAnim:
+;TilesetKabutoWordRoomAnim:
+;TilesetOmanyteWordRoomAnim:
+;TilesetAerodactylWordRoomAnim:
 	dw NULL,  WaitTileAnimation
 	dw NULL,  WaitTileAnimation
 	dw NULL,  WaitTileAnimation

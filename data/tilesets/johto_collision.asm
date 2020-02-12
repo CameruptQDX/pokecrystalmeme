@@ -199,3 +199,6 @@
 	tilecoll PUDDLE, PUDDLE, PUDDLE, PUDDLE ; c6
 	tilecoll WALL, WALL, DOOR, WALL ; c7
 	tilecoll WALL, WALL, DOOR, WALL ; c8
+	tilecoll WHIRLPOOL, WATER, BUOY, BUOY ; c9
+	tilecoll FLOOR, WALL, CAVE, WALL ; ca
+	tilecoll FLOOR, WALL, WALL, WALL ; cb
