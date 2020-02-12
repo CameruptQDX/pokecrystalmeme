@@ -14,6 +14,8 @@ LoadSpecialMapPalette:
 	jr z, .mansion_mobile
 	cp TILESET_JOHTO_MODERN
 	jr z, .johto_modern_desert
+	cp TILESET_SNOW
+	jr z, .snow
 	jr .do_nothing
 
 
@@ -58,6 +60,10 @@ LoadSpecialMapPalette:
 	scf
 	ret
 	
+.snow
+	call LoadSnowPalette
+	scf
+	ret
 	
 .do_nothing
 	and a
@@ -188,3 +194,45 @@ INCLUDE "gfx/tilesets/JohtoModernDay.pal"
 
 JohtoModernNightPalette:
 INCLUDE "gfx/tilesets/JohtoModernNight.pal"
+
+
+LoadSnowPalette:
+	ld a, [wTimeOfDay]
+	cp MORN_F
+	jr z, .morningSnow
+	cp NITE_F
+	jr z, .nightSnow
+	jr .daySnow
+
+.morningSnow
+	ld a, BANK(wBGPals1)
+	ld de, wBGPals1
+	ld hl, SnowMorningPalette
+	ld bc, 8 palettes
+	call FarCopyWRAM
+	ret
+
+.daySnow
+	ld a, BANK(wBGPals1)
+	ld de, wBGPals1
+	ld hl, SnowDayPalette
+	ld bc, 8 palettes
+	call FarCopyWRAM
+	ret
+
+.nightSnow
+	ld a, BANK(wBGPals1)
+	ld de, wBGPals1
+	ld hl, SnowNightPalette
+	ld bc, 8 palettes
+	call FarCopyWRAM
+	ret
+	
+SnowMorningPalette:
+INCLUDE "gfx/tilesets/SnowMorning.pal"
+
+SnowDayPalette:
+INCLUDE "gfx/tilesets/SnowDay.pal"
+
+SnowNightPalette:
+INCLUDE "gfx/tilesets/SnowNight.pal"

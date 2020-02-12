@@ -38,14 +38,9 @@ Tilesets::
 	tileset TilesetTower
 	tileset TilesetCave
 	tileset TilesetPark
-	;tileset TilesetRuinsOfAlph
 	tileset TilesetRadioTower
 	tileset TilesetUnderground
 	tileset TilesetIcePath
 	tileset TilesetDarkCave
 	tileset TilesetForest
-	;tileset TilesetBetaWordRoom
-	;tileset TilesetHoOhWordRoom
-	;tileset TilesetKabutoWordRoom
-	;tileset TilesetOmanyteWordRoom
-	;tileset TilesetAerodactylWordRoom
+	tileset TilesetSnow

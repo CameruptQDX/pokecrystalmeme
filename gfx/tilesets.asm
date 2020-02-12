@@ -33,6 +33,15 @@ INCBIN "data/tilesets/players_room_metatiles.bin"
 TilesetPlayersRoomColl:
 INCLUDE "data/tilesets/players_room_collision.asm"
 
+TilesetSnowGFX:
+INCBIN "gfx/tilesets/snow.2bpp.lz"
+
+TilesetSnowMeta:
+INCBIN "data/tilesets/snow_metatiles.bin"
+
+TilesetSnowColl:
+INCLUDE "data/tilesets/snow_collision.asm"
+
 
 SECTION "Tileset Data 2", ROMX
 
