@@ -25,17 +25,17 @@
 	tilecoll WALL, FLOOR, FLOOR, WALL ; 18
 	tilecoll WALL, WALL, DOOR, WALL ; 19
 	tilecoll WALL, WALL, WALL, WALL ; 1a
-	tilecoll 01, 01, 01, 01 ; 1b
+	tilecoll ICE, ICE, ICE, ICE ; 1b
 	tilecoll WALL, WALL, WALL, WALL ; 1c
 	tilecoll WALL, WALL, WALL, WALL ; 1d
 	tilecoll WALL, WALL, WALL, WALL ; 1e
 	tilecoll WALL, WALL, WALL, WALL ; 1f
-	tilecoll 01, 01, 01, 01 ; 20
-	tilecoll 01, 01, 01, 01 ; 21
-	tilecoll 01, 01, 01, 01 ; 22
-	tilecoll 01, 01, 01, 01 ; 23
-	tilecoll WALL, WALL, WALL, WALL ; 24
-	tilecoll WALL, WALL, WALL, WALL ; 25
+	tilecoll ICE, ICE, ICE, WALL ; 20
+	tilecoll ICE, ICE, WALL, ICE ; 21
+	tilecoll WALL, ICE, ICE, ICE ; 22
+	tilecoll ICE, WALL, ICE, ICE ; 23
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 24
+	tilecoll FLOOR, WALL, FLOOR, DOOR ; 25
 	tilecoll WALL, WALL, WALL, WALL ; 26
 	tilecoll WALL, WALL, DOOR, WALL ; 27
 	tilecoll WALL, WALL, WALL, DOOR ; 28
