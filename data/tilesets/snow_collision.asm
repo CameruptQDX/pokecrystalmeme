@@ -36,24 +36,24 @@
 	tilecoll ICE, WALL, ICE, ICE ; 23
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 24
 	tilecoll FLOOR, WALL, FLOOR, DOOR ; 25
-	tilecoll WALL, WALL, WALL, WALL ; 26
-	tilecoll WALL, WALL, DOOR, WALL ; 27
-	tilecoll WALL, WALL, WALL, DOOR ; 28
-	tilecoll WALL, WALL, WALL, WALL ; 29
-	tilecoll HEADBUTT_TREE, HEADBUTT_TREE, WALL, WALL ; 2a
-	tilecoll WALL, WALL, WALL, WALL ; 2b
-	tilecoll HEADBUTT_TREE, HEADBUTT_TREE, WALL, WALL ; 2c
-	tilecoll HEADBUTT_TREE, HEADBUTT_TREE, WALL, WALL ; 2d
-	tilecoll WALL, WALL, WALL, DOOR ; 2e
-	tilecoll WALL, WALL, WALL, WALL ; 2f
+	tilecoll ICE, WALL, ICE, WALL ; 26
+	tilecoll WALL, ICE, WALL, ICE ; 27
+	tilecoll ICE, ICE, WALL, WALL ; 28
+	tilecoll WALL, WALL, ICE, ICE ; 29
+	tilecoll ICE, ICE, ICE, ICE ; 2a
+	tilecoll ICE, ICE, ICE, ICE ; 2b
+	tilecoll ICE, ICE, ICE, ICE ; 2c
+	tilecoll ICE, ICE, ICE, ICE ; 2d
+	tilecoll ICE, ICE, ICE, ICE ; 2e
+	tilecoll ICE, ICE, ICE, ICE ; 2f
 	tilecoll BUOY, BUOY, BUOY, WATER ; 30
 	tilecoll BUOY, BUOY, WATER, WATER ; 31
 	tilecoll BUOY, BUOY, WATER, BUOY ; 32
-	tilecoll FLOOR, FLOOR, WALL, WALL ; 33
+	tilecoll ICE, ICE, ICE, ICE ; 33
 	tilecoll BUOY, WATER, BUOY, WATER ; 34
 	tilecoll WATER, WATER, WATER, WATER ; 35
 	tilecoll WATER, BUOY, WATER, BUOY ; 36
-	tilecoll WALL, WALL, WALL, DOOR ; 37
+	tilecoll FLOOR, WALL, FLOOR, FLOOR ; 37
 	tilecoll BUOY, WATER, BUOY, BUOY ; 38
 	tilecoll WATER, WATER, BUOY, BUOY ; 39
 	tilecoll WATER, BUOY, BUOY, BUOY ; 3a
