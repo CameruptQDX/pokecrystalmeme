@@ -34,8 +34,8 @@
 	tilecoll ICE, ICE, WALL, ICE ; 21
 	tilecoll WALL, ICE, ICE, ICE ; 22
 	tilecoll ICE, WALL, ICE, ICE ; 23
-	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 24
-	tilecoll FLOOR, WALL, FLOOR, DOOR ; 25
+	tilecoll WALL, WALL, FLOOR, FLOOR ; 24
+	tilecoll WALL, WALL, FLOOR, DOOR ; 25
 	tilecoll ICE, WALL, ICE, WALL ; 26
 	tilecoll WALL, ICE, WALL, ICE ; 27
 	tilecoll ICE, ICE, WALL, WALL ; 28
