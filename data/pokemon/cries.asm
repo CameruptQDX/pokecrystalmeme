@@ -149,7 +149,7 @@ PokemonCries::
 	mon_cry CRY_NIDORAN_M,      0,     0 ; DRACHILLES
 	mon_cry CRY_GRIMER,      $055,  $081 ; SNORLAX
 	mon_cry CRY_NIDORAN_M,      0,     0 ; GOGO
-	mon_cry CRY_NIDORAN_M,      0,     0 ; FIJI
+	mon_cry CRY_ODDISH,      $00a,  $0B8 ; FIJI
 	mon_cry CRY_NIDORAN_M,      0,     0 ; ZIEKEADA
 	mon_cry CRY_BULBASAUR,   $060,  $0c0 ; DRATINI
 	mon_cry CRY_BULBASAUR,   $040,  $100 ; DRAGONAIR
