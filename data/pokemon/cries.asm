@@ -148,14 +148,14 @@ PokemonCries::
 	mon_cry CRY_NIDORAN_M,      0,     0 ; MARIN
 	mon_cry CRY_NIDORAN_M,      0,     0 ; DRACHILLES
 	mon_cry CRY_GRIMER,      $055,  $081 ; SNORLAX
-	mon_cry CRY_NIDORAN_M,      0,     0 ; GOGO
+	mon_cry CRY_BULBASAUR,   $017,  $152 ; GOGO
 	mon_cry CRY_ODDISH,      $00a,  $0B8 ; FIJI
 	mon_cry CRY_NIDORAN_M,      0,     0 ; ZIEKEADA
 	mon_cry CRY_BULBASAUR,   $060,  $0c0 ; DRATINI
 	mon_cry CRY_BULBASAUR,   $040,  $100 ; DRAGONAIR
 	mon_cry CRY_BULBASAUR,   $03c,  $140 ; DRAGONITE
 	mon_cry CRY_NIDORAN_M,      0,     0 ; DIAZE
-	mon_cry CRY_NIDORAN_M,      0,     0 ; XU-XU
+	mon_cry CRY_ENTEI,       $090,  $1b6 ; XU-XU
 	mon_cry CRY_CHIKORITA,  -$010,  $0b0 ; CHIKORITA
 	mon_cry CRY_CHIKORITA,  -$022,  $120 ; BAYLEEF
 	mon_cry CRY_CHIKORITA,  -$0b7,  $200 ; MEGANIUM
