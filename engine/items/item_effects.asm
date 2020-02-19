@@ -853,20 +853,9 @@ MoonBallMultiplier: ; tropic ball
 	ret
 
 	
-LoveBallMultiplier: ;lust ball, just put love ball code back for now
-; This function is buggy.
-; Intent:  multiply catch rate by 8 if mons are of same species, different sex
-; Reality: multiply catch rate by 8 if mons are of same species, same sex
-
-	; does species match?
-	ld a, [wTempEnemyMonSpecies]
-	ld c, a
-	ld a, [wTempBattleMonSpecies]
-	cp c
-	ret nz
-
+LoveBallMultiplier: ;lust ball, does basically LB's gender compare, then upon success does an egg group compare based on code from breeding
 	; check player mon species
-	push bc
+	push bc ; push ball multiplier to stack
 	ld a, [wTempBattleMonSpecies]
 	ld [wCurPartySpecies], a
 	xor a ; PARTYMON
@@ -900,23 +889,93 @@ LoveBallMultiplier: ;lust ball, just put love ball code back for now
 	cp d
 	pop bc
 	ret z ; for the intended effect, this should be "ret z"
+;I THINK the gender check concludes here and I can start the egg group check 
 
+;START OF PILAGED EGG GROUP CHECK CODE--------------------------------------------------
+; If either mon is in the No Eggs group,
+; they are not compatible.
+	push bc ; sending the ball multiplier popped back out before to the stack before continuing
+
+	ld a, [wTempEnemyMonSpecies]
+	ld [wCurSpecies], a
+	call GetBaseData
+	ld a, [wBaseEggGroups]
+	cp EGG_NONE * $11
+	jr z, .Incompatible
+
+	ld a, [wTempBattleMonSpecies]
+	ld [wCurSpecies], a
+	call GetBaseData
+	ld a, [wBaseEggGroups]
+	cp EGG_NONE * $11
+	jr z, .Incompatible
+
+; Ditto is automatically compatible with everything.
+; If not Ditto, load the breeding groups into b/c and d/e.
+	ld a, [wTempEnemyMonSpecies]
+	cp DITTO
+	jr z, .Compatible
+	ld [wCurSpecies], a
+	call GetBaseData
+	ld a, [wBaseEggGroups]
+	push af
+	and $f
+	ld b, a
+	pop af
+	and $f0
+	swap a
+	ld c, a
+
+	ld a, [wTempBattleMonSpecies]
+	cp DITTO
+	jr z, .Compatible
+	ld [wCurSpecies], a
+	push bc
+	call GetBaseData
+	pop bc
+	ld a, [wBaseEggGroups]
+	push af
+	and $f
+	ld d, a
+	pop af
+	and $f0
+	swap a
+	ld e, a
+
+	ld a, d
+	cp b
+	jr z, .Compatible
+	cp c
+	jr z, .Compatible
+
+	ld a, e
+	cp b
+	jr z, .Compatible
+	cp c
+	jr z, .Compatible
+
+.Incompatible:
+	pop bc ; pops the ball multiplier out one last time from earlier and just returns
+	ret
+
+.Compatible:
+; ball bonus will be awarded here instead of just returning
+	pop bc ; pops the ball multiplier back out
+	
 	sla b
 	jr c, .max
+
+	srl c
+	cp c
+	ret nc ; if player/2 is lower level, we're done here
 	sla b
 	jr c, .max
-	sla b
-	ret nc
+	ret nc ; if max not hit, return?
+	
 .max
 	ld b, $ff
 	ret
 
-.done2
-	pop de
-
-.done1
-	pop bc
-	ret
 
 INCLUDE "data/pokemon/dex_colors.asm" ; so I don't have to bankswitch
 	
