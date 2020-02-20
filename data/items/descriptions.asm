@@ -588,7 +588,8 @@ MintBerryDesc:
 	next "for sleep. (HOLD)@"
 
 RedApricornDesc:
-	db   "A red APRICORN.@"
+	db   "A scarlet"
+	next "APRICORN.@"
 
 TinyMushroomDesc:
 	db   "An ordinary mush-"
@@ -802,10 +803,12 @@ ScopeLensDesc:
 	next "hit ratio. (HOLD)@"
 
 TeruSama12Desc:
-	db   "?@"
+	db   "Protects #MON"
+	next "from PSN. (HOLD)@"
 
 TeruSama13Desc:
-	db   "?@"
+	db   "Protects #MON"
+	next "from SLP. (HOLD)@"
 
 MetalCoatDesc:
 	db   "Powers up steel-"
@@ -816,20 +819,24 @@ DragonFangDesc:
 	next "type moves. (HOLD)@"
 
 TeruSama14Desc:
-	db   "?@"
+	db   "Protects from"
+	next "CONFUSION. (HOLD)@"
 
 LeftoversDesc:
 	db   "Restores HP during"
 	next "battle. (HOLD)@"
 
 TeruSama15Desc:
-	db   "?@"
+	db   "Protects #MON"
+	next "from PRZ. (HOLD)@"
 
 TeruSama16Desc:
-	db   "?@"
+	db   "Protects #MON"
+	next "from BRN. (HOLD)@"
 
 TeruSama17Desc:
-	db   "?@"
+	db   "Protects #MON"
+	next "from FRZ. (HOLD)@"
 
 MysteryBerryDesc:
 	db   "A self-restore"
@@ -868,8 +875,8 @@ FlowerMailDesc:
 	next "(HOLD)@"
 
 LevelBallDesc:
-	db   "A BALL for lower-"
-	next "level #MON.@"
+	db   "A BALL for #MON"
+	next "that explode.@"
 
 LureBallDesc: ; cave ball
 	db   "A BALL for #MON"

@@ -1014,7 +1014,7 @@ GetDexColor:
 	ld a, [hl]
 	ret
 
-LevelBallMultiplier:
+LevelBallMultiplier: ; blast ball, has 8x multiplier against mons with explosion or selfdestruct 
 ; multiply catch rate by 8 if player mon level / 4 > enemy mon level
 ; multiply catch rate by 4 if player mon level / 2 > enemy mon level
 ; multiply catch rate by 2 if player mon level > enemy mon level

@@ -146,15 +146,15 @@
 	const CHARCOAL     ; 8a
 	const BERRY_JUICE  ; 8b
 	const SCOPE_LENS   ; 8c
-	const ITEM_8D      ; 8d
-	const ITEM_8E      ; 8e
+	const SAGE_PENDANT      ; 8d poison
+	const DAY_PENDANT      ; 8e sleep
 	const METAL_COAT   ; 8f
 	const DRAGON_FANG  ; 90
-	const ITEM_91      ; 91
+	const NIGHT_PENDANT      ; 91 confusion
 	const LEFTOVERS    ; 92
-	const ITEM_93      ; 93
-	const ITEM_94      ; 94
-	const ITEM_95      ; 95
+	const EARTH_PENDANT      ; 93 paralysis
+	const RAIN_PENDANT      ; 94 burn
+	const FIRE_PENDANT      ; 95 freeze
 	const MYSTERYBERRY ; 96
 	const DRAGON_SCALE ; 97
 	const BERSERK_GENE ; 98
