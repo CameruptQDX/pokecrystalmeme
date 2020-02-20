@@ -863,7 +863,7 @@ LoveBallMultiplier: ;lust ball, does basically LB's gender compare, then upon su
 	ld a, [wCurBattleMon]
 	ld [wCurPartyMon], a
 	farcall GetGender
-	jr c, .done1 ; no effect on genderless
+	jp c, .Incompatible ; no effect on genderless ; used to be a jr c call
 
 	ld d, 0 ; male
 	jr nz, .playermale
@@ -877,7 +877,7 @@ LoveBallMultiplier: ;lust ball, does basically LB's gender compare, then upon su
 	ld a, WILDMON
 	ld [wMonType], a
 	farcall GetGender
-	jr c, .done2 ; no effect on genderless
+	jp c, .Incompatible ; no effect on genderless ; same as above
 
 	ld d, 0 ; male
 	jr nz, .wildmale
