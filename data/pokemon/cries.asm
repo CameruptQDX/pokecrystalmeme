@@ -14,30 +14,30 @@ PokemonCries::
 	mon_cry CRY_NIDORAN_M,      0,     0 ; SUIKO
 	mon_cry CRY_NIDORAN_M,      0,     0 ; SUI
 	mon_cry CRY_NIDORAN_M,      0,     0 ; LAKETOISE
-	mon_cry CRY_CATERPIE,    $080,  $0a0 ; CATERPIE
-	mon_cry CRY_METAPOD,     $0cc,  $081 ; METAPOD
-	mon_cry CRY_CATERPIE,    $077,  $0c0 ; BUTTERFREE
-	mon_cry CRY_WEEDLE,      $0ee,  $081 ; WEEDLE
-	mon_cry CRY_BLASTOISE,   $0ff,  $081 ; KAKUNA
-	mon_cry CRY_BLASTOISE,   $060,  $100 ; BEEDRILL
+	mon_cry CRY_NIDORAN_M,      0,     0 ; LILFELLA
+	mon_cry CRY_NIDORAN_M,      0,     0 ; BIGFELLA
+	mon_cry CRY_NIDORAN_M,      0,     0 ; BIGGRFELLA
+	mon_cry CRY_NIDORAN_M,      0,     0 ; SILKORN
+	mon_cry CRY_NIDORAN_M,      0,     0 ; MAIZEAR
+	mon_cry CRY_NIDORAN_M,      0,     0 ; KETTELDER
 	mon_cry CRY_PIDGEY,      $0df,  $084 ; PIDGEY
 	mon_cry CRY_PIDGEOTTO,   $028,  $140 ; PIDGEOTTO
 	mon_cry CRY_PIDGEOTTO,   $011,  $17f ; PIDGEOT
 	mon_cry CRY_RATTATA,     $000,  $100 ; RATTATA
 	mon_cry CRY_RATTATA,     $020,  $17f ; RATICATE
-	mon_cry CRY_SPEAROW,     $000,  $100 ; SPEAROW
-	mon_cry CRY_FEAROW,      $040,  $120 ; FEAROW
+	mon_cry CRY_NIDORAN_M,      0,     0 ; CANNONBA
+	mon_cry CRY_NIDORAN_M,      0,     0 ; TRIANTULA
 	mon_cry CRY_EKANS,       $012,  $0c0 ; EKANS
 	mon_cry CRY_EKANS,       $0e0,  $090 ; ARBOK
 	mon_cry CRY_BULBASAUR,   $0ee,  $081 ; PIKACHU
 	mon_cry CRY_RAICHU,      $0ee,  $088 ; RAICHU
 	mon_cry CRY_NIDORAN_M,   $020,  $0c0 ; SANDSHREW
 	mon_cry CRY_NIDORAN_M,   $0ff,  $17f ; SANDSLASH
-	mon_cry CRY_NIDORAN_F,   $000,  $100 ; NIDORAN_F
-	mon_cry CRY_NIDORAN_F,   $02c,  $160 ; NIDORINA
+	mon_cry CRY_NIDORAN_M,      0,     0 ; GRITESPEC
+	mon_cry CRY_NIDORAN_M,      0,     0 ; MOCKEREY
 	mon_cry CRY_NIDOQUEEN,   $000,  $100 ; NIDOQUEEN
-	mon_cry CRY_NIDORAN_M,   $000,  $100 ; NIDORAN_M
-	mon_cry CRY_NIDORAN_M,   $02c,  $140 ; NIDORINO
+	mon_cry CRY_NIDORAN_M,      0,     0 ; NIDORAN
+	mon_cry CRY_NIDORAN_M,      0,     0 ; NIDOREIGN
 	mon_cry CRY_RAICHU,      $000,  $100 ; NIDOKING
 	mon_cry CRY_CLEFAIRY,    $0cc,  $081 ; CLEFAIRY
 	mon_cry CRY_CLEFAIRY,    $0aa,  $0a0 ; CLEFABLE
@@ -112,7 +112,7 @@ PokemonCries::
 	mon_cry CRY_ODDISH,      $04f,  $0e0 ; MAROWAK
 	mon_cry CRY_GOLEM,       $080,  $140 ; HITMONLEE
 	mon_cry CRY_SEEL,        $0ee,  $140 ; HITMONCHAN
-	mon_cry CRY_SEEL,        $000,  $100 ; LICKITUNG
+	mon_cry CRY_NIDORAN_M,      0,     0 ; KECLEON
 	mon_cry CRY_GOLEM,       $0e6,  $15d ; KOFFING
 	mon_cry CRY_GOLEM,       $0ff,  $17f ; WEEZING
 	mon_cry CRY_CHARMANDER,  $000,  $100 ; RHYHORN
@@ -255,7 +255,7 @@ PokemonCries::
 	mon_cry CRY_RAIKOU,     -$100,  $180 ; TYRANITAR
 	mon_cry CRY_TYPHLOSION,  $000,  $100 ; LUGIA
 	mon_cry CRY_AIPOM,       $000,  $180 ; HO_OH
-	mon_cry CRY_NIDORAN_M,      0,     0 ; GRITESPEC
+	mon_cry CRY_ENTEI,       $14a,  $111 ; CELEBI
 	mon_cry CRY_NIDORAN_M,      0,     0 ; DOOMSDAY
 	mon_cry CRY_NIDORAN_M,      0,     0 ; OMEGA ZERO
 	mon_cry CRY_NIDORAN_M,      0,     0 ; egg

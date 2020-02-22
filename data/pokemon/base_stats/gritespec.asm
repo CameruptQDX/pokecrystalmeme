@@ -1,4 +1,4 @@
-	db GRITESPEC ; replaces celebi
+	db GRITESPEC ; replaces Nidoran F
 
 	db 75, 70, 50, 95, 105, 60
 	;   hp  atk  def  spd  sat  sdf

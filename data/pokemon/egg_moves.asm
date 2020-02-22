@@ -22,6 +22,12 @@ PrismanEggMoves:
 LaketoiseEggMoves:
 	db -1 ; end
 
+LilfellaEggMoves:
+	db -1 ; end
+	
+SilkornEggMoves:
+	db -1 ; end
+	
 PidgeyEggMoves:
 	db PURSUIT
 	db FAINT_ATTACK
@@ -40,13 +46,6 @@ RattataEggMoves:
 	db REVERSAL
 	db -1 ; end
 
-SpearowEggMoves:
-	db FAINT_ATTACK
-	db FALSE_SWIPE
-	db SCARY_FACE
-	db QUICK_ATTACK
-	db TRI_ATTACK
-	db -1 ; end
 
 EkansEggMoves:
 	db PURSUIT
@@ -68,24 +67,10 @@ if _CRYSTAL
 endc
 	db -1 ; end
 
-NidoranFEggMoves:
-	db SUPERSONIC
-	db DISABLE
-	db TAKE_DOWN
-	db FOCUS_ENERGY
-	db CHARM
-	db COUNTER
-	db BEAT_UP
+GritespecEggMoves:
 	db -1 ; end
 
-NidoranMEggMoves:
-	db SUPERSONIC
-	db DISABLE
-	db TAKE_DOWN
-	db CONFUSION
-	db AMNESIA
-	db COUNTER
-	db BEAT_UP
+NidoranEggMoves:
 	db -1 ; end
 
 VulpixEggMoves:
@@ -322,10 +307,7 @@ if _CRYSTAL
 endc
 	db -1 ; end
 
-LickitungEggMoves:
-	db BELLY_DRUM
-	db MAGNITUDE
-	db BODY_SLAM
+KecleonEggMoves:
 	db -1 ; end
 
 KoffingEggMoves:
@@ -383,13 +365,6 @@ GoldeenEggMoves:
 	db HYDRO_PUMP
 	db -1 ; end
 
-if !_CRYSTAL
-StaryuEggMoves:
-	db AURORA_BEAM
-	db BARRIER
-	db SUPERSONIC
-	db -1 ; end
-endc
 
 MrMimeEggMoves:
 	db FUTURE_SIGHT
@@ -822,9 +797,6 @@ LarvitarEggMoves:
 	db OUTRAGE
 	db FOCUS_ENERGY
 	db ANCIENTPOWER
-	db -1 ; end
-	
-GritespecEggMoves:
 	db -1 ; end
 
 NoEggMoves:

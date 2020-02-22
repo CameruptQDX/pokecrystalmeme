@@ -27,7 +27,7 @@ MrFujisPsyduck:
 MrFujisNidorino:
 	opentext
 	writetext MrFujisNidorinoText
-	cry NIDORINO
+	cry MISSINGNO ; nidorino culled
 	waitbutton
 	closetext
 	end

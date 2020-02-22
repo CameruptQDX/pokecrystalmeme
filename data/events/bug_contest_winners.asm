@@ -18,10 +18,10 @@ BugContestantPointers:
 ;   dbw 2nd-place mon, score
 ;   dbw 3rd-place mon, score
 
-BugContestant_BugCatcherDon:
+BugContestant_BugCatcherDon: ; NEED TO COME BACK AND REPLACE ALL THE MISSINGNO
 	db BUG_CATCHER, DON
-	dbw NIDORAN_M,     300
-	dbw NIDORAN_F,    285
+	dbw MISSINGNO,     300
+	dbw MISSINGNO,    285
 	dbw EXEGGCUTE,   226
 
 BugContestant_BugCatcherEd:
@@ -52,19 +52,19 @@ BugContestant_CamperBarry:
 	db CAMPER, BARRY
 	dbw SCYTHER,     366
 	dbw RHYHORN,    329
-	dbw NIDORAN_M,     314
+	dbw MISSINGNO,     314
 
 BugContestant_PicnickerCindy:
 	db PICNICKER, CINDY
 	dbw KANGASKHAN, 341
-	dbw NIDORAN_F,    301
+	dbw MISSINGNO,    301
 	dbw EXEGGCUTE,   264
 
 BugContestant_BugCatcherJosh:
 	db BUG_CATCHER, JOSH
 	dbw PINSIR,    326
 	dbw KANGASKHAN, 292
-	dbw NIDORAN_F,    282
+	dbw MISSINGNO,    282
 
 BugContestant_YoungsterSamuel:
 	db YOUNGSTER, SAMUEL
@@ -76,4 +76,4 @@ BugContestant_SchoolboyKipp:
 	db SCHOOLBOY, KIPP
 	dbw RHYHORN,    267
 	dbw PIKACHU,      254
-	dbw NIDORAN_M,     259
+	dbw MISSINGNO,     259

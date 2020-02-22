@@ -9,30 +9,30 @@ PokedexDataPointerTable:
 	dw SuikoPokedexEntry
 	dw SuiPokedexEntry
 	dw LaketoisePokedexEntry
-	dw CaterpiePokedexEntry
-	dw MetapodPokedexEntry
-	dw ButterfreePokedexEntry
-	dw WeedlePokedexEntry
-	dw KakunaPokedexEntry
-	dw BeedrillPokedexEntry
+	dw LilfellaPokedexEntry
+	dw BigfellaPokedexEntry
+	dw BiggrfellaPokedexEntry
+	dw SilkornPokedexEntry
+	dw MaizearPokedexEntry
+	dw KettelderPokedexEntry
 	dw PidgeyPokedexEntry
 	dw PidgeottoPokedexEntry
 	dw PidgeotPokedexEntry
 	dw RattataPokedexEntry
 	dw RaticatePokedexEntry
-	dw SpearowPokedexEntry
-	dw FearowPokedexEntry
+	dw CannonbaPokedexEntry
+	dw TriantulaPokedexEntry
 	dw EkansPokedexEntry
 	dw ArbokPokedexEntry
 	dw PikachuPokedexEntry
 	dw RaichuPokedexEntry
 	dw SandshrewPokedexEntry
 	dw SandslashPokedexEntry
-	dw NidoranFPokedexEntry
-	dw NidorinaPokedexEntry
+	dw GritespecPokedexEntry
+	dw MockereyPokedexEntry
 	dw NidoqueenPokedexEntry
-	dw NidoranMPokedexEntry
-	dw NidorinoPokedexEntry
+	dw NidoranPokedexEntry
+	dw NidoreignPokedexEntry
 	dw NidokingPokedexEntry
 	dw ClefairyPokedexEntry
 	dw ClefablePokedexEntry
@@ -107,7 +107,7 @@ PokedexDataPointerTable:
 	dw MarowakPokedexEntry
 	dw HitmonleePokedexEntry
 	dw HitmonchanPokedexEntry
-	dw LickitungPokedexEntry
+	dw KecleonPokedexEntry
 	dw KoffingPokedexEntry
 	dw WeezingPokedexEntry
 	dw RhyhornPokedexEntry
@@ -250,6 +250,6 @@ PokedexDataPointerTable:
 	dw TyranitarPokedexEntry
 	dw LugiaPokedexEntry
 	dw HoOhPokedexEntry
-	dw GritespecPokedexEntry
+	dw CelebiPokedexEntry
 	dw DoomsdayPokedexEntry
 	dw OmegaZeroPokedexEntry

@@ -28,30 +28,30 @@
 	const SUIKO   ; 07
 	const SUI  ; 08
 	const LAKETOISE  ; 09
-	const CATERPIE   ; 0a
-	const METAPOD    ; 0b
-	const BUTTERFREE ; 0c
-	const WEEDLE     ; 0d
-	const KAKUNA     ; 0e
-	const BEEDRILL   ; 0f
+	const LILFELLA   ; 0a
+	const BIGFELLA    ; 0b
+	const BIGGRFELLA ; 0c
+	const SILKORN     ; 0d
+	const MAIZEAR     ; 0e
+	const KETTELDER   ; 0f
 	const PIDGEY     ; 10
 	const PIDGEOTTO  ; 11
 	const PIDGEOT    ; 12
 	const RATTATA    ; 13
 	const RATICATE   ; 14
-	const SPEAROW    ; 15
-	const FEAROW     ; 16
+	const CANNONBA    ; 15
+	const TRIANTULA     ; 16
 	const EKANS      ; 17
 	const ARBOK      ; 18
 	const PIKACHU    ; 19
 	const RAICHU     ; 1a
 	const SANDSHREW  ; 1b
 	const SANDSLASH  ; 1c
-	const NIDORAN_F  ; 1d
-	const NIDORINA   ; 1e
+	const GRITESPEC  ; 1d (NEW)
+	const MOCKEREY   ; 1e
 	const NIDOQUEEN  ; 1f
-	const NIDORAN_M  ; 20
-	const NIDORINO   ; 21
+	const NIDORAN  ; 20
+	const NIDOREIGN   ; 21
 	const NIDOKING   ; 22
 	const CLEFAIRY   ; 23
 	const CLEFABLE   ; 24
@@ -126,7 +126,7 @@
 	const MAROWAK    ; 69
 	const HITMONLEE  ; 6a
 	const HITMONCHAN ; 6b
-	const LICKITUNG  ; 6c
+	const KECLEON  ; 6c
 	const KOFFING    ; 6d
 	const WEEZING    ; 6e
 	const RHYHORN    ; 6f
@@ -270,7 +270,7 @@ JOHTO_POKEMON EQU const_value
 	const TYRANITAR  ; f8
 	const LUGIA      ; f9
 	const HO_OH      ; fa
-	const GRITESPEC     ; fb
+	const CELEBI     ; fb
 	const DOOMSDAY     ; fc
 	const OMEGA_ZERO        ; fd
 NUM_POKEMON EQU const_value + -1

@@ -20,18 +20,18 @@ PokemonPicPointers::
 	dba_pic SuiBackpic
 	dba_pic LaketoiseFrontpic
 	dba_pic LaketoiseBackpic
-	dba_pic CaterpieFrontpic
-	dba_pic CaterpieBackpic
-	dba_pic MetapodFrontpic
-	dba_pic MetapodBackpic
-	dba_pic ButterfreeFrontpic
-	dba_pic ButterfreeBackpic
-	dba_pic WeedleFrontpic
-	dba_pic WeedleBackpic
-	dba_pic KakunaFrontpic
-	dba_pic KakunaBackpic
-	dba_pic BeedrillFrontpic
-	dba_pic BeedrillBackpic
+	dba_pic LilfellaFrontpic
+	dba_pic LilfellaBackpic
+	dba_pic BigfellaFrontpic
+	dba_pic BigfellaBackpic
+	dba_pic BiggrfellaFrontpic
+	dba_pic BiggrfellaBackpic
+	dba_pic SilkornFrontpic
+	dba_pic SilkornBackpic
+	dba_pic MaizearFrontpic
+	dba_pic MaizearBackpic
+	dba_pic KettelderFrontpic
+	dba_pic KettelderBackpic
 	dba_pic PidgeyFrontpic
 	dba_pic PidgeyBackpic
 	dba_pic PidgeottoFrontpic
@@ -42,10 +42,10 @@ PokemonPicPointers::
 	dba_pic RattataBackpic
 	dba_pic RaticateFrontpic
 	dba_pic RaticateBackpic
-	dba_pic SpearowFrontpic
-	dba_pic SpearowBackpic
-	dba_pic FearowFrontpic
-	dba_pic FearowBackpic
+	dba_pic CannonbaFrontpic
+	dba_pic CannonbaBackpic
+	dba_pic TriantulaFrontpic
+	dba_pic TrianulaBackpic
 	dba_pic EkansFrontpic
 	dba_pic EkansBackpic
 	dba_pic ArbokFrontpic
@@ -58,16 +58,16 @@ PokemonPicPointers::
 	dba_pic SandshrewBackpic
 	dba_pic SandslashFrontpic
 	dba_pic SandslashBackpic
-	dba_pic NidoranFFrontpic
-	dba_pic NidoranFBackpic
-	dba_pic NidorinaFrontpic
-	dba_pic NidorinaBackpic
+	dba_pic GritespecFrontpic
+	dba_pic GritespecBackpic
+	dba_pic MockereyFrontpic
+	dba_pic MockereyBackpic
 	dba_pic NidoqueenFrontpic
 	dba_pic NidoqueenBackpic
-	dba_pic NidoranMFrontpic
-	dba_pic NidoranMBackpic
-	dba_pic NidorinoFrontpic
-	dba_pic NidorinoBackpic
+	dba_pic NidoranFrontpic
+	dba_pic NidoranBackpic
+	dba_pic NidoreignFrontpic
+	dba_pic NidoreignBackpic
 	dba_pic NidokingFrontpic
 	dba_pic NidokingBackpic
 	dba_pic ClefairyFrontpic
@@ -216,8 +216,8 @@ PokemonPicPointers::
 	dba_pic HitmonleeBackpic
 	dba_pic HitmonchanFrontpic
 	dba_pic HitmonchanBackpic
-	dba_pic LickitungFrontpic
-	dba_pic LickitungBackpic
+	dba_pic KecleonFrontpic
+	dba_pic KecleonBackpic
 	dba_pic KoffingFrontpic
 	dba_pic KoffingBackpic
 	dba_pic WeezingFrontpic
@@ -505,8 +505,8 @@ PokemonPicPointers::
 	dba_pic LugiaBackpic
 	dba_pic HoOhFrontpic
 	dba_pic HoOhBackpic
-	dba_pic GritespecFrontpic
-	dba_pic GritespecBackpic
+	dba_pic CelebiFrontpic
+	dba_pic CelebiBackpic
 	dba_pic DoomsdayFrontpic
 	dba_pic DoomsdayBackpic
 	dba_pic OmegaZeroFrontpic

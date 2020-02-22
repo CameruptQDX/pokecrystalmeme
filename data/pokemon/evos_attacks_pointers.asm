@@ -10,30 +10,30 @@ EvosAttacksPointers::
 	dw SuikoEvosAttacks
 	dw SuiEvosAttacks
 	dw LaketoiseEvosAttacks
-	dw CaterpieEvosAttacks
-	dw MetapodEvosAttacks
-	dw ButterfreeEvosAttacks
-	dw WeedleEvosAttacks
-	dw KakunaEvosAttacks
-	dw BeedrillEvosAttacks
+	dw LilfellaEvosAttacks
+	dw BigfellaEvosAttacks
+	dw BiggrfellaEvosAttacks
+	dw SilkornEvosAttacks
+	dw MaizearEvosAttacks
+	dw KettelderEvosAttacks
 	dw PidgeyEvosAttacks
 	dw PidgeottoEvosAttacks
 	dw PidgeotEvosAttacks
 	dw RattataEvosAttacks
 	dw RaticateEvosAttacks
-	dw SpearowEvosAttacks
-	dw FearowEvosAttacks
+	dw CannonbaEvosAttacks
+	dw TriantulaEvosAttacks
 	dw EkansEvosAttacks
 	dw ArbokEvosAttacks
 	dw PikachuEvosAttacks
 	dw RaichuEvosAttacks
 	dw SandshrewEvosAttacks
 	dw SandslashEvosAttacks
-	dw NidoranFEvosAttacks
-	dw NidorinaEvosAttacks
+	dw GritespecEvosAttacks
+	dw MockereyEvosAttacks
 	dw NidoqueenEvosAttacks
-	dw NidoranMEvosAttacks
-	dw NidorinoEvosAttacks
+	dw NidoranEvosAttacks
+	dw NidoreignEvosAttacks
 	dw NidokingEvosAttacks
 	dw ClefairyEvosAttacks
 	dw ClefableEvosAttacks
@@ -108,7 +108,7 @@ EvosAttacksPointers::
 	dw MarowakEvosAttacks
 	dw HitmonleeEvosAttacks
 	dw HitmonchanEvosAttacks
-	dw LickitungEvosAttacks
+	dw KecleonEvosAttacks
 	dw KoffingEvosAttacks
 	dw WeezingEvosAttacks
 	dw RhyhornEvosAttacks
@@ -251,6 +251,6 @@ EvosAttacksPointers::
 	dw TyranitarEvosAttacks
 	dw LugiaEvosAttacks
 	dw HoOhEvosAttacks
-	dw GritespecEvosAttacks
+	dw CelebiEvosAttacks
 	dw DoomsdayEvosAttacks
 	dw OmegaZeroEvosAttacks

@@ -8,30 +8,30 @@ FramesPointers:
 	dw SuikoFrames
 	dw SuiFrames
 	dw LaketoiseFrames
-	dw CaterpieFrames
-	dw MetapodFrames
-	dw ButterfreeFrames
-	dw WeedleFrames
-	dw KakunaFrames
-	dw BeedrillFrames
+	dw LilfellaFrames
+	dw BigfellaFrames
+	dw BiggrfellaFrames
+	dw SilkornFrames
+	dw MaizearFrames
+	dw KettelderFrames
 	dw PidgeyFrames
 	dw PidgeottoFrames
 	dw PidgeotFrames
 	dw RattataFrames
 	dw RaticateFrames
-	dw SpearowFrames
-	dw FearowFrames
+	dw CannonbaFrames
+	dw TriantulaFrames
 	dw EkansFrames
 	dw ArbokFrames
 	dw PikachuFrames
 	dw RaichuFrames
 	dw SandshrewFrames
 	dw SandslashFrames
-	dw NidoranFFrames
-	dw NidorinaFrames
+	dw GritespecFrames
+	dw MockereyFrames
 	dw NidoqueenFrames
-	dw NidoranMFrames
-	dw NidorinoFrames
+	dw NidoranFrames
+	dw NidoreignFrames
 	dw NidokingFrames
 	dw ClefairyFrames
 	dw ClefableFrames
@@ -106,7 +106,7 @@ FramesPointers:
 	dw MarowakFrames
 	dw HitmonleeFrames
 	dw HitmonchanFrames
-	dw LickitungFrames
+	dw KecleonFrames
 	dw KoffingFrames
 	dw WeezingFrames
 	dw RhyhornFrames
@@ -249,6 +249,6 @@ FramesPointers:
 	dw TyranitarFrames
 	dw LugiaFrames
 	dw HoOhFrames
-	dw GritespecFrames
+	dw CelebiFrames
 	dw DoomsdayFrames
 	dw OmegaZeroFrames

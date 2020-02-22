@@ -8,30 +8,30 @@ AnimationPointers:
 	dw SuikoAnimation
 	dw SuiAnimation
 	dw LaketoiseAnimation
-	dw CaterpieAnimation
-	dw MetapodAnimation
-	dw ButterfreeAnimation
-	dw WeedleAnimation
-	dw KakunaAnimation
-	dw BeedrillAnimation
+	dw LilfellaAnimation
+	dw BigfellaAnimation
+	dw BiggrfellaAnimation
+	dw SilkornAnimation
+	dw MaizearAnimation
+	dw KettelderAnimation
 	dw PidgeyAnimation
 	dw PidgeottoAnimation
 	dw PidgeotAnimation
 	dw RattataAnimation
 	dw RaticateAnimation
-	dw SpearowAnimation
-	dw FearowAnimation
+	dw CannonbaAnimation
+	dw TriantulaAnimation
 	dw EkansAnimation
 	dw ArbokAnimation
 	dw PikachuAnimation
 	dw RaichuAnimation
 	dw SandshrewAnimation
 	dw SandslashAnimation
-	dw NidoranFAnimation
-	dw NidorinaAnimation
+	dw GritespecAnimation
+	dw MockereyAnimation
 	dw NidoqueenAnimation
-	dw NidoranMAnimation
-	dw NidorinoAnimation
+	dw NidoranAnimation
+	dw NidoreignAnimation
 	dw NidokingAnimation
 	dw ClefairyAnimation
 	dw ClefableAnimation
@@ -106,7 +106,7 @@ AnimationPointers:
 	dw MarowakAnimation
 	dw HitmonleeAnimation
 	dw HitmonchanAnimation
-	dw LickitungAnimation
+	dw KecleonAnimation
 	dw KoffingAnimation
 	dw WeezingAnimation
 	dw RhyhornAnimation
@@ -249,6 +249,6 @@ AnimationPointers:
 	dw TyranitarAnimation
 	dw LugiaAnimation
 	dw HoOhAnimation
-	dw GritespecAnimation
+	dw CelebiAnimation
 	dw DoomsdayAnimation
 	dw OmegaZeroAnimation

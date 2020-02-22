@@ -10,12 +10,13 @@ AlphabeticalPokedexOrder:
 	db ARIADOS
 	db AZUMARILL
 	db BAYLEEF
-	db BEEDRILL
 	db BELLOSSOM
 	db BELLSPROUT
+	db BIGFELLA
+	db BIGGRFELLA
 	db BLISSEY
-	db BUTTERFREE
-	db CATERPIE
+	db CANNONBA
+	db CELEBI
 	db CHANSEY
 	db CHIKORITA
 	db CHINCHOU
@@ -58,7 +59,6 @@ AlphabeticalPokedexOrder:
 	db EXEGGCUTE
 	db EXEGGUTOR
 	db FARFETCH_D
-	db FEAROW
 	db FERALIGATR
 	db FIJI
 	db FLAAFFY
@@ -100,8 +100,9 @@ AlphabeticalPokedexOrder:
 	db JUMPLUFF
 	db JYNX
 	db KADABRA
-	db KAKUNA
 	db KANGASKHAN
+	db KECLEON
+	db KETTELDER
 	db KINGDRA
 	db KINGLER
 	db KOFFING
@@ -112,7 +113,7 @@ AlphabeticalPokedexOrder:
 	db LARVITAR
 	db LEDIAN
 	db LEDYBA
-	db LICKITUNG
+	db LILFELLA
 	db LUGIA
 	db MACHAMP
 	db MACHOKE
@@ -123,6 +124,7 @@ AlphabeticalPokedexOrder:
 	db MAGMAR
 	db MAGNEMITE
 	db MAGNETON
+	db MAIZEAR
 	db MANKEY
 	db MANTINE
 	db MAREEP
@@ -131,20 +133,18 @@ AlphabeticalPokedexOrder:
 	db MAROWAK
 	db MEGANIUM
 	db MEOWTH
-	db METAPOD
 	db MILTANK
 	db MISDREAVUS
 	db MISSINGNO
+	db MOCKEREY
 	db MR__MIME
 	db MUK
 	db MURKROW
 	db NATU
 	db NIDOKING
 	db NIDOQUEEN
-	db NIDORAN_F
-	db NIDORAN_M
-	db NIDORINA
-	db NIDORINO
+	db NIDORAN
+	db NIDOREIGN
 	db NINETALES
 	db NOCTOWL
 	db OCTILLERY
@@ -198,6 +198,7 @@ AlphabeticalPokedexOrder:
 	db SENTRET
 	db SHELLDER
 	db SHUCKLE
+	db SILKORN
 	db SKARMORY
 	db SKIPLOOM
 	db SLOWBRO
@@ -209,7 +210,6 @@ AlphabeticalPokedexOrder:
 	db SNEASEL
 	db SNORLAX
 	db SNUBBULL
-	db SPEAROW
 	db SPINARAK
 	db STANTLER
 	db STARMIE
@@ -230,6 +230,7 @@ AlphabeticalPokedexOrder:
 	db TOGEPI
 	db TOGETIC
 	db TOTODILE
+	db TRIANTULA
 	db TYPHLOSION
 	db TYRANITAR
 	db TYROGUE
@@ -243,7 +244,6 @@ AlphabeticalPokedexOrder:
 	db VILEPLUME
 	db VOLTORB
 	db VULPIX
-	db WEEDLE
 	db WEEPINBELL
 	db WEEZING
 	db WIGGLYTUFF

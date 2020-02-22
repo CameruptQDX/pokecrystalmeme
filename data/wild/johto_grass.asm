@@ -329,21 +329,21 @@ JohtoGrassWildMons:
 	map_id NATIONAL_PARK ; done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 15, NIDORAN_M
-	db 15, NIDORAN_F
+	db 15, MISSINGNO
+	db 15, MISSINGNO
 	db 17, LEDYBA
 	db 16, PIKACHU
 	db 15, JIGGLYPUFF
-	db 13, SPEAROW
-	db 13, SPEAROW
+	db 13, MISSINGNO
+	db 13, MISSINGNO
 	; day
-	db 15, NIDORAN_F
-	db 15, NIDORAN_M
+	db 15, MISSINGNO
+	db 15, MISSINGNO
 	db 17, SUNKERN
 	db 16, PIKACHU
 	db 15, JIGGLYPUFF
-	db 13, SPEAROW
-	db 13, SPEAROW
+	db 13, MISSINGNO
+	db 13, MISSINGNO
 	; nite
 	db 15, PSYDUCK
 	db 15, HOOTHOOT
@@ -1147,8 +1147,10 @@ JohtoGrassWildMons:
 	db 3, HOPPIP
 	db 3, HOPPIP
 	; day
-	db 2, PIDGEY
-	db 2, SENTRET
+	;db 2, PIDGEY
+	;db 2, SENTRET
+	db 17, KOFFING
+	db 17, KOFFING
 	db 3, SUNKERN
 	db 3, SENTRET
 	db 2, RATTATA
@@ -1168,17 +1170,17 @@ JohtoGrassWildMons:
 	; morn
 	db 3, LEDYBA
 	db 3, LEDYBA
-	db 4, CATERPIE
+	db 4, MISSINGNO
 	db 4, PIDGEY
-	db 3, WEEDLE
+	db 3, MISSINGNO
 	db 4, HOPPIP
 	db 5, CHIKORITA
 	; day
 	db 3, PIDGEY
 	db 3, LEDYBA
-	db 4, CATERPIE
+	db 4, MISSINGNO
 	db 4, PIDGEY
-	db 3, WEEDLE
+	db 3, MISSINGNO
 	db 4, HOPPIP
 	db 5, CHIKORITA
 	; nite
@@ -1194,18 +1196,18 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 4, LEDYBA
-	db 4, CATERPIE
+	db 4, MISSINGNO
 	db 5, BELLSPROUT
 	db 5, PIDGEY
-	db 4, WEEDLE
+	db 4, MISSINGNO
 	db 5, HOPPIP
 	db 5, CHIKORITA
 	; day
 	db 4, PIDGEY
 	db 4, LEDYBA
 	db 5, BELLSPROUT
-	db 5, CATERPIE
-	db 4, WEEDLE
+	db 5, MISSINGNO
+	db 4, MISSINGNO
 	db 5, HOPPIP
 	db 5, CHIKORITA
 	; nite
@@ -1248,7 +1250,7 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 10, EKANS
-	db 10, SPEAROW
+	db 10, MISSINGNO
 	db 10, GEODUDE
 	db 10, SANDSHREW
 	db 11, EKANS
@@ -1256,7 +1258,7 @@ JohtoGrassWildMons:
 	db 9, CYNDAQUIL
 	; day
 	db 10, EKANS
-	db 10, SPEAROW
+	db 10, MISSINGNO
 	db 10, GEODUDE
 	db 10, SANDSHREW
 	db 11, EKANS
@@ -1302,24 +1304,24 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 15, SNUBBULL
-	db 13, NIDORAN_F
-	db 13, NIDORAN_M
+	db 13, MISSINGNO
+	db 13, MISSINGNO
 	db 15, YANMA
 	db 16, GROWLITHE
 	db 17, VULPIX
 	db 15, PERITOP
 	; day
 	db 15, SNUBBULL
-	db 13, NIDORAN_F
-	db 13, NIDORAN_M
+	db 13, MISSINGNO
+	db 13, MISSINGNO
 	db 15, YANMA
 	db 16, GROWLITHE
 	db 17, VULPIX
 	db 15, PERITOP
 	; nite
 	db 15, DROWZEE
-	db 13, NIDORAN_M
-	db 13, NIDORAN_F
+	db 13, MISSINGNO
+	db 13, MISSINGNO
 	db 15, YANMA
 	db 16, HOUNDOUR
 	db 17, VULPIX
@@ -1329,24 +1331,24 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 16, GROWLITHE
-	db 14, NIDORAN_M
-	db 14, NIDORAN_F
+	db 14, MISSINGNO
+	db 14, MISSINGNO
 	db 16, VULPIX
-	db 17, SPEAROW
+	db 17, MISSINGNO
 	db 17, STANTLER
 	db 16, PERITOP
 	; day
 	db 16, GROWLITHE
-	db 14, NIDORAN_M
-	db 14, NIDORAN_F
+	db 14, MISSINGNO
+	db 14, MISSINGNO
 	db 16, VULPIX
-	db 17, SPEAROW
+	db 17, MISSINGNO
 	db 17, STANTLER
 	db 16, PERITOP
 	; nite
 	db 16, VULPIX
-	db 14, NIDORAN_F
-	db 14, NIDORAN_M
+	db 14, MISSINGNO
+	db 14, MISSINGNO
 	db 16, HOUNDOUR
 	db 17, GASTLY
 	db 17, STANTLER
@@ -1437,20 +1439,20 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 13, EKANS
-	db 14, SPEAROW
+	db 14, MISSINGNO
 	db 15, RATTATA
 	db 16, RATICATE
 	db 15, ARBOK
-	db 16, FEAROW
-	db 16, FEAROW
+	db 16, MISSINGNO
+	db 16, MISSINGNO
 	; day
 	db 13, EKANS
-	db 14, SPEAROW
+	db 14, MISSINGNO
 	db 15, RATTATA
 	db 16, RATICATE
 	db 15, ARBOK
-	db 16, FEAROW
-	db 16, FEAROW
+	db 16, MISSINGNO
+	db 16, MISSINGNO
 	; nite
 	db 13, RATTATA
 	db 14, ZUBAT
@@ -1491,20 +1493,20 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 23, TANGELA
-	db 22, LICKITUNG
+	db 22, MISSINGNO
 	db 22, BELLSPROUT
 	db 24, WEEPINBELL
-	db 24, LICKITUNG
-	db 26, LICKITUNG
-	db 26, LICKITUNG
+	db 24, MISSINGNO
+	db 26, MISSINGNO
+	db 26, MISSINGNO
 	; day
 	db 23, TANGELA
-	db 22, LICKITUNG
+	db 22, MISSINGNO
 	db 22, BELLSPROUT
 	db 24, WEEPINBELL
-	db 24, LICKITUNG
-	db 26, LICKITUNG
-	db 26, LICKITUNG
+	db 24, MISSINGNO
+	db 26, MISSINGNO
+	db 26, MISSINGNO
 	; nite
 	db 23, TANGELA
 	db 22, POLIWAG
@@ -1545,7 +1547,7 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 2, GEODUDE
-	db 2, SPEAROW
+	db 2, MISSINGNO
 	db 3, GEODUDE
 	db 3, RATTATA
 	db 2, PHANPY
@@ -1553,7 +1555,7 @@ JohtoGrassWildMons:
 	db 2, RATTATA
 	; day
 	db 2, GEODUDE
-	db 2, SPEAROW
+	db 2, MISSINGNO
 	db 3, GEODUDE
 	db 3, RATTATA
 	db 2, SWINUB

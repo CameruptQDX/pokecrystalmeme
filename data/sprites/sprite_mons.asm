@@ -3,7 +3,7 @@ SpriteMons:
 	db MISSINGNO ; unown
 	db GEODUDE
 	db GROWLITHE
-	db WEEDLE
+	db VENONAT ; used to be weedle, don't have any other worm mons
 	db SHELLDER
 	db ODDISH
 	db GENGAR
@@ -11,7 +11,7 @@ SpriteMons:
 	db MAGIKARP
 	db SUIKO ; squirtle
 	db TOGEPI
-	db BUTTERFREE
+	db VENOMOTH ; replaced butterfree
 	db DIGLETT
 	db POLIWAG
 	db PIKACHU

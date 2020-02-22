@@ -1,5 +1,6 @@
 BattleTowerMons:
 ; 10 groups of 21 mons.
+;NEED TO COME BACK HERE LATER AND FIX ALL THE FAKEMON'S SETS
 
 BattleTowerMons1:
 
@@ -1595,7 +1596,7 @@ BattleTowerMons3:
 	bigdw 65 ; SDef
 	db "RINGUMA@@@@"
 
-	db FEAROW
+	db TRIANTULA
 	db BRIGHTPOWDER
 	db MIRROR_MOVE, PURSUIT, PECK, SWIFT
 	dw 0 ; OT ID
@@ -5204,7 +5205,7 @@ BattleTowerMons10:
 	bigdw 218 ; SDef
 	db "HAGANE-RU@@"
 
-	db FEAROW
+	db CANNONBA
 	db KINGS_ROCK
 	db DRILL_PECK, STEEL_WING, HYPER_BEAM, MUD_SLAP
 	dw 0 ; OT ID

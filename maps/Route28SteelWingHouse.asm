@@ -33,7 +33,7 @@ Celebrity:
 CelebritysFearow:
 	opentext
 	writetext CelebritysFearowText
-	cry FEAROW
+	cry MISSINGNO ; cry replace, fearow culled
 	waitbutton
 	closetext
 	end

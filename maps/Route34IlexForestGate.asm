@@ -68,7 +68,7 @@ Route34IlexForestGateTeacherScript:
 Route34IlexForestGateButterfreeScript:
 	opentext
 	writetext Route34IlexForestGateButterfreeText
-	cry BUTTERFREE
+	cry VENOMOTH ; replaced butterfree because it got culled
 	waitbutton
 	closetext
 	end

@@ -8,30 +8,30 @@ AnimationIdlePointers:
 	dw SuikoAnimationIdle
 	dw SuiAnimationIdle
 	dw LaketoiseAnimationIdle
-	dw CaterpieAnimationIdle
-	dw MetapodAnimationIdle
-	dw ButterfreeAnimationIdle
-	dw WeedleAnimationIdle
-	dw KakunaAnimationIdle
-	dw BeedrillAnimationIdle
+	dw LilfellaAnimationIdle
+	dw BigfellaAnimationIdle
+	dw BiggrfellaAnimationIdle
+	dw SilkornAnimationIdle
+	dw MaizearAnimationIdle
+	dw KettelderAnimationIdle
 	dw PidgeyAnimationIdle
 	dw PidgeottoAnimationIdle
 	dw PidgeotAnimationIdle
 	dw RattataAnimationIdle
 	dw RaticateAnimationIdle
-	dw SpearowAnimationIdle
-	dw FearowAnimationIdle
+	dw CannonbaAnimationIdle
+	dw TriantulaAnimationIdle
 	dw EkansAnimationIdle
 	dw ArbokAnimationIdle
 	dw PikachuAnimationIdle
 	dw RaichuAnimationIdle
 	dw SandshrewAnimationIdle
 	dw SandslashAnimationIdle
-	dw NidoranFAnimationIdle
-	dw NidorinaAnimationIdle
+	dw GritespecAnimationIdle
+	dw MockereyAnimationIdle
 	dw NidoqueenAnimationIdle
-	dw NidoranMAnimationIdle
-	dw NidorinoAnimationIdle
+	dw NidoranAnimationIdle
+	dw NidoreignAnimationIdle
 	dw NidokingAnimationIdle
 	dw ClefairyAnimationIdle
 	dw ClefableAnimationIdle
@@ -106,7 +106,7 @@ AnimationIdlePointers:
 	dw MarowakAnimationIdle
 	dw HitmonleeAnimationIdle
 	dw HitmonchanAnimationIdle
-	dw LickitungAnimationIdle
+	dw KecleonAnimationIdle
 	dw KoffingAnimationIdle
 	dw WeezingAnimationIdle
 	dw RhyhornAnimationIdle
@@ -249,6 +249,6 @@ AnimationIdlePointers:
 	dw TyranitarAnimationIdle
 	dw LugiaAnimationIdle
 	dw HoOhAnimationIdle
-	dw GritespecAnimationIdle
+	dw CelebiAnimationIdle
 	dw DoomsdayAnimationIdle
 	dw OmegaZeroAnimationIdle

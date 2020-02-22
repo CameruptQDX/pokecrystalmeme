@@ -8,30 +8,30 @@ BitmasksPointers:
 	dw SuikoBitmasks
 	dw SuiBitmasks
 	dw LaketoiseBitmasks
-	dw CaterpieBitmasks
-	dw MetapodBitmasks
-	dw ButterfreeBitmasks
-	dw WeedleBitmasks
-	dw KakunaBitmasks
-	dw BeedrillBitmasks
+	dw LilfellaBitmasks
+	dw BigfellaBitmasks
+	dw BiggrfellaBitmasks
+	dw SilkornBitmasks
+	dw MaizearBitmasks
+	dw KettelderBitmasks
 	dw PidgeyBitmasks
 	dw PidgeottoBitmasks
 	dw PidgeotBitmasks
 	dw RattataBitmasks
 	dw RaticateBitmasks
-	dw SpearowBitmasks
-	dw FearowBitmasks
+	dw CannonbaBitmasks
+	dw TriantulaBitmasks
 	dw EkansBitmasks
 	dw ArbokBitmasks
 	dw PikachuBitmasks
 	dw RaichuBitmasks
 	dw SandshrewBitmasks
 	dw SandslashBitmasks
-	dw NidoranFBitmasks
-	dw NidorinaBitmasks
+	dw GritespecBitmasks
+	dw MockereyBitmasks
 	dw NidoqueenBitmasks
-	dw NidoranMBitmasks
-	dw NidorinoBitmasks
+	dw NidoranBitmasks
+	dw NidoreignBitmasks
 	dw NidokingBitmasks
 	dw ClefairyBitmasks
 	dw ClefableBitmasks
@@ -106,7 +106,7 @@ BitmasksPointers:
 	dw MarowakBitmasks
 	dw HitmonleeBitmasks
 	dw HitmonchanBitmasks
-	dw LickitungBitmasks
+	dw KecleonBitmasks
 	dw KoffingBitmasks
 	dw WeezingBitmasks
 	dw RhyhornBitmasks
@@ -249,6 +249,6 @@ BitmasksPointers:
 	dw TyranitarBitmasks
 	dw LugiaBitmasks
 	dw HoOhBitmasks
-	dw GritespecBitmasks
+	dw CelebiBitmasks
 	dw DoomsdayBitmasks
 	dw OmegaZeroBitmasks

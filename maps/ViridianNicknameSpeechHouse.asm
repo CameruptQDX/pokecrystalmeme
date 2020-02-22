@@ -18,7 +18,7 @@ ViridianNicknameSpeechHouseLassScript:
 Speary:
 	opentext
 	writetext SpearyText
-	cry SPEAROW
+	cry MISSINGNO ; replaced spearow because it got culled
 	waitbutton
 	closetext
 	end

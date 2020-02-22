@@ -194,18 +194,18 @@ KantoGrassWildMons:
 	map_id ROUTE_2
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 3, CATERPIE
+	db 3, MISSINGNO
 	db 3, LEDYBA
 	db 5, PIDGEY
-	db 7, BUTTERFREE
+	db 7, MISSINGNO
 	db 7, LEDIAN
 	db 4, PIKACHU
 	db 4, PIKACHU
 	; day
-	db 3, CATERPIE
+	db 3, MISSINGNO
 	db 3, PIDGEY
 	db 5, PIDGEY
-	db 7, BUTTERFREE
+	db 7, MISSINGNO
 	db 7, PIDGEOTTO
 	db 4, PIKACHU
 	db 4, PIKACHU
@@ -221,7 +221,7 @@ KantoGrassWildMons:
 	map_id ROUTE_3
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 5, SPEAROW
+	db 5, MISSINGNO
 	db 5, RATTATA
 	db 8, EKANS
 	db 10, RATICATE
@@ -229,7 +229,7 @@ KantoGrassWildMons:
 	db 10, SANDSHREW
 	db 10, SANDSHREW
 	; day
-	db 5, SPEAROW
+	db 5, MISSINGNO
 	db 5, RATTATA
 	db 8, EKANS
 	db 10, RATICATE
@@ -248,7 +248,7 @@ KantoGrassWildMons:
 	map_id ROUTE_4
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 5, SPEAROW
+	db 5, MISSINGNO
 	db 5, RATTATA
 	db 8, EKANS
 	db 10, RATICATE
@@ -256,7 +256,7 @@ KantoGrassWildMons:
 	db 10, SANDSHREW
 	db 10, SANDSHREW
 	; day
-	db 5, SPEAROW
+	db 5, MISSINGNO
 	db 5, RATTATA
 	db 8, EKANS
 	db 10, RATICATE
@@ -330,7 +330,7 @@ KantoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 17, RATTATA
-	db 17, SPEAROW
+	db 17, MISSINGNO
 	db 18, SNUBBULL
 	db 18, RATICATE
 	db 18, JIGGLYPUFF
@@ -338,7 +338,7 @@ KantoGrassWildMons:
 	db 16, ABRA
 	; day
 	db 17, RATTATA
-	db 17, SPEAROW
+	db 17, MISSINGNO
 	db 18, SNUBBULL
 	db 18, RATICATE
 	db 18, JIGGLYPUFF
@@ -384,18 +384,18 @@ KantoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 15, RATTATA
-	db 15, SPEAROW
+	db 15, MISSINGNO
 	db 15, RATICATE
-	db 15, FEAROW
-	db 15, FEAROW
+	db 15, MISSINGNO
+	db 15, MISSINGNO
 	db 18, MAROWAK
 	db 18, MAROWAK
 	; day
 	db 15, RATTATA
-	db 15, SPEAROW
+	db 15, MISSINGNO
 	db 15, RATICATE
-	db 15, FEAROW
-	db 15, FEAROW
+	db 15, MISSINGNO
+	db 15, MISSINGNO
 	db 18, MAROWAK
 	db 18, MAROWAK
 	; nite
@@ -410,18 +410,18 @@ KantoGrassWildMons:
 	map_id ROUTE_10_NORTH
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 15, SPEAROW
+	db 15, MISSINGNO
 	db 17, VOLTORB
 	db 15, RATICATE
-	db 15, FEAROW
+	db 15, MISSINGNO
 	db 15, MAROWAK
 	db 16, ELECTABUZZ
 	db 16, ELECTABUZZ
 	; day
-	db 15, SPEAROW
+	db 15, MISSINGNO
 	db 17, VOLTORB
 	db 15, RATICATE
-	db 15, FEAROW
+	db 15, MISSINGNO
 	db 15, MAROWAK
 	db 18, ELECTABUZZ
 	db 18, ELECTABUZZ
@@ -464,16 +464,16 @@ KantoGrassWildMons:
 	map_id ROUTE_13
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 23, NIDORINO
-	db 23, NIDORINA
+	db 23, MISSINGNO
+	db 23, MISSINGNO
 	db 25, PIDGEOTTO
 	db 25, HOPPIP
 	db 27, HOPPIP
 	db 27, HOPPIP
 	db 25, CHANSEY
 	; day
-	db 23, NIDORINO
-	db 23, NIDORINA
+	db 23, MISSINGNO
+	db 23, MISSINGNO
 	db 25, PIDGEOTTO
 	db 25, HOPPIP
 	db 27, HOPPIP
@@ -491,16 +491,16 @@ KantoGrassWildMons:
 	map_id ROUTE_14
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 26, NIDORINO
-	db 26, NIDORINA
+	db 26, MISSINGNO
+	db 26, MISSINGNO
 	db 28, PIDGEOTTO
 	db 28, HOPPIP
 	db 30, SKIPLOOM
 	db 30, SKIPLOOM
 	db 28, CHANSEY
 	; day
-	db 26, NIDORINO
-	db 26, NIDORINA
+	db 26, MISSINGNO
+	db 26, MISSINGNO
 	db 28, PIDGEOTTO
 	db 28, HOPPIP
 	db 30, SKIPLOOM
@@ -518,16 +518,16 @@ KantoGrassWildMons:
 	map_id ROUTE_15
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 23, NIDORINO
-	db 23, NIDORINA
+	db 23, MISSINGNO
+	db 23, MISSINGNO
 	db 25, PIDGEOTTO
 	db 25, HOPPIP
 	db 27, HOPPIP
 	db 27, HOPPIP
 	db 25, CHANSEY
 	; day
-	db 23, NIDORINO
-	db 23, NIDORINA
+	db 23, MISSINGNO
+	db 23, MISSINGNO
 	db 25, PIDGEOTTO
 	db 25, HOPPIP
 	db 27, HOPPIP
@@ -546,17 +546,17 @@ KantoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 26, GRIMER
-	db 27, FEAROW
+	db 27, MISSINGNO
 	db 28, GRIMER
-	db 29, FEAROW
-	db 29, FEAROW
+	db 29, MISSINGNO
+	db 29, MISSINGNO
 	db 30, MUK
 	db 30, MUK
 	; day
 	db 26, GRIMER
-	db 27, FEAROW
+	db 27, MISSINGNO
 	db 28, GRIMER
-	db 29, FEAROW
+	db 29, MISSINGNO
 	db 29, SLUGMA
 	db 30, MUK
 	db 30, MUK
@@ -572,18 +572,18 @@ KantoGrassWildMons:
 	map_id ROUTE_17
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 30, FEAROW
+	db 30, MISSINGNO
 	db 29, GRIMER
 	db 31, GRIMER
-	db 32, FEAROW
+	db 32, MISSINGNO
 	db 33, GRIMER
 	db 33, MUK
 	db 33, MUK
 	; day
-	db 30, FEAROW
+	db 30, MISSINGNO
 	db 29, SLUGMA
 	db 29, GRIMER
-	db 32, FEAROW
+	db 32, MISSINGNO
 	db 32, SLUGMA
 	db 33, MUK
 	db 33, MUK
@@ -600,17 +600,17 @@ KantoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 26, GRIMER
-	db 27, FEAROW
+	db 27, MISSINGNO
 	db 28, GRIMER
-	db 29, FEAROW
-	db 29, FEAROW
+	db 29, MISSINGNO
+	db 29, MISSINGNO
 	db 30, MUK
 	db 30, MUK
 	; day
 	db 26, GRIMER
-	db 27, FEAROW
+	db 27, MISSINGNO
 	db 28, GRIMER
-	db 29, FEAROW
+	db 29, MISSINGNO
 	db 29, SLUGMA
 	db 30, MUK
 	db 30, MUK
@@ -654,20 +654,20 @@ KantoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 3, RATTATA
-	db 3, SPEAROW
-	db 5, SPEAROW
+	db 3, MISSINGNO
+	db 5, MISSINGNO
 	db 4, DODUO
 	db 6, PONYTA
-	db 7, FEAROW
-	db 7, FEAROW
+	db 7, MISSINGNO
+	db 7, MISSINGNO
 	; day
 	db 3, RATTATA
-	db 3, SPEAROW
-	db 5, SPEAROW
+	db 3, MISSINGNO
+	db 5, MISSINGNO
 	db 4, DODUO
 	db 6, PONYTA
-	db 7, FEAROW
-	db 7, FEAROW
+	db 7, MISSINGNO
+	db 7, MISSINGNO
 	; nite
 	db 3, RATTATA
 	db 3, POLIWAG
@@ -680,21 +680,21 @@ KantoGrassWildMons:
 	map_id ROUTE_24
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 8, CATERPIE
-	db 10, CATERPIE
-	db 12, METAPOD
+	db 8, MISSINGNO
+	db 10, MISSINGNO
+	db 12, MISSINGNO
 	db 12, ABRA
 	db 10, BELLSPROUT
-	db 14, BUTTERFREE
-	db 14, BUTTERFREE
+	db 14, MISSINGNO
+	db 14, MISSINGNO
 	; day
-	db 8, CATERPIE
+	db 8, MISSINGNO
 	db 12, SUNKERN
-	db 10, CATERPIE
+	db 10, MISSINGNO
 	db 12, ABRA
 	db 10, BELLSPROUT
-	db 14, BUTTERFREE
-	db 14, BUTTERFREE
+	db 14, MISSINGNO
+	db 14, MISSINGNO
 	; nite
 	db 10, VENONAT
 	db 10, ODDISH
@@ -707,21 +707,21 @@ KantoGrassWildMons:
 	map_id ROUTE_25
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 10, CATERPIE
+	db 10, MISSINGNO
 	db 10, PIDGEY
 	db 12, PIDGEOTTO
-	db 12, METAPOD
+	db 12, MISSINGNO
 	db 10, BELLSPROUT
-	db 14, BUTTERFREE
-	db 14, BUTTERFREE
+	db 14, MISSINGNO
+	db 14, MISSINGNO
 	; day
-	db 10, CATERPIE
+	db 10, MISSINGNO
 	db 10, PIDGEY
 	db 12, PIDGEOTTO
-	db 12, METAPOD
+	db 12, MISSINGNO
 	db 10, BELLSPROUT
-	db 14, BUTTERFREE
-	db 14, BUTTERFREE
+	db 14, MISSINGNO
+	db 14, MISSINGNO
 	; nite
 	db 10, ODDISH
 	db 10, HOOTHOOT

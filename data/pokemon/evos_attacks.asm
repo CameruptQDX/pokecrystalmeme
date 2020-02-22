@@ -155,56 +155,34 @@ LaketoiseEvosAttacks:
 	db 52, EARTHQUAKE
 	db 0 ; no more level-up moves
 
-CaterpieEvosAttacks:
-	db EVOLVE_LEVEL, 7, METAPOD
+LilfellaEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, TACKLE
-	db 1, STRING_SHOT
+	db 1, HIDDEN_POWER
 	db 0 ; no more level-up moves
 
-MetapodEvosAttacks:
-	db EVOLVE_LEVEL, 10, BUTTERFREE
+BigfellaEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, TACKLE
-	db 1, HARDEN
+	db 1, HIDDEN_POWER
 	db 0 ; no more level-up moves
 
-ButterfreeEvosAttacks:
+BiggrfellaEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, GUST
-	db 11, CONFUSION
-	db 13, POISONPOWDER
-	db 14, STUN_SPORE
-	db 15, SLEEP_POWDER
-	db 18, SUPERSONIC
-	db 23, WHIRLWIND
-	db 28, PSYBEAM
-	db 34, SAFEGUARD
+	db 1, HIDDEN_POWER
 	db 0 ; no more level-up moves
 
-WeedleEvosAttacks:
-	db EVOLVE_LEVEL, 7, KAKUNA
+SilkornEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, POISON_STING
-	db 1, STRING_SHOT
+	db 1, HIDDEN_POWER
 	db 0 ; no more level-up moves
 
-KakunaEvosAttacks:
-	db EVOLVE_LEVEL, 10, BEEDRILL
+MaizearEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, POISON_STING
-	db 1, HARDEN
+	db 1, HIDDEN_POWER
 	db 0 ; no more level-up moves
 
-BeedrillEvosAttacks:
+KettelderEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, FURY_ATTACK
-	db 15, FOCUS_ENERGY
-	db 20, TWINEEDLE
-	db 25, RAGE
-	db 30, PURSUIT
-	db 35, PIN_MISSILE
-	db 40, AGILITY
+	db 1, HIDDEN_POWER
 	db 0 ; no more level-up moves
 
 PidgeyEvosAttacks:
@@ -282,31 +260,14 @@ RaticateEvosAttacks:
 	db 50, SWORDS_DANCE
 	db 0 ; no more level-up moves
 
-SpearowEvosAttacks:
-	db EVOLVE_LEVEL, 20, FEAROW
+CannonbaEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, PECK
-	db 1, GROWL
-	db 7, LEER
-	db 13, FURY_ATTACK
-	db 25, PURSUIT
-	db 31, MIRROR_MOVE
-	db 37, DRILL_PECK
-	db 43, AGILITY
+	db 1, HIDDEN_POWER
 	db 0 ; no more level-up moves
 
-FearowEvosAttacks:
+TriantulaEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, PECK
-	db 1, GROWL
-	db 1, LEER
-	db 1, FURY_ATTACK
-	db 7, LEER
-	db 13, FURY_ATTACK
-	db 26, PURSUIT
-	db 32, MIRROR_MOVE
-	db 40, DRILL_PECK
-	db 47, AGILITY
+	db 1, HIDDEN_POWER
 	db 0 ; no more level-up moves
 
 EkansEvosAttacks:
@@ -401,32 +362,22 @@ SandslashEvosAttacks:
 	db 60, EARTHQUAKE
 	db 0 ; no more level-up moves
 
-NidoranFEvosAttacks:
-	db EVOLVE_LEVEL, 16, NIDORINA
+GritespecEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, CONFUSION
 	db 1, GROWL
-	db 1, SCRATCH
-	db 7, TAIL_WHIP
-	db 9, DOUBLE_KICK
-	db 13, POISON_STING
-	db 19, FURY_SWIPES
-	db 21, BITE 
-	db 30, CRUNCH
-	db 38, SUPER_FANG
+	db 4, ROAR
+	db 9, PSYWAVE
+	db 13, SCREECH
+	db 25, PSYBEAM
+	db 33, HIDDEN_POWER
+	db 41, PSYCHIC
+	db 50, PERISH_SONG
 	db 0 ; no more level-up moves
 
-NidorinaEvosAttacks:
-	db EVOLVE_ITEM, MOON_STONE, NIDOQUEEN
+MockereyEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, GROWL
-	db 1, SCRATCH
-	db 7, TAIL_WHIP
-	db 9, DOUBLE_KICK
-	db 13, POISON_STING
-	db 21, FURY_SWIPES
-	db 23, BITE 
-	db 32, CRUNCH
-	db 40, SUPER_FANG
+	db 1, HIDDEN_POWER
 	db 0 ; no more level-up moves
 
 NidoqueenEvosAttacks:
@@ -437,32 +388,14 @@ NidoqueenEvosAttacks:
 	db 1, TAIL_WHIP
 	db 0 ; no more level-up moves
 
-NidoranMEvosAttacks:
-	db EVOLVE_LEVEL, 16, NIDORINO
+NidoranEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, LEER
-	db 1, PECK
-	db 7, FOCUS_ENERGY
-	db 9, DOUBLE_KICK
-	db 13, POISON_STING
-	db 19, FURY_ATTACK
-	db 23, HORN_ATTACK
-	db 30, SLUDGE_BOMB
-	db 38, THRASH
+	db 1, HIDDEN_POWER
 	db 0 ; no more level-up moves
 
-NidorinoEvosAttacks:
-	db EVOLVE_ITEM, MOON_STONE, NIDOKING
+NidoreignEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, LEER
-	db 1, PECK
-	db 7, FOCUS_ENERGY
-	db 9, DOUBLE_KICK
-	db 13, POISON_STING
-	db 21, FURY_ATTACK
-	db 23, HORN_ATTACK
-	db 32, SLUDGE_BOMB
-	db 40, THRASH
+	db 1, HIDDEN_POWER
 	db 0 ; no more level-up moves
 
 NidokingEvosAttacks:
@@ -1541,17 +1474,9 @@ HitmonchanEvosAttacks:
 	db 50, COUNTER
 	db 0 ; no more level-up moves
 
-LickitungEvosAttacks:
+KecleonEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, LICK
-	db 7, SUPERSONIC
-	db 13, DEFENSE_CURL
-	db 19, STOMP
-	db 25, WRAP
-	db 31, DISABLE
-	db 37, SLAM
-	db 40, ROLLOUT
-	db 43, SCREECH
+	db 1, HIDDEN_POWER
 	db 0 ; no more level-up moves
 
 KoffingEvosAttacks:
@@ -3525,16 +3450,16 @@ HoOhEvosAttacks:
 	db 99, FUTURE_SIGHT
 	db 0 ; no more level-up moves
 
-GritespecEvosAttacks:
+CelebiEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, LEECH_SEED
 	db 1, CONFUSION
-	db 1, GROWL
-	db 4, ROAR
-	db 9, PSYWAVE
-	db 13, SCREECH
-	db 25, PSYBEAM
-	db 33, HIDDEN_POWER
-	db 41, PSYCHIC
+	db 1, RECOVER
+	db 1, HEAL_BELL
+	db 10, SAFEGUARD
+	db 20, ANCIENTPOWER
+	db 30, FUTURE_SIGHT
+	db 40, BATON_PASS
 	db 50, PERISH_SONG
 	db 0 ; no more level-up moves
 	

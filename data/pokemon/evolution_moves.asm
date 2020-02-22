@@ -8,19 +8,19 @@ EvolutionMoves::
 	db NO_MOVE      
 	db NO_MOVE      ; SUI
 	db NO_MOVE      
-	db NO_MOVE      ; CATERPIE
-	db HARDEN       ; METAPOD
-	db GUST         ; BUTTERFREE
-	db NO_MOVE      ; WEEDLE
-	db HARDEN       ; KAKUNA
-	db FURY_ATTACK  ; BEEDRILL
+	db NO_MOVE      ; LILFELLA
+	db HARDEN       ; BIGFELLA
+	db NO_MOVE      ; BIGGRFELLA
+	db NO_MOVE      ; SILKORN
+	db NO_MOVE      ; MAIZEAR
+	db NO_MOVE      ; KETTELDER
 	db NO_MOVE
 	db NO_MOVE
 	db NO_MOVE
 	db NO_MOVE
 	db SCARY_FACE   ; RATICATE
-	db NO_MOVE
-	db NO_MOVE
+	db NO_MOVE      ; CANNONBA
+	db NO_MOVE      ; TRIANTULA
 	db NO_MOVE
 	db CRUNCH       ; ARBOK
 	db NO_MOVE
@@ -249,7 +249,7 @@ EvolutionMoves::
 	db NO_MOVE
 	db NO_MOVE
 	db NO_MOVE
-	db NO_MOVE      ; GRITESPEC
+	db NO_MOVE      ; CELEBI
 	db NO_MOVE
 	db NO_MOVE
 	
