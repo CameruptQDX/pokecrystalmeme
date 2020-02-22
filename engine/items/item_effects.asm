@@ -1015,33 +1015,39 @@ GetDexColor:
 	ret
 
 LevelBallMultiplier: ; blast ball, has 8x multiplier against mons with explosion or selfdestruct 
-; multiply catch rate by 8 if player mon level / 4 > enemy mon level
-; multiply catch rate by 4 if player mon level / 2 > enemy mon level
-; multiply catch rate by 2 if player mon level > enemy mon level
-	ld a, [wBattleMonLevel]
-	ld c, a
-	ld a, [wEnemyMonLevel]
-	cp c
-	ret nc ; if player is lower level, we're done here
-	sla b
+	push bc ; push ball mult. to stack
+	ld b, wEnemyMonMoves ; address of the enemy mon moves
+	dec b ; move back one, so the first time in the loop dosen't go to position 2 instead of 1
+
+.loop
+	inc b ; move up one in the array
+	ld a, [wEnemyMonMoves + b] ; load the data at the array position
+	cp SELFDESTRUCT ; compare for each move
+	jp z, .giveMult
+	cp EXPLOSION
+	jp z, .giveMult
+	
+	
+	ld a, wEnemyMonMovesEnd
+	cp b ; compare the array position to wEnemyMonMovesEnd to see if we're at the end of the struct
+	jp nz, .loop ; loop if not there yet
+	
+;fallthrough
+	jp .done
+
+.giveMult ; bonus awarded here (for right now it's just a 3x instead of the 8x it should be)
+	ld a, b
+	add a
 	jr c, .max
 
-	srl c
-	cp c
-	ret nc ; if player/2 is lower level, we're done here
-	sla b
-	jr c, .max
-
-	srl c
-	cp c
-	ret nc ; if player/4 is lower level, we're done here
-	sla b
-	ret nc
-
+	add b
+	jr nc, .done
 .max
-	ld b, $ff
+	ld a, $ff
+.done
+	ld b, a
 	ret
-
+	
 ; These two texts were carried over from gen 1.
 ; They are not used in gen 2, and are dummied out.
 
