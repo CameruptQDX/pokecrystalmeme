@@ -40,7 +40,7 @@ MoveDescriptions::
 	dw DoubleEdgeDescription
 	dw TailWhipDescription
 	dw PoisonStingDescription
-	dw TwineedleDescription
+	dw MuddyStareDescription
 	dw PinMissileDescription
 	dw LeerDescription
 	dw BiteDescription
@@ -139,7 +139,7 @@ MoveDescriptions::
 	dw GlareDescription
 	dw DreamEaterDescription
 	dw PoisonGasDescription
-	dw BarrageDescription
+	dw CannonBallDescription
 	dw LeechLifeDescription
 	dw LovelyKissDescription
 	dw SkyAttackDescription
@@ -257,9 +257,6 @@ MoveDescriptions::
 	dw MoveFFDescription
 	dw Move00Description
 
-MoveFCDescription:
-MoveFDDescription:
-MoveFEDescription:
 MoveFFDescription:
 Move00Description:
 	db "?@"
@@ -428,9 +425,9 @@ PoisonStingDescription:
 	db   "An attack that may"
 	next "poison the target.@"
 
-TwineedleDescription:
-	db   "Jabs the foe twice"
-	next "using stingers.@"
+MuddyStareDescription:
+	db   "Shoots mud from"
+	next "its tear ducts.@"
 
 PinMissileDescription:
 	db   "Fires pins that"
@@ -824,7 +821,7 @@ PoisonGasDescription:
 	db   "A move that may"
 	next "poison the foe.@"
 
-BarrageDescription:
+CannonBallDescription:
 	db   "Throws orbs to hit"
 	next "2-5 times.@"
 

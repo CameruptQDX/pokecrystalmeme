@@ -47,7 +47,7 @@ MoveGrammar:
 	db AGILITY
 	db MIMIC
 	db DOUBLE_TEAM
-	db BARRAGE
+	db CANNON_BALL
 	db TRANSFORM
 	db STRUGGLE
 	db SCARY_FACE

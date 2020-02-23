@@ -1,9 +1,9 @@
 	db UNLUCKY ; replaces kabuto
 
-	db 150,  105, 50,  50,  50, 105
+	db 140, 85, 50,  50,  50, 85
 	;   hp  atk  def  spd  sat  sdf
 
-	db NORMAL, DARK ; type
+	db DARK, DARK ; type
 	db 30 ; catch rate
 	db 1 ; base exp
 	db BITTER_BERRY, BITTER_BERRY ; items

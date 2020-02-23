@@ -1,15 +1,15 @@
 	db NIDORAN ; replaces nidoran m
 
-	db 100, 100, 100, 100, 100, 100
+	db 51, 52, 46, 46, 40, 40
 	;   hp  atk  def  spd  sat  sdf
 
-	db PSYCHIC, PSYCHIC ; type
-	db 45 ; catch rate
-	db 64 ; base exp
-	db NO_ITEM, MIRACLEBERRY ; items
+	db POISON, POISON ; type
+	db 250 ; catch rate
+	db 70 ; base exp
+	db NO_ITEM, NO_ITEM ; items
 	db GENDER_UNKNOWN ; gender ratio
 	db 100 ; unknown 1
-	db 120 ; step cycles to hatch
+	db 20 ; step cycles to hatch
 	db 5 ; unknown 2
 	INCBIN "gfx/pokemon/nidoran/front.dimensions"
 	db 0, 0, 0, 0 ; padding

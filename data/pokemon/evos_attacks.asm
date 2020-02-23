@@ -1389,11 +1389,11 @@ ElectrodeEvosAttacks:
 ExeggcuteEvosAttacks:
 	db EVOLVE_ITEM, LEAF_STONE, EXEGGUTOR
 	db 0 ; no more evolutions
-	db 1, BARRAGE
+	db 1, CONFUSION
 	db 1, HYPNOSIS
 	db 7, REFLECT
 	db 13, LEECH_SEED
-	db 19, CONFUSION
+	db 19, CANNON_BALL
 	db 25, STUN_SPORE
 	db 31, POISONPOWDER
 	db 37, SLEEP_POWDER
@@ -1402,7 +1402,7 @@ ExeggcuteEvosAttacks:
 
 ExeggutorEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, BARRAGE
+	db 1, CANNON_BALL
 	db 1, HYPNOSIS
 	db 1, CONFUSION
 	db 1, STOMP

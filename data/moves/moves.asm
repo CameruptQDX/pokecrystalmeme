@@ -52,7 +52,7 @@ Moves:
 	move DOUBLE_EDGE,  EFFECT_RECOIL_HIT,        120, NORMAL,   100, 15,   0
 	move TAIL_WHIP,    EFFECT_DEFENSE_DOWN,        0, NORMAL,   100, 30,   0
 	move POISON_STING, EFFECT_POISON_HIT,         15, POISON,   100, 35,  30
-	move TWINEEDLE,    EFFECT_POISON_MULTI_HIT,   25, BUG,      100, 20,  20
+	move MUDDY_STARE,  EFFECT_ACCURACY_DOWN_HIT,  80, GROUND,   100, 5, 100
 	move PIN_MISSILE,  EFFECT_MULTI_HIT,          25, BUG,       95, 20,   0
 	move LEER,         EFFECT_DEFENSE_DOWN,        0, NORMAL,   100, 30,   0
 	move BITE,         EFFECT_FLINCH_HIT,         60, DARK,     100, 25,  30
@@ -151,7 +151,7 @@ Moves:
 	move GLARE,        EFFECT_PARALYZE,            0, NORMAL,    100, 30,   0
 	move DREAM_EATER,  EFFECT_DREAM_EATER,       100, PSYCHIC,  100, 15,   0
 	move POISON_GAS,   EFFECT_POISON,              0, POISON,    90, 40,   0
-	move BARRAGE,      EFFECT_MULTI_HIT,          15, NORMAL,    85, 20,   0
+	move CANNON_BALL,  EFFECT_MULTI_HIT,          25, STEEL,     90,  20,   0
 	move LEECH_LIFE,   EFFECT_LEECH_HIT,          80, BUG,      100, 10,   0
 	move LOVELY_KISS,  EFFECT_SLEEP,               0, NORMAL,    75, 10,   0
 	move SKY_ATTACK,   EFFECT_SKY_ATTACK,        120, FLYING,    90,  5,   30
