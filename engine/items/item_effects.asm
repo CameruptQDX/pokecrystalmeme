@@ -716,13 +716,13 @@ BallMultiplierFunctionTable:
 	dbw ULTRA_BALL,  UltraBallMultiplier
 	dbw GREAT_BALL,  GreatBallMultiplier
 	dbw SAFARI_BALL, SafariBallMultiplier ; Safari Ball, leftover from RBY
-	dbw HEAVY_BALL,  HeavyBallMultiplier ; dawn ball
-	dbw LEVEL_BALL,  LevelBallMultiplier
-	dbw LURE_BALL,   LureBallMultiplier ; cave ball
-	dbw FAST_BALL,   FastBallMultiplier ; palette ball
-	dbw MOON_BALL,   MoonBallMultiplier ; tropic ball
-	dbw LOVE_BALL,   LoveBallMultiplier ; lust ball
-	dbw FRIEND_BALL, FriendBallMultiplier ; bond ball
+	dbw HEAVY_BALL,  DawnBallMultiplier ; dawn ball
+	dbw LEVEL_BALL,  BlastBallMultiplier ; blast ball
+	dbw LURE_BALL,   CaveBallMultiplier ; cave ball
+	dbw FAST_BALL,   PaletteBallMultiplier ; palette ball
+	dbw MOON_BALL,   TropicBallMultiplier ; tropic ball
+	dbw LOVE_BALL,   LustBallMultiplier ; lust ball
+	dbw FRIEND_BALL, BondBallMultiplier ; bond ball
 	dbw PARK_BALL,   ParkBallMultiplier
 	db -1 ; end
 
@@ -747,7 +747,7 @@ ParkBallMultiplier:
 
 ;GetPokedexEntryBank for heavy ball used to be here
 
-HeavyBallMultiplier: ; turned into dawn ball
+DawnBallMultiplier: ; turned into dawn ball
 	ld a, [wTimeOfDay]
 	cp MORN_F
 	ret nz
@@ -765,7 +765,7 @@ HeavyBallMultiplier: ; turned into dawn ball
 	ret
 
 
-LureBallMultiplier: ; turned into cave ball, the most ez of these new balls
+CaveBallMultiplier: ; turned into cave ball, the most ez of these new balls
 ; multiply catch rate by 3 if you're currently in a map considered a cave
 	ld a, [wEnvironment]
 	cp CAVE
@@ -783,7 +783,7 @@ LureBallMultiplier: ; turned into cave ball, the most ez of these new balls
 	ld b, a
 	ret
 
-FriendBallMultiplier:
+BondBallMultiplier:
 ; new function for bond ball based on code from moon ball
 	push bc
 	ld a, [wTempEnemyMonSpecies]
@@ -820,7 +820,7 @@ FriendBallMultiplier:
 	
 	
 	
-MoonBallMultiplier: ; tropic ball
+TropicBallMultiplier: ; tropic ball
 	push bc ; putting bc in stack
 	farcall RegionCheck
 	pop bc ; pulling bc out of the stack
@@ -853,7 +853,7 @@ MoonBallMultiplier: ; tropic ball
 	ret
 
 	
-LoveBallMultiplier: ;lust ball, does basically LB's gender compare, then upon success does an egg group compare based on code from breeding
+LustBallMultiplier: ;lust ball, does basically LB's gender compare, then upon success does an egg group compare based on code from breeding
 	; check player mon species
 	push bc ; push ball multiplier to stack
 	ld a, [wTempBattleMonSpecies]
@@ -979,7 +979,7 @@ LoveBallMultiplier: ;lust ball, does basically LB's gender compare, then upon su
 
 INCLUDE "data/pokemon/dex_colors.asm" ; so I don't have to bankswitch
 	
-FastBallMultiplier: ; palette ball, finished
+PaletteBallMultiplier: ; palette ball, finished
 	push bc
 	ld a, [wTempBattleMonSpecies]
 	call GetDexColor
@@ -1014,28 +1014,30 @@ GetDexColor:
 	ld a, [hl]
 	ret
 
-LevelBallMultiplier: ; blast ball, has 8x multiplier against mons with explosion or selfdestruct 
-	push bc ; push ball mult. to stack
-	ld b, wEnemyMonMoves ; address of the enemy mon moves
-	dec b ; move back one, so the first time in the loop dosen't go to position 2 instead of 1
+BlastBallMultiplier: ; blast ball, has 8x multiplier against mons with explosion or selfdestruct 
+;no operations are done on b so no need to do the usual push/pop bc's
+	ld hl, wEnemyMonMoves ; loading wEnemyMonMoves into hl (16 bit register)
+	ld c, NUM_MOVES ; starting c at NUM_MOVES (4) for the counter
 
 .loop
-	inc b ; move up one in the array
-	ld a, [wEnemyMonMoves + b] ; load the data at the array position
+	ld a, [hli] ; load the data in hl (the position in wEnemyMonMoves) and increment afterwards (this is what hli does)
 	cp SELFDESTRUCT ; compare for each move
-	jp z, .giveMult
+	jr z, .giveMult
 	cp EXPLOSION
-	jp z, .giveMult
+	jr z, .giveMult
 	
 	
-	ld a, wEnemyMonMovesEnd
-	cp b ; compare the array position to wEnemyMonMovesEnd to see if we're at the end of the struct
-	jp nz, .loop ; loop if not there yet
+	dec c ; decementing the counter to count down to 0, also sets the z flag so it's like having a cp there
+	jr nz, .loop ; loop if not 0 yet
 	
 ;fallthrough
-	jp .done
+	ret
 
 .giveMult ; bonus awarded here (for right now it's just a 3x instead of the 8x it should be)
+	call MultiplyCatchRateBy3
+	ret
+	
+MultiplyCatchRateBy3: ; separated the 3x multiplier of all these balls off into it's own 
 	ld a, b
 	add a
 	jr c, .max

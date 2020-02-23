@@ -1147,10 +1147,8 @@ JohtoGrassWildMons:
 	db 3, HOPPIP
 	db 3, HOPPIP
 	; day
-	;db 2, PIDGEY
-	;db 2, SENTRET
-	db 17, KOFFING
-	db 17, KOFFING
+	db 2, PIDGEY
+	db 2, SENTRET
 	db 3, SUNKERN
 	db 3, SENTRET
 	db 2, RATTATA

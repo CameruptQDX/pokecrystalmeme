@@ -45,7 +45,7 @@ PokemonPicPointers::
 	dba_pic CannonbaFrontpic
 	dba_pic CannonbaBackpic
 	dba_pic TriantulaFrontpic
-	dba_pic TrianulaBackpic
+	dba_pic TriantulaBackpic
 	dba_pic EkansFrontpic
 	dba_pic EkansBackpic
 	dba_pic ArbokFrontpic
