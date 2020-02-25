@@ -276,8 +276,9 @@ PokeBallDesc:
 	db   "An item for catch-"
 	next "ing #MON.@"
 
-TeruSama1Desc:
-	db   "?@"
+TeruSama1Desc: ; gotcha charm
+	db   "Increases #MON"
+	next "catch rate. (HOLD)@"
 
 BicycleDesc:
 	db   "A hoverboard that"
@@ -351,8 +352,9 @@ WaterStoneDesc:
 	db   "Evolves certain"
 	next "kinds of #MON.@"
 
-TeruSama2Desc:
-	db   "?@"
+TeruSama2Desc: ; liechi berry
+	db   "Increases ATK"
+	next "on turn 1. (HOLD)@"
 
 HPUpDesc:
 	db   "Raises the HP of"
@@ -430,8 +432,9 @@ DireHitDesc:
 	db   "Ups critical hit"
 	next "ratio. (1 BTL)@"
 
-TeruSama3Desc:
-	db   "?@"
+TeruSama3Desc: ; ganlon berry
+	db   "Increases DEF"
+	next "on turn 1. (HOLD)@"
 
 FreshWaterDesc:
 	db   "Restores #MON"
@@ -449,8 +452,9 @@ XAttackDesc:
 	db   "Raises ATTACK."
 	next "(1 BTL)@"
 
-TeruSama4Desc:
-	db   "?@"
+TeruSama4Desc: ; salac berry
+	db   "Increases SPEED"
+	next "on turn 1. (HOLD)@"
 
 XDefendDesc:
 	db   "Raises DEFENSE."
@@ -472,8 +476,9 @@ ItemfinderDesc:
 	db   "Checks for unseen"
 	next "items in the area.@"
 
-TeruSama5Desc:
-	db   "?@"
+TeruSama5Desc: ; petaya berry
+	db   "Increases SP.ATK"
+	next "on turn 1. (HOLD)@"
 
 ExpShareDesc:
 	db   "Shares battle EXP."
@@ -513,7 +518,7 @@ ElixerDesc:
 
 RedScaleDesc:
 	db   "Ink from the"
-	next "black OCTILLERY.@"
+	next "Black OCTILLERY.@"
 
 SecretPotionDesc:
 	db   "Fully heals any"
@@ -606,8 +611,9 @@ SilverPowderDesc:
 BluApricornDesc:
 	db   "A gray APRICORN.@"
 
-TeruSama6Desc:
-	db   "?@"
+TeruSama6Desc: ; apicot berry
+	db   "Increases SP.DEF"
+	next "on turn 1. (HOLD)@"
 
 AmuletCoinDesc:
 	db   "Doubles monetary"
@@ -644,8 +650,9 @@ BlkApricornDesc:
 	db   "A cyan APRICORN."
 	next "@"
 
-TeruSama7Desc:
-	db   "?@"
+TeruSama7Desc: ; strib berry
+	db   "Increases EVASION"
+	next "on turn 1. (HOLD)@"
 
 PnkApricornDesc:
 	db   "A magenta APRICORN."
@@ -723,8 +730,9 @@ FocusBandDesc:
 	db   "May prevent faint-"
 	next "ing. (HOLD)@"
 
-TeruSama8Desc:
-	db   "?@"
+TeruSama8Desc: ; nutpea berry
+	db   "Increases ACCU."
+	next "on turn 1. (HOLD)@"
 
 EnergyPowderDesc:
 	db   "Restores #MON"
