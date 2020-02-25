@@ -2315,7 +2315,8 @@ wScriptTextBank::
 wPriorityScriptAddr::
 wScriptTextAddr::
 	dw ; d44f
-	ds 1
+	
+wWildBattlePanic:: db
 wWildEncounterCooldown:: db ; d452
 wXYComparePointer:: dw ; d453
 	ds 4
@@ -2421,7 +2422,7 @@ wObjectStructsEnd:: ; d6de
 
 wCmdQueue:: ds CMDQUEUE_CAPACITY * CMDQUEUE_ENTRY_SIZE
 
-	ds 40
+	ds 6 ; was 40, added the extra map objects from wiki tut
 
 wMapObjects:: ; d71e
 wPlayerObject:: map_object wPlayer
@@ -2440,6 +2441,8 @@ wMap12Object::  map_object wMap12
 wMap13Object::  map_object wMap13
 wMap14Object::  map_object wMap14
 wMap15Object::  map_object wMap15
+wMap16Object::  map_object wMap16
+wMap17Object::  map_object wMap17
 wMapObjectsEnd::
 
 wObjectMasks:: ds NUM_OBJECTS ; d81e
@@ -2759,7 +2762,7 @@ wPhoneList:: ds CONTACT_LIST_SIZE ; dc7c
 	ds 23
 
 wLuckyNumberShowFlag:: db ; dc9d
-	ds 1
+wRepelType:: db
 wLuckyIDNumber:: dw ; dc9f
 
 wRepelEffect:: db ; If a Repel is in use, it contains the nr of steps it's still active
