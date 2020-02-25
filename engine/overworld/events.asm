@@ -558,8 +558,8 @@ TryObjectEvent:
 	ld de, 3
 	ld hl, .pointers
 	call IsInArray
-	jr nc, .nope_bugged
 	pop bc
+	jr nc, .nope_bugged ; fixed
 
 	inc hl
 	ld a, [hli]
@@ -568,7 +568,6 @@ TryObjectEvent:
 	jp hl
 
 .nope_bugged
-	; pop bc
 	xor a
 	ret
 

@@ -275,7 +275,7 @@ CalcMagikarpLength:
 	ld a, b
 	cp d
 	ret c
-	ret nc ; whoops
+;fixed :^)
 	ld a, c
 	cp e
 	ret
