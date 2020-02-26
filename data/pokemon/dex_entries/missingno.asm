@@ -1,10 +1,10 @@
-	db "NEW@" ; species name
-	dw 10, 1000 ; height, weight
+	db "NULL@" ; species name
+	dw 0, 0 ; height, weight
 
-	db   "PLACEHOLDER"
-	next "ENTRY"
-	next " "
+	db   "Whatever this"
+	next "#MON once was"
+	next "has been totally"
 
-	page "PLACEHOLDER"
-	next "ENTRY"
-	next ".@"
+	page "lost. It is a"
+	next "shell of its"
+	next "former self.@"

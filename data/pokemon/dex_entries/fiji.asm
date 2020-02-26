@@ -1,10 +1,10 @@
-	db "NEW@" ; species name
-	dw 10, 1000 ; height, weight
+	db "AMALGAM@" ; species name
+	dw 308, 40 ; height, weight
 
-	db   "PLACEHOLDER"
-	next "ENTRY"
-	next " "
+	db   "Its unknown if"
+	next "all 3 heads are"
+	next "conscious. Each"
 
-	page "PLACEHOLDER"
-	next "ENTRY"
-	next ".@"
+	page "seems to react"
+	next "to different"
+	next "stimuli.@"

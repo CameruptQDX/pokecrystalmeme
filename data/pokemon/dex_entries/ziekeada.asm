@@ -1,10 +1,10 @@
-	db "NEW@" ; species name
-	dw 10, 1000 ; height, weight
+	db "AMALGAM@" ; species name
+	dw 507, 1750 ; height, weight
 
-	db   "PLACEHOLDER"
-	next "ENTRY"
-	next " "
+	db   "From its false"
+	next "head it spews"
+	next "gusts of ice."
 
-	page "PLACEHOLDER"
-	next "ENTRY"
-	next ".@"
+	page "It freezes it's"
+	next "own fists solid"
+	next "to punch harder.@"

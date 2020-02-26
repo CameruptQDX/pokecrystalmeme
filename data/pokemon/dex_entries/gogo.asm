@@ -1,10 +1,10 @@
-	db "NEW@" ; species name
-	dw 10, 1000 ; height, weight
+	db "AMALGAM@" ; species name
+	dw 405, 2000 ; height, weight
 
-	db   "PLACEHOLDER"
-	next "ENTRY"
-	next " "
+	db   "The blob like"
+	next "protrusions on the"
+	next "back are called"
 
-	page "PLACEHOLDER"
-	next "ENTRY"
-	next ".@"
+	page "dumplings; organs"
+	next "that it uses to"
+	next "sniff out food.@"

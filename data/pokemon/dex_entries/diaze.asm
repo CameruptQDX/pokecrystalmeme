@@ -1,10 +1,10 @@
-	db "NEW@" ; species name
-	dw 10, 1000 ; height, weight
+	db "AMALGAM@" ; species name
+	dw 706, 6300 ; height, weight
 
-	db   "PLACEHOLDER"
-	next "ENTRY"
-	next " "
+	db   "An extremely"
+	next "violent predator."
+	next "When it congealed"
 
-	page "PLACEHOLDER"
-	next "ENTRY"
-	next ".@"
+	page "together, it"
+	next "immediately laid"
+	next "waste to the lab.@"

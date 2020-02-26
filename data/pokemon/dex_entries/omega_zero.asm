@@ -1,10 +1,10 @@
-	db "NEW@" ; species name
-	dw 10, 1000 ; height, weight
+	db "MECH@" ; species name
+	dw 2000, 9999 ; height, weight
 
-	db   "PLACEHOLDER"
-	next "ENTRY"
-	next " "
+	db   "An unholy weapon"
+	next "puppeted to life"
+	next "by the MISSINGNO."
 
-	page "PLACEHOLDER"
-	next "ENTRY"
-	next ".@"
+	page "With no mind or"
+	next "identity, it only"
+	next "seeks destruction.@"

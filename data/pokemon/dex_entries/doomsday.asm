@@ -1,10 +1,10 @@
-	db "NEW@" ; species name
-	dw 10, 1000 ; height, weight
+	db "GHOST@" ; species name
+	dw 9104, 1 ; height, weight
 
-	db   "PLACEHOLDER"
-	next "ENTRY"
-	next " "
+	db   "Some say it's only"
+	next "a dream, others"
+	next "knew the reality"
 
-	page "PLACEHOLDER"
-	next "ENTRY"
-	next ".@"
+	page "when its dark"
+	next "influence changed"
+	next "their hearts.@"
