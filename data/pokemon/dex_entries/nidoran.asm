@@ -1,10 +1,10 @@
-	db "NEW@" ; species name
-	dw 10, 1000 ; height, weight
+	db "POISON PIN@" ; species name
+	dw 8, 80 ; height, weight
 
-	db   "PLACEHOLDER"
-	next "ENTRY"
-	next " "
+	db   "NIDORAN born in"
+	next "captivity are"
+	next "underdeveloped"
 
-	page "PLACEHOLDER"
-	next "ENTRY"
-	next ".@"
+	page "and lack their"
+	next "proper gender"
+	next "dimorphism.@"

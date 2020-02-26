@@ -1,10 +1,10 @@
-	db "NEW@" ; species name
-	dw 10, 1000 ; height, weight
+	db "SCREECH@" ; species name
+	dw 204, 99 ; height, weight
 
-	db   "PLACEHOLDER"
-	next "ENTRY"
-	next " "
+	db   "An easily scared"
+	next "#MON from some"
+	next "faraway region."
 
-	page "PLACEHOLDER"
-	next "ENTRY"
-	next ".@"
+	page "Living in the"
+	next "SAFARI PARK has"
+	next "perturbed it.@"

@@ -1,10 +1,10 @@
-	db "NEW@" ; species name
-	dw 10, 1000 ; height, weight
+	db "UNHAPPY@" ; species name
+	dw 702, 1526 ; height, weight
 
-	db   "PLACEHOLDER"
-	next "ENTRY"
-	next " "
+	db   "It is said that"
+	next "a trainer that"
+	next "catches it will"
 
-	page "PLACEHOLDER"
-	next "ENTRY"
-	next ".@"
+	page "be followed by"
+	next "misfortunes and"
+	next "grief.@"

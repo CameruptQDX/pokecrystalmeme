@@ -1,10 +1,10 @@
-	db "NEW@" ; species name
-	dw 10, 1000 ; height, weight
+	db "MONK@" ; species name
+	dw 409, 2350 ; height, weight
 
-	db   "PLACEHOLDER"
-	next "ENTRY"
-	next " "
+	db   "Deep in the mount-"
+	next "ains they hone"
+	next "themselves in"
 
-	page "PLACEHOLDER"
-	next "ENTRY"
-	next ".@"
+	page "pure isolation."
+	next "Few can rival its"
+	next "rapid strikes.@"

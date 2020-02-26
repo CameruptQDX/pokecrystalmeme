@@ -1,10 +1,10 @@
-	db "NEW@" ; species name
-	dw 10, 1000 ; height, weight
+	db "STARSHOT@" ; species name
+	dw 507, 1150 ; height, weight
 
-	db   "PLACEHOLDER"
-	next "ENTRY"
-	next " "
+	db   "With its body"
+	next "augmented by steel"
+	next "it shoots the"
 
-	page "PLACEHOLDER"
-	next "ENTRY"
-	next ".@"
+	page "bird #MON that"
+	next "once attacked it"
+	next "out of the sky.@"

@@ -1,10 +1,10 @@
-	db "NEW@" ; species name
-	dw 10, 1000 ; height, weight
+	db "POISON PIN@" ; species name
+	dw 207, 441 ; height, weight
 
-	db   "PLACEHOLDER"
-	next "ENTRY"
-	next " "
+	db   "This genderless"
+	next "NIDO- has traits"
+	next "of both sexes."
 
-	page "PLACEHOLDER"
-	next "ENTRY"
-	next ".@"
+	page "With a CROWN or"
+	next "MOON STONE it can"
+	next "evolve to either.@"

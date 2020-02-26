@@ -1,10 +1,10 @@
-	db "NEW@" ; species name
-	dw 10, 1000 ; height, weight
+	db "ALIEN@" ; species name
+	dw 171, 2646 ; height, weight
 
-	db   "PLACEHOLDER"
-	next "ENTRY"
-	next " "
+	db   "In space it swims"
+	next "about with its"
+	next "various friends."
 
-	page "PLACEHOLDER"
-	next "ENTRY"
-	next ".@"
+	page "Every 15 years"
+	next "they come and"
+	next "visit Earth.@"

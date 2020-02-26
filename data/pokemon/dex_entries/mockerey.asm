@@ -1,10 +1,10 @@
-	db "NEW@" ; species name
-	dw 10, 1000 ; height, weight
+	db "MADNESS@" ; species name
+	dw 705, 1600 ; height, weight
 
-	db   "PLACEHOLDER"
-	next "ENTRY"
-	next " "
+	db   "Its already dark"
+	next "nature has become"
+	next "even more twisted."
 
-	page "PLACEHOLDER"
-	next "ENTRY"
-	next ".@"
+	page "Curses follow any"
+	next "who are victimized"
+	next "by its ideation.@"

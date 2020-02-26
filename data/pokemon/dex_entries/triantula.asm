@@ -1,10 +1,10 @@
-	db "NEW@" ; species name
-	dw 10, 1000 ; height, weight
+	db "TYRANT@" ; species name
+	dw 700, 2240 ; height, weight
 
-	db   "PLACEHOLDER"
-	next "ENTRY"
-	next " "
+	db   "Unlike ARIADOS it"
+	next "claims an entire"
+	next "woods as its home"
 
-	page "PLACEHOLDER"
-	next "ENTRY"
-	next ".@"
+	page "by terrorizing"
+	next "all the other"
+	next "#MON away.@"

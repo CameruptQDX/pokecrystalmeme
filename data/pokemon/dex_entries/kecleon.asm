@@ -1,10 +1,10 @@
-	db "NEW@" ; species name
-	dw 10, 1000 ; height, weight
+	db "COLOR SWAP@" ; species name
+	dw 303, 485 ; height, weight
 
-	db   "PLACEHOLDER"
-	next "ENTRY"
-	next " "
+	db   "It changes body"
+	next "color to blend in"
+	next "with the area."
 
-	page "PLACEHOLDER"
-	next "ENTRY"
-	next ".@"
+	page "It also changes"
+	next "color when its"
+	next "happy or sad.@"

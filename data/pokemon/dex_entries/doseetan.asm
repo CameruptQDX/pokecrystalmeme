@@ -1,10 +1,10 @@
-	db "NEW@" ; species name
-	dw 10, 1000 ; height, weight
+	db "ALIEN@" ; species name
+	dw 20, 5732 ; height, weight
 
-	db   "PLACEHOLDER"
-	next "ENTRY"
-	next " "
+	db   "A #MON with a"
+	next "high relative"
+	next "density. They"
 
-	page "PLACEHOLDER"
-	next "ENTRY"
-	next ".@"
+	page "are docile by"
+	next "nature and love"
+	next "to make friends.@"

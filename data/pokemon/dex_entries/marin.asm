@@ -1,10 +1,10 @@
-	db "NEW@" ; species name
-	dw 10, 1000 ; height, weight
+	db "SEA ROO@" ; species name
+	dw 202, 350 ; height, weight
 
-	db   "PLACEHOLDER"
-	next "ENTRY"
-	next " "
+	db   "It propels itself"
+	next "through the water"
+	next "by doing a strong"
 
-	page "PLACEHOLDER"
-	next "ENTRY"
-	next ".@"
+	page "kick off of the"
+	next "bottom. Its curved"
+	next "tail adds force.@"
