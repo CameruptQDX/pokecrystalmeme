@@ -1,10 +1,10 @@
-	db "NEW@" ; species name
-	dw 10, 1000 ; height, weight
+	db "SILK@" ; species name
+	dw 205, 110 ; height, weight
 
-	db   "PLACEHOLDER"
-	next "ENTRY"
-	next " "
+	db   "It uses its soft"
+	next "silk to anchor"
+	next "onto taller"
 
-	page "PLACEHOLDER"
-	next "ENTRY"
-	next ".@"
+	page "plants so it"
+	next "can get sun and"
+	next "spread pollen.@"

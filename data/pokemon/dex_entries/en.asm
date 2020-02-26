@@ -1,10 +1,10 @@
-	db "NEW@" ; species name
-	dw 10, 1000 ; height, weight
+	db "VOLCANO@" ; species name
+	dw 305, 1400 ; height, weight
 
-	db   "PLACEHOLDER"
-	next "ENTRY"
-	next " "
+	db   "It is fiercely"
+	next "loyal, protecting"
+	next "its trainer with"
 
-	page "PLACEHOLDER"
-	next "ENTRY"
-	next ".@"
+	page "a ring of fire"
+	next "before going all"
+	next "out attacking.@"

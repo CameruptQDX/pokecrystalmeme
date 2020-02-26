@@ -1,10 +1,10 @@
-	db "NEW@" ; species name
-	dw 10, 1000 ; height, weight
+	db "COB@" ; species name
+	dw 200, 190 ; height, weight
 
-	db   "PLACEHOLDER"
-	next "ENTRY"
-	next " "
+	db   "To prevent bird"
+	next "#MON from"
+	next "pecking at its"
 
-	page "PLACEHOLDER"
-	next "ENTRY"
-	next ".@"
+	page "cob, it heats up"
+	next "the kernels to"
+	next "over 200 degrees.@"

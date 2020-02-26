@@ -1,10 +1,10 @@
-	db "NEW@" ; species name
-	dw 10, 1000 ; height, weight
+	db "BIG@" ; species name
+	dw 510, 1700 ; height, weight
 
-	db   "PLACEHOLDER"
-	next "ENTRY"
-	next " "
+	db   "Through intense"
+	next "cardio training it"
+	next "has become big."
 
-	page "PLACEHOLDER"
-	next "ENTRY"
-	next ".@"
+	page "It continually"
+	next "strives to get"
+	next "more gains.@"

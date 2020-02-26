@@ -1,10 +1,10 @@
-	db "NEW@" ; species name
-	dw 10, 1000 ; height, weight
+	db "MUD TURTLE@" ; species name
+	dw 305, 5000 ; height, weight
 
-	db   "PLACEHOLDER"
-	next "ENTRY"
-	next " "
+	db   "Spends a lot of"
+	next "sleeping in muck"
+	next "on the riverbed."
 
-	page "PLACEHOLDER"
-	next "ENTRY"
-	next ".@"
+	page "When threatened"
+	next "it can expand its"
+	next "neck out to bite.@"

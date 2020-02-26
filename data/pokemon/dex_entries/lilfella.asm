@@ -1,10 +1,10 @@
-	db "NEW@" ; species name
-	dw 10, 1000 ; height, weight
+	db "FELLOW@" ; species name
+	dw 100, 100 ; height, weight
 
-	db   "PLACEHOLDER"
-	next "ENTRY"
-	next " "
+	db   "What can really"
+	next "be said about"
+	next "LILFELLA?"
 
-	page "PLACEHOLDER"
-	next "ENTRY"
-	next ".@"
+	page "He's lil'"
+	next "He's a fella"
+	next "What a guy.@"

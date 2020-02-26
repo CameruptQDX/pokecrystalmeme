@@ -1,10 +1,10 @@
-	db "NEW@" ; species name
-	dw 10, 1000 ; height, weight
+	db "POPPED@" ; species name
+	dw 300, 170 ; height, weight
 
-	db   "PLACEHOLDER"
-	next "ENTRY"
-	next " "
+	db   "Having such a"
+	next "high temperature"
+	next "caused its kernels"
 
-	page "PLACEHOLDER"
-	next "ENTRY"
-	next ".@"
+	page "to burst into"
+	next "a steaming hot"
+	next "mountain of corn.@"

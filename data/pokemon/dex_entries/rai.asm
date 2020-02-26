@@ -1,10 +1,10 @@
-	db "NEW@" ; species name
-	dw 10, 1000 ; height, weight
+	db "THUNDER@" ; species name
+	dw 305, 1200 ; height, weight
 
-	db   "PLACEHOLDER"
-	next "ENTRY"
-	next " "
+	db   "Touching its hair"
+	next "is like touching a"
+	next "livewire. However"
 
-	page "PLACEHOLDER"
-	next "ENTRY"
-	next ".@"
+	page "it's much better"
+	next "to be zapped than"
+	next "face its jaws.@"

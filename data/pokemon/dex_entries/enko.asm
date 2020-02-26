@@ -1,10 +1,10 @@
-	db "NEW@" ; species name
-	dw 10, 1000 ; height, weight
+	db "VOLCANO@" ; species name
+	dw 104, 200 ; height, weight
 
-	db   "PLACEHOLDER"
-	next "ENTRY"
-	next " "
+	db   "When it yaps,"
+	next "cinders shed from"
+	next "all over its body."
 
-	page "PLACEHOLDER"
-	next "ENTRY"
-	next ".@"
+	page "These flaming hair"
+	next "clumps are a major"
+	next "fire hazard.@"

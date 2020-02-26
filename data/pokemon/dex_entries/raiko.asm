@@ -1,10 +1,10 @@
-	db "NEW@" ; species name
-	dw 10, 1000 ; height, weight
+	db "THUNDER@" ; species name
+	dw 104, 200 ; height, weight
 
-	db   "PLACEHOLDER"
-	next "ENTRY"
-	next " "
+	db   "This playful young"
+	next "#MON charges"
+	next "static in its"
 
-	page "PLACEHOLDER"
-	next "ENTRY"
-	next ".@"
+	page "hair for playing"
+	next "tricks, causing it"
+	next "to stand on end.@"

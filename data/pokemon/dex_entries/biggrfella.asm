@@ -1,10 +1,10 @@
-	db "NEW@" ; species name
-	dw 10, 1000 ; height, weight
+	db "BIGGER@" ; species name
+	dw 807, 3400 ; height, weight
 
-	db   "PLACEHOLDER"
-	next "ENTRY"
-	next " "
+	db   "BIGGERFELLA has"
+	next "reached the peak"
+	next "of its gains."
 
-	page "PLACEHOLDER"
-	next "ENTRY"
-	next ".@"
+	page "It flies about"
+	next "blasting mud from"
+	next "its tear ducts.@"
