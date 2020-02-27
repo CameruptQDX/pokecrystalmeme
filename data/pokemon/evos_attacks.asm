@@ -1561,7 +1561,7 @@ KecleonEvosAttacks:
 	db 1, TAIL_WHIP
 	db 1, LICK
 	db 1, SCRATCH
-	db 7, FEINT_STTACK
+	db 7, FAINT_ATTACK
 	db 12, FURY_SWIPES
 	db 17, PSYBEAM
 	db 24, SCREECH
