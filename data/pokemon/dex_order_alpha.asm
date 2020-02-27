@@ -32,7 +32,6 @@ AlphabeticalPokedexOrder:
 	db CYNDAQUIL
 	db DELIBIRD
 	db DEWGONG
-	db DIAZE
 	db DIGLETT
 	db DITTO
 	db DODRIO
@@ -103,6 +102,7 @@ AlphabeticalPokedexOrder:
 	db KANGASKHAN
 	db KECLEON
 	db KETTELDER
+	db ZIEKEADA ; renamed to "Kiekeada"
 	db KINGDRA
 	db KINGLER
 	db KOFFING
@@ -182,6 +182,7 @@ AlphabeticalPokedexOrder:
 	db RAICHU
 	db RAIKO
 	db RAIKOU
+	db DIAZE ; renamed to "Rainer"
 	db RAPIDASH
 	db RATICATE
 	db RATTATA
@@ -252,5 +253,4 @@ AlphabeticalPokedexOrder:
 	db XATU
 	db XU_XU
 	db YANMA
-	db ZIEKEADA
 	db ZUBAT

@@ -20,7 +20,7 @@ EvolutionMoves::
 	db NO_MOVE
 	db SCARY_FACE   ; RATICATE
 	db CANNON_BALL      ; CANNONBA
-	db LEECH_LIFE      ; TRIANTULA
+	db TRI_ATTACK      ; TRIANTULA
 	db NO_MOVE
 	db CRUNCH       ; ARBOK
 	db NO_MOVE

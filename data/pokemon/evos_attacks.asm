@@ -323,7 +323,7 @@ TriantulaEvosAttacks:
 	db 1, SCARY_FACE
 	db 1, NIGHT_SHADE
 	db 1, LEECH_LIFE
-	db 1, FURY_SWIPES
+	db 1, TRI_ATTACK
 	db 0 ; no more level-up moves
 
 EkansEvosAttacks:
@@ -2070,17 +2070,38 @@ SnorlaxEvosAttacks:
 
 GogoEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, HIDDEN_POWER
+	db 1, FLASH
+	db 1, LEECH_LIFE
+	db 1, LOVELY_KISS
+	db 1, THUNDERBOLT
+	db 60, NIGHTMARE
+	db 70, SHADOW_BALL
+	db 80, RECOVER
+	db 90, THUNDER
 	db 0 ; no more level-up moves
 
 FijiEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, HIDDEN_POWER
+	db 1, SPIKE_CANNON
+	db 1, MEGA_DRAIN
+	db 1, DREAM_EATER
+	db 1, SING
+	db 60, EXPLOSION
+	db 70, GIGA_DRAIN
+	db 80, SPORE
+	db 90, AEROBLAST
 	db 0 ; no more level-up moves
 
-ZiekeadaEvosAttacks:
+ZiekeadaEvosAttacks: ; renamed to Kiekeada
 	db 0 ; no more evolutions
-	db 1, HIDDEN_POWER
+	db 1, MEGA_PUNCH
+	db 1, ICE_PUNCH
+	db 1, BUBBLEBEAM
+	db 1, WING_ATTACK
+	db 60, CROSS_CHOP
+	db 70, BLIZZARD
+	db 80, AMNESIA
+	db 90, DYNAMICPUNCH
 	db 0 ; no more level-up moves
 
 DratiniEvosAttacks:
@@ -2128,14 +2149,28 @@ DragoniteEvosAttacks:
 	db 75, HYPER_BEAM
 	db 0 ; no more level-up moves
 
-DiazeEvosAttacks:
+DiazeEvosAttacks: ; renamed to Rainer
 	db 0 ; no more evolutions
-	db 1, HIDDEN_POWER
+	db 1, CRUNCH
+	db 1, CLAMP
+	db 1, BONE_RUSH
+	db 1, JUMP_KICK
+	db 60, BONEMERANG 
+	db 70, LEECH_LIFE
+	db 80, LOCK_ON
+	db 90, EARTHQUAKE
 	db 0 ; no more level-up moves
 
 XuXuEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, HIDDEN_POWER
+	db 1, SKULL_BASH
+	db 1, DISABLE
+	db 1, DOUBLE_EDGE
+	db 1, WATERFALL
+	db 60, OCTAZOOKA
+	db 70, GLARE
+	db 80, MEGAHORN
+	db 90, DESTINY_BOND
 	db 0 ; no more level-up moves
 
 ChikoritaEvosAttacks:
@@ -2462,6 +2497,7 @@ CleffaEvosAttacks:
 	db 4, ENCORE
 	db 8, SING
 	db 13, SWEET_KISS
+	db 25, HEAL_BELL
 	db 0 ; no more level-up moves
 
 IgglybuffEvosAttacks:
@@ -2472,6 +2508,7 @@ IgglybuffEvosAttacks:
 	db 4, DEFENSE_CURL
 	db 9, POUND
 	db 14, SWEET_KISS
+	db 25, HEAL_BELL
 	db 0 ; no more level-up moves
 
 TogepiEvosAttacks:

@@ -14,27 +14,43 @@ SECTION "Egg Moves", ROMX
 INCLUDE "data/pokemon/egg_move_pointers.asm"
 
 PeritopEggMoves:
+	db METRONOME
+	db MEGA_KICK
+	db SING
 	db -1 ; end
 
 PrismanEggMoves:
+	db ROCK_SLIDE
+	db PIN_MISSILE
+	db REVERSAL
 	db -1 ; end
 	
 LaketoiseEggMoves:
+	db CRUNCH
+	db SCARY_FACE
+	db CURSE
+	db STOMP
 	db -1 ; end
 
 LilfellaEggMoves:
+	db DOUBLE_KICK
+	db SWIFT
+	db ACID
+	db SMOKESCREEN
+	db ENCORE
 	db -1 ; end
 	
 SilkornEggMoves:
+	db ACID
+	db STUN_SPORE
+	db LEECH_SEED
+	db COTTON_SPORE
 	db -1 ; end
 	
 PidgeyEggMoves:
 	db PURSUIT
 	db FAINT_ATTACK
 	db FORESIGHT
-if !_CRYSTAL
-	db STEEL_WING
-endc
 	db -1 ; end
 
 RattataEggMoves:
@@ -68,9 +84,22 @@ endc
 	db -1 ; end
 
 GritespecEggMoves:
+	db ENCORE
+	db HEAL_BELL
+	db SWEET_KISS
+	db DESTINY_BOND
 	db -1 ; end
 
 NidoranEggMoves:
+	db SUPERSONIC
+	db DISABLE
+	db TAKE_DOWN
+	db FOCUS_ENERGY
+	db CHARM
+	db COUNTER
+	db BEAT_UP
+	db CONFUSION
+	db AMNESIA
 	db -1 ; end
 
 VulpixEggMoves:
@@ -94,9 +123,6 @@ OddishEggMoves:
 	db RAZOR_LEAF
 	db FLAIL
 	db SYNTHESIS
-if !_CRYSTAL
-	db CHARM
-endc
 	db -1 ; end
 
 ParasEggMoves:
@@ -105,9 +131,6 @@ ParasEggMoves:
 	db COUNTER
 	db PSYBEAM
 	db FLAIL
-if !_CRYSTAL
-	db SWEET_SCENT
-endc
 	db LIGHT_SCREEN
 	db PURSUIT
 	db -1 ; end
@@ -222,9 +245,6 @@ SlowpokeEggMoves:
 	db -1 ; end
 
 FarfetchDEggMoves:
-if !_CRYSTAL
-	db STEEL_WING
-endc
 	db FORESIGHT
 	db MIRROR_MOVE
 	db GUST
@@ -308,6 +328,10 @@ endc
 	db -1 ; end
 
 KecleonEggMoves:
+	db DISABLE
+	db DIZZY_PUNCH
+	db FLAIL
+	db AMNESIA
 	db -1 ; end
 
 KoffingEggMoves:
@@ -396,22 +420,36 @@ EeveeEggMoves:
 	db -1 ; end
 
 DoseetanEggMoves:
+	db HAZE
+	db SCREECH
+	db ACID_ARMOR
+	db MOONLIGHT
+	db ENCORE
 	db -1 ; end
 	
 UnluckyEggMoves:
+	db METRONOME
+	db BODY_SLAM
+	db THUNDER_WAVE
+	db BATON_PASS
 	db -1 ; end
 	
 MarinEggMoves:
+	db FLAIL
+	db AURORA_BEAM
+	db AMNESIA
+	db PSYCH_UP
 	db -1 ; end
 	
 DrachillesEggMoves:
+	db ROLLING_KICK
+	db THUNDER_WAVE
+	db COUNTER
+	db SUBMISSION
 	db -1 ; end
 
 SnorlaxEggMoves:
 	db LICK
-if !_CRYSTAL
-	db CHARM
-endc
 	db -1 ; end
 
 DratiniEggMoves:
@@ -759,9 +797,6 @@ TyrogueEggMoves:
 	db -1 ; end
 
 SmoochumEggMoves:
-if !_CRYSTAL
-	db LOVELY_KISS
-endc
 	db MEDITATE
 	db -1 ; end
 
