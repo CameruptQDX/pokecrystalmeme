@@ -64,7 +64,7 @@ CharcoalKilnFarfetchd:
 	faceplayer
 	opentext
 	writetext FarfetchdText
-	cry FARFETCH_D
+	cry MISSINGNO ; farfetch'd culled
 	waitbutton
 	closetext
 	end

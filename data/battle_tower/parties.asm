@@ -4211,7 +4211,7 @@ BattleTowerMons8:
 	bigdw 185 ; SDef
 	db "EA-MUDO@@@@"
 
-	db ZIEKEADA
+	db KIEKEADA
 	db CHARCOAL
 	db FLAMETHROWER, SKY_ATTACK, STEEL_WING, HYPER_BEAM
 	dw 0 ; OT ID

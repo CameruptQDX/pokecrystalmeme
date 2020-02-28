@@ -157,11 +157,11 @@ MoveDescriptions::
 	dw BonemerangDescription
 	dw RestDescription
 	dw RockSlideDescription
-	dw HyperFangDescription
+	dw LeadWeightDescription
 	dw SharpenDescription
 	dw ConversionDescription
 	dw TriAttackDescription
-	dw SuperFangDescription
+	dw LeadFangDescription
 	dw SlashDescription
 	dw SubstituteDescription
 	dw StruggleDescription
@@ -893,7 +893,7 @@ RockSlideDescription:
 	db   "An attack that may"
 	next "cause flinching.@"
 
-HyperFangDescription:
+LeadWeightDescription:
 	db   "An attack that may"
 	next "cause flinching.@"
 
@@ -909,9 +909,9 @@ TriAttackDescription:
 	db   "Fires three kinds"
 	next "of beams at once.@"
 
-SuperFangDescription:
-	db   "Cuts the foe's HP"
-	next "by 1/2.@"
+LeadFangDescription:
+	db   "An attack that may"
+	next "poison the foe.@"
 
 SlashDescription:
 	db   "Has a high criti-"

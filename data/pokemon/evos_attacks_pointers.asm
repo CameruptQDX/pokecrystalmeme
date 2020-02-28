@@ -19,8 +19,8 @@ EvosAttacksPointers::
 	dw PidgeyEvosAttacks
 	dw PidgeottoEvosAttacks
 	dw PidgeotEvosAttacks
-	dw RattataEvosAttacks
-	dw RaticateEvosAttacks
+	dw RhinoxEvosAttacks
+	dw PandoughEvosAttacks
 	dw CannonbaEvosAttacks
 	dw TriantulaEvosAttacks
 	dw EkansEvosAttacks
@@ -83,7 +83,7 @@ EvosAttacksPointers::
 	dw SlowbroEvosAttacks
 	dw MagnemiteEvosAttacks
 	dw MagnetonEvosAttacks
-	dw FarfetchDEvosAttacks
+	dw ChromniumEvosAttacks
 	dw DoduoEvosAttacks
 	dw DodrioEvosAttacks
 	dw SeelEvosAttacks
@@ -146,11 +146,11 @@ EvosAttacksPointers::
 	dw SnorlaxEvosAttacks
 	dw GogoEvosAttacks
 	dw FijiEvosAttacks
-	dw ZiekeadaEvosAttacks
+	dw KiekeadaEvosAttacks
 	dw DratiniEvosAttacks
 	dw DragonairEvosAttacks
 	dw DragoniteEvosAttacks
-	dw DiazeEvosAttacks
+	dw RainerEvosAttacks
 	dw XuXuEvosAttacks
 	dw ChikoritaEvosAttacks
 	dw BayleefEvosAttacks

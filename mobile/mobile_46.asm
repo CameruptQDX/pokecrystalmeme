@@ -3940,9 +3940,9 @@ BattleTower_UbersCheck:
 .loop
 	push af
 	ld a, [de]
-	cp DIAZE
+	cp DOOMSDAY
 	jr z, .uber
-	cp XU_XU
+	cp OMEGA_ZERO
 	jr z, .uber
 	cp LUGIA
 	jr c, .next

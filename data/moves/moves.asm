@@ -169,11 +169,11 @@ Moves:
 	move BONEMERANG,   EFFECT_DOUBLE_HIT,         50, GROUND,    90, 10,   0
 	move REST,         EFFECT_HEAL,                0, PSYCHIC,  100, 10,   0
 	move ROCK_SLIDE,   EFFECT_FLINCH_HIT,         75, ROCK,      90, 10,  30
-	move HYPER_FANG,   EFFECT_FLINCH_HIT,         80, NORMAL,    90, 15,  10
+	move LEAD_WEIGHT,  EFFECT_FLINCH_HIT,        90, STEEL,    100, 10,  10
 	move SHARPEN,      EFFECT_ATTACK_UP,           0, NORMAL,   100, 30,   0
 	move CONVERSION,   EFFECT_CONVERSION,          0, NORMAL,   100, 30,   0
 	move TRI_ATTACK,   EFFECT_TRI_ATTACK,         80, NORMAL,   100, 10,  20
-	move SUPER_FANG,   EFFECT_SUPER_FANG,          1, NORMAL,    90, 10,   0
+	move LEAD_FANG,    EFFECT_POISON_HIT,          65, STEEL,    95, 15,   20
 	move SLASH,        EFFECT_NORMAL_HIT,         70, NORMAL,   100, 20,   0
 	move SUBSTITUTE,   EFFECT_SUBSTITUTE,          0, NORMAL,   100, 10,   0
 	move STRUGGLE,     EFFECT_RECOIL_HIT,         50, NORMAL,   100,  1,   0

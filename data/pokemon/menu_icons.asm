@@ -19,8 +19,8 @@ MonMenuIcons:
 	db ICON_BIRD        ; PIDGEY
 	db ICON_BIRD        ; PIDGEOTTO
 	db ICON_BIRD        ; PIDGEOT
-	db ICON_FOX         ; RATTATA
-	db ICON_FOX         ; RATICATE
+	db ICON_EQUINE         ; RHINOX
+	db ICON_MONSTER         ; PANDOUGH
 	db ICON_BUG        ; CANNONBA
 	db ICON_BUG        ; TRIANTULA
 	db ICON_SERPENT     ; EKANS
@@ -83,7 +83,7 @@ MonMenuIcons:
 	db ICON_SLOWPOKE    ; SLOWBRO
 	db ICON_VOLTORB     ; MAGNEMITE
 	db ICON_VOLTORB     ; MAGNETON
-	db ICON_BIRD        ; FARFETCH_D
+	db ICON_FISH        ; CHROMNIUM
 	db ICON_BIRD        ; DODUO
 	db ICON_BIRD        ; DODRIO
 	db ICON_LAPRAS      ; SEEL
@@ -146,11 +146,11 @@ MonMenuIcons:
 	db ICON_SNORLAX     ; SNORLAX
 	db ICON_FOX        ; GOGO
 	db ICON_JIGGLYPUFF        ; FIJI
-	db ICON_BIRD        ; ZIEKEADA
+	db ICON_BIRD        ; KIEKEADA
 	db ICON_SERPENT     ; DRATINI
 	db ICON_SERPENT     ; DRAGONAIR
 	db ICON_BIGMON      ; DRAGONITE
-	db ICON_MONSTER  ; DIAZE
+	db ICON_MONSTER  ; RAINER
 	db ICON_JELLYFISH  ; XU-XU
 	db ICON_ODDISH      ; CHIKORITA
 	db ICON_ODDISH      ; BAYLEEF

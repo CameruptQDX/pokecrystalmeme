@@ -17,8 +17,8 @@ FramesPointers:
 	dw PidgeyFrames
 	dw PidgeottoFrames
 	dw PidgeotFrames
-	dw RattataFrames
-	dw RaticateFrames
+	dw RhinoxFrames
+	dw PandoughFrames
 	dw CannonbaFrames
 	dw TriantulaFrames
 	dw EkansFrames
@@ -81,7 +81,7 @@ FramesPointers:
 	dw SlowbroFrames
 	dw MagnemiteFrames
 	dw MagnetonFrames
-	dw FarfetchDFrames
+	dw ChromniumFrames
 	dw DoduoFrames
 	dw DodrioFrames
 	dw SeelFrames
@@ -144,11 +144,11 @@ FramesPointers:
 	dw SnorlaxFrames
 	dw GogoFrames
 	dw FijiFrames
-	dw ZiekeadaFrames
+	dw KiekeadaFrames
 	dw DratiniFrames
 	dw DragonairFrames
 	dw DragoniteFrames
-	dw DiazeFrames
+	dw RainerFrames
 	dw XuXuFrames
 	dw ChikoritaFrames
 	dw BayleefFrames

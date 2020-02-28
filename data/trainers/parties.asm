@@ -423,7 +423,7 @@ ErikaGroup:
 YoungsterGroup:
 	; YOUNGSTER (1) EDIT
 	db "JOEY@", TRAINERTYPE_DVS
-	db  4, RATTATA
+	db  4, MISSINGNO
 		db PERFECT_DV, PERFECT_DV
 	db -1 ; end
 
@@ -435,7 +435,7 @@ YoungsterGroup:
 
 	; YOUNGSTER (3) EDIT
 	db "ALBERT@", TRAINERTYPE_ITEM
-	db  10, RATTATA
+	db  10, MISSINGNO
 		db NO_ITEM
 	db  10, ZUBAT
 		db NO_ITEM
@@ -451,7 +451,7 @@ YoungsterGroup:
 
 	; YOUNGSTER (5)
 	db "SAMUEL@", TRAINERTYPE_NORMAL
-	db  7, RATTATA
+	db  7, MISSINGNO
 	db 10, SANDSHREW
 	db  8, MISSINGNO
 	db  8, MISSINGNO
@@ -465,12 +465,12 @@ YoungsterGroup:
 
 	; YOUNGSTER (7)
 	db "JOEY@", TRAINERTYPE_NORMAL
-	db 15, RATTATA
+	db 15, MISSINGNO
 	db -1 ; end
 
 	; YOUNGSTER (8)
 	db "JOEY@", TRAINERTYPE_MOVES
-	db 21, RATICATE,   TAIL_WHIP, QUICK_ATTACK, HYPER_FANG, SCARY_FACE
+	db 21, MISSINGNO,   TAIL_WHIP, QUICK_ATTACK, TACKLE, SCARY_FACE
 	db -1 ; end
 
 	; YOUNGSTER (9)
@@ -480,7 +480,7 @@ YoungsterGroup:
 
 	; YOUNGSTER (10)
 	db "JIMMY@", TRAINERTYPE_NORMAL
-	db 33, RATICATE
+	db 33, MISSINGNO
 	db 33, ARBOK
 	db -1 ; end
 
@@ -497,12 +497,12 @@ YoungsterGroup:
 
 	; YOUNGSTER (13)
 	db "JOEY@", TRAINERTYPE_MOVES
-	db 30, RATICATE,   TAIL_WHIP, QUICK_ATTACK, HYPER_FANG, PURSUIT
+	db 30, MISSINGNO,   TAIL_WHIP, QUICK_ATTACK, TACKLE, PURSUIT
 	db -1 ; end
 
 	; YOUNGSTER (14)
 	db "JOEY@", TRAINERTYPE_MOVES
-	db 37, RATICATE,   HYPER_BEAM, QUICK_ATTACK, HYPER_FANG, PURSUIT
+	db 37, MISSINGNO,   HYPER_BEAM, QUICK_ATTACK, TACKLE, PURSUIT
 	db -1 ; end
 
 SchoolboyGroup:
@@ -734,7 +734,7 @@ BirdKeeperGroup:
 
 	; BIRD_KEEPER (12)
 	db "JOSE@", TRAINERTYPE_NORMAL
-	db 36, FARFETCH_D
+	db 36, MISSINGNO
 	db -1 ; end
 
 	; BIRD_KEEPER (13) EDIT
@@ -749,12 +749,12 @@ BirdKeeperGroup:
 
 	; BIRD_KEEPER (14)
 	db "JOSE@", TRAINERTYPE_NORMAL
-	db 34, FARFETCH_D
+	db 34, MISSINGNO
 	db -1 ; end
 
 	; BIRD_KEEPER (15)
 	db "PERRY@", TRAINERTYPE_NORMAL
-	db 34, FARFETCH_D
+	db 34, MISSINGNO
 	db -1 ; end
 
 	; BIRD_KEEPER (16)
@@ -765,7 +765,7 @@ BirdKeeperGroup:
 
 	; BIRD_KEEPER (17)
 	db "JOSE@", TRAINERTYPE_MOVES
-	db 40, FARFETCH_D, FURY_ATTACK, DETECT, FLY, SLASH
+	db 40, MISSINGNO, FURY_ATTACK, DETECT, FLY, SLASH
 	db -1 ; end
 
 	; BIRD_KEEPER (18)
@@ -1358,8 +1358,8 @@ GruntMGroup:
 
 	; GRUNTM (3)
 	db "PEON@", TRAINERTYPE_NORMAL
-	db 24, RATICATE
-	db 24, RATICATE
+	db 24, MISSINGNO
+	db 24, MISSINGNO
 	db -1 ; end
 
 	; GRUNTM (4)
@@ -1371,11 +1371,11 @@ GruntMGroup:
 
 	; GRUNTM (5)
 	db "PEON@", TRAINERTYPE_NORMAL
-	db 21, RATTATA
-	db 21, RATTATA
-	db 23, RATTATA
-	db 23, RATTATA
-	db 23, RATTATA
+	db 21, MISSINGNO
+	db 21, MISSINGNO
+	db 23, MISSINGNO
+	db 23, MISSINGNO
+	db 23, MISSINGNO
 	db -1 ; end
 
 	; GRUNTM (6)
@@ -1389,7 +1389,7 @@ GruntMGroup:
 	db 23, KOFFING
 	db 23, GRIMER
 	db 23, ZUBAT
-	db 23, RATTATA
+	db 23, MISSINGNO
 	db -1 ; end
 
 	; GRUNTM (8)
@@ -1399,7 +1399,7 @@ GruntMGroup:
 
 	; GRUNTM (9)
 	db "PEON@", TRAINERTYPE_NORMAL
-	db 24, RATICATE
+	db 24, MISSINGNO
 	db 26, KOFFING
 	db -1 ; end
 
@@ -1414,7 +1414,7 @@ GruntMGroup:
 	db "PEON@", TRAINERTYPE_NORMAL
 	db 23, MUK
 	db 23, KOFFING
-	db 25, RATTATA
+	db 25, MISSINGNO
 	db -1 ; end
 
 	; GRUNTM (12)
@@ -1424,12 +1424,12 @@ GruntMGroup:
 
 	; GRUNTM (13)
 	db "PEON@", TRAINERTYPE_NORMAL
-	db 27, RATTATA
+	db 27, MISSINGNO
 	db -1 ; end
 
 	; GRUNTM (14)
 	db "PEON@", TRAINERTYPE_NORMAL
-	db 24, RATICATE
+	db 24, MISSINGNO
 	db 24, GOLBAT
 	db -1 ; end
 
@@ -1441,10 +1441,10 @@ GruntMGroup:
 
 	; GRUNTM (16)
 	db "PEON@", TRAINERTYPE_NORMAL
-	db 16, RATTATA
-	db 16, RATTATA
-	db 16, RATTATA
-	db 16, RATTATA
+	db 16, MISSINGNO
+	db 16, MISSINGNO
+	db 16, MISSINGNO
+	db 16, MISSINGNO
 	db -1 ; end
 
 	; GRUNTM (17)
@@ -1454,9 +1454,9 @@ GruntMGroup:
 
 	; GRUNTM (18)
 	db "PEON@", TRAINERTYPE_NORMAL
-	db 17, RATTATA
+	db 17, MISSINGNO
 	db 17, ZUBAT
-	db 17, RATTATA
+	db 17, MISSINGNO
 	db -1 ; end
 
 	; GRUNTM (19)
@@ -1475,7 +1475,7 @@ GruntMGroup:
 	db "PEON@", TRAINERTYPE_NORMAL
 	db 16, ZUBAT
 	db 17, GRIMER
-	db 18, RATTATA
+	db 18, MISSINGNO
 	db -1 ; end
 
 	; GRUNTM (22)
@@ -1502,8 +1502,8 @@ GruntMGroup:
 
 	; GRUNTM (26)
 	db "PEON@", TRAINERTYPE_NORMAL
-	db 15, RATTATA
-	db 15, RATTATA
+	db 15, MISSINGNO
+	db 15, MISSINGNO
 	db -1 ; end
 
 	; GRUNTM (27)
@@ -1513,7 +1513,7 @@ GruntMGroup:
 
 	; GRUNTM (28)
 	db "PEON@", TRAINERTYPE_NORMAL
-	db 19, RATICATE
+	db 19, MISSINGNO
 	db -1 ; end
 
 	; GRUNTM (29) slowpoke well
@@ -2136,7 +2136,7 @@ SailorGroup:
 	; SAILOR (1)
 	db "EUGENE@", TRAINERTYPE_NORMAL
 	db 17, POLIWHIRL
-	db 17, RATICATE
+	db 17, MISSINGNO
 	db 19, KRABBY
 	db -1 ; end
 
@@ -2166,8 +2166,8 @@ SailorGroup:
 
 	; SAILOR (6)
 	db "JEFF@", TRAINERTYPE_NORMAL
-	db 32, RATICATE
-	db 32, RATICATE
+	db 32, MISSINGNO
+	db 32, MISSINGNO
 	db -1 ; end
 
 	; SAILOR (7)
@@ -2790,7 +2790,7 @@ ExecutiveMGroup:
 	; EXECUTIVEM (4)
 	db "EXECUTIVE@", TRAINERTYPE_NORMAL
 	db 22, ZUBAT
-	db 24, RATICATE
+	db 24, MISSINGNO
 	db 22, KOFFING
 	db -1 ; end
 

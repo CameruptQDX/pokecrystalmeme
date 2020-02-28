@@ -18,8 +18,8 @@ PokedexDataPointerTable:
 	dw PidgeyPokedexEntry
 	dw PidgeottoPokedexEntry
 	dw PidgeotPokedexEntry
-	dw RattataPokedexEntry
-	dw RaticatePokedexEntry
+	dw RhinoxPokedexEntry
+	dw PandoughPokedexEntry
 	dw CannonbaPokedexEntry
 	dw TriantulaPokedexEntry
 	dw EkansPokedexEntry
@@ -82,7 +82,7 @@ PokedexDataPointerTable:
 	dw SlowbroPokedexEntry
 	dw MagnemitePokedexEntry
 	dw MagnetonPokedexEntry
-	dw FarfetchDPokedexEntry
+	dw ChromniumPokedexEntry
 	dw DoduoPokedexEntry
 	dw DodrioPokedexEntry
 	dw SeelPokedexEntry
@@ -145,11 +145,11 @@ PokedexDataPointerTable:
 	dw SnorlaxPokedexEntry
 	dw GogoPokedexEntry
 	dw FijiPokedexEntry
-	dw ZiekeadaPokedexEntry
+	dw KiekeadaPokedexEntry
 	dw DratiniPokedexEntry
 	dw DragonairPokedexEntry
 	dw DragonitePokedexEntry
-	dw DiazePokedexEntry
+	dw RainerPokedexEntry
 	dw XuXuPokedexEntry
 	dw ChikoritaPokedexEntry
 	dw BayleefPokedexEntry

@@ -23,8 +23,8 @@ PokemonCries::
 	mon_cry CRY_PIDGEY,      $0df,  $084 ; PIDGEY
 	mon_cry CRY_PIDGEOTTO,   $028,  $140 ; PIDGEOTTO
 	mon_cry CRY_PIDGEOTTO,   $011,  $17f ; PIDGEOT
-	mon_cry CRY_RATTATA,     $000,  $100 ; RATTATA
-	mon_cry CRY_RATTATA,     $020,  $17f ; RATICATE
+	mon_cry CRY_NIDORAN_M,      0,     0 ; RHINOX
+	mon_cry CRY_NIDORAN_M,      0,     0 ; PANDOUGH
 	mon_cry CRY_NIDORAN_M,      0,     0 ; CANNONBA
 	mon_cry CRY_NIDORAN_M,      0,     0 ; TRIANTULA
 	mon_cry CRY_EKANS,       $012,  $0c0 ; EKANS
@@ -87,7 +87,7 @@ PokemonCries::
 	mon_cry CRY_GROWLITHE,   $000,  $100 ; SLOWBRO
 	mon_cry CRY_METAPOD,     $080,  $0e0 ; MAGNEMITE
 	mon_cry CRY_METAPOD,     $020,  $140 ; MAGNETON
-	mon_cry CRY_SPEAROW,     $0dd,  $081 ; FARFETCH_D
+	mon_cry CRY_NIDORAN_M,      0,     0 ; CHROMNIUM
 	mon_cry CRY_DIGLETT,     $0bb,  $081 ; DODUO
 	mon_cry CRY_DIGLETT,     $099,  $0a0 ; DODRIO
 	mon_cry CRY_SEEL,        $088,  $140 ; SEEL
@@ -150,11 +150,11 @@ PokemonCries::
 	mon_cry CRY_GRIMER,      $055,  $081 ; SNORLAX
 	mon_cry CRY_BULBASAUR,   $017,  $152 ; GOGO
 	mon_cry CRY_ODDISH,      $00a,  $0B8 ; FIJI
-	mon_cry CRY_NIDORAN_M,      0,     0 ; ZIEKEADA
+	mon_cry CRY_NIDORAN_M,      0,     0 ; KIEKEADA
 	mon_cry CRY_BULBASAUR,   $060,  $0c0 ; DRATINI
 	mon_cry CRY_BULBASAUR,   $040,  $100 ; DRAGONAIR
 	mon_cry CRY_BULBASAUR,   $03c,  $140 ; DRAGONITE
-	mon_cry CRY_NIDORAN_M,      0,     0 ; DIAZE
+	mon_cry CRY_NIDORAN_M,      0,     0 ; RAINER
 	mon_cry CRY_ENTEI,       $090,  $1b6 ; XU-XU
 	mon_cry CRY_CHIKORITA,  -$010,  $0b0 ; CHIKORITA
 	mon_cry CRY_CHIKORITA,  -$022,  $120 ; BAYLEEF

@@ -30,7 +30,7 @@ SpriteMons:
 	db VOLTORB
 	db LAPRAS
 	db RHYDON
-	db ZIEKEADA ; moltres
+	db KIEKEADA ; moltres
 	db SNORLAX
 	db GYARADOS
 	db LUGIA

@@ -20,6 +20,7 @@ AlphabeticalPokedexOrder:
 	db CHANSEY
 	db CHIKORITA
 	db CHINCHOU
+	db CHROMNIUM
 	db CLEFABLE
 	db CLEFAIRY
 	db CLEFFA
@@ -57,7 +58,6 @@ AlphabeticalPokedexOrder:
 	db ESPEON
 	db EXEGGCUTE
 	db EXEGGUTOR
-	db FARFETCH_D
 	db FERALIGATR
 	db FIJI
 	db FLAAFFY
@@ -102,7 +102,7 @@ AlphabeticalPokedexOrder:
 	db KANGASKHAN
 	db KECLEON
 	db KETTELDER
-	db ZIEKEADA ; renamed to "Kiekeada"
+	db KIEKEADA
 	db KINGDRA
 	db KINGLER
 	db KOFFING
@@ -151,6 +151,7 @@ AlphabeticalPokedexOrder:
 	db ODDISH
 	db OMEGA_ZERO
 	db ONIX
+	db PANDOUGH
 	db PARAS
 	db PARASECT
 	db PERITOP
@@ -182,11 +183,10 @@ AlphabeticalPokedexOrder:
 	db RAICHU
 	db RAIKO
 	db RAIKOU
-	db DIAZE ; renamed to "Rainer"
+	db RAINER
 	db RAPIDASH
-	db RATICATE
-	db RATTATA
 	db REMORAID
+	db RHINOX
 	db RHYDON
 	db RHYHORN
 	db SANDSHREW

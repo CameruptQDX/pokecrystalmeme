@@ -38,10 +38,10 @@ PokemonPicPointers::
 	dba_pic PidgeottoBackpic
 	dba_pic PidgeotFrontpic
 	dba_pic PidgeotBackpic
-	dba_pic RattataFrontpic
-	dba_pic RattataBackpic
-	dba_pic RaticateFrontpic
-	dba_pic RaticateBackpic
+	dba_pic RhinoxFrontpic
+	dba_pic RhinoxBackpic
+	dba_pic PandoughFrontpic
+	dba_pic PandoughBackpic
 	dba_pic CannonbaFrontpic
 	dba_pic CannonbaBackpic
 	dba_pic TriantulaFrontpic
@@ -166,8 +166,8 @@ PokemonPicPointers::
 	dba_pic MagnemiteBackpic
 	dba_pic MagnetonFrontpic
 	dba_pic MagnetonBackpic
-	dba_pic FarfetchDFrontpic
-	dba_pic FarfetchDBackpic
+	dba_pic ChromniumFrontpic
+	dba_pic ChromniumBackpic
 	dba_pic DoduoFrontpic
 	dba_pic DoduoBackpic
 	dba_pic DodrioFrontpic
@@ -292,16 +292,16 @@ PokemonPicPointers::
 	dba_pic GogoBackpic
 	dba_pic FijiFrontpic
 	dba_pic FijiBackpic
-	dba_pic ZiekeadaFrontpic
-	dba_pic ZiekeadaBackpic
+	dba_pic KiekeadaFrontpic
+	dba_pic KiekeadaBackpic
 	dba_pic DratiniFrontpic
 	dba_pic DratiniBackpic
 	dba_pic DragonairFrontpic
 	dba_pic DragonairBackpic
 	dba_pic DragoniteFrontpic
 	dba_pic DragoniteBackpic
-	dba_pic DiazeFrontpic
-	dba_pic DiazeBackpic
+	dba_pic RainerFrontpic
+	dba_pic RainerBackpic
 	dba_pic XuXuFrontpic
 	dba_pic XuXuBackpic
 	dba_pic ChikoritaFrontpic

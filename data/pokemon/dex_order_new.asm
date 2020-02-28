@@ -15,8 +15,6 @@ NewPokedexOrder:
 	db PIDGEOT
 	db HOOTHOOT
 	db NOCTOWL
-	db RATTATA
-	db RATICATE
 	db SENTRET
 	db FURRET
 	db PICHU
@@ -49,6 +47,9 @@ NewPokedexOrder:
 	db IGGLYBUFF
 	db JIGGLYPUFF
 	db WIGGLYTUFF
+	db SMEARGLE
+	db NATU
+	db XATU
 	db TOGEPI
 	db TOGETIC
 	db SANDSHREW
@@ -160,10 +161,6 @@ NewPokedexOrder:
 	db ELEKID
 	db ELECTABUZZ
 	db MR__MIME
-	db SMEARGLE
-	db FARFETCH_D
-	db NATU
-	db XATU
 	db QWILFISH
 	db TENTACOOL
 	db TENTACRUEL
@@ -175,6 +172,7 @@ NewPokedexOrder:
 	db SHELLDER
 	db CLOYSTER
 	db CORSOLA
+	db CHROMNIUM
 	db REMORAID
 	db OCTILLERY
 	db CHINCHOU
@@ -198,6 +196,7 @@ NewPokedexOrder:
 	db PILOSWINE
 	db TEDDIURSA
 	db URSARING
+	db PANDOUGH
 	db PHANPY
 	db DONPHAN
 	db MANTINE
@@ -211,6 +210,7 @@ NewPokedexOrder:
 	db KANGASKHAN
 	db RHYHORN
 	db RHYDON
+	db RHINOX
 	db MURKROW
 	db HOUNDOUR
 	db HOUNDOOM
@@ -237,8 +237,8 @@ NewPokedexOrder:
 	db MISSINGNO
 	db GOGO
 	db FIJI
-	db ZIEKEADA
-	db DIAZE
+	db KIEKEADA
+	db RAINER
 	db XU_XU
 	db DRATINI
 	db DRAGONAIR

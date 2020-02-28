@@ -1155,10 +1155,10 @@ BattleCommand_Critical:
 	jr .Tally
 
 .Farfetchd:
-	cp FARFETCH_D
+	cp AIPOM
 	jr nz, .FocusEnergy
 	ld a, [hl]
-	cp STICK
+	cp STICK ; renamed to POM GLOVE
 	jr nz, .FocusEnergy
 
 ; +2 critical level

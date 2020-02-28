@@ -17,8 +17,8 @@ AnimationPointers:
 	dw PidgeyAnimation
 	dw PidgeottoAnimation
 	dw PidgeotAnimation
-	dw RattataAnimation
-	dw RaticateAnimation
+	dw RhinoxAnimation
+	dw PandoughAnimation
 	dw CannonbaAnimation
 	dw TriantulaAnimation
 	dw EkansAnimation
@@ -81,7 +81,7 @@ AnimationPointers:
 	dw SlowbroAnimation
 	dw MagnemiteAnimation
 	dw MagnetonAnimation
-	dw FarfetchDAnimation
+	dw ChromniumAnimation
 	dw DoduoAnimation
 	dw DodrioAnimation
 	dw SeelAnimation
@@ -144,11 +144,11 @@ AnimationPointers:
 	dw SnorlaxAnimation
 	dw GogoAnimation
 	dw FijiAnimation
-	dw ZiekeadaAnimation
+	dw KiekeadaAnimation
 	dw DratiniAnimation
 	dw DragonairAnimation
 	dw DragoniteAnimation
-	dw DiazeAnimation
+	dw RainerAnimation
 	dw XuXuAnimation
 	dw ChikoritaAnimation
 	dw BayleefAnimation

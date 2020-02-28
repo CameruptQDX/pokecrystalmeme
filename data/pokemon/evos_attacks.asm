@@ -281,33 +281,33 @@ PidgeotEvosAttacks:
 	db 61, MIRROR_MOVE
 	db 0 ; no more level-up moves
 
-RattataEvosAttacks:
-	db EVOLVE_LEVEL, 20, RATICATE
+RhinoxEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, TACKLE
+	db 1, HORN_ATTACK
 	db 1, TAIL_WHIP
-	db 7, QUICK_ATTACK
-	db 13, HYPER_FANG
-	db 20, FOCUS_ENERGY
-	db 27, PURSUIT
-	db 30, CRUNCH
-	db 34, SUPER_FANG
-	db 38, DOUBLE_EDGE
+	db 13, STOMP
+	db 19, FURY_ATTACK
+	db 25, ROCK_THROW
+	db 31, SCARY_FACE
+	db 37, MAGNITUDE
+	db 54, LEAD_WEIGHT
+	db 65, EARTHQUAKE
+	db 70, MEGAHORN
 	db 0 ; no more level-up moves
 
-RaticateEvosAttacks:
+PandoughEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, TACKLE
-	db 1, TAIL_WHIP
-	db 1, QUICK_ATTACK
-	db 7, QUICK_ATTACK
-	db 13, HYPER_FANG
-	db 19, SCARY_FACE
-	db 30, PURSUIT
-	db 34, CRUNCH
-	db 40, SUPER_FANG
-	db 43, DOUBLE_EDGE
-	db 50, SWORDS_DANCE
+	db 1, SCRATCH
+	db 1, LEER
+	db 8, LICK
+	db 15, FURY_SWIPES
+	db 22, THIEF
+	db 24, SWEET_SCENT
+	db 29, REST
+	db 36, SLASH
+	db 38, CHARM
+	db 43, SNORE
+	db 50, THRASH
 	db 0 ; no more level-up moves
 
 CannonbaEvosAttacks:
@@ -1182,17 +1182,19 @@ MagnetonEvosAttacks:
 	db 51, ZAP_CANNON
 	db 0 ; no more level-up moves
 
-FarfetchDEvosAttacks:
+ChromniumEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, PECK
-	db 7, SAND_ATTACK
-	db 13, LEER
-	db 19, FURY_ATTACK
-	db 21, FURY_CUTTER
-	db 25, SWORDS_DANCE
-	db 31, AGILITY
-	db 37, SLASH
-	db 44, FALSE_SWIPE
+	db 1, BITE
+	db 1, FORESIGHT
+	db 10, WATER_GUN
+	db 20, SHARPEN
+	db 26, LEAD_FANG
+	db 30, TAKE_DOWN
+	db 36, CRUNCH
+	db 42, AGILITY
+	db 48, IRON_TAIL
+	db 55, SKULL_BASH
+	db 60, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
 DoduoEvosAttacks:
@@ -2092,7 +2094,7 @@ FijiEvosAttacks:
 	db 90, AEROBLAST
 	db 0 ; no more level-up moves
 
-ZiekeadaEvosAttacks: ; renamed to Kiekeada
+KiekeadaEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, MEGA_PUNCH
 	db 1, ICE_PUNCH
@@ -2149,7 +2151,7 @@ DragoniteEvosAttacks:
 	db 75, HYPER_BEAM
 	db 0 ; no more level-up moves
 
-DiazeEvosAttacks: ; renamed to Rainer
+RainerEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, CRUNCH
 	db 1, CLAMP

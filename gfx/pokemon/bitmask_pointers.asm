@@ -17,8 +17,8 @@ BitmasksPointers:
 	dw PidgeyBitmasks
 	dw PidgeottoBitmasks
 	dw PidgeotBitmasks
-	dw RattataBitmasks
-	dw RaticateBitmasks
+	dw RhinoxBitmasks
+	dw PandoughBitmasks
 	dw CannonbaBitmasks
 	dw TriantulaBitmasks
 	dw EkansBitmasks
@@ -81,7 +81,7 @@ BitmasksPointers:
 	dw SlowbroBitmasks
 	dw MagnemiteBitmasks
 	dw MagnetonBitmasks
-	dw FarfetchDBitmasks
+	dw ChromniumBitmasks
 	dw DoduoBitmasks
 	dw DodrioBitmasks
 	dw SeelBitmasks
@@ -144,11 +144,11 @@ BitmasksPointers:
 	dw SnorlaxBitmasks
 	dw GogoBitmasks
 	dw FijiBitmasks
-	dw ZiekeadaBitmasks
+	dw KiekeadaBitmasks
 	dw DratiniBitmasks
 	dw DragonairBitmasks
 	dw DragoniteBitmasks
-	dw DiazeBitmasks
+	dw RainerBitmasks
 	dw XuXuBitmasks
 	dw ChikoritaBitmasks
 	dw BayleefBitmasks

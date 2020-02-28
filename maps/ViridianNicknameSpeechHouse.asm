@@ -26,7 +26,7 @@ Speary:
 Rattey:
 	opentext
 	writetext RatteyText
-	cry RATTATA
+	cry MISSINGNO ; rattata culled
 	waitbutton
 	closetext
 	end

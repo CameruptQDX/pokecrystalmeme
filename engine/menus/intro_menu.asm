@@ -778,7 +778,7 @@ NamePlayer:
 .Chris:
 	db "LEAD@@@@@@@"
 .Kris:
-	db "LEDA@@@@@@@"
+	db "MERCURY@@@@"
 
 Unreferenced_Function60e9:
 	call LoadMenuHeader

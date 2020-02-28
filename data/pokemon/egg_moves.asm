@@ -53,15 +53,6 @@ PidgeyEggMoves:
 	db FORESIGHT
 	db -1 ; end
 
-RattataEggMoves:
-	db SCREECH
-	db FLAME_WHEEL
-	db FURY_SWIPES
-	db BITE
-	db COUNTER
-	db REVERSAL
-	db -1 ; end
-
 
 EkansEggMoves:
 	db PURSUIT
@@ -244,12 +235,11 @@ SlowpokeEggMoves:
 	db STOMP
 	db -1 ; end
 
-FarfetchDEggMoves:
-	db FORESIGHT
-	db MIRROR_MOVE
-	db GUST
-	db QUICK_ATTACK
-	db FLAIL
+ChromniumEggMoves:
+	db DOUBLE_EDGE
+	db THRASH
+	db SUPERSONIC
+	db BUBBLEBEAM
 	db -1 ; end
 
 DoduoEggMoves:

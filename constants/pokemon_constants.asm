@@ -37,8 +37,8 @@
 	const PIDGEY     ; 10
 	const PIDGEOTTO  ; 11
 	const PIDGEOT    ; 12
-	const RATTATA    ; 13
-	const RATICATE   ; 14
+	const RHINOX    ; 13
+	const PANDOUGH   ; 14
 	const CANNONBA    ; 15
 	const TRIANTULA     ; 16
 	const EKANS      ; 17
@@ -101,7 +101,7 @@
 	const SLOWBRO    ; 50
 	const MAGNEMITE  ; 51
 	const MAGNETON   ; 52
-	const FARFETCH_D ; 53
+	const CHROMNIUM ; 53
 	const DODUO      ; 54
 	const DODRIO     ; 55
 	const SEEL       ; 56
@@ -164,11 +164,11 @@
 	const SNORLAX    ; 8f
 	const GOGO   ; 90
 	const FIJI     ; 91
-	const ZIEKEADA    ; 92
+	const KIEKEADA    ; 92
 	const DRATINI    ; 93
 	const DRAGONAIR  ; 94
 	const DRAGONITE  ; 95
-	const DIAZE     ; 96
+	const RAINER     ; 96
 	const XU_XU        ; 97
 JOHTO_POKEMON EQU const_value
 	const CHIKORITA  ; 98

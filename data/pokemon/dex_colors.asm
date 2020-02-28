@@ -33,8 +33,8 @@ DexColors::
 	db DEX_BROWN ; pidgey
 	db DEX_BROWN
 	db DEX_BROWN
-	db DEX_PURPLE
-	db DEX_BROWN   ; RATICATE
+	db DEX_GRAY ; RHINOX
+	db DEX_BLACK   ; PANDOUGH
     db DEX_RED   ; CANNONBA
     db DEX_YELLOW   ; TRIANTULA
     db DEX_PURPLE
@@ -97,7 +97,7 @@ DexColors::
     db DEX_PINK  ; SLOWBRO
     db DEX_GRAY
     db DEX_GRAY
-    db DEX_BROWN
+    db DEX_GRAY ; chromnium
     db DEX_BROWN
     db DEX_BROWN
     db DEX_WHITE
@@ -158,14 +158,14 @@ DexColors::
     db DEX_BLUE ; MARIN
     db DEX_GREEN ; DRACHILLES
     db DEX_BLUE
-    db DEX_GRAY  ; GOGO (IDK WHAT COLOR THE AMALGAMS WILL BE YET, EDIT LATER)
-    db DEX_GRAY  ; FIJI
-    db DEX_GRAY  ; ZIEKEADA
+    db DEX_YELLOW  ; GOGO (IDK WHAT COLOR THE AMALGAMS WILL BE YET, EDIT LATER)
+    db DEX_RED  ; FIJI
+    db DEX_GRAY  ; KIEKEADA
     db DEX_BLUE
     db DEX_BLUE
     db DEX_BROWN
-    db DEX_GRAY   ; DIAZE
-    db DEX_GRAY   ; XU-XU
+    db DEX_GRAY   ; RAINER
+    db DEX_YELLOW   ; XU-XU
     db DEX_GREEN
     db DEX_GREEN
     db DEX_GREEN
@@ -265,6 +265,6 @@ DexColors::
     db DEX_GREEN
     db DEX_WHITE
     db DEX_RED
-    db DEX_BLUE ; GRITESPEC
+    db DEX_GREEN ; Celebi
     db DEX_GRAY ; DOOMSDAY
     db DEX_GRAY ; OMEGA ZERO

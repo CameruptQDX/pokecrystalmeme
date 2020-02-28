@@ -17,8 +17,8 @@ EvolutionMoves::
 	db NO_MOVE
 	db NO_MOVE
 	db NO_MOVE
-	db NO_MOVE
-	db SCARY_FACE   ; RATICATE
+	db NO_MOVE      ; RHINOX
+	db THIEF   ; PANDOUGH
 	db CANNON_BALL      ; CANNONBA
 	db TRI_ATTACK      ; TRIANTULA
 	db NO_MOVE
@@ -144,11 +144,11 @@ EvolutionMoves::
 	db NO_MOVE
 	db NO_MOVE      ;GOGO
 	db NO_MOVE      ;FIJI
-	db NO_MOVE      ;ZIEKEADA
+	db NO_MOVE      ;KIEKEADA
 	db NO_MOVE
 	db NO_MOVE
 	db WING_ATTACK  ; DRAGONITE
-	db NO_MOVE      ;DIAZE
+	db NO_MOVE      ;RAINER
 	db NO_MOVE      ;XUXU
 	db NO_MOVE
 	db NO_MOVE
