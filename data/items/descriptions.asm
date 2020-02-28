@@ -671,8 +671,8 @@ PinkBowDesc:
 	next "type moves. (HOLD)@"
 
 StickDesc:
-	db   "An ordinary stick."
-	next "Sell low.@"
+	db   "A special glove"
+	next "for AIPOM (HOLD).@"
 
 SmokeBallDesc:
 	db   "Escape from wild"
@@ -723,8 +723,8 @@ MiracleSeedDesc:
 	next "type moves. (HOLD)@"
 
 ThickClubDesc:
-	db   "A bone of some"
-	next "sort. Sell low.@"
+	db   "A bone weapon for"
+	next "CUBONE (HOLD).@"
 
 FocusBandDesc:
 	db   "May prevent faint-"

@@ -1620,6 +1620,7 @@ RhyhornEvosAttacks:
 	db 0 ; no more level-up moves
 
 RhydonEvosAttacks:
+	db EVOLVE_ITEM, METAL_ADAPTER, RHINOX
 	db 0 ; no more evolutions
 	db 1, HORN_ATTACK
 	db 1, TAIL_WHIP
@@ -2516,12 +2517,13 @@ IgglybuffEvosAttacks:
 TogepiEvosAttacks:
 	db EVOLVE_HAPPINESS, TR_ANYTIME, TOGETIC
 	db 0 ; no more evolutions
-	db 1, GROWL
+	db 1, POUND
 	db 1, CHARM
 	db 6, METRONOME
 	db 9, SWEET_KISS
 	db 17, ENCORE
 	db 20, ANCIENTPOWER
+	db 25, SPIKE_CANNON
 	db 31, SAFEGUARD
 	db 33, BATON_PASS
 	db 38, DOUBLE_EDGE
@@ -2529,13 +2531,14 @@ TogepiEvosAttacks:
 
 TogeticEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, GROWL
+	db 1, POUND
 	db 1, CHARM
 	db 6, METRONOME
 	db 9, SWEET_KISS
 	db 17, ENCORE
 	db 20, ANCIENTPOWER
 	db 25, WING_ATTACK
+	db 27, SPIKE_CANNON
 	db 31, SAFEGUARD
 	db 33, BATON_PASS
 	db 38, DOUBLE_EDGE
@@ -2725,11 +2728,13 @@ AipomEvosAttacks:
 	db 1, SCRATCH
 	db 1, TAIL_WHIP
 	db 6, SAND_ATTACK
-	db 12, BATON_PASS
+	db 12, AGILITY
+	db 15, BATON_PASS
 	db 19, FURY_SWIPES
 	db 27, SWIFT
+	db 32, MEGA_PUNCH
 	db 36, SCREECH
-	db 46, AGILITY
+	db 46, THRASH
 	db 0 ; no more level-up moves
 
 SunkernEvosAttacks:
@@ -3075,6 +3080,7 @@ SneaselEvosAttacks:
 	db 0 ; no more level-up moves
 
 TeddiursaEvosAttacks:
+	db EVOLVE_HAPPINESS, TR_NITE, PANDOUGH ; I think if this is above ursaring it will take priority?
 	db EVOLVE_LEVEL, 30, URSARING
 	db 0 ; no more evolutions
 	db 1, SCRATCH
@@ -3227,7 +3233,7 @@ MantineEvosAttacks:
 	db 1, BUBBLE
 	db 10, SUPERSONIC
 	db 18, BUBBLEBEAM
-	db 25, TAKE_DOWN
+	db 25, BODY_SLAM
 	db 32, AGILITY
 	db 35, CONFUSE_RAY
 	db 40, WING_ATTACK
@@ -3258,6 +3264,7 @@ HoundourEvosAttacks:
 	db 20, BITE
 	db 23, BEAT_UP
 	db 27, FAINT_ATTACK
+	db 32, BONEMERANG
 	db 35, FLAMETHROWER
 	db 43, CRUNCH
 	db 0 ; no more level-up moves
@@ -3271,6 +3278,7 @@ HoundoomEvosAttacks:
 	db 20, BITE
 	db 23, BEAT_UP
 	db 30, FAINT_ATTACK
+	db 34, BONEMERANG
 	db 41, FLAMETHROWER
 	db 52, CRUNCH
 	db 0 ; no more level-up moves
