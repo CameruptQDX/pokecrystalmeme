@@ -42,7 +42,7 @@ GoldenrodMagnetTrainStationOfficerScript:
 
 .MovementBoardTheTrain:
 	turn_head DOWN
-	step_end
+	step_resume
 
 .PassNotInBag:
 	writetext UnknownText_0x5522c
@@ -74,13 +74,13 @@ MovementData_0x55146:
 	step UP
 	step RIGHT
 	turn_head LEFT
-	step_end
+	step_resume
 
 MovementData_0x5514b:
 	step LEFT
 	step DOWN
 	step DOWN
-	step_end
+	step_resume
 
 MovementData_0x5514f:
 	step UP
@@ -91,7 +91,7 @@ MovementData_0x5514f:
 	step LEFT
 	step UP
 	step UP
-	step_end
+	step_resume
 
 MovementData_0x55158:
 	step LEFT
@@ -101,7 +101,7 @@ MovementData_0x55158:
 	step DOWN
 	step DOWN
 	turn_head UP
-	step_end
+	step_resume
 
 UnknownText_0x55160:
 	text "The train hasn't"

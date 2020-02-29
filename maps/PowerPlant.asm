@@ -202,7 +202,7 @@ MovementData_0x188ed5:
 	step RIGHT
 	step UP
 	step UP
-	step_end
+	step_resume
 
 MovementData_0x188eda:
 	step DOWN
@@ -210,7 +210,7 @@ MovementData_0x188eda:
 	step LEFT
 	step LEFT
 	turn_head DOWN
-	step_end
+	step_resume
 
 UnknownText_0x188ee0:
 	text "A thief broke into"

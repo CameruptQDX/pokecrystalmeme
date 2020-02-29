@@ -340,7 +340,7 @@ RadioTower2FBookshelf:
 MovementData_0x5d921:
 	slow_step DOWN
 	slow_step RIGHT
-	step_end
+	step_resume
 
 RadioTower2FSuperNerdText:
 	text "You can listen to"

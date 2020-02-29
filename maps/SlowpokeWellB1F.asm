@@ -140,7 +140,7 @@ KurtSlowpokeWellVictoryMovementData:
 	step_sleep 8
 	step_sleep 8
 	turn_head LEFT
-	step_end
+	step_resume
 
 SlowpokeWellB1FKurtText:
 	text "KURT: Hey there,"

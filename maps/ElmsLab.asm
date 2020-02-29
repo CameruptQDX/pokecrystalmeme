@@ -618,21 +618,21 @@ ElmsLab_WalkUpToElmMovement:
 	step UP
 	step UP
 	turn_head LEFT
-	step_end
+	step_resume
 
 ElmsLab_CantLeaveMovement:
 	step UP
-	step_end
+	step_resume
 
 MeetCopScript2_StepLeft:
 	step LEFT
-	step_end
+	step_resume
 
 MeetCopScript_WalkUp:
 	step UP
 	step UP
 	turn_head RIGHT
-	step_end
+	step_resume
 
 OfficerLeavesMovement:
 	step DOWN
@@ -640,81 +640,81 @@ OfficerLeavesMovement:
 	step DOWN
 	step DOWN
 	step DOWN
-	step_end
+	step_resume
 
 AideWalksRight1:
 	step RIGHT
 	step RIGHT
 	turn_head UP
-	step_end
+	step_resume
 
 AideWalksRight2:
 	step RIGHT
 	step RIGHT
 	step RIGHT
 	turn_head UP
-	step_end
+	step_resume
 
 AideWalksLeft1:
 	step LEFT
 	step LEFT
 	turn_head DOWN
-	step_end
+	step_resume
 
 AideWalksLeft2:
 	step LEFT
 	step LEFT
 	step LEFT
 	turn_head DOWN
-	step_end
+	step_resume
 
 ElmJumpUpMovement:
 	fix_facing
 	big_step UP
 	remove_fixed_facing
-	step_end
+	step_resume
 
 ElmJumpDownMovement:
 	fix_facing
 	big_step DOWN
 	remove_fixed_facing
-	step_end
+	step_resume
 
 ElmJumpLeftMovement:
 	fix_facing
 	big_step LEFT
 	remove_fixed_facing
-	step_end
+	step_resume
 
 ElmJumpRightMovement:
 	fix_facing
 	big_step RIGHT
 	remove_fixed_facing
-	step_end
+	step_resume
 
 ElmsLab_ElmToDefaultPositionMovement1:
 	step UP
-	step_end
+	step_resume
 
 ElmsLab_ElmToDefaultPositionMovement2:
 	step RIGHT
 	step RIGHT
 	step UP
 	turn_head DOWN
-	step_end
+	step_resume
 
 AfterCyndaquilMovement:
 	step LEFT
 	step UP
 	turn_head UP
-	step_end
+	step_resume
 
 AfterTotodileMovement:
 	step LEFT
 	step LEFT
 	step UP
 	turn_head UP
-	step_end
+	step_resume
 
 AfterChikoritaMovement:
 	step LEFT
@@ -722,7 +722,7 @@ AfterChikoritaMovement:
 	step LEFT
 	step UP
 	turn_head UP
-	step_end
+	step_resume
 
 ElmText_Intro:
 	text "ELM: <PLAY_G>!"

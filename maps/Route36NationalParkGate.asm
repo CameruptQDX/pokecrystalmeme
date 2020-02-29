@@ -471,7 +471,7 @@ MovementData_0x6add1:
 	big_step DOWN
 	big_step RIGHT
 	turn_head UP
-	step_end
+	step_resume
 
 UnknownText_0x6add5:
 	text "Today's @"

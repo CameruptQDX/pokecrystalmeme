@@ -44,7 +44,7 @@ SaffronMagnetTrainStationOfficerScript:
 
 .MovementBoardTheTrain:
 	turn_head DOWN
-	step_end
+	step_resume
 
 .PassNotInBag:
 	writetext UnknownText_0x18a956
@@ -95,13 +95,13 @@ MovementData_0x18a88f:
 	step UP
 	step RIGHT
 	turn_head LEFT
-	step_end
+	step_resume
 
 MovementData_0x18a894:
 	step LEFT
 	step DOWN
 	step DOWN
-	step_end
+	step_resume
 
 MovementData_0x18a898:
 	step UP
@@ -112,7 +112,7 @@ MovementData_0x18a898:
 	step LEFT
 	step UP
 	step UP
-	step_end
+	step_resume
 
 MovementData_0x18a8a1:
 	step LEFT
@@ -122,7 +122,7 @@ MovementData_0x18a8a1:
 	step DOWN
 	step DOWN
 	turn_head UP
-	step_end
+	step_resume
 
 UnknownText_0x18a8a9:
 	text "I'm sorry, but the"

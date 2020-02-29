@@ -115,7 +115,7 @@ MovementData_0x6c3f6:
 	big_step LEFT
 	big_step RIGHT
 	remove_fixed_facing
-	step_end
+	step_resume
 
 MovementData_0x6c3fb:
 	fix_facing
@@ -125,34 +125,34 @@ MovementData_0x6c3fb:
 	turn_head LEFT
 	turn_head UP
 	turn_head RIGHT
-	step_end
+	step_resume
 
 MovementData_0x6c403:
 	fix_facing
 	big_step LEFT
 	remove_fixed_facing
-	step_end
+	step_resume
 
 MovementData_0x6c407:
 	slow_step LEFT
 	turn_head DOWN
-	step_end
+	step_resume
 
 MovementData_0x6c40a:
 	slow_step RIGHT
 	slow_step UP
 	slow_step UP
-	step_end
+	step_resume
 
 MovementData_0x6c40e:
 	slow_step UP
 	slow_step RIGHT
 	slow_step RIGHT
-	step_end
+	step_resume
 
 MovementData_0x6c412:
 	slow_step RIGHT
-	step_end
+	step_resume
 
 UnknownText_0x6c414:
 	text "Hello, kiddo!"

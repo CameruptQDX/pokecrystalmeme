@@ -123,14 +123,14 @@ MovementData_0x6105a:
 	step RIGHT
 	step RIGHT
 	turn_head DOWN
-	step_end
+	step_resume
 
 MovementData_0x61060:
 	step LEFT
 	step LEFT
 	step LEFT
 	step DOWN
-	step_end
+	step_resume
 
 MovementData_0x61065:
 	step UP
@@ -139,7 +139,7 @@ MovementData_0x61065:
 	step RIGHT
 	step RIGHT
 	turn_head DOWN
-	step_end
+	step_resume
 
 MovementData_0x6106c:
 	step LEFT
@@ -147,7 +147,7 @@ MovementData_0x6106c:
 	step LEFT
 	step LEFT
 	step DOWN
-	step_end
+	step_resume
 
 ; unused
 UnknownText_0x61072:

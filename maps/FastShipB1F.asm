@@ -209,14 +209,14 @@ FashShipB1FSailorBlocksRightMovement:
 	big_step RIGHT
 	remove_fixed_facing
 	turn_head DOWN
-	step_end
+	step_resume
 
 FashShipB1FSailorBlocksLeftMovement:
 	fix_facing
 	big_step LEFT
 	remove_fixed_facing
 	turn_head DOWN
-	step_end
+	step_resume
 
 FastShipB1FOnDutySailorText:
 	text "Hey, kid. Could I"

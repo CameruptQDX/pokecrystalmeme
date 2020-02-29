@@ -186,19 +186,19 @@ FridgeScript:
 
 MomTurnsTowardPlayerMovement:
 	turn_head RIGHT
-	step_end
+	step_resume
 
 MomWalksToPlayerMovement:
 	slow_step RIGHT
-	step_end
+	step_resume
 
 MomTurnsBackMovement:
 	turn_head LEFT
-	step_end
+	step_resume
 
 MomWalksBackMovement:
 	slow_step LEFT
-	step_end
+	step_resume
 
 ElmsLookingForYouText:
 	text "Oh, <PLAYER>…! Our"

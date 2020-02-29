@@ -90,18 +90,18 @@ MovementData_AideWalksStraightOutOfPokecenter:
 	step DOWN
 	step DOWN
 	step DOWN
-	step_end
+	step_resume
 
 MovementData_AideWalksLeftToExitPokecenter:
 	step LEFT
 	step DOWN
-	step_end
+	step_resume
 
 MovementData_AideFinishesLeavingPokecenter:
 	step DOWN
 	step DOWN
 	step DOWN
-	step_end
+	step_resume
 
 UnknownText_0x69555:
 	text "<PLAY_G>, long"

@@ -219,7 +219,7 @@ AzaleaTownRivalBattleApproachMovement1:
 	step LEFT
 	step LEFT
 	turn_head UP
-	step_end
+	step_resume
 
 AzaleaTownRivalBattleApproachMovement2:
 	step LEFT
@@ -229,20 +229,20 @@ AzaleaTownRivalBattleApproachMovement2:
 	step LEFT
 	step LEFT
 	turn_head DOWN
-	step_end
+	step_resume
 
 AzaleaTownRivalBattleExitMovement:
 	step LEFT
 	step LEFT
 	step LEFT
-	step_end
+	step_resume
 
 AzaleaTownPlayerLeavesKurtsHouseMovement:
 	step LEFT
 	step LEFT
 	step UP
 	turn_head LEFT
-	step_end
+	step_resume
 
 AzaleaTownRivalBeforeText:
 	text "Hey you!"

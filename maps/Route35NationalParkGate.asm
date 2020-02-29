@@ -210,17 +210,17 @@ Route35NationalParkGate_GetDayOfWeek:
 MovementData_0x6a2e2:
 	step DOWN
 	turn_head LEFT
-	step_end
+	step_resume
 
 MovementData_0x6a2e5:
 	step RIGHT
 	step UP
 	step UP
-	step_end
+	step_resume
 
 MovementData_0x6a2e9:
 	step UP
-	step_end
+	step_resume
 
 UnknownText_0x6a2eb:
 	text "Today's @"

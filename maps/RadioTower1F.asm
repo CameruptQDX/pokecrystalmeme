@@ -203,12 +203,12 @@ RadioTower1FLuckyChannelSign:
 MovementData_0x5ce71:
 	step RIGHT
 	turn_head UP
-	step_end
+	step_resume
 
 MovementData_0x5ce74:
 	step LEFT
 	turn_head UP
-	step_end
+	step_resume
 
 UnknownText_0x5ce77:
 	text "Welcome!"

@@ -142,7 +142,7 @@ Movement_TeacherRunsToYou1_NBT:
 	step LEFT
 	step LEFT
 	step LEFT
-	step_end
+	step_resume
 
 Movement_TeacherRunsToYou2_NBT:
 	step LEFT
@@ -151,7 +151,7 @@ Movement_TeacherRunsToYou2_NBT:
 	step LEFT
 	step LEFT
 	turn_head DOWN
-	step_end
+	step_resume
 
 Movement_TeacherBringsYouBack1_NBT:
 	step RIGHT
@@ -159,7 +159,7 @@ Movement_TeacherBringsYouBack1_NBT:
 	step RIGHT
 	step RIGHT
 	turn_head LEFT
-	step_end
+	step_resume
 
 Movement_TeacherBringsYouBack2_NBT:
 	step RIGHT
@@ -168,23 +168,23 @@ Movement_TeacherBringsYouBack2_NBT:
 	step RIGHT
 	step RIGHT
 	turn_head LEFT
-	step_end
+	step_resume
 
 Movement_SilverPushesYouAway_NBT:
 	turn_head UP
 	step DOWN
-	step_end
+	step_resume
 
 Movement_SilverShovesYouOut_NBT:
 	turn_head UP
 	fix_facing
 	jump_step DOWN
 	remove_fixed_facing
-	step_end
+	step_resume
 
 Movement_SilverReturnsToTheShadows_NBT:
 	turn_head RIGHT
-	step_end
+	step_resume
 
 Text_GearIsImpressive:
 	text "Things sure have"

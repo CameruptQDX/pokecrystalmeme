@@ -271,7 +271,7 @@ MovementData_0x198a5f:
 	step RIGHT
 	step RIGHT
 	step UP
-	step_end
+	step_resume
 
 MovementData_0x198a63:
 	step DOWN
@@ -279,7 +279,7 @@ MovementData_0x198a63:
 	step RIGHT
 	step UP
 	step UP
-	step_end
+	step_resume
 
 GoldenrodCityPokefanMText:
 	text "They built the new"

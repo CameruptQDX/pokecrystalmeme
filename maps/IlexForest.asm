@@ -487,7 +487,7 @@ MovementData_Farfetchd_Pos1_Pos2:
 	big_step UP
 	big_step UP
 	big_step UP
-	step_end
+	step_resume
 
 MovementData_Farfetchd_Pos2_Pos3:
 	big_step UP
@@ -498,7 +498,7 @@ MovementData_Farfetchd_Pos2_Pos3:
 	big_step RIGHT
 	big_step RIGHT
 	big_step DOWN
-	step_end
+	step_resume
 
 MovementData_Farfetchd_Pos2_Pos8:
 	big_step DOWN
@@ -506,7 +506,7 @@ MovementData_Farfetchd_Pos2_Pos8:
 	big_step DOWN
 	big_step DOWN
 	big_step DOWN
-	step_end
+	step_resume
 
 MovementData_Farfetchd_Pos3_Pos4:
 	big_step RIGHT
@@ -515,7 +515,7 @@ MovementData_Farfetchd_Pos3_Pos4:
 	big_step RIGHT
 	big_step RIGHT
 	big_step RIGHT
-	step_end
+	step_resume
 
 MovementData_Farfetchd_Pos3_Pos2:
 	big_step UP
@@ -523,7 +523,7 @@ MovementData_Farfetchd_Pos3_Pos2:
 	big_step LEFT
 	big_step LEFT
 	big_step LEFT
-	step_end
+	step_resume
 
 MovementData_Farfetchd_Pos4_Pos5:
 	big_step DOWN
@@ -532,14 +532,14 @@ MovementData_Farfetchd_Pos4_Pos5:
 	big_step DOWN
 	big_step DOWN
 	big_step DOWN
-	step_end
+	step_resume
 
 MovementData_Farfetchd_Pos4_Pos3:
 	big_step LEFT
 	jump_step LEFT
 	big_step LEFT
 	big_step LEFT
-	step_end
+	step_resume
 
 MovementData_Farfetchd_Pos5_Pos6:
 	big_step DOWN
@@ -551,14 +551,14 @@ MovementData_Farfetchd_Pos5_Pos6:
 	big_step LEFT
 	big_step LEFT
 	big_step LEFT
-	step_end
+	step_resume
 
 MovementData_Farfetchd_Pos5_Pos7:
 	big_step LEFT
 	big_step LEFT
 	big_step LEFT
 	big_step LEFT
-	step_end
+	step_resume
 
 MovementData_Farfetched_Pos5_Pos4_Up:
 	big_step UP
@@ -566,7 +566,7 @@ MovementData_Farfetched_Pos5_Pos4_Up:
 	big_step UP
 	big_step RIGHT
 	big_step UP
-	step_end
+	step_resume
 
 MovementData_Farfetched_Pos5_Pos4_Right:
 	big_step RIGHT
@@ -588,7 +588,7 @@ MovementData_Farfetched_Pos5_Pos4_Right:
 	big_step UP
 	big_step UP
 	big_step UP
-	step_end
+	step_resume
 
 MovementData_Farfetched_Pos6_Pos7:
 	big_step LEFT
@@ -599,7 +599,7 @@ MovementData_Farfetched_Pos6_Pos7:
 	big_step RIGHT
 	big_step UP
 	big_step UP
-	step_end
+	step_resume
 
 MovementData_Farfetched_Pos6_Pos5:
 	big_step RIGHT
@@ -610,7 +610,7 @@ MovementData_Farfetched_Pos6_Pos5:
 	big_step UP
 	big_step UP
 	big_step UP
-	step_end
+	step_resume
 
 MovementData_Farfetched_Pos7_Pos8:
 	big_step UP
@@ -620,7 +620,7 @@ MovementData_Farfetched_Pos7_Pos8:
 	big_step LEFT
 	big_step LEFT
 	big_step LEFT
-	step_end
+	step_resume
 
 MovementData_Farfetched_Pos7_Pos6:
 	big_step DOWN
@@ -631,7 +631,7 @@ MovementData_Farfetched_Pos7_Pos6:
 	big_step RIGHT
 	big_step RIGHT
 	big_step RIGHT
-	step_end
+	step_resume
 
 MovementData_Farfetched_Pos7_Pos5:
 	big_step RIGHT
@@ -640,7 +640,7 @@ MovementData_Farfetched_Pos7_Pos5:
 	big_step RIGHT
 	big_step RIGHT
 	big_step RIGHT
-	step_end
+	step_resume
 
 MovementData_Farfetched_Pos8_Pos9:
 	big_step DOWN
@@ -650,7 +650,7 @@ MovementData_Farfetched_Pos8_Pos9:
 	big_step DOWN
 	big_step DOWN
 	big_step DOWN
-	step_end
+	step_resume
 
 MovementData_Farfetched_Pos8_Pos7:
 	big_step RIGHT
@@ -658,14 +658,14 @@ MovementData_Farfetched_Pos8_Pos7:
 	big_step RIGHT
 	big_step RIGHT
 	big_step RIGHT
-	step_end
+	step_resume
 
 MovementData_Farfetched_Pos8_Pos2:
 	big_step UP
 	big_step UP
 	big_step UP
 	big_step UP
-	step_end
+	step_resume
 
 MovementData_Farfetched_Pos9_Pos10:
 	big_step LEFT
@@ -683,7 +683,7 @@ MovementData_Farfetched_Pos9_Pos10:
 	big_step UP
 	big_step UP
 	big_step UP
-	step_end
+	step_resume
 
 MovementData_Farfetched_Pos9_Pos8_Right:
 	big_step RIGHT
@@ -695,7 +695,7 @@ MovementData_Farfetched_Pos9_Pos8_Right:
 	big_step UP
 	big_step UP
 	big_step UP
-	step_end
+	step_resume
 
 MovementData_Farfetched_Pos9_Pos8_Down:
 	big_step LEFT
@@ -714,27 +714,27 @@ MovementData_Farfetched_Pos9_Pos8_Down:
 	big_step UP
 	big_step UP
 	big_step UP
-	step_end
+	step_resume
 
 MovementData_0x6ef4e:
 	step UP
 	step UP
 	step UP
 	step UP
-	step_end
+	step_resume
 
 MovementData_0x6ef53:
 	step DOWN
 	step DOWN
 	step DOWN
 	step DOWN
-	step_end
+	step_resume
 
 MovementData_0x6ef58:
 	fix_facing
 	slow_step DOWN
 	remove_fixed_facing
-	step_end
+	step_resume
 
 IlexForestApprenticeIntroText:
 	text "Oh, man… My boss"

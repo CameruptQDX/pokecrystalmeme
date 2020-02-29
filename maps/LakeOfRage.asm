@@ -240,7 +240,7 @@ LakeOfRageHiddenMaxPotion:
 
 MovementData_0x70155:
 	teleport_from
-	step_end
+	step_resume
 
 UnknownText_0x70157:
 	text "This lake is full"

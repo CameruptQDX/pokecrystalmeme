@@ -437,7 +437,7 @@ MovementData_0x18e466:
 	big_step DOWN
 	big_step DOWN
 	big_step DOWN
-	step_end
+	step_resume
 
 MovementData_0x18e46c:
 	big_step RIGHT
@@ -446,7 +446,7 @@ MovementData_0x18e46c:
 	big_step DOWN
 	big_step DOWN
 	big_step DOWN
-	step_end
+	step_resume
 
 UnknownText_0x18e473:
 	text "Hm? Who are you?"

@@ -241,7 +241,7 @@ GuideGentMovement1:
 	step UP
 	step LEFT
 	turn_head UP
-	step_end
+	step_resume
 
 GuideGentMovement2:
 	step LEFT
@@ -251,7 +251,7 @@ GuideGentMovement2:
 	step LEFT
 	step LEFT
 	turn_head UP
-	step_end
+	step_resume
 
 GuideGentMovement3:
 	step LEFT
@@ -262,7 +262,7 @@ GuideGentMovement3:
 	step LEFT
 	step LEFT
 	turn_head UP
-	step_end
+	step_resume
 
 GuideGentMovement4:
 	step LEFT
@@ -274,7 +274,7 @@ GuideGentMovement4:
 	step LEFT
 	step DOWN
 	turn_head LEFT
-	step_end
+	step_resume
 
 GuideGentMovement5:
 	step DOWN
@@ -297,12 +297,12 @@ GuideGentMovement5:
 	step RIGHT
 	step RIGHT
 	turn_head UP
-	step_end
+	step_resume
 
 GuideGentMovement6:
 	step UP
 	step UP
-	step_end
+	step_resume
 
 CherrygroveCity_RivalWalksToYou:
 	step LEFT
@@ -310,12 +310,12 @@ CherrygroveCity_RivalWalksToYou:
 	step LEFT
 	step LEFT
 	step LEFT
-	step_end
+	step_resume
 
 CherrygroveCity_RivalPushesYouOutOfTheWay:
 	big_step DOWN
 	turn_head UP
-	step_end
+	step_resume
 
 
 CherrygroveCity_RivalExitsStageLeft:
@@ -327,7 +327,7 @@ CherrygroveCity_RivalExitsStageLeft:
 	big_step UP
 	big_step LEFT
 	big_step LEFT
-	step_end
+	step_resume
 
 GuideGentIntroText:
 	text "You're a rookie"
