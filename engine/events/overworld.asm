@@ -419,7 +419,7 @@ UsedSurfScript:
 
 	special ReplaceKrisSprite
 	special PlayMapMusic
-
+; step into the water (slow_step DIR, step_resume)
 	special SurfStartStep
 
 	end
@@ -705,7 +705,7 @@ Script_UsedWaterfall:
 
 .WaterfallStep:
 	turn_waterfall UP
-	step_end
+	step_resume
 
 .Text_UsedWaterfall:
 	; used WATERFALL!
@@ -879,12 +879,12 @@ dig_incave
 .DigOut:
 	step_dig 32
 	hide_object
-	step_end
+	step_resume
 
 .DigReturn:
 	show_object
 	return_dig 32
-	step_end
+	step_resume
 
 TeleportFunction:
 	call FieldMoveJumptableReset
@@ -965,11 +965,11 @@ TeleportFunction:
 
 .TeleportFrom:
 	teleport_from
-	step_end
+	step_resume
 
 .TeleportTo:
 	teleport_to
-	step_end
+	step_resume
 
 StrengthFunction:
 	call .TryStrength
@@ -1403,7 +1403,7 @@ RockSmashScript:
 
 MovementData_0xcf55:
 	rock_smash 10
-	step_end
+	step_resume
 
 UnknownText_0xcf58:
 	text_jump UnknownText_0x1c08f0
@@ -1578,7 +1578,7 @@ Script_GotABite:
 	fish_got_bite
 	fish_got_bite
 	show_emote
-	step_end
+	step_resume
 
 .Movement_FacingUp:
 	fish_got_bite
@@ -1587,12 +1587,12 @@ Script_GotABite:
 	fish_got_bite
 	step_sleep 1
 	show_emote
-	step_end
+	step_resume
 
 .Movement_RestoreRod:
 	hide_emote
 	fish_cast_rod
-	step_end
+	step_resume
 
 Fishing_CheckFacingUp:
 	ld a, [wPlayerDirection]
@@ -1619,7 +1619,7 @@ Script_FishCastRod:
 
 MovementData_0xd093:
 	fish_cast_rod
-	step_end
+	step_resume
 
 PutTheRodAway:
 	xor a
