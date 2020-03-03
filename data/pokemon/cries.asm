@@ -256,7 +256,7 @@ PokemonCries::
 	mon_cry CRY_TYPHLOSION,  $000,  $100 ; LUGIA
 	mon_cry CRY_AIPOM,       $000,  $180 ; HO_OH
 	mon_cry CRY_ENTEI,       $14a,  $111 ; CELEBI
-	mon_cry CRY_NIDORAN_M,      0,     0 ; DOOMSDAY
+	mon_cry CRY_DOOMSDAY,    $000,  $100 ; DOOMSDAY
 	mon_cry CRY_NIDORAN_M,      0,     0 ; OMEGA ZERO
 	mon_cry CRY_NIDORAN_M,      0,     0 ; egg
 	mon_cry CRY_NIDORAN_M,      0,     0 ; 255
