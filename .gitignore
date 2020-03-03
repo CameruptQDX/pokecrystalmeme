@@ -47,3 +47,5 @@ gfx/pokemon/*/bitmask.asm
 gfx/pokemon/*/frames.asm
 !gfx/pokemon/missingno/bitmask.asm
 !gfx/pokemon/missingno/frames.asm
+!gfx/sprites/eusine.2bpp
+gfx/yehaw_splashes/*.tilemap

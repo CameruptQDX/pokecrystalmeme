@@ -628,11 +628,15 @@ SECTION "YEHAW Titles", ROMX
 INCLUDE "engine/movie/yehaw_logo.asm" ; YEHAW
 
 YehawSplashLZ:
-INCBIN "gfx/yehaw_splashes/yehaw_splash.2bpp.lz" 
+INCBIN "gfx/yehaw_splashes/yehaw_splash.2bpp.lz"
 YehawTilemap:
-INCBIN "gfx/yehaw_splashes/yehaw_splash.tilemap.lz" 
+INCBIN "gfx/yehaw_splashes/yehaw_splash.tilemap.lz"
+YehawPals:
+INCBIN "gfx/yehaw_splashes/yehaw_splash.gbcpal"
 
 OurheggieLZ:
-INCBIN "gfx/yehaw_splashes/ourheggie.2bpp.lz" 
+INCBIN "gfx/yehaw_splashes/ourheggie.2bpp.lz"
 OurheggieTilemap:
-INCBIN "gfx/yehaw_splashes/ourheggie.tilemap.lz" 
+INCBIN "gfx/yehaw_splashes/ourheggie.tilemap.lz"
+OurheggiePals:
+INCBIN "gfx/yehaw_splashes/ourheggie.gbcpal"

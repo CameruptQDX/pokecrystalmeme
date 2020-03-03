@@ -44,8 +44,9 @@ crystal11: pokecrystal11.gbc
 
 clean:
 	rm -f $(roms) $(crystal_obj) $(crystal11_obj) $(roms:.gbc=.map) $(roms:.gbc=.sym)
-	find gfx \( -name "*.[12]bpp" -o -name "*.lz" -o -name "*.gbcpal" \) -delete
+	find gfx ! -path "gfx/sprites/eusine.2bpp" \( -name "*.[12]bpp" -o -name "*.lz" -o -name "*.gbcpal" \) -delete
 	find gfx/pokemon -mindepth 1 ! -path "gfx/pokemon/missingno/*" \( -name "bitmask.asm" -o -name "frames.asm" -o -name "front.animated.tilemap" -o -name "front.dimensions" \) -delete
+	find gfx/yehaw_splashes -name "*.tilemap" -delete
 	$(MAKE) clean -C tools/
 
 tidy:
@@ -218,6 +219,16 @@ gfx/mobile/pichu_animated.2bpp: tools/gfx += --trim-whitespace
 
 gfx/unknown/unknown_egg.2bpp: rgbgfx += -h
 
+gfx/yehaw_splashes/yehaw_splash.2bpp: rgbgfx += -u
+gfx/yehaw_splashes/yehaw_splash.tilemap: rgbgfx += -u
+gfx/yehaw_splashes/yehaw_splash.tilemap: gfx/yehaw_splashes/yehaw_splash.png
+	$(RGBGFX) $(rgbgfx) -t $@ $<
+	@python3 -c "o=[x^0x80 for x in open('$@', 'rb').read()]; open('$@','wb').write(bytes(o))"
+gfx/yehaw_splashes/ourheggie.2bpp: rgbgfx += -u
+gfx/yehaw_splashes/ourheggie.tilemap: rgbgfx += -u
+gfx/yehaw_splashes/ourheggie.tilemap: gfx/yehaw_splashes/ourheggie.png
+	$(RGBGFX) $(rgbgfx) -t $@ $<
+	@python3 -c "o=[x^0x80 for x in open('$@', 'rb').read()]; open('$@','wb').write(bytes(o))"
 
 ### Catch-all graphics rules
 
@@ -236,11 +247,3 @@ gfx/unknown/unknown_egg.2bpp: rgbgfx += -h
 
 %.dimensions: %.png
 	tools/png_dimensions $< $@
-	
-%.tilemap: %.png
-	$(RGBGFX) $(rgbgfx) -t $@ $<
-	
-gfx/yehaw_splash.2bpp: rgbgfx += -u
-gfx/yehaw_splash.tilemap: rgbgfx += -u
-gfx/ourheggie.2bpp: rgbgfx += -u
-gfx/ourheggie.tilemap: rgbgfx += -u
