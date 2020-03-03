@@ -5,55 +5,55 @@ JohtoGrassWildMons:
 	map_id SPROUT_TOWER_2F ;done
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 3, MISSINGNO
-	db 4, MISSINGNO
-	db 5, MISSINGNO
-	db 3, MISSINGNO
-	db 6, MISSINGNO
-	db 5, MISSINGNO
+	db 3, SPINARAK
+	db 4, SPINARAK
+	db 5, SPINARAK
+	db 3, SPINARAK
+	db 6, SPINARAK
+	db 5, PICHU
 	db 5, PICHU
 	; day
-	db 3, MISSINGNO
-	db 4, MISSINGNO
-	db 5, MISSINGNO
-	db 3, MISSINGNO
-	db 6, MISSINGNO
-	db 5, MISSINGNO
+	db 3, SPINARAK
+	db 4, SPINARAK
+	db 5, SPINARAK
+	db 3, SPINARAK
+	db 6, SPINARAK
+	db 5, PICHU
 	db 5, PICHU
 	; nite
+	db 3, SPINARAK
+	db 4, SPINARAK
+	db 5, SPINARAK
 	db 3, GASTLY
-	db 4, GASTLY
+	db 6, SPINARAK
 	db 5, GASTLY
-	db 3, MISSINGNO
-	db 6, GASTLY
-	db 5, MISSINGNO
 	db 5, PICHU
 
 	map_id SPROUT_TOWER_3F ;done
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 3, MISSINGNO
-	db 4, MISSINGNO
-	db 5, MISSINGNO
-	db 3, MISSINGNO
-	db 6, MISSINGNO
-	db 5, MISSINGNO
+	db 3, SPINARAK
+	db 4, SPINARAK
+	db 5, SPINARAK
+	db 3, SPINARAK
+	db 6, SPINARAK
+	db 5, PICHU
 	db 5, PICHU
 	; day
-	db 3, MISSINGNO
-	db 4, MISSINGNO
-	db 5, MISSINGNO
-	db 3, MISSINGNO
-	db 6, MISSINGNO
-	db 5, MISSINGNO
+	db 3, SPINARAK
+	db 4, SPINARAK
+	db 5, SPINARAK
+	db 3, SPINARAK
+	db 6, SPINARAK
+	db 5, PICHU
 	db 5, PICHU
 	; nite
+	db 3, SPINARAK
+	db 4, SPINARAK
+	db 5, SPINARAK
 	db 3, GASTLY
-	db 4, GASTLY
+	db 6, SPINARAK
 	db 5, GASTLY
-	db 3, MISSINGNO
-	db 6, GASTLY
-	db 5, MISSINGNO
 	db 5, PICHU
 
 	map_id TIN_TOWER_2F
@@ -329,21 +329,21 @@ JohtoGrassWildMons:
 	map_id NATIONAL_PARK ; done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 15, MISSINGNO
-	db 15, MISSINGNO
+	db 15, LEDYBA
+	db 15, SUNKERN
 	db 17, LEDYBA
 	db 16, PIKACHU
 	db 15, JIGGLYPUFF
-	db 13, MISSINGNO
-	db 13, MISSINGNO
+	db 13, SENTRET
+	db 13, SENTRET
 	; day
-	db 15, MISSINGNO
-	db 15, MISSINGNO
+	db 15, LEDYBA
+	db 15, SUNKERN
 	db 17, SUNKERN
 	db 16, PIKACHU
 	db 15, JIGGLYPUFF
-	db 13, MISSINGNO
-	db 13, MISSINGNO
+	db 13, SENTRET
+	db 13, SENTRET
 	; nite
 	db 15, PSYDUCK
 	db 15, HOOTHOOT
@@ -360,7 +360,7 @@ JohtoGrassWildMons:
 	db 9, SANDSHREW
 	db 11, NATU
 	db 10, NATU
-	db 11, NATU
+	db 11, ABRA
 	db 10, SMEARGLE
 	db 11, SMEARGLE
 	; day
@@ -368,7 +368,7 @@ JohtoGrassWildMons:
 	db 9, SANDSHREW
 	db 11, NATU
 	db 10, NATU
-	db 11, NATU
+	db 11, ABRA
 	db 10, SMEARGLE
 	db 11, SMEARGLE
 	; nite
@@ -376,7 +376,7 @@ JohtoGrassWildMons:
 	db 9, SANDSHREW
 	db 11, WOOPER
 	db 10, WOOPER
-	db 11, HOOTHOOT
+	db 11, ABRA
 	db 10, SMEARGLE
 	db 11, SMEARGLE
 
@@ -1141,9 +1141,9 @@ JohtoGrassWildMons:
 	; morn
 	db 2, PIDGEY
 	db 2, SENTRET
+	db 2, SUNKERN
 	db 3, SUNKERN
-	db 3, SUNKERN
-	db 2, MISSINGNO
+	db 3, SENTRET
 	db 3, HOPPIP
 	db 3, HOPPIP
 	; day
@@ -1151,14 +1151,14 @@ JohtoGrassWildMons:
 	db 2, SENTRET
 	db 3, SUNKERN
 	db 3, SENTRET
-	db 2, MISSINGNO
+	db 3, SENTRET
 	db 3, HOPPIP
 	db 3, HOPPIP
 	; nite
 	db 2, HOOTHOOT
 	db 2, ZUBAT
 	db 3, HOOTHOOT
-	db 3, MISSINGNO
+	db 3, SENTRET
 	db 2, ZUBAT
 	db 3, HOOTHOOT
 	db 3, HOOTHOOT
@@ -1168,17 +1168,17 @@ JohtoGrassWildMons:
 	; morn
 	db 3, LEDYBA
 	db 3, LEDYBA
-	db 4, MISSINGNO
+	db 4, SILKORN
 	db 4, PIDGEY
-	db 3, MISSINGNO
+	db 3, SILKORN
 	db 4, HOPPIP
 	db 5, CHIKORITA
 	; day
 	db 3, PIDGEY
 	db 3, LEDYBA
-	db 4, MISSINGNO
+	db 4, SILKORN
 	db 4, PIDGEY
-	db 3, MISSINGNO
+	db 3, SENTRET
 	db 4, HOPPIP
 	db 5, CHIKORITA
 	; nite
@@ -1194,18 +1194,18 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 4, LEDYBA
-	db 4, MISSINGNO
+	db 4, SILKORN
 	db 5, BELLSPROUT
 	db 5, PIDGEY
-	db 4, MISSINGNO
+	db 4, SENTRET
 	db 5, HOPPIP
 	db 5, CHIKORITA
 	; day
 	db 4, PIDGEY
 	db 4, LEDYBA
 	db 5, BELLSPROUT
-	db 5, MISSINGNO
-	db 4, MISSINGNO
+	db 5, SENTRET
+	db 4, SILKORN
 	db 5, HOPPIP
 	db 5, CHIKORITA
 	; nite
@@ -1224,16 +1224,16 @@ JohtoGrassWildMons:
 	db 9, SANDSHREW
 	db 11, NATU
 	db 10, NATU
-	db 11, ABRA
 	db 11, SANDSHREW
+	db 9, PHANPY
 	db 9, CYNDAQUIL
 	; day
 	db 8, EKANS
 	db 9, SANDSHREW
 	db 11, NATU
 	db 10, NATU
-	db 11, ABRA
 	db 11, SANDSHREW
+	db 9, PHANPY
 	db 9, CYNDAQUIL
 	; nite
 	db 8, EKANS
@@ -1248,7 +1248,7 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 10, EKANS
-	db 10, MISSINGNO
+	db 10, SANDSHREW
 	db 10, GEODUDE
 	db 10, SANDSHREW
 	db 11, EKANS
@@ -1256,7 +1256,7 @@ JohtoGrassWildMons:
 	db 9, CYNDAQUIL
 	; day
 	db 10, EKANS
-	db 10, MISSINGNO
+	db 10, SANDSHREW
 	db 10, GEODUDE
 	db 10, SANDSHREW
 	db 11, EKANS
@@ -1302,24 +1302,24 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 15, SNUBBULL
-	db 13, MISSINGNO
-	db 13, MISSINGNO
+	db 13, MAREEP
+	db 13, SENTRET
 	db 15, YANMA
 	db 16, GROWLITHE
 	db 17, VULPIX
 	db 15, PERITOP
 	; day
 	db 15, SNUBBULL
-	db 13, MISSINGNO
-	db 13, MISSINGNO
+	db 13, MAREEP
+	db 13, SENTRET
 	db 15, YANMA
 	db 16, GROWLITHE
 	db 17, VULPIX
 	db 15, PERITOP
 	; nite
 	db 15, DROWZEE
-	db 13, MISSINGNO
-	db 13, MISSINGNO
+	db 13, ABRA
+	db 13, DROWZEE
 	db 15, YANMA
 	db 16, HOUNDOUR
 	db 17, VULPIX
@@ -1329,24 +1329,24 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 16, GROWLITHE
-	db 14, MISSINGNO
-	db 14, MISSINGNO
+	db 14, MAREEP
+	db 14, DODUO
 	db 16, VULPIX
-	db 17, MISSINGNO
+	db 17, PIDGEOTTO
 	db 17, STANTLER
 	db 16, PERITOP
 	; day
 	db 16, GROWLITHE
-	db 14, MISSINGNO
-	db 14, MISSINGNO
+	db 14, MAREEP
+	db 14, DODUO
 	db 16, VULPIX
-	db 17, MISSINGNO
+	db 17, PIDGEOTTO
 	db 17, STANTLER
 	db 16, PERITOP
 	; nite
 	db 16, VULPIX
-	db 14, MISSINGNO
-	db 14, MISSINGNO
+	db 14, HOUNDOUR
+	db 14, MURKROW
 	db 16, HOUNDOUR
 	db 17, GASTLY
 	db 17, STANTLER
@@ -1545,28 +1545,28 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 2, GEODUDE
-	db 2, MISSINGNO
+	db 2, SENTRET
 	db 3, GEODUDE
-	db 3, MISSINGNO
-	db 2, PHANPY
-	db 2, MISSINGNO
-	db 2, MISSINGNO
+	db 3, PIDGEY
+	db 2, SWINUB
+	db 3, SENTRET
+	db 4, SWINUB
 	; day
 	db 2, GEODUDE
-	db 2, MISSINGNO
+	db 2, SENTRET
 	db 3, GEODUDE
-	db 3, MISSINGNO
+	db 3, PIDGEY
 	db 2, SWINUB
-	db 2, MISSINGNO
-	db 2, MISSINGNO
+	db 3, SENTRET
+	db 4, SWINUB
 	; nite
 	db 2, GEODUDE
-	db 2, MISSINGNO
+	db 2, SENTRET
 	db 3, GEODUDE
-	db 3, MISSINGNO
+	db 3, PIDGEY
 	db 2, SWINUB
-	db 2, MISSINGNO
-	db 2, MISSINGNO
+	db 3, SENTRET
+	db 4, SWINUB
 
 	map_id SILVER_CAVE_OUTSIDE
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
