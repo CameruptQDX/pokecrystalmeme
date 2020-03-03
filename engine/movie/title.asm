@@ -47,40 +47,40 @@ _TitleScreen:
 ; Apply logo gradient:
 
 ; lines 3-4
-	hlbgcoord 0, 3
+	hlbgcoord 0, 1 ; 0, 3
 	ld bc, 2 * BG_MAP_WIDTH
 	ld a, 2
 	call ByteFill
 ; line 5
-	hlbgcoord 0, 5
+	hlbgcoord 0, 3 ; 0, 5
 	ld bc, BG_MAP_WIDTH
 	ld a, 3
 	call ByteFill
 ; line 6
-	hlbgcoord 0, 6
+	hlbgcoord 0, 4 ; 0, 6
 	ld bc, BG_MAP_WIDTH
 	ld a, 4
 	call ByteFill
 ; line 7
-	hlbgcoord 0, 7
+	hlbgcoord 0, 5 ; 0, 7
 	ld bc, BG_MAP_WIDTH
 	ld a, 5
 	call ByteFill
 ; lines 8-9
-	hlbgcoord 0, 8
+	hlbgcoord 0, 6 ; 0, 8
 	ld bc, 2 * BG_MAP_WIDTH
 	ld a, 6
 	call ByteFill
 
 ; 'CRYSTAL VERSION'
-	hlbgcoord 5, 9
-	ld bc, NAME_LENGTH ; length of version text
-	ld a, 1
-	call ByteFill
+;	hlbgcoord 5, 9
+;	ld bc, NAME_LENGTH ; length of version text
+;	ld a, 1
+;	call ByteFill
 
 ; Suicune gfx
-	hlbgcoord 0, 12
-	ld bc, 6 * BG_MAP_WIDTH ; the rest of the screen
+	hlbgcoord 0, 10
+	ld bc, 8 * BG_MAP_WIDTH ; the rest of the screen
 	ld a, 0 | VRAM_BANK_1
 	call ByteFill
 
@@ -105,7 +105,7 @@ _TitleScreen:
 	call ByteFill
 
 ; Draw Pokemon logo
-	hlcoord 0, 3
+	hlcoord 0, 1 ; 0, 3
 	lb bc, 7, 20
 	ld d, $80
 	ld e, $14
@@ -228,7 +228,7 @@ SuicuneFrameIterator:
 	ret nz
 
 	ld a, c
-	and %11000
+	and %11000 ; 11000
 	sla a
 	swap a
 	ld e, a
@@ -252,8 +252,8 @@ SuicuneFrameIterator:
 	db $08 ; vTiles5 tile $08
 
 LoadSuicuneFrame:
-	hlcoord 6, 12
-	ld b, 6
+	hlcoord 6, 10
+	ld b, 8 ; 6
 .bgrows
 	ld c, 8
 .col
@@ -354,7 +354,7 @@ AnimateTitleCrystal:
 	ld c, 30
 .loop
 	ld a, [hl]
-	add 2
+	add 3 ; was 2, changed to 3 to bump the AU logo into the right spot
 	ld [hli], a ; y
 rept SPRITEOAMSTRUCT_LENGTH + -1
 	inc hl
