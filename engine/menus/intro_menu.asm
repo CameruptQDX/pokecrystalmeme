@@ -953,8 +953,8 @@ Intro_PlacePlayerSprite:
 	db 10 * 8 + 4, 10 * 8, 3
 
 CrystalIntroSequence:
-	callfar Copyright_GFPresents
-	jr c, StartTitleScreen
+	;new call to the function that displays the yehaw screen here
+	farcall YehawLogo
 	farcall CrystalIntro
 
 StartTitleScreen:
@@ -1075,7 +1075,7 @@ TitleScreenEntrance:
 ; Lay out a base (all lines scrolling together).
 	ld e, a
 	ld hl, wLYOverrides
-	ld bc, 8 * 8 ; logo height
+	ld bc, 8 * 7 ; logo height
 	call ByteFill
 
 ; Reversed signage for every other line's position.
@@ -1084,7 +1084,7 @@ TitleScreenEntrance:
 	xor $ff
 	inc a
 
-	ld b, 8 * 8 / 2 ; logo height / 2
+	ld b, 8 * 7 / 2 ; logo height / 2
 	ld hl, wLYOverrides + 1
 .loop
 	ld [hli], a

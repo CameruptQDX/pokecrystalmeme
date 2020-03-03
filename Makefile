@@ -236,3 +236,11 @@ gfx/unknown/unknown_egg.2bpp: rgbgfx += -h
 
 %.dimensions: %.png
 	tools/png_dimensions $< $@
+	
+%.tilemap: %.png
+	$(RGBGFX) $(rgbgfx) -t $@ $<
+	
+gfx/yehaw_splash.2bpp: rgbgfx += -u
+gfx/yehaw_splash.tilemap: rgbgfx += -u
+gfx/ourheggie.2bpp: rgbgfx += -u
+gfx/ourheggie.tilemap: rgbgfx += -u

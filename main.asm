@@ -445,6 +445,7 @@ INCLUDE "engine/menus/options_menu.asm"
 INCLUDE "engine/movie/crystal_intro.asm"
 
 
+
 SECTION "bank3E", ROMX
 
 INCLUDE "engine/gfx/load_font.asm"
@@ -621,3 +622,17 @@ INCBIN "mobile/stadium/stadium2_2.bin"
 else
 INCBIN "mobile/stadium/stadium2_1.bin"
 endc
+
+SECTION "YEHAW Titles", ROMX
+
+INCLUDE "engine/movie/yehaw_logo.asm" ; YEHAW
+
+YehawSplashLZ:
+INCBIN "gfx/yehaw_splashes/yehaw_splash.2bpp.lz" 
+YehawTilemap:
+INCBIN "gfx/yehaw_splashes/yehaw_splash.tilemap.lz" 
+
+OurheggieLZ:
+INCBIN "gfx/yehaw_splashes/ourheggie.2bpp.lz" 
+OurheggieTilemap:
+INCBIN "gfx/yehaw_splashes/ourheggie.tilemap.lz" 

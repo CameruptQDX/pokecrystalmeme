@@ -159,7 +159,7 @@ _TitleScreen:
 ; (This part is actually totally pointless, you can't
 ;  see anything until these values are overwritten!)
 
-	ld b, 80 / 2 ; alternate for 80 lines
+	ld b, 8 * 8 / 2 ; alternate for 80 lines
 	ld hl, wLYOverrides
 .loop
 ; $00 is the middle position
@@ -171,9 +171,9 @@ _TitleScreen:
 	jr nz, .loop
 
 ; Make sure the rest of the buffer is empty
-	ld hl, wLYOverrides + 80
+	ld hl, wLYOverrides + 8 * 8
 	xor a
-	ld bc, wLYOverridesEnd - (wLYOverrides + 80)
+	ld bc, wLYOverridesEnd - (wLYOverrides + 8 * 8)
 	call ByteFill
 
 ; Let LCD Stat know we're messing around with SCX
@@ -205,7 +205,7 @@ _TitleScreen:
 	ldh [hCGBPalUpdate], a
 
 ; Update BG Map 0 (bank 0)
-	ldh [hBGMapMode], a
+	call ApplyTilemap
 
 	xor a
 	ld [wd002], a
