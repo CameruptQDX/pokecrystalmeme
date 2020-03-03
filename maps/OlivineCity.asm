@@ -308,7 +308,7 @@ OlivineCity_MapEvents:
 
 	db 7 ; bg events
 	bg_event 17, 11, BGEVENT_READ, OlivineCitySign
-	bg_event 20, 24, BGEVENT_READ, OlivineCityPortSign
+	bg_event 22, 28, BGEVENT_READ, OlivineCityPortSign
 	bg_event  7, 11, BGEVENT_READ, OlivineGymSign
 	bg_event 30, 28, BGEVENT_READ, OlivineLighthouseSign
 	bg_event  3, 23, BGEVENT_READ, OlivineCityBattleTowerSign

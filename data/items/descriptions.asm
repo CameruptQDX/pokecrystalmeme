@@ -322,7 +322,7 @@ HyperPotionDesc:
 
 SuperPotionDesc:
 	db   "Restores #MON"
-	next "HP by 40.@"
+	next "HP by 50.@"
 
 PotionDesc:
 	db   "Restores #MON"
@@ -736,7 +736,7 @@ TeruSama8Desc: ; nutpea berry
 
 EnergyPowderDesc:
 	db   "Restores #MON"
-	next "HP by 40. Bitter.@"
+	next "HP by 50. Bitter.@"
 
 EnergyRootDesc:
 	db   "Restores #MON"
