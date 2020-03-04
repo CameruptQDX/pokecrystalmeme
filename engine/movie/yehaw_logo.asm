@@ -1,6 +1,6 @@
 YehawLogo:
 	call DisableLCD
-
+	
 	ld b, SCGB_GAMEFREAK_LOGO
 	call GetSGBLayout
 
@@ -24,8 +24,12 @@ YehawLogo:
 	ld de, wTileMap
 	call FarDecompress
 
+	;cute jingle
+	ld de, SFX_GET_EGG_FROM_DAY_CARE_MAN
+	call PlaySFX
+	
 	call EnableLCD
 	call CopyTilemapAtOnce
-	ld c, 100
+	ld c, 180
 	call DelayFrames
 	ret
