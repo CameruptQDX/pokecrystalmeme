@@ -222,13 +222,13 @@ SuicuneFrameIterator:
 	ld a, [hl]
 	ld c, a
 	inc [hl]
-
+	
 ; Only do this once every eight frames
-	and %111
+	and %111 ; 111
 	ret nz
 
 	ld a, c
-	and %11000 ; 11000
+	and %11000
 	sla a
 	swap a
 	ld e, a
