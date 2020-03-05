@@ -27,6 +27,7 @@ SaveAfterLinkTrade:
 	call PauseGameLogic
 	farcall StageRTCTimeForSave
 	farcall BackupMysteryGift
+	farcall BackupYehawFlag
 	call SavePokemonData
 	call SaveChecksum
 	call SaveBackupPokemonData
@@ -93,6 +94,7 @@ MoveMonWOMail_InsertMon_SaveGame:
 	ld [wSaveFileExists], a
 	farcall StageRTCTimeForSave
 	farcall BackupMysteryGift
+	farcall BackupYehawFlag
 	call InvalidateSave
 	call SaveOptions
 	call SavePlayerData
@@ -259,6 +261,7 @@ _SaveGameData:
 	ld [wSaveFileExists], a
 	farcall StageRTCTimeForSave
 	farcall BackupMysteryGift
+	farcall BackupYehawFlag
 	call InvalidateSave
 	call SaveOptions
 	call SavePlayerData
@@ -609,6 +612,7 @@ TryLoadSaveFile:
 	farcall RestorePartyMonMail
 	farcall RestoreMobileEventIndex
 	farcall RestoreMysteryGift
+	farcall RestoreYehawFlag
 	call ValidateBackupSave
 	call SaveBackupOptions
 	call SaveBackupPlayerData
@@ -626,6 +630,7 @@ TryLoadSaveFile:
 	farcall RestorePartyMonMail
 	farcall RestoreMobileEventIndex
 	farcall RestoreMysteryGift
+	farcall RestoreYehawFlag
 	call ValidateSave
 	call SaveOptions
 	call SavePlayerData

@@ -73,7 +73,10 @@ s0_ac09:: ds 1
 sMysteryGiftTrainer:: ds (1 + 1 + NUM_MOVES) * PARTY_LENGTH + 2 ; ac0a
 sBackupMysteryGiftItemEnd::
 
-	ds $30
+sYehawFlag:: db
+sYehawFlagBackup:: db
+
+	ds $2e
 
 sRTCStatusFlags:: ds 8
 sLuckyNumberDay:: db
