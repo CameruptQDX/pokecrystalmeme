@@ -19,15 +19,13 @@ CherrygroveGymSpeechHouseBookshelf:
 CherrygroveGymSpeechHousePokefanMText:
 	text "You're trying to"
 	line "see how good you"
-
-	para "are as a #MON"
-	line "trainer?"
+	cont "are as a #MON"
+	cont "trainer?"
 
 	para "Fat chance,"
 	line "I doubt a punkish"
-
-	para "piece of plebian"
-	line "scum of your sort"
+	cont "piece of plebian"
+	cont "scum of your sort"
 	cont "will collect a"
 	cont "single BADGE!"
 	done

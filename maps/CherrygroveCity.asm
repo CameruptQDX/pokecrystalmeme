@@ -310,7 +310,7 @@ CherrygroveCity_RivalWalksToYou:
 	step LEFT
 	step LEFT
 	step LEFT
-	step_resume
+	step_end
 
 CherrygroveCity_RivalPushesYouOutOfTheWay:
 	big_step DOWN
@@ -332,14 +332,14 @@ CherrygroveCity_RivalExitsStageLeft:
 GuideGentIntroText:
 	text "You're a rookie"
 	line "trainer, aren't"
-	cont "you? It can't be"
-
-	para "helped… Well I"
-	line "suppose I'll"
+	cont "you?"
+	
+	para "It can't be"
+	line "helped… Well I"
+	cont "suppose I'll"
 	cont "have to teach"
-
-	para "you a few things"
-	line "if you're"
+	cont "you a few things,"
+	cont "if you're"
 	cont "willing that is."
 	done
 
@@ -351,37 +351,34 @@ GuideGentTourText1:
 GuideGentPokecenterText:
 	text "This is a #MON"
 	line "CENTER. They heal"
+	cont "your #MON in no"
+	cont "time at all, and"
+	cont "for free!"
 
-	para "your #MON in no"
-	line "time at all."
-
-	para "You'll be relying"
-	line "on them a lot, so"
-
-	para "you better learn"
-	line "about them."
+	para "Free things are"
+	line "quite rare so"
+	cont "be greatful!"
 	done
 
 GuideGentMartText:
 	text "This is a #MON"
 	line "MART."
 
-	para "They sell BALLS"
-	line "for catching wild"
-
-	para "#MON and other"
-	line "useful items."
+	para "Unlike the last"
+	line "place, they'll"
+	cont "expect you to pay"
+	cont "for goods here."
 	done
 
 GuideGentRoute30Text:
 	text "ROUTE 30 is out"
 	line "this way."
 
-	para "Trainers will be"
-	line "battling their"
-
-	para "prized #MON"
-	line "there."
+	para "Despite the cute"
+	line "flowers, many"
+	cont "dangerous #MON"
+	cont "and #MON"
+	cont "trainers lurk!"
 	done
 
 GuideGentSeaText:
@@ -390,7 +387,8 @@ GuideGentSeaText:
 
 	para "Some #MON are"
 	line "found only in"
-	cont "water."
+	cont "water, if getting"
+	cont "wet is your speed."
 	done
 
 GuideGentGiftText:
@@ -460,13 +458,12 @@ CherrygroveRivalText_PostBattle:
 	cont "BLACKTHORN DRAGON"
 	cont "CLAN!"
 
-	para "I'm going to be"
-	line "the world's great-"
-	cont "est #MON"
-	cont "trainer and"
-	cont "prove the myths"
-	cont "of ECRUTEAK are"
-	cont "real!"
+	para "With the #MON"
+	line "of myth by my"
+	cont "side I'll become"
+	cont "the strongest"
+	cont "trainer in the"
+	cont "whole world!"
 	
 	para "Don't try and"
 	line "catch up to me!"
@@ -475,23 +472,22 @@ CherrygroveRivalText_PostBattle:
 SilverCherrygroveLossText:
 	text "Hah! Just like"
 	line "I expected! All"
-	cont "show and no bite!"
+	cont "bark and no bite!"
 	done
 
 CherrygroveTeacherText_NoMapCard:
 	text "Did you need a"
 	line "map to find your"
-	cont "way out of"
-	cont "Sandbox Town?"
+	cont "way out of that"
+	cont "sandbox town?"
 
 	para "Ohohohoho!"
 	done
 
 CherrygroveTeacherText_HaveMapCard:
 	text "It's not our"
-	line "fault your"
-	cont "podunk town"
-	cont "can't be as"
+	line "fault your podunk"
+	cont "town can't be as"
 	cont "beautiful and"
 	cont "prosperous as"
 	cont "CHERRYGROVE is!"
@@ -503,7 +499,7 @@ CherrygroveYoungsterText_NoPokedex:
 	cont "ROUTE 30."
 	
 	para "<……>"
-	line "Dumb hick."
+	line "Dumb punk."
 	done
 
 CherrygroveYoungsterText_HavePokedex:

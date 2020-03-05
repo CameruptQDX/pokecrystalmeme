@@ -35,17 +35,22 @@ CherrygrovePokecenter1FTeacherScript:
 	end
 
 CherrygrovePokecenter1FFisherText:
-	text "It's great. I can"
-	line "store any number"
-
-	para "of #MON, and"
-	line "it's all free."
+	text "The PC service"
+	line "for trainers is"
+	cont "always reliable!"
+	
+	para "I wish my home"
+	line "PC was half as"
+	cont "consistent."
 	done
 
 CherrygrovePokecenter1FGentlemanText:
-	text "That PC is free"
-	line "for any trainer"
-	cont "to use."
+	text "People around"
+	line "CHERRYGROVE have"
+	cont "grown quite"
+	cont "spoiled, don't"
+	cont "expect them to"
+	cont "do you any favors."
 	done
 
 CherrygrovePokecenter1FTeacherText:
@@ -53,8 +58,9 @@ CherrygrovePokecenter1FTeacherText:
 	line "CENTER upstairs"
 	cont "was just built."
 
-	para "But they're still"
-	line "finishing it up."
+	para "I wonder how"
+	line "people will use"
+	cont "that though."
 	done
 
 CherrygrovePokecenter1FTeacherText_CommCenterOpen:
@@ -62,8 +68,10 @@ CherrygrovePokecenter1FTeacherText_CommCenterOpen:
 	line "CENTER upstairs"
 	cont "was just built."
 
-	para "I traded #MON"
-	line "there already!"
+	para "I hear you need"
+	line "something called"
+	cont "a flashcart to"
+	cont "use it though."
 	done
 
 CherrygrovePokecenter1F_MapEvents:

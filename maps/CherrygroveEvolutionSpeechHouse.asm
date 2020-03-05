@@ -8,18 +8,10 @@ CherrygroveEvolutionSpeechHouse_MapScripts:
 	db 0 ; callbacks
 
 CherrygroveEvolutionSpeechHouseYoungsterScript:
-	opentext
-	writetext CherrygroveEvolutionSpeechHouseYoungsterText
-	waitbutton
-	closetext
-	end
+	jumptextfaceplayer CherrygroveEvolutionSpeechHouseYoungsterText
 
 CherrygroveEvolutionSpeechHouseLassScript:
-	opentext
-	writetext CherrygroveEvolutionSpeechHouseLassText
-	waitbutton
-	closetext
-	end
+	jumptextfaceplayer CherrygroveEvolutionSpeechHouseLassText
 
 CherrygroveEvolutionSpeechHouseBookshelf:
 	jumpstd magazinebookshelf
@@ -35,8 +27,8 @@ CherrygroveEvolutionSpeechHouseLassText:
 	text "AYIEE!"
 
 	para "Get out of my"
-	line "house you nasty"
-	cont "looking freak!"
+	line "house you rough"
+	cont "looking brute!"
 	done
 
 CherrygroveEvolutionSpeechHouse_MapEvents:

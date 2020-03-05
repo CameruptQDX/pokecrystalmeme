@@ -59,14 +59,13 @@ CherrygroveMartCooltrainerMText_PokeBallsInStock:
 CherrygroveMartYoungsterText:
 	text "When I was walking"
 	line "in the grass, a"
-
-	para "bug #MON poi-"
-	line "soned my #MON!"
+	cont "bug #MON poi-"
+	cont "soned my #MON!"
 
 	para "How crude<……>"
 	line "If I could pay to"
 	cont "wipe out all"
-	cont "WEEDLE, I would!"
+	cont "SPINARAK, I would!"
 	done
 
 CherrygroveMart_MapEvents:

@@ -261,7 +261,7 @@ Route30_MikeysRattataAttacksMovement:
 	step_resume
 
 Text_UseTackle:
-	text "Go, RATTATA!"
+	text "Go, SENTRET!"
 
 	para "TACKLE!"
 	done

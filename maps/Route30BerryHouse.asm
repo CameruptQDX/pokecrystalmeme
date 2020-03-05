@@ -39,9 +39,10 @@ Route30BerrySpeechHouseMonEatBerriesText:
 	done
 
 Route30BerrySpeechHouseCheckTreesText:
-	text "Check trees for"
-	line "BERRIES. They just"
-	cont "drop right off."
+	text "I wonder who"
+	line "named all of"
+	cont "the different"
+	cont "kinds of BERRIES?"
 	done
 
 Route30BerryHouse_MapEvents:
