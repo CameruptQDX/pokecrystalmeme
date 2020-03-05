@@ -112,11 +112,11 @@ Route29YoungsterText:
 	text "Yo. How are your"
 	line "#MON?"
 
-	para "If they're weak"
-	line "and not ready for"
-
-	para "battle, keep out"
-	line "of the grass."
+	para "If they're half"
+	line "as sharp as you"
+	cont "are, I'd say"
+	cont "you're safe in"
+	cont "the grass."
 	done
 
 Route29TeacherText:
@@ -140,41 +140,35 @@ Route29FisherText:
 	done
 
 Route29CooltrainerMText_WaitingForNight:
-	text "I'm waiting for"
-	line "#MON that"
-
-	para "appear only at"
-	line "night."
+	text "I'm glad to see"
+	line "a face like yours"
+	cont "in broad daylight!"
 	done
 
 Route29CooltrainerMText_WaitingForMorning:
-	text "I'm waiting for"
-	line "#MON that"
-
-	para "appear only in the"
-	line "morning."
+	text "What? Something"
+	line "strange about a"
+	cont "guy in the woods"
+	cont "at night?"
 	done
 
 MeetTuscanyText:
 	text "TUSCANY: I do be-"
 	line "lieve that this is"
-
-	para "the first time"
-	line "we've met?"
+	cont "the first time"
+	cont "we've met?"
 
 	para "Please allow me to"
 	line "introduce myself."
-
-	para "I am TUSCANY of"
-	line "Tuesday."
+	cont "I am TUSCANY of"
+	cont "Tuesday."
 	done
 
 TuscanyGivesGiftText:
 	text "By way of intro-"
 	line "duction, please"
-
-	para "accept this gift,"
-	line "a PINK BOW."
+	cont "accept this gift,"
+	cont "a PINK BOW."
 	done
 
 TuscanyGaveGiftText:

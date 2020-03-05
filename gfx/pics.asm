@@ -546,7 +546,6 @@ SkiploomBackpic:     INCBIN "gfx/pokemon/skiploom/back.2bpp.lz"
 SpinarakFrontpic:    INCBIN "gfx/pokemon/spinarak/front.animated.2bpp.lz"
 Rival2Pic:           INCBIN "gfx/trainers/rival2.2bpp.lz"
 UnownWFrontpic:      INCBIN "gfx/pokemon/unown_w/front.animated.2bpp.lz"
-EnkoBackpic:   INCBIN "gfx/pokemon/enko/back.2bpp.lz"
 RhyhornBackpic:      INCBIN "gfx/pokemon/rhyhorn/back.2bpp.lz"
 UnownCFrontpic:      INCBIN "gfx/pokemon/unown_c/front.animated.2bpp.lz"
 MistyPic:            INCBIN "gfx/trainers/misty.2bpp.lz"
@@ -739,6 +738,7 @@ UnownVFrontpic:      INCBIN "gfx/pokemon/unown_v/front.animated.2bpp.lz"
 UnownXFrontpic:      INCBIN "gfx/pokemon/unown_x/front.animated.2bpp.lz"
 UnownNFrontpic:      INCBIN "gfx/pokemon/unown_n/front.animated.2bpp.lz"
 UnownBFrontpic:      INCBIN "gfx/pokemon/unown_b/front.animated.2bpp.lz"
+EnkoBackpic:   INCBIN "gfx/pokemon/enko/back.2bpp.lz"
 
 SECTION "Pics 23", ROMX
 

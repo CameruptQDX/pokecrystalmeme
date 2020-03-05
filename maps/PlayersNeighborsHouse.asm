@@ -63,16 +63,10 @@ PlayersNeighborsDaughterText:
 	done
 
 PlayersNeighborText:
-	text "My daughter is"
-	line "adamant about"
-
-	para "becoming PROF."
-	line "ELM's assistant."
-
-	para "She really loves"
-	line "#MON!"
-
-	para "But then, so do I!"
+	text "You haven't come"
+	line "by to stir up"
+	cont "any trouble have"
+	cont "you, <PLAY_G>?"
 	done
 
 PlayerNeighborRadioText1:

@@ -189,11 +189,11 @@ Movement_SilverReturnsToTheShadows_NBT:
 Text_GearIsImpressive:
 	text "Things sure have"
 	line "changed since the"
-
-	para "METEOR. I guess"
-	line "I'll get used to"
-	cont "all this sand"
-	cont "someday!"
+	cont "METEOR…" 
+	
+	para "I guess I'll"
+	line "get used to all"
+	cont "this sand someday!"
 	done
 
 Text_WaitPlayer:
@@ -210,35 +210,42 @@ Text_ItsDangerousToGoAlone:
 	line "go out without a"
 	cont "#MON!"
 
-	para "Wild #MON"
-	line "jump out of the"
-
-	para "grass on the way"
-	line "to the next town."
+	para "You might think"
+	line "you're tough"
+	cont "but without your"
+	cont "own #MON"
+	cont "you'd be totally"
+	cont "defenseless!"
 	done
 
 Text_YourMonIsAdorable:
 	text "Oh! Your #MON"
 	line "is adorable!"
-	cont "What kind is it"
+	cont "…What is it"
 	cont "though?"
 	done
 
 Text_TellMomIfLeaving:
-	text "Hi, <PLAY_G>!"
-	line "Leaving again?"
+	text "Trying to"
+	line "sneak out again?"
 
 	para "You should tell"
 	line "your mom if you"
-	cont "are leaving."
+	cont "are leaving!"
 	done
 
 Text_CallMomOnGear:
-	text "Call your mom on"
-	line "your #GEAR to"
-
-	para "let her know how"
-	line "you're doing."
+	text "You should give"
+	line "your mother at"
+	cont "least a call"
+	cont "sometime if"
+	cont "you're leaving!"
+	
+	para "She's worried"
+	line "enough about the"
+	cont "trouble you make"
+	cont "in town… let"
+	cont "alone elsewhere!"
 	done
 
 Text_ElmDiscoveredNewMon:
@@ -246,11 +253,10 @@ Text_ElmDiscoveredNewMon:
 
 	para "I hear PROF.ELM"
 	line "discovered some"
-	cont "new #MON."
-	
-	para "near where they"
-	line "built that new"
-	cont "tower in"
+	cont "new #MON"
+	cont "near where they"
+	cont "built that new"
+	cont "tower over in"
 	cont "ECRUTEAK!"
 	done
 
@@ -270,8 +276,8 @@ NewBarkTownRivalText2:
 NewBarkTownSignText:
 	text "NEW BARK TOWN"
 
-	para "From the sand and"
-	line "soil, a new"
+	para "From the dust and"
+	line "sand, a new"
 	cont "beginning grows."
 	done
 

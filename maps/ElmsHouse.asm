@@ -20,17 +20,25 @@ ElmsHouseBookshelf:
 	jumpstd difficultbookshelf
 
 ElmsWifeText:
-	text "Hi, <PLAY_G>! My"
-	line "husband's always"
-
-	para "so busy--I hope"
-	line "he's OK."
-
-	para "When he's caught"
-	line "up in his #MON"
-
-	para "research, he even"
-	line "forgets to eat."
+	text "Ah, <PLAY_G>!"
+	
+	para "So have you come"
+	line "by looking for"
+	cont "my husband?"
+	
+	para "…Or maybe you've"
+	line "finally decided"
+	cont "to apologize for"
+	cont "that time you"
+	cont "set our lawn on"
+	cont "fire?"
+	
+	para "Well thanks to"
+	line "all the sand in"
+	cont "town now I guess"
+	cont "I don't have to"
+	cont "worry about that"
+	cont "happening again!"
 	done
 
 ElmsSonText:
@@ -40,27 +48,23 @@ ElmsSonText:
 
 	para "I'm going to be a"
 	line "great #MON"
-	cont "professor!"
+	cont "professor, so"
+	cont "unlike you I'll"
+	cont "be staying in"
+	cont "school!"
 	done
 
 ElmsHousePCText:
-	text "#MON. Where do"
-	line "they come from? "
-
-	para "Where are they"
-	line "going?"
-
-	para "Why has no one"
-	line "ever witnessed a"
-	cont "#MON's birth?"
-
-	para "I want to know! I"
-	line "will dedicate my"
-
-	para "life to the study"
-	line "of #MON!"
-
-	para "…"
+	text "After the meteor"
+	line "impact, many"
+	cont "species of extant"
+	cont "#MON began to"
+	cont "appear in JOHTO."
+	
+	para "My current study"
+	line "is focused on"
+	cont "determining the"
+	cont "reason why…"
 
 	para "It's a part of"
 	line "PROF.ELM's re-"

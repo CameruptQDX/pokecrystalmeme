@@ -64,9 +64,12 @@ MeetMomScript:
 	iffalse .SetDayOfWeek
 .DayOfWeekDone:
 	writetext ComeHomeForDSTText
+	waitbutton
+	closetext
 	jump .FinishPhone
 
 .FinishPhone:
+	opentext
 	writetext InstructionsNextText
 	waitbutton
 	closetext
@@ -186,11 +189,11 @@ FridgeScript:
 
 MomTurnsTowardPlayerMovement:
 	turn_head RIGHT
-	step_resume
+	step_end
 
 MomWalksToPlayerMovement:
 	slow_step RIGHT
-	step_resume
+	step_end
 
 MomTurnsBackMovement:
 	turn_head LEFT
@@ -201,38 +204,38 @@ MomWalksBackMovement:
 	step_resume
 
 ElmsLookingForYouText:
-	text "Oh, <PLAYER>…! Our"
-	line "neighbor, PROF."
+	text "Oh, <PLAYER>…"
+	
+	para "It's about time"
+	line "you got out of"
+	cont "bed! You know"
+	cont "ELM next door"
+	cont "needs you today!"
 
-	para "ELM, was looking"
-	line "for you."
-
-	para "He said he wanted"
-	line "you to do some-"
-	cont "thing for him."
-
-	para "Oh! I almost for-"
-	line "got! Your #MON"
-
-	para "GEAR is back from"
-	line "the repair shop."
-
-	para "Here you go!"
+	para "By the way, your"
+	line "#GEAR is back"
+	cont "from the repair"
+	cont "shop."
+	
+	para "Maybe try not to"
+	line "break it this"
+	cont "time…"
 	done
 
 MomGivesPokegearText:
-	text "#MON GEAR, or"
-	line "just #GEAR."
+	text "That'll be"
+	line "essential if"
+	cont "you really want"
+	cont "to be a good"
+	cont "trainer…"
+	
+	para "But when was the"
+	line "last time you've"
+	cont "done anything"
+	cont "good!"
 
-	para "It's essential if"
-	line "you want to be a"
-	cont "good trainer."
-
-	para "Oh, the day of the"
+	para "Eh, the day of the"
 	line "week isn't set."
-
-	para "You mustn't forget"
-	line "that!"
 	done
 
 IsItDSTText:
@@ -247,9 +250,9 @@ ComeHomeForDSTText:
 	para "for Daylight"
 	line "Saving Time."
 
-	para "By the way, do you"
-	line "know how to use"
-	cont "the PHONE?"
+	para "You do know how"
+	line "to use the PHONE"
+	cont "right?"
 	done
 
 InstructionsNextText:
@@ -260,8 +263,8 @@ InstructionsNextText:
 HurryUpElmIsWaitingText:
 	text "PROF.ELM is wait-"
 	line "ing for you."
-
-	para "Hurry up, baby!"
+	cont "so get a move"
+	cont "on already!"
 	done
 
 SoWhatWasProfElmsErrandText:
@@ -270,12 +273,10 @@ SoWhatWasProfElmsErrandText:
 
 	para "…"
 
-	para "That does sound"
-	line "challenging."
-
-	para "But, you should be"
-	line "proud that people"
-	cont "rely on you."
+	para "Well! Maybe this"
+	line "will be good for"
+	cont "you, so I'm all"
+	cont "for it!"
 	done
 
 ImBehindYouText:
@@ -283,6 +284,14 @@ ImBehindYouText:
 
 	para "I'm behind you all"
 	line "the way!"
+	
+	para "Maybe you'll even"
+	line "end up learning"
+	cont "something about"
+	cont "responsibility…"
+	
+	para "A mother can"
+	line "always dream!"
 	done
 
 NeighborMornIntroText:
@@ -305,17 +314,22 @@ NeighborNiteIntroText:
 	done
 
 NeighborText:
-	text "<PLAY_G>, have you"
-	line "heard?"
+	text "<PLAY_G>, you"
+	line "really have a"
+	cont "knack for getting"
+	cont "into trouble huh?"
 
 	para "My daughter is"
 	line "adamant about"
+	cont "becoming PROF."
+	cont "ELM's assistant"
+	cont "you know."
 
-	para "becoming PROF."
-	line "ELM's assistant."
-
-	para "She really loves"
-	line "#MON!"
+	para "Maybe you ought"
+	line "to be more like"
+	cont "her and you'll"
+	cont "actually go"
+	cont "somewhere in life!"
 	done
 
 StoveText:
@@ -336,15 +350,15 @@ FridgeText:
 	line "in the fridge…"
 
 	para "leftover egg"
-	line "salad. Still good!"
+	line "salad…"
+	cont "Still good!"
 	done
 
 TVText:
 	text "There's a movie on"
 	line "TV: A clown is"
-
-	para "vehemently ranting"
-	line "about society…"
+	cont "vehemently ranting"
+	cont "about society…"
 
 	para "I'd better get"
 	line "gaming too!"

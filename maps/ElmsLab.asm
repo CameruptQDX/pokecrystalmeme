@@ -733,29 +733,34 @@ ElmText_Intro:
 
 	para "I'm conducting new"
 	line "#MON research"
-
-	para "right now. I was"
-	line "wondering if you"
-
-	para "could help me with"
-	line "it, <PLAY_G>."
+	cont "right now. It"
+	cont "may be unexpected"
+	cont "but I was"
+	cont "wondering if you"
+	cont "could help me with"
+	cont "it, <PLAY_G>."
 
 	para "You see…"
 
 	para "I have here three"
 	line "completely new, "
+	cont "unstudied #MON"
+	cont "that were just"
+	cont "found!"
 	
-	para "unstudied #MON"
-	line "that were just"
+	para "I'm looking for a"
+	line "new trainer to"
+	cont "raise them so we"	
+	cont "we can learn all"
+	cont "about them!"
 	
-	para "found!"
-	line "I'm looking"
-	
-	para "for a new trainer"
-	line "to raise them so"
-	
-	para "we can learn all"
-	line "about them!"
+	para "Despite what the"
+	line "others may say, I"
+	cont "see much untapped"
+	cont "potential in you"
+	cont "as a #MON"
+	cont "trainer! So what"
+	cont "do you say?"
 	done
 
 ElmText_Accepted:
@@ -773,12 +778,10 @@ ElmText_Refused:
 ElmText_ResearchAmbitions:
 	text "With your help and"
 	line "ambition, I'm sure"
-
-	para "we'll delve a bit"
-	line "deeper into the"
-
-	para "many mysteries of"
-	line "#MON."
+	cont "we'll delve a bit"
+	cont "deeper into the"
+	cont "many mysteries of"
+	cont "#MON."
 
 	para "You can count on"
 	line "it!"
@@ -803,15 +806,19 @@ ElmText_MissionFromMrPokemon:
 
 	para "He's a researcher"
 	line "of rare, strange"
+	cont "#MON phenomena."
 	
-	para "#MON phenomena."
-	line "He wants to see"
+	para "He wants to see"
+	line "The new species"
+	cont "himself but we're"
+	cont "much too busy here"
+	cont "to make the trip."
 	
-	para "The new species"
-	line "himself but we're"
-	
-	para "much too busy here"
-	line "to make the trip."
+	para "He also says he"
+	line "has some kind of"
+	cont "new discovery of"
+	cont "his own, how"
+	cont "exciting!"
 
 	para "Wait!"
 
@@ -824,9 +831,8 @@ ElmText_MissionFromMrPokemon:
 ElmText_ChooseAPokemon:
 	text "The new #MON"
 	line "you'll raise are"
-
-	para "contained in"
-	line "those BALLS."
+	cont "contained in"
+	cont "those BALLS."
 
 	para "You'll be that"
 	line "#MON's first"
@@ -847,7 +853,7 @@ LabWhereGoingText:
 	line "are you going?"
 	done
 
-TakeCyndaquilText: ; have to change these later when starters are properly named
+TakeCyndaquilText:
 	text "ELM: You'll take"
 	line "ENKO, the"
 	cont "fire #MON?"
@@ -889,29 +895,25 @@ ReceivedStarterText:
 ElmDirectionsText1:
 	text "MR.#MON lives a"
 	line "little bit beyond"
-
-	para "CHERRYGROVE, the"
-	line "next city over."
+	cont "CHERRYGROVE, the"
+	cont "next city over."
 
 	para "It's almost a"
 	line "direct route"
-
-	para "there, so you"
-	line "can't miss it."
+	cont "there, so you"
+	cont "can't miss it."
 
 	para "But just in case,"
 	line "here's my phone"
-
-	para "number. Call me if"
-	line "anything comes up!"
+	cont "number. Call me if"
+	cont "anything comes up!"
 	done
 
 ElmDirectionsText2:
 	text "If your #MON is"
 	line "hurt, you should"
-
-	para "heal it with this"
-	line "machine."
+	cont "heal it with this"
+	cont "machine."
 
 	para "Feel free to use"
 	line "it anytime."
@@ -958,9 +960,8 @@ ElmAfterTheftText1:
 	line "is a bit awkward…"
 
 	para "Hm? You say"
-	line "MR.#MON's has"
-	cont "a discovery of"
-	cont "his own?"
+	line "MR.#MON's own"
+	cont "discovery is this?"
 	done
 
 ElmAfterTheftText2:
@@ -970,7 +971,7 @@ ElmAfterTheftText2:
 	done
 
 ElmAfterTheftText3:
-	text "ELM: This?"
+	text "ELM: W-what?"
 	done
 
 ElmAfterTheftText4:
@@ -991,39 +992,33 @@ ElmAfterTheftText5:
 	line "true? Th-that's"
 	cont "incredible!"
 
-	para "He is superb at"
-	line "seeing the poten-"
-	cont "tial of people as"
-	cont "trainers."
+	para "Perhaps he sees"
+	line "the same potential"
+	cont "in you that I"
+	cont "have! Wonderful!"
 
-	para "Wow, <PLAY_G>. You"
+	para "<PLAY_G>, You"
 	line "may have what it"
+	cont "takes to become"
+	cont "a great trainer!"
 
-	para "takes to become"
-	line "a great trainer!"
-
-	para "You seem to be"
-	line "getting on great"
-	cont "with #MON too."
-
-	para "You should take"
+	para "You could go take"
 	line "the #MON GYM"
-	cont "challenge."
+	cont "challenge!"
 
 	para "JOHTO's recently"
 	line "begun it's own"
 	cont "#MON LEAGUE…"
 	cont "Who knows! You"
-	cont "could be the first"
+	cont "could be its first"
 	cont "CHAMPION!"
 	done
 
 ElmAfterTheftText6:
 	text "…<PLAY_G>. The"
 	line "road to the"
-
-	para "championship will"
-	line "be a long one."
+	cont "championship will"
+	cont "be a long one."
 
 	para "Before you leave,"
 	line "make sure that you"
@@ -1037,7 +1032,7 @@ ElmStudyingEggText:
 	para "I learn anything"
 	line "about that EGG!"
 	done
-
+; AREA OF TEXT TO CHANGE LATER WITH THE STORY BITS
 ElmAideHasEggText:
 	text "ELM: <PLAY_G>?"
 	line "Didn't you meet my"
@@ -1120,7 +1115,7 @@ ElmGiveEverstoneText2:
 	line "MON you don't want"
 	cont "to evolve."
 	done
-
+; LATER IN THE STORY TEXT ^^^^^^
 ElmText_CallYou:
 	text "ELM: <PLAY_G>, I'll"
 	line "call you if any-"
@@ -1134,14 +1129,17 @@ AideText_AfterTheft:
 
 	para "Is it really a"
 	line "good idea to"
+	cont "entrust a totally"
+	cont "unstudied #MON"
+	cont "to such crass"
+	cont "trainers?"
 	
-	para "entrust a totally"
-	line "unstudied #MON"
+	para "Eh!? Sorry I"
+	line "didn't mean you."
 	
-	para "to such a crass"
-	line "trainer?"
+	para "Eheheh…"
 	done
-
+; LATER IN THE STORY TEXT BELOW
 ElmGiveMasterBallText1:
 	text "ELM: Hi, <PLAY_G>!"
 	line "Thanks to you, my"
@@ -1204,7 +1202,7 @@ ElmGiveTicketText2:
 	para "Give my regards to"
 	line "PROF.OAK in KANTO!"
 	done
-
+; LATER IN THE STORY TEXT ^^^^^
 ElmsLabSignpostText_Egg:
 	text "It's the #MON"
 	line "EGG being studied"
@@ -1226,12 +1224,10 @@ AideText_AlwaysBusy:
 AideText_TheftTestimony:
 	text "Some noisy little"
 	line "girl with blue"
-
-	para "hair stomped into"
-	line "the lab and"
+	cont "hair stomped into"
+	cont "the lab and"
 	cont "demanded one of"
-
-	para "the #MON!"
+	cont "the #MON!"
 	done
 
 AideText_GiveYouBalls:
@@ -1309,7 +1305,7 @@ ElmsLabTravelTip1Text:
 
 	para "Use BGB, do not"
 	line "play GBC games"
-	cont "on Visualboy."
+	cont "on VisualBoy."
 	done
 
 ElmsLabTravelTip2Text:
