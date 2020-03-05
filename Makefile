@@ -224,8 +224,12 @@ gfx/yehaw_splashes/yehaw_splash.tilemap: rgbgfx += -u
 gfx/yehaw_splashes/yehaw_splash.tilemap: gfx/yehaw_splashes/yehaw_splash.png
 	$(RGBGFX) $(rgbgfx) -t $@ $<
 	@python3 -c "o=[x^0x80 for x in open('$@', 'rb').read()]; open('$@','wb').write(bytes(o))"
-gfx/yehaw_splashes/ourheggie.2bpp: rgbgfx += -u
-gfx/yehaw_splashes/ourheggie.tilemap: rgbgfx += -u
+gfx/yehaw_splashes/ourheggie.2bpp: rgbgfx += -m
+gfx/yehaw_splashes/ourheggie.tilemap: rgbgfx += -m
+gfx/yehaw_splashes/ourheggie_p1.2bpp: gfx/yehaw_splashes/ourheggie.2bpp
+	python3 -c "open('$@', 'wb').write(open('$<', 'rb').read()[:0x1000])"
+gfx/yehaw_splashes/ourheggie_p2.2bpp: gfx/yehaw_splashes/ourheggie.2bpp
+	python3 -c "open('$@', 'wb').write(open('$<', 'rb').read()[0x1000:])"
 gfx/yehaw_splashes/ourheggie.tilemap: gfx/yehaw_splashes/ourheggie.png
 	$(RGBGFX) $(rgbgfx) -t $@ $<
 	@python3 -c "o=[x^0x80 for x in open('$@', 'rb').read()]; open('$@','wb').write(bytes(o))"

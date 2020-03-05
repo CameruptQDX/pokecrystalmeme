@@ -175,6 +175,8 @@ _ResetWRAM:
 	ld [hl], a
 	call CloseSRAM
 
+	farcall DeleteYehawFlag
+
 	call LoadOrRegenerateLuckyIDNumber
 	call InitializeMagikarpHouse
 
