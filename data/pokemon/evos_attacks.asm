@@ -23,8 +23,8 @@ RaikoEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, LEER
-	db 9, THUNDERSHOCK
-	db 13, BITE
+	db 7, THUNDERSHOCK
+	db 11, BITE
 	db 17, ROAR
 	db 19, QUICK_ATTACK
 	db 25, SPARK
@@ -39,8 +39,8 @@ RaiEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, LEER
-	db 9, THUNDERSHOCK
-	db 13, BITE
+	db 7, THUNDERSHOCK
+	db 11, BITE
 	db 17, ROAR
 	db 19, QUICK_ATTACK
 	db 25, SPARK
@@ -69,8 +69,8 @@ EnkoEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, LEER
-	db 9, EMBER
-	db 13, BITE
+	db 7, EMBER
+	db 11, BITE
 	db 17, ROAR
 	db 19, FIRE_SPIN
 	db 25, STOMP
@@ -85,8 +85,8 @@ EnEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, LEER
-	db 9, EMBER
-	db 13, BITE
+	db 7, EMBER
+	db 11, BITE
 	db 17, ROAR
 	db 19, FIRE_SPIN
 	db 25, STOMP
@@ -115,8 +115,8 @@ SuikoEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, LEER
-	db 9, WATER_GUN
-	db 13, BITE
+	db 7, WATER_GUN
+	db 11, BITE
 	db 17, ROAR
 	db 19, GUST
 	db 25, BUBBLEBEAM
@@ -131,8 +131,8 @@ SuiEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, LEER
-	db 9, WATER_GUN
-	db 13, BITE
+	db 7, WATER_GUN
+	db 11, BITE
 	db 17, ROAR
 	db 19, GUST
 	db 25, BUBBLEBEAM

@@ -16,16 +16,15 @@ Route36RuinsOfAlphGateGrampsScript:
 Route36RuinsOfAlphGateOfficerText:
 	text "How in the world"
 	line "did an explosion"
-	cont "all the way in"
-	cont "CIANWOOD create"
-	cont "a desert next to"
-	cont "VIOLET CITY?"
+	cont "at the RUINS"
+	cont "create an entire"
+	cont "desert here?"
 	done
 
 Route36RuinsOfAlphGateGrampsText:
 	text "Don't forget to"
 	line "bring some"
-	cont "Potions for the"
+	cont "POTION for the"
 	cont "long road ahead."
 	done
 
