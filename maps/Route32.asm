@@ -723,22 +723,22 @@ YoungsterGordonAfterText:
 	done
 
 CamperRolandSeenText:
-	text "Get ready to"
-	line "rock and roll!"
+	text "I've got sand"
+	line "in my expensive"
+	cont "hiking boots!"
 	done
 
 CamperRolandBeatenText:
-	text "You totally"
-	line "rolled me!"
+	text "Oh, oh, oh!"
 	done
 
 CamperRolandAfterText:
-	text "My rough and"
-	line "tumble ROCK type"
-	cont "#MON are"
-	cont "immune to the"
-	cont "damage from a"
-	cont "SANDSTORM."
+	text "All right, then!"
+	line "I've decided."
+
+	para "I'm not leaving"
+	line "until I break in"
+	cont "these boots!"
 	done
 
 PicnickerLiz1SeenText:
@@ -781,8 +781,8 @@ BirdKeeperPeterBeatenText:
 BirdKeeperPeterAfterText:
 	text "I pit my FLYING"
 	line "#MON against"
-	cont "the ROCK types"
-	cont "here in the desert"
+	cont "the GEODUDE"
+	cont "south of here"
 	cont "to learn to"
 	cont "counter one of"
 	cont "our weaknesses."

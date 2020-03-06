@@ -741,7 +741,7 @@ BirdKeeperGroup:
 	db "PETER@", TRAINERTYPE_ITEM
 	db  10, PIDGEY
 		db NO_ITEM
-	db  11, MISSINGNO
+	db  11, NATU
 		db NO_ITEM
 	db  13, DODUO
 		db BERRY

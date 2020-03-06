@@ -85,22 +85,22 @@ RuinsOfAlphResearchCenterSign:
 	jumptext DesertUnusedSignText
 
 HikerRussellSeenText:
-	text "I've got sand"
-	line "in my expensive"
-	cont "hiking boots!"
+	text "Get ready to"
+	line "rock and roll!"
 	done
-
+	
 HikerRussellBeatenText:
-	text "Oh, oh, oh!"
+	text "You totally"
+	line "rolled me!"
 	done
 
 HikerRussellAfterBattleText:
-	text "All right, then!"
-	line "I've decided."
-
-	para "I'm not leaving"
-	line "until I break in"
-	cont "these boots!"
+	text "My rough and"
+	line "tumble ROCK type"
+	cont "#MON are"
+	cont "immune to the"
+	cont "damage from a"
+	cont "SANDSTORM."
 	done
 
 PokemaniacLarrySeenText:
@@ -133,8 +133,8 @@ HikerDanielSeenText:
 	text "There aint much"
 	line "to see out here."
 	
-	para "Keep me entertained"
-	line "with a battle!"
+	para "Keep me entertain-"
+	line "ed with a battle!"
 	done
 
 HikerDanielBeatenText:
