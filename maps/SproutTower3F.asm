@@ -41,7 +41,7 @@ SproutTower3FRivalScene:
 	turnobject SPROUTTOWER3F_SILVER, DOWN
 	pause 15
 	applymovement SPROUTTOWER3F_SILVER, MovementData_0x184a24
-	playmusic MUSIC_RIVAL_ENCOUNTER
+	playmusic MUSIC_CLAIR
 	opentext
 	writetext SproutTowerRivalOnlyCareAboutStrongText
 	waitbutton
@@ -149,7 +149,7 @@ MovementData_0x184a22:
 MovementData_0x184a24:
 	step RIGHT
 	step DOWN
-	step_resume
+	step_end
 
 SproutTowerElderLecturesRivalText:
 	text "ELDER: You are in-"

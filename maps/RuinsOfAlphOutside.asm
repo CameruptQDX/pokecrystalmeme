@@ -82,7 +82,6 @@ DesertAwakening:
 	itemball AWAKENING
 
 RuinsOfAlphResearchCenterSign:
-; unused
 	jumptext DesertUnusedSignText
 
 HikerRussellSeenText:
@@ -201,8 +200,7 @@ ScientistRCText:
 	
 	para "It's been 3 years"
 	line "and I'm still in"
-	cont "complete shock"
-	cont "and awe."
+	cont "complete shock."
 	done
 	
 

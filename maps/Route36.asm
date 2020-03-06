@@ -7,20 +7,15 @@
 	const ROUTE36_FRUIT_TREE
 	const ROUTE36_ARTHUR
 	const ROUTE36_FLORIA
-	const ROUTE36_SUICUNE
 
 Route36_MapScripts:
-	db 2 ; scene scripts
+	db 1 ; scene scripts
 	scene_script .DummyScene0 ; SCENE_ROUTE36_NOTHING
-	scene_script .DummyScene1 ; SCENE_ROUTE36_SUICUNE
 
 	db 1 ; callbacks
 	callback MAPCALLBACK_OBJECTS, .ArthurCallback
 
 .DummyScene0:
-	end
-
-.DummyScene1:
 	end
 
 .ArthurCallback:
@@ -32,20 +27,6 @@ Route36_MapScripts:
 .ArthurAppears:
 	appear ROUTE36_ARTHUR
 	return
-
-Route36SuicuneScript:
-	showemote EMOTE_SHOCK, PLAYER, 15
-	pause 15
-	playsound SFX_WARP_FROM
-	turnobject PLAYER, UP
-	applymovement ROUTE36_SUICUNE, Route36SuicuneMovement
-	disappear ROUTE36_SUICUNE
-	turnobject PLAYER, DOWN
-	pause 10
-	setscene SCENE_ROUTE36_NOTHING
-	clearevent EVENT_SAW_SUICUNE_AT_CIANWOOD_CITY
-	setmapscene CIANWOOD_CITY, SCENE_CIANWOODCITY_SUICUNE_AND_EUSINE
-	end
 
 SudowoodoScript:
 	checkitem SQUIRTBOTTLE
@@ -352,9 +333,6 @@ ArthurNotThursdayScript:
 Route36Sign:
 	jumptext Route36SignText
 
-RuinsOfAlphNorthSign:
-	jumptext RuinsOfAlphNorthSignText
-
 Route36TrainerTips1:
 	jumptext Route36TrainerTips1Text
 
@@ -397,16 +375,6 @@ FloriaMovement2:
 	step LEFT
 	step_resume
 
-Route36SuicuneMovement:
-	set_sliding
-	fast_jump_step DOWN
-	fast_jump_step DOWN
-	fast_jump_step DOWN
-	fast_jump_step RIGHT
-	fast_jump_step RIGHT
-	fast_jump_step RIGHT
-	remove_sliding
-	step_resume
 
 UseSquirtbottleText:
 	text "It's a weird tree."
@@ -472,9 +440,8 @@ RockSmashGuyText1:
 
 	para "I was going to"
 	line "snap that tree"
-
-	para "with my straight-"
-	line "arm punch."
+	cont "with my straight-"
+	cont "arm punch."
 
 	para "But I couldn't!"
 	line "I'm a failure!"
@@ -509,28 +476,26 @@ RockSmashGuyText3:
 	cont "smash 'em up!"
 	done
 
-UnknownText_0x1945b8:
-	text "An odd tree is"
-	line "blocking the way"
-	cont "to GOLDENROD CITY."
-
-	para "I wanted to go see"
-	line "the huge #MON"
-
-	para "CENTER they just"
-	line "opened…"
-	done
+;UnknownText_0x1945b8:
+;	text "An odd tree is"
+;	line "blocking the way"
+;	cont "to GOLDENROD CITY."
+;
+;	para "I wanted to go see"
+;	line "the huge #MON"
+;
+;	para "CENTER they just"
+;	line "opened…"
+;	done
 
 Route36LassText:
 	text "An odd tree is"
 	line "blocking the way"
 	cont "to GOLDENROD CITY."
 
-	para "It's preventing"
-	line "me from shopping."
-
-	para "Something should"
-	line "be done about it."
+	para "Between that and"
+	line "the desert, I"
+	cont "can't go anywhere!"
 	done
 
 Route36LassText_ClearedSudowoodo:
@@ -621,11 +586,6 @@ Route36SignText:
 	text "ROUTE 36"
 	done
 
-RuinsOfAlphNorthSignText:
-	text "RUINS OF ALPH"
-	line "NORTH ENTRANCE"
-	done
-
 Route36TrainerTips1Text:
 	text "TRAINER TIPS"
 
@@ -665,17 +625,14 @@ Route36_MapEvents:
 	warp_event 18,  9, ROUTE_36_NATIONAL_PARK_GATE, 4
 	;ruins of alph gate gone
 
-	db 2 ; coord events
-	coord_event 20,  7, SCENE_ROUTE36_SUICUNE, Route36SuicuneScript
-	coord_event 22,  7, SCENE_ROUTE36_SUICUNE, Route36SuicuneScript
+	db 0 ; coord events
 
-	db 4 ; bg events
+	db 3 ; bg events
 	bg_event 29,  1, BGEVENT_READ, Route36TrainerTips2
-	bg_event 45, 11, BGEVENT_READ, RuinsOfAlphNorthSign
 	bg_event 55,  7, BGEVENT_READ, Route36Sign
 	bg_event 21,  7, BGEVENT_READ, Route36TrainerTips1
 
-	db 9 ; object events
+	db 8 ; object events
 	object_event 20, 13, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, TrainerPsychicMark, -1
 	object_event 31, 14, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 5, TrainerSchoolboyAlan1, -1
 	object_event 35,  9, SPRITE_WEIRD_TREE, SPRITEMOVEDATA_SUDOWOODO, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, SudowoodoScript, EVENT_ROUTE_36_SUDOWOODO
@@ -684,4 +641,3 @@ Route36_MapEvents:
 	object_event 21,  4, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route36FruitTree, -1
 	object_event 46,  6, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ArthurScript, EVENT_ROUTE_36_ARTHUR_OF_THURSDAY
 	object_event 33, 12, SPRITE_LASS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, Route36FloriaScript, EVENT_FLORIA_AT_SUDOWOODO
-	object_event 21,  6, SPRITE_SUICUNE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_SAW_SUICUNE_ON_ROUTE_36

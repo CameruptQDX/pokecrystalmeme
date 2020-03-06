@@ -530,16 +530,15 @@ Route32CooltrainerMText_WhatsTheHurry:
 
 Route32CooltrainerMText_AideIsWaiting:
 	text "<PLAYER>, right?"
-	line "Some guy wearing"
-
-	para "glasses was look-"
-	line "ing for you."
+	
+	para "Some guy wearing"
+	line "glasses was look-"
+	cont "ing for you."
 
 	para "See for yourself."
 	line "He's waiting for"
-
-	para "you at the #MON"
-	line "CENTER."
+	cont "you at the #MON"
+	cont "CENTER."
 	done
 
 Route32CooltrainerMText_VioletGym:
@@ -561,31 +560,29 @@ Route32CooltrainerMText_HaveThisSeed:
 
 	para "It must be from"
 	line "the training you"
-
-	para "gave them around"
-	line "VIOLET CITY."
-
-	para "The training at"
-	line "the GYM must have"
-
-	para "been especially"
-	line "helpful."
+	cont "gave them around"
+	cont "VIOLET CITY."
 
 	para "As a souvenir of"
 	line "VIOLET CITY, take"
 	cont "this."
 
 	para "It increases the"
-	line "power of grass-"
+	line "power of GRASS-"
 	cont "type moves."
+	
+	para "With all the"
+	line "GROUND types"
+	cont "out here in the"
+	cont "desert it may"
+	cont "prove useful!"
 	done
 
 Route32CooltrainerMText_ExperiencesShouldBeUseful:
 	text "Your experiences"
 	line "in VIOLET CITY"
-
-	para "should be useful"
-	line "for your journey."
+	cont "should be useful"
+	cont "for your journey."
 	done
 
 Text_MillionDollarSlowpokeTail:
@@ -631,11 +628,12 @@ FisherJustinBeatenText:
 	done
 
 FisherJustinAfterText:
-	text "Calm, collected…"
-	line "The essence of"
-
-	para "fishing and #-"
-	line "MON is the same."
+	text "That sploosh"
+	line "wasn't a fish!"
+	
+	para "It was my"
+	line "brain melting"
+	cont "from the heat!"
 	done
 
 FisherRalph1SeenText:
@@ -663,12 +661,10 @@ FisherRalphAfterText:
 FisherRalphSwarmText:
 	text "One, two, three…"
 	line "Muahahaha, what a"
-
-	para "great haul!"
-	line "I'm done! Go ahead"
-
-	para "and catch as many"
-	line "as you can, kid!"
+	cont "great haul!"
+	cont "I'm done! Go ahead"
+	cont "and catch as many"
+	cont "as you can, kid!"
 	done
 
 
@@ -741,13 +737,14 @@ CamperRolandAfterText:
 	line "tumble ROCK type"
 	cont "#MON are"
 	cont "immune to the"
-	cont "damage from the"
-	cont "desert's sand."
+	cont "damage from a"
+	cont "SANDSTORM."
 	done
 
 PicnickerLiz1SeenText:
-	text "Uh-huh. Yeah, and"
-	line "you know…"
+	text "Alright so its"
+	line "tomorrow at"
+	cont "fou-"
 
 	para "Pardon? Battle?"
 	line "I'm on the phone."
@@ -762,8 +759,11 @@ PicnickerLiz1BeatenText:
 	done
 
 PicnickerLiz1AfterText:
-	text "I was having a"
-	line "nice chat too."
+	text "I almost had a"
+	line "date lined up"
+	cont "there before"
+	cont "you got me"
+	cont "distracted!"
 	done
 
 BirdKeeperPeterSeenText:
@@ -789,7 +789,6 @@ BirdKeeperPeterAfterText:
 	done
 
 Route32UnusedText:
-; unused
 	text "The RUINS OF ALPH"
 	line "exploded to create"
 	cont "this big desert."
@@ -801,10 +800,10 @@ Route32UnusedText:
 
 Text_RoarIntro:
 	text "WROOOOAR!"
-	line "PEOPLE RUN WHEN I"
-
-	para "ROAR! BUT YOU"
-	line "CAME LOOKING!"
+	
+	para "PEOPLE RUN WHEN I"
+	line "ROAR! BUT YOU"
+	cont "CAME LOOKING!"
 
 	para "THAT PLEASES ME!"
 	line "NOW TAKE THIS!"

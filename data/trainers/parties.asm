@@ -15,17 +15,17 @@ SECTION "Enemy Trainer Parties 1", ROMX
 FalknerGroup:
 	; FALKNER (1)
 	db "FALKNER@", TRAINERTYPE_DVS | TRAINERTYPE_STAT_EXP | TRAINERTYPE_ITEM | TRAINERTYPE_MOVES
-	db 12, HOOTHOOT
+	db 11, HOOTHOOT
 		db PERFECT_DV, PERFECT_DV
 		dw $0070, $0050, $0050, $0070, $0050
 		db PSNCUREBERRY
 		db GROWL, MUD_SLAP, PECK, CONFUSION
-	db 12, MACHOP
+	db 11, MACHOP
 		db PERFECT_DV, PERFECT_DV
 		dw $0070, $0050, $0050, $0070, $0050
 		db NO_ITEM
 		db LOW_KICK, LEER, FOCUS_ENERGY, NO_MOVE
-	db 14, DODUO
+	db 12, DODUO
 		db PERFECT_DV, $de
 		dw $0060, $0050, $0050, $0050, $0050
 		db BERRY
@@ -435,7 +435,7 @@ YoungsterGroup:
 
 	; YOUNGSTER (3) EDIT
 	db "ALBERT@", TRAINERTYPE_ITEM
-	db  10, MISSINGNO
+	db  10, PHANPY
 		db NO_ITEM
 	db  10, ZUBAT
 		db NO_ITEM
@@ -664,13 +664,13 @@ SchoolboyGroup:
 BirdKeeperGroup:
 	; BIRD_KEEPER (1) EDIT
 	db "ROD@", TRAINERTYPE_NORMAL
-	db  9, PIDGEY
-	db  10, MACHOP
+	db  8, PIDGEY
+	db  9, MACHOP
 	db -1 ; end
 
 	; BIRD_KEEPER (2) EDIT
 	db "ABE@", TRAINERTYPE_NORMAL
-	db  11, HOOTHOOT
+	db  10, HOOTHOOT
 	db -1 ; end
 
 	; BIRD_KEEPER (3)
@@ -1730,7 +1730,7 @@ FisherGroup:
 	; FISHER (2) EDIT
 	db "RALPH@", TRAINERTYPE_NORMAL
 	db 11, GOLDEEN
-	db 13, WOOPER
+	db 12, WOOPER
 	db -1 ; end
 
 	; FISHER (3)
@@ -2869,7 +2869,7 @@ PsychicGroup:
 PicnickerGroup:
 	; PICNICKER (1) EDIT
 	db "LIZ@", TRAINERTYPE_NORMAL
-	db  13, MISSINGNO
+	db  13, NIDORAN
 	db -1 ; end
 
 	; PICNICKER (2)
@@ -3024,7 +3024,7 @@ PicnickerGroup:
 CamperGroup:
 	; CAMPER (1) EDIT
 	db "ROLAND@", TRAINERTYPE_NORMAL
-	db  12, MISSINGNO
+	db  12, NATU
 	db  13, AIPOM
 	db -1 ; end
 

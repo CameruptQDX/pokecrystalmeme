@@ -145,9 +145,8 @@ Route33FruitTree:
 HikerAnthony2SeenText:
 	text "I came through the"
 	line "desert, but I"
-
-	para "still have plenty"
-	line "of energy left."
+	cont "still have plenty"
+	cont "of energy left."
 	done
 
 HikerAnthony2BeatenText:

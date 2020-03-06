@@ -66,11 +66,10 @@ Route32Pokecenter1FFishingGuruText_Yes:
 Route32Pokecenter1FFishingGuruText_GiveOldRod:
 	text "Fishing is great!"
 
-	para "If there's water,"
-	line "be it the sea or a"
-
-	para "stream, try out"
-	line "your ROD."
+	para "The rod I gave"
+	line "you might be a"
+	cont "bit for wear"
+	cont "though!"
 	done
 
 Route32Pokecenter1FFishingGuruText_No:

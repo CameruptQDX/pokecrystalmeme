@@ -108,7 +108,7 @@ CherrygroveSilverSceneNorth:
 	appear CHERRYGROVECITY_SILVER
 	applymovement CHERRYGROVECITY_SILVER, CherrygroveCity_RivalWalksToYou
 	turnobject PLAYER, RIGHT
-	playmusic MUSIC_RIVAL_ENCOUNTER
+	playmusic MUSIC_CLAIR
 	opentext
 	writetext CherrygroveRivalText_Seen
 	waitbutton
@@ -150,7 +150,7 @@ CherrygroveSilverSceneNorth:
 	jump .AfterYourDefeat
 
 .AfterVictorious:
-	playmusic MUSIC_RIVAL_AFTER
+	playmusic MUSIC_CLAIR
 	opentext
 	writetext CherrygroveRivalText_PostBattle
 	waitbutton
@@ -158,7 +158,7 @@ CherrygroveSilverSceneNorth:
 	jump .FinishRival
 
 .AfterYourDefeat:
-	playmusic MUSIC_RIVAL_AFTER
+	playmusic MUSIC_CLAIR
 	opentext
 	writetext CherrygroveRivalText_PostBattle
 	waitbutton
