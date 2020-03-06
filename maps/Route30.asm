@@ -273,93 +273,89 @@ Text_ThisIsABigBattle:
 	done
 
 YoungsterJoey1SeenText:
-	text "I just lost, so"
-	line "I'm trying to find"
-	cont "more #MON."
-
-	para "Wait! You look"
-	line "weak! Come on,"
-	cont "let's battle!"
+	text "I'm on a hot"
+	line "streak! And a"
+	cont "rookie trainer"
+	cont "like you is just"
+	cont "what I'm looking"
+	cont "for!"
 	done
 
 YoungsterJoey1BeatenText:
-	text "Ack! I lost again!"
-	line "Doggone it!"
+	text "Darn it! There"
+	line "goes my streak!"
 	done
 
 YoungsterJoey1AfterText:
-	text "Do I have to have"
-	line "more #MON in"
-
-	para "order to battle"
-	line "better?"
-
-	para "No! I'm sticking"
-	line "with this one no"
-	cont "matter what!"
+	text "Alright maybe"
+	line "calling 2 wins"
+	cont "in a row a"
+	cont "streak is getting"
+	cont "a bit ahead of"
+	cont "myself…"
 	done
 
 YoungsterMikeySeenText:
-	text "You're a #MON"
-	line "trainer, right?"
-
-	para "Then you have to"
-	line "battle!"
+	text "Uh… You are a"
+	line "#MON trainer"
+	cont "right?"
 	done
 
 YoungsterMikeyBeatenText:
-	text "That's strange."
-	line "I won before."
+	text "Aw man I knew"
+	line "this was a"
+	cont "mistake!"
 	done
 
 YoungsterMikeyAfterText:
-	text "Becoming a good"
-	line "trainer is really"
-	cont "tough."
-
-	para "I'm going to bat-"
-	line "tle other people"
-	cont "to get better."
+	text "I'll be honest"
+	line "if it wasn't"
+	cont "for my keen"
+	cont "trainer's senses"
+	cont "I wouldn't have"
+	cont "even gone near"
+	cont "someone as scary"
+	cont "as you."
 	done
 
 BugCatcherDonSeenText:
-	text "Instead of a bug"
-	line "#MON, I found"
-	cont "a trainer!"
+	text "I like to bug"
+	line "people!"
 	done
 
 BugCatcherDonBeatenText:
-	text "Argh! You're too"
-	line "strong!"
+	text "Splat! I'm"
+	line "squashed!"
 	done
 
 BugCatcherDonAfterText:
-	text "I ran out of #"
-	line "BALLS while I was"
-	cont "catching #MON."
-
-	para "I should've bought"
-	line "some more…"
+	text "I'm buggin out!"
 	done
 
 Route30YoungsterText_DirectionsToMrPokemonsHouse:
 	text "MR.#MON's"
-	line "house? It's a bit"
-	cont "farther ahead."
+	line "house? It's just"
+	cont "through those"
+	cont "trees to the"
+	cont "north of here."
 	done
 
 Route30YoungsterText_EveryoneIsBattling:
-	text "Everyone's having"
-	line "fun battling!"
-	cont "You should too!"
+	text "Battling is all"
+	line "about having fun!"
+	
+	para "You're not the"
+	line "type that takes"
+	cont "battles overly"
+	cont "serious, are you?"
 	done
 
 Route30CooltrainerFText:
-	text "I'm not a trainer."
-
-	para "But if you look"
-	line "one in the eyes,"
-	cont "prepare to battle."
+	text "The road ahead is"
+	line "a bit long, but"
+	cont "the scent of"
+	cont "flowers makes it"
+	cont "a nice walk."
 	done
 
 Route30SignText:
@@ -381,12 +377,11 @@ MrPokemonsHouseSignText:
 Route30TrainerTipsText:
 	text "TRAINER TIPS"
 
-	para "No stealing other"
-	line "people's #MON!"
-
-	para "# BALLS are to"
-	line "be thrown only at"
-	cont "wild #MON!"
+	para "#MON love to"
+	line "eat BERRIES, try"
+	cont "giving them to"
+	cont "your #MON to"
+	cont "hold in battle!"
 	done
 
 YoungsterJoeyText_GiveHPUpAfterBattle:

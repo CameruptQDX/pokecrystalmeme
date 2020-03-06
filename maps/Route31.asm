@@ -274,9 +274,9 @@ Route31CooltrainerMText:
 	done
 
 BugCatcherWade1SeenText:
-	text "I caught a bunch"
-	line "of #MON. Let me"
-	cont "battle with you!"
+	text "My bugs will"
+	line "overwhelm you in"
+	cont "quantity!"
 	done
 
 BugCatcherWade1BeatenText:
@@ -284,15 +284,13 @@ BugCatcherWade1BeatenText:
 	done
 
 BugCatcherWade1AfterText:
-	text "You can catch"
-	line "#MON even if"
-
-	para "you have six with"
-	line "you."
-
-	para "If you catch one,"
-	line "it'll go to your"
-	cont "BOX automatically."
+	text "Maybe it's quality"
+	line "not quantity that"
+	cont "matters most."
+	
+	para "Oh well, I've got"
+	line "12 more bugs in"
+	cont "my PC box already!"
 	done
 
 Text_Route31SleepyMan:
@@ -354,9 +352,8 @@ Text_Route31DescribeNightmare:
 
 	para "It's a wicked move"
 	line "that steadily cuts"
-
-	para "the HP of a sleep-"
-	line "ing enemy."
+	cont "the HP of a sleep-"
+	cont "ing enemy."
 
 	para "Ooooh…"
 	line "That's scary…"
@@ -393,15 +390,14 @@ Text_Route31CantTakeLastMon:
 
 Route31YoungsterText:
 	text "I caught this"
-	line "cool Ground type"
+	line "cool GROUND type"
 	cont "#MON in"
 	cont "DARK CAVE!"
 
 	para "I'm going to raise"
 	line "it to take on"
 	cont "FALKNER, my plan"
-	cont "is foolproof and"
-	cont "I am a genius!"
+	cont "is foolproof!"
 	done
 
 Route31SignText:

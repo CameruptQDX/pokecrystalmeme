@@ -54,12 +54,10 @@ SageChowBeatenText:
 	done
 
 SageChowAfterBattleText:
-	text "All living beings"
-	line "coexist through"
-	cont "cooperation."
-
-	para "We must always be"
-	line "thankful for this."
+	text "Learn to set"
+	line "aside your pride"
+	cont "and express your"
+	cont "gratitude instead."
 	done
 
 SproutTower1FSage1Text:
@@ -69,11 +67,11 @@ SproutTower1FSage1Text:
 	done
 
 SproutTower1FSage2Text:
-	text "SPROUT TOWER was"
-	line "built long ago"
-
-	para "as a place for"
-	line "#MON training."
+	text "Despite what hard-"
+	line "ships may befall"
+	cont "JOHTO, SPROUT"
+	cont "TOWER will stand"
+	cont "tall as ever."
 	done
 
 SproutTower1FGrannyText:
@@ -89,8 +87,10 @@ SproutTower1FTeacherText:
 	text "See the pillar"
 	line "shaking?"
 
-	para "People are train-"
-	line "ing upstairs."
+	para "Even when the"
+	line "METEOR fell this"
+	cont "tower went un-"
+	cont "harmed."
 	done
 
 SproutTower1FStatueText:

@@ -115,32 +115,35 @@ FalknerIntroText:
 	line "VIOLET #MON GYM"
 	cont "leader!"
 
-	para "People say you can"
-	line "clip flying-type"
-
-	para "#MON's wings"
-	line "with a jolt of"
-	cont "electricity…"
-
-	para "I won't allow such"
-	line "insults to bird"
-	cont "#MON!"
-
-	para "I'll show you the"
-	line "real power of the"
-
-	para "magnificent bird"
-	line "#MON!"
+	para "As both a #MON"
+	line "trainer and a"
+	cont "practitioner of"
+	cont "martial arts, I"
+	cont "have realized the"
+	cont "pertinence of"
+	cont "covering more"
+	cont "than a single base"
+	cont "of offense and"
+	cont "defense."
+	
+	para "Now show me…"
+	
+	para "How will you"
+	line "handle an attack"
+	cont "that comes"
+	cont "from both above"
+	cont "and below!"
 	done
 
 FalknerWinLossText:
-	text "…Darn! My dad's"
-	line "cherished bird"
-	cont "#MON…"
+	text "It seems the"
+	line "answer to my"
+	cont "earlier question"
+	cont "is 'quite well'!"
 
-	para "All right."
-	line "Take this."
-
+	para "You're more than"
+	line "deserving of this!"
+	
 	para "It's the official"
 	line "#MON LEAGUE"
 	cont "ZEPHYRBADGE."
@@ -152,12 +155,16 @@ ReceivedZephyrBadgeText:
 	done
 
 FalknerZephyrBadgeText:
-	text "People used to say"
-	line "gaining badges"
+	text "People used to"
+	line "think that"
+	cont "gaining badges"
 	cont "raised the stats"
 	cont "of #MON but"
-	cont "it's just an old"
-	cont "myth, sorry."
+	cont "the truth is"
+	cont "that #MON grow"
+	cont "stronger by the"
+	cont "dedication of"
+	cont "us trainers."
 
 	para "My ZEPHYRBADGE"
 	line "will however"
@@ -173,22 +180,16 @@ FalknerZephyrBadgeText:
 FalknerTMMudSlapText:
 	text "By using a TM, a"
 	line "#MON will"
-
-	para "instantly learn a"
-	line "new move."
-
-	para "Think before you"
-	line "act--a TM can be"
-	cont "used only once."
+	cont "instantly learn a"
+	cont "new move."
 
 	para "TM31 contains"
 	line "MUD-SLAP."
 
 	para "It reduces the"
 	line "enemy's accuracy"
-
-	para "while it causes"
-	line "damage."
+	cont "while it causes"
+	cont "damage."
 
 	para "In other words, it"
 	line "is both defensive"
@@ -213,11 +214,9 @@ BirdKeeperRodSeenText:
 	text "The keyword is"
 	line "guts!"
 
-	para "Those here are"
-	line "training night and"
-
-	para "day to become bird"
-	line "#MON masters."
+	para "Clip our wings"
+	line "and we'll respond"
+	cont "with our fists!"
 
 	para "Come on!"
 	done
@@ -242,43 +241,46 @@ BirdKeeperAbeSeenText:
 	done
 
 BirdKeeperAbeBeatenText:
-	text "This can't be"
-	line "true!"
+	text "Beaten by a total"
+	line "rookie?!"
 	done
 
 BirdKeeperAbeAfterBattleText:
-	text "This is pathetic,"
-	line "losing to some"
-	cont "rookie trainer…"
+	text "If you make it"
+	line "past FALKNER then"
+	cont "I'll have no"
+	cont "right to call you"
+	cont "a rookie!"
 	done
 
 VioletGymGuyText:
-	text "Hey! I'm no train-"
-	line "er but I can give"
-	cont "some advice!"
-
-	para "Believe me!"
-	line "If you believe, a"
-
-	para "championship dream"
-	line "can come true."
-
-	para "You believe?"
-	line "Then listen."
-
-	para "The grass-type is"
-	line "weak against the"
-
-	para "flying-type. Keep"
-	line "this in mind."
+	text "Oi, punk!"
+	
+	para "Listen to me and"
+	line "you'll be in"
+	cont "the big leagues"
+	cont "in no time, eh!"
+	
+	para "Look… FALKNER"
+	line "and his gym buds"
+	cont "use FLYING and"
+	cont "FIGHTING types!"
+	
+	para "GRASS and BUG are"
+	line "weak to FLYING!"
+	
+	para "NORMAL is weak to"
+	line "FIGHTING!"
+	
+	para "Keep that in"
+	line "mind, kid!"
 	done
 
 VioletGymGuyWinText:
 	text "Nice battle! Keep"
 	line "it up, and you'll"
-
-	para "be the CHAMP in no"
-	line "time at all!"
+	cont "be the CHAMP in no"
+	cont "time at all!"
 	done
 
 VioletGym_MapEvents:

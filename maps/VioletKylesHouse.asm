@@ -19,15 +19,12 @@ Kyle:
 	end
 
 VioletKylesHousePokefanMText:
-	text "A #MON you get"
-	line "in a trade grows"
-	cont "quickly."
-
-	para "But if you don't"
-	line "have the right GYM"
-
-	para "BADGE, they may"
-	line "disobey you."
+	text "A traded #MON"
+	line "is like a rebel-"
+	cont "lious child, the"
+	cont "less it respects"
+	cont "you the less it"
+	cont "will listen."
 	done
 
 VioletKylesHouse_MapEvents:

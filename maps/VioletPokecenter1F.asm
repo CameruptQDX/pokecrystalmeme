@@ -120,17 +120,14 @@ UnknownText_0x69555:
 UnknownText_0x695c5:
 	text "We discovered that"
 	line "a #MON will not"
+	cont "hatch until it"
+	cont "grows in the EGG."
 
-	para "hatch until it"
-	line "grows in the EGG."
-
-	para "It also has to be"
-	line "with other active"
-	cont "#MON to hatch."
-
-	para "<PLAY_G>, you're"
-	line "the only person"
-	cont "we can rely on."
+	para "With all the work"
+	line "being done right"
+	cont "now we think it's"
+	cont "best if you take"
+	cont "care of this too."
 
 	para "Please call PROF."
 	line "ELM when that EGG"
@@ -159,9 +156,18 @@ UnknownText_0x69712:
 
 
 VioletPokecenter1FGameboyKidText:
-	text "A guy named BILL"
-	line "made the #MON"
-	cont "PC storage system."
+	text "If you have a"
+	line "way to play"
+	cont "on a physical"
+	cont "Game Boy, trading"
+	cont "#MON is easy!"
+	
+	para "But please don't"
+	line "tell me you're"
+	cont "playing on some"
+	cont "unauthorized cart"
+	cont "you bought off"
+	cont "Etsy or Ebay…"
 	done
 
 VioletPokecenter1FGentlemanText:
@@ -169,7 +175,7 @@ VioletPokecenter1FGentlemanText:
 	line "three years ago."
 
 	para "A meteor fell"
-	line "west of CIANWOOD"
+	line "on MT. SILVER"
 	cont "and shook the"
 	cont "whole region."
 	
@@ -182,15 +188,14 @@ VioletPokecenter1FGentlemanText:
 VioletPokecenter1FYoungsterText:
 	text "#MON are smart."
 	line "They won't obey a"
+	cont "trainer they don't"
+	cont "respect."
 
-	para "trainer they don't"
-	line "respect."
-
-	para "Without the right"
-	line "GYM BADGES, they"
-
-	para "will just do as"
-	line "they please."
+	para "You look like you"
+	line "could scare em'"
+	cont "straight without"
+	cont "any GYM BADGES,"
+	cont "yeesh."
 	done
 
 VioletPokecenter1F_MapEvents:

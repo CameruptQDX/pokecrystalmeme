@@ -43,16 +43,20 @@ SageNicoSeenText:
 	done
 
 SageNicoBeatenText:
-	text "I fought hard but"
-	line "I'm too weak."
+	text "You fought hard."
 	done
 
 SageNicoAfterBattleText:
 	text "The flexible pil-"
 	line "lar protects the"
-
-	para "TOWER, even from"
-	line "earthquakes."
+	cont "TOWER, even from"
+	cont "earthquakes."
+	
+	para "This unwavering"
+	line "flexibility is"
+	cont "what protected"
+	cont "it during the"
+	cont "METEOR's fall."
 	done
 
 SageEdmondSeenText:
@@ -61,18 +65,15 @@ SageEdmondSeenText:
 	done
 
 SageEdmondBeatenText:
-	text "Oh, I'm weak!"
+	text "All we are is"
+	line "dust in the wind…"
 	done
 
 SageEdmondAfterBattleText:
-	text "I tried to copy"
-	line "BELLSPROUT's"
-
-	para "gentle movements"
-	line "for battle…"
-
-	para "But I didn't train"
-	line "well enough."
+	text "Learn to be more"
+	line "flexible and life"
+	cont "will seem much"
+	cont "less rigid…"
 	done
 
 SproutTower2FStatueText:

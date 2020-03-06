@@ -21,17 +21,14 @@ VioletMartCooltrainerMScript:
 	jumptextfaceplayer VioletMartCooltrainerMText
 
 VioletMartGrannyText:
-	text "When you first"
-	line "catch a #MON,"
-	cont "it may be weak."
-
-	para "But it will even-"
-	line "tually grow to be"
-	cont "strong."
-
-	para "It's important to"
+	text "It's important to"
 	line "treat #MON with"
 	cont "love."
+	
+	para "Giving them the"
+	line "proper medicine"
+	cont "and care is a"
+	cont "crucial part."
 	done
 
 VioletMartCooltrainerMText:
@@ -41,9 +38,8 @@ VioletMartCooltrainerMText:
 
 	para "But they don't"
 	line "appear to know how"
-
-	para "to use manmade"
-	line "items."
+	cont "to use manmade"
+	cont "items."
 	done
 
 VioletMart_MapEvents:

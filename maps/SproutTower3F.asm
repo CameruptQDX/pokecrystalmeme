@@ -161,41 +161,45 @@ SproutTowerElderLecturesRivalText:
 
 	para "But let me say"
 	line "this: You should"
-
-	para "treat your"
-	line "#MON better."
-
-	para "The way you battle"
-	line "is far too harsh."
-
-	para "#MON are not"
-	line "tools of war…"
+	cont "set aside your"
+	cont "presumptuous"
+	cont "notions about your"
+	cont "#MON!"
+	
+	para "Your pride will be"
+	line "the downfall of"
+	cont "your career as a"
+	cont "trainer!"
 	done
 
 SproutTowerRivalOnlyCareAboutStrongText:
 	text "…"
-	line "…Humph!"
+	line "Ohohoho!"
 
 	para "He claims to be"
 	line "the ELDER but"
-	cont "he's weak."
+	cont "he didn't even"
+	cont "recognize me as"
+	cont "the trainer of a"
+	cont "#MON of myth!"
 
-	para "It stands to"
-	line "reason."
-
-	para "I'd never lose to"
-	line "fools who babble"
-
-	para "about being nice"
-	line "to #MON."
-
-	para "I only care about"
-	line "strong #MON"
-	cont "that can win."
-
-	para "I really couldn't"
-	line "care less about"
-	cont "weak #MON."
+	para "Calling me out"
+	line "on pride?"
+	
+	para "What an excellent"
+	line "joke! Ohohoho!"
+	
+	para "When I'm the"
+	line "strongest in the"
+	cont "world, he'll"
+	cont "see exactly how"
+	cont "justified my so"
+	cont "called pride"
+	cont "truly is!"
+	
+	para "What am I doing"
+	line "talking to you"
+	cont "anyway…"
 	done
 
 SproutTowerRivalUsedEscapeRopeText:
@@ -212,18 +216,16 @@ SageLiSeenText:
 
 	para "People and #MON"
 	line "test their bonds"
-
-	para "to build a bright"
-	line "future together."
+	cont "to build a bright"
+	cont "future together."
 
 	para "I am the final"
 	line "test."
 
 	para "Allow me to check"
 	line "the ties between"
-
-	para "your #MON and"
-	line "you!"
+	cont "your #MON and"
+	cont "you!"
 	done
 
 SageLiBeatenText:
@@ -233,9 +235,8 @@ SageLiBeatenText:
 SageLiTakeThisFlashText:
 	text "You and your #-"
 	line "MON should have"
-
-	para "no problem using"
-	line "this move."
+	cont "no problem using"
+	cont "this move."
 
 	para "Take this FLASH"
 	line "HM."
@@ -248,9 +249,8 @@ SageLiFlashExplanationText:
 
 	para "But to use it out"
 	line "of battle, you"
-
-	para "need the BADGE"
-	line "from VIOLET's GYM."
+	cont "need the BADGE"
+	cont "from VIOLET's GYM."
 	done
 
 SageLiAfterBattleText:
@@ -271,15 +271,16 @@ SageJinBeatenText:
 	done
 
 SageJinAfterBattleText:
-	text "As #MON grow"
-	line "stronger, so does"
-	cont "the trainer."
-
-	para "No, wait. As the"
-	line "trainer grows"
-
-	para "stronger, so do"
-	line "the #MON."
+	text "#MON and"
+	line "trainers grow"
+	cont "stronger together."
+	
+	para "Perhaps over your"
+	line "journey you'll"
+	cont "find some enli-"
+	cont "ghtenment of your"
+	cont "own. Or at least"
+	cont "lighten up a bit."
 	done
 
 SageTroySeenText:
@@ -312,6 +313,13 @@ SageNealBeatenText:
 SageNealAfterBattleText:
 	text "Let there be light"
 	line "on your journey."
+	
+	para "If you ever wish,"
+	line "please imagine my"
+	cont "shimmeringly bald"
+	cont "head to guide"
+	cont "you out of the"
+	cont "darkness!"
 	done
 
 SproutTower3FPaintingText:

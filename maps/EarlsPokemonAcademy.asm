@@ -233,9 +233,10 @@ EarlsPokemonAcademyYoungster1Text:
 	line "of the teacher's"
 	cont "lecture."
 
-	para "I'd better copy"
-	line "the stuff on the"
-	cont "blackboard too."
+	para "I hope nobody"
+	line "tries to cheat"
+	cont "off my hard work"
+	cont "on the next test!"
 	done
 
 EarlsPokemonAcademyGameboyKid1Text:
@@ -253,11 +254,10 @@ EarlsPokemonAcademyGameboyKid2Text:
 EarlsPokemonAcademyYoungster2Text:
 	text "A #MON holding"
 	line "a BERRY will heal"
-	cont "itself in battle."
-
-	para "Many other items"
-	line "can be held by"
-	cont "#MON…"
+	cont "itself in battle"
+	cont "without using up"
+	cont "a turn, but using"
+	cont "a POTION will."
 
 	para "It sure is tough"
 	line "taking notes…"

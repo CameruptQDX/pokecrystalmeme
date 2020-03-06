@@ -161,7 +161,7 @@ MrPokemonsHouse_OakWalksToPlayer:
 	step DOWN
 	step LEFT
 	step LEFT
-	step_resume
+	step_end
 
 MrPokemonsHouse_OakExits:
 	step DOWN
@@ -179,9 +179,20 @@ MrPokemonIntroText1:
 	done
 
 MrPokemonIntroText2:
+	text "So this is the"
+	line "new #MON"
+	cont "PROF. ELM had"
+	cont "described."
+	
+	para "My, how intri-"
+	line "guing!"
+
+	para "As for my"
+	line "discovery…"
+	
 	text "This is what I"
 	line "want PROF.ELM to"
-	cont "examine."
+	cont "examine!"
 	done
 
 MrPokemonsHouse_GotEggText:
@@ -203,8 +214,9 @@ MrPokemonIntroText3:
 
 	para "ELM seemed more"
 	line "concerned with"
-	cont "some other recent"
-	cont "discovery though…"
+	cont "his studies on"
+	cont "those #MON,"
+	cont "however."
 	done
 
 MrPokemonIntroText4:
@@ -316,9 +328,9 @@ MrPokemonsHouse_OakText2:
 	done
 
 MrPokemonText_GimmeTheScale:
-	text "Hm? That SCALE!"
+	text "Hm? That INK!"
 	line "What's that?"
-	cont "A red GYARADOS?"
+	cont "A black OCTILLERY?"
 
 	para "That's rare! "
 	line "I, I want it…"
