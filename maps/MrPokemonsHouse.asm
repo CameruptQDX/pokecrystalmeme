@@ -190,7 +190,7 @@ MrPokemonIntroText2:
 	para "As for my"
 	line "discovery…"
 	
-	text "This is what I"
+	para "This is what I"
 	line "want PROF.ELM to"
 	cont "examine!"
 	done

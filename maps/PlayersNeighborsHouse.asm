@@ -48,7 +48,7 @@ PlayersNeighborsDaughterText:
 	text "PROF.ELM started"
 	line "to study #MON"
 	cont "distribution"
-	cont "after the meteor."
+	cont "after the METEOR."
 
 	para "That's how he"
 	line "found those new"
