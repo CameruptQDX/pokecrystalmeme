@@ -1,4 +1,5 @@
-	frame 4, 05
-	frame 0, 05
-	frame 4, 05
+	setrepeat 2
+	frame 6, 05
+	frame 7, 05
+	dorepeat 1
 	endanim

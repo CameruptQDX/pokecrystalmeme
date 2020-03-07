@@ -143,16 +143,6 @@ AzaleaTownSlowpokeScript:
 	closetext
 	end
 
-UnusedWoosterScript:
-; unused
-	faceplayer
-	opentext
-	writetext WoosterText
-	cry QUAGSIRE
-	waitbutton
-	closetext
-	end
-
 AzaleaTownCelebiScene:
 	applymovement PLAYER, AzaleaTownPlayerLeavesKurtsHouseMovement
 	opentext
@@ -249,7 +239,7 @@ AzaleaTownRivalBeforeText:
 	
 	para "Still straggling"
 	line "along in my"
-	cont "shadow are you?"
+	cont "shadow huh?"
 	
 	para "Well, maybe I"
 	line "should give you"
@@ -276,9 +266,8 @@ AzaleaTownRivalAfterText:
 	line "have gotten lucky"
 	cont "this time but"
 	cont "I'll still prove"
-	cont "to you the"
-	cont "superiority of"
-	cont "my CLAN someday!"
+	cont "my superiority"
+	cont "to you someday!"
 	
 	para "By the way…"
 	
@@ -394,10 +383,6 @@ AzaleaTownSlowpokeText1:
 
 AzaleaTownSlowpokeText2:
 	text "<……> <……>Yawn?"
-	done
-
-WoosterText:
-	text "WOOSTER: Gugyoo…"
 	done
 
 AzaleaTownKurtText1:

@@ -743,8 +743,7 @@ CamperRolandAfterText:
 
 PicnickerLiz1SeenText:
 	text "Alright so its"
-	line "tomorrow at"
-	cont "fou-"
+	line "tomorrow at fou-"
 
 	para "Pardon? Battle?"
 	line "I'm on the phone."
