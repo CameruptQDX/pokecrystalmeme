@@ -352,12 +352,12 @@ AzaleaTownGrampsTextAfter:
 	done
 
 AzaleaTownTeacherText:
-	text "Did you come to"
-	line "get KURT to make"
-	cont "some BALLS?"
-
-	para "A lot of people do"
-	line "just that."
+	text "If water's what"
+	line "you're looking for"
+	cont "after crossing the"
+	cont "desert, maybe go"
+	cont "dunk your head"
+	cont "in SLOWPOKE WELL."
 	done
 
 AzaleaTownYoungsterText:
@@ -368,11 +368,11 @@ AzaleaTownYoungsterText:
 	para "It's a very dense"
 	line "place, with trees"
 	cont "that block the"
-	cont "path through it."
+	cont "sunlight out."
 
-	para "The CHARCOAL MAN's"
-	line "#MON can CUT"
-	cont "down trees though."
+	para "You might need to"
+	line "CUT your way"
+	cont "through it!"
 	done
 
 AzaleaTownSlowpokeText1:
@@ -386,7 +386,7 @@ AzaleaTownSlowpokeText2:
 	done
 
 AzaleaTownKurtText1:
-	text "ILEX FOREST is"
+	text "ILEX JUNGLE is"
 	line "restless!"
 
 	para "What is going on?"
@@ -399,16 +399,14 @@ AzaleaTownKurtText2:
 
 AzaleaTownKurtText3:
 	text "Could you go see"
-	line "why ILEX FOREST is"
+	line "why ILEX JUNGLE is"
 	cont "so restless?"
 	done
 
 AzaleaTownSignText:
 	text "AZALEA TOWN"
-	line "Where People and"
-
-	para "#MON Live in"
-	line "Happy Harmony"
+	line "The shining"
+	cont "oasis gem."
 	done
 
 KurtsHouseSignText:
@@ -420,9 +418,9 @@ AzaleaGymSignText:
 	line "#MON GYM"
 	cont "LEADER: BUGSY"
 
-	para "The Walking"
-	line "Bug #MON"
-	cont "Encyclopedia"
+	para "The trainer that"
+	line "braves jungles"
+	cont "and deserts alike!"
 	done
 
 SlowpokeWellSignText:

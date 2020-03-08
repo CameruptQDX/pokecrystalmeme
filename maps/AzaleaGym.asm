@@ -149,20 +149,21 @@ AzaleaGymStatue:
 
 BugsyText_INeverLose:
 	text "I'm BUGSY!"
-	line "I never lose when"
-
-	para "it comes to bug"
-	line "#MON."
-
-	para "My research is"
-	line "going to make me"
-
-	para "the authority on"
-	line "bug #MON!"
-
-	para "Let me demonstrate"
-	line "what I've learned"
-	cont "from my studies."
+	line "On my research in"
+	cont "both the harsh"
+	cont "desert and in the"
+	cont "stiflingly damp"
+	cont "jungle, I learned"
+	cont "to appreciate all"
+	cont "kinds of #MON"
+	
+	para "Especially those"
+	line "that can adapt"
+	cont "and thrive under"
+	cont "extremes!"
+	
+	para "So, can you take"
+	line "the heat?"
 	done
 
 BugsyText_ResearchIncomplete:
@@ -189,15 +190,13 @@ BugsyText_HiveBadgeSpeech:
 
 	para "If you have it,"
 	line "#MON up to L30"
-
-	para "will obey you,"
-	line "even traded ones."
+	cont "will obey you,"
+	cont "even traded ones."
 
 	para "#MON that know"
 	line "CUT will be able"
-
-	para "to use it outside"
-	line "of battle too."
+	cont "to use it outside"
+	cont "of battle too."
 
 	para "Here, I also want"
 	line "you to have this."
@@ -220,22 +219,19 @@ BugsyText_FuryCutterSpeech:
 	done
 
 BugsyText_BugMonsAreDeep:
-	text "Bug #MON are"
-	line "deep. There are"
-
-	para "many mysteries to"
-	line "be explored."
-
-	para "Study your favor-"
-	line "ites thoroughly."
+	text "#MON are a"
+	line "part of nature."
+	
+	para "Pay close attenti-"
+	line "on to nature, and"
+	cont "you'll learn more"
+	cont "than you'd expect."
 	done
 
 BugCatcherBennySeenText:
-	text "Bug #MON evolve"
-	line "young. So they get"
-
-	para "stronger that much"
-	line "faster."
+	text "I'm an early"
+	line "bloomer just like"
+	cont "my BUG #MON!"
 	done
 
 BugCatcherBennyBeatenText:
@@ -244,17 +240,19 @@ BugCatcherBennyBeatenText:
 	done
 
 BugCatcherBennyAfterBattleText:
-	text "#MON become"
-	line "stronger if they"
-	cont "evolve. Really!"
+	text "I am an early"
+	line "bloomer! I just"
+	cont "haven't bloomed"
+	cont "yet!"
 	done
 
 BugCatcherAlSeenText:
-	text "Bug #MON are"
-	line "cool and tough!"
-
-	para "I'll prove it to"
-	line "you!"
+	text "BUG #MON are"
+	line "what superheroes"
+	cont "are based on!"
+	
+	para "I'll show you"
+	line "exactly why!"
 	done
 
 BugCatcherAlBeatenText:
@@ -265,37 +263,38 @@ BugCatcherAlBeatenText:
 BugCatcherAlAfterBattleText:
 	text "They're so cool,"
 	line "but most girls"
+	cont "don't like bug"
+	cont "#MON."
 
-	para "don't like bug"
-	line "#MON."
-
-	para "I don't know why…"
+	para "But girls don't"
+	line "like sentai either"
+	cont "so what do they"
+	cont "know!"
 	done
 
 BugCatcherJoshSeenText:
-	text "You saved all the"
-	line "SLOWPOKE? Whew,"
-	cont "you're mighty!"
-
-	para "But my grown-up"
-	line "#MON are pretty"
-	cont "tough too!"
+	text "I'm a bug man"
+	line "with a bug plan!"
 	done
 
 BugCatcherJoshBeatenText:
-	text "Urrgggh!"
+	text "Uhhhhhh."
 	done
 
 BugCatcherJoshAfterBattleText:
-	text "I guess I should"
-	line "teach them better"
-	cont "moves…"
+	text "My plan was that"
+	line "you wouldn't"
+	cont "think to exploit"
+	cont "any of BUG's"
+	cont "weaknesses."
+	
+	para "Yeah it doesn't"
+	line "work very often."
 	done
 
 TwinsAmyandmay1SeenText:
-	text "AMY: Hi! Are you"
-	line "challenging the"
-	cont "LEADER? No way!"
+	text "AMY: Welcome to"
+	line "our sandbox!"
 	done
 
 TwinsAmyandmay1BeatenText:
@@ -304,14 +303,15 @@ TwinsAmyandmay1BeatenText:
 	done
 
 TwinsAmyandmay1AfterBattleText:
-	text "AMY: You're"
-	line "really strong!"
+	text "AMY: The whole"
+	line "town is our"
+	cont "sandbox!"
 	done
 
 TwinsAmyandmay2SeenText:
-	text "MAY: You want to"
-	line "see the LEADER?"
-	cont "We come first!"
+	text "MAY: I'm going to"
+	line "build a sand"
+	cont "castle!"
 	done
 
 TwinsAmyandmay2BeatenText:
@@ -320,43 +320,46 @@ TwinsAmyandmay2BeatenText:
 	done
 
 TwinsAmyandmay2AfterBattleText:
-	text "MAY: Our bug #-"
-	line "MON lost! Oh, what"
-	cont "a shame."
+	text "MAY: I'm going to"
+	line "build a sand"
+	cont "castle!"
+	
+	para "…and bury you"
+	line "underneath it."
 	done
 
 AzaleaGymGuyText:
-	text "Yo, challenger!"
-
-	para "BUGSY's young, but"
-	line "his knowledge of"
-
-	para "bug #MON is for"
-	line "real."
-
-	para "It's going to be"
-	line "tough without my"
-	cont "advice."
-
-	para "Let's see… Bug"
-	line "#MON don't like"
-	cont "fire."
-
-	para "Flying-type moves"
-	line "are super-effec-"
-	cont "tive too."
+	text "OI, runt!"
+	
+	para "Listen up good!"
+	
+	para "BUGSY hangs around"
+	line "in the desert,"
+	cont "where he caught"
+	cont "a bunch of GROUND"
+	cont "#MON!"
+	
+	para "He also catches"
+	line "BUG #MON in"
+	cont "the jungle!"
+	
+	para "Bring WATER for"
+	line "the GROUND, but"
+	cont "not GRASS or the"
+	cont "BUGs will shred"
+	cont "em' to pieces!"
+	
+	para "You even hearin'"
+	line "me? This is"
+	cont "good info!"
 	done
 
 AzaleaGymGuyWinText:
-	text "Well done! That"
-	line "was a great clash"
-
-	para "of talented young"
-	line "trainers."
-
-	para "With people like"
-	line "you, the future of"
-	cont "#MON is bright!"
+	text "Heh so ye' was"
+	line "listenin after"
+	cont "all aye?"
+	
+	cont "Good on ye!"
 	done
 
 AzaleaGym_MapEvents:

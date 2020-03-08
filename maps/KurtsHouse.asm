@@ -497,9 +497,8 @@ UnknownText_0x18e615:
 
 	para "I would be honored"
 	line "to make BALLS for"
-
-	para "a trainer like"
-	line "you."
+	cont "a trainer like"
+	cont "you."
 
 	para "This is all I have"
 	line "now, but take it."
@@ -560,9 +559,8 @@ UnknownText_0x18e82a:
 UnknownText_0x18e863:
 	text "KURT: Now that my"
 	line "granddaughter is"
-
-	para "helping me, I can"
-	line "work much faster."
+	cont "helping me, I can"
+	cont "work much faster."
 	done
 
 UnknownText_0x18e8ab:
@@ -573,9 +571,8 @@ UnknownText_0x18e8ab:
 
 	para "It looks a lot"
 	line "like a # BALL,"
-
-	para "but it appears to"
-	line "be something else."
+	cont "but it appears to"
+	cont "be something else."
 
 	para "Let me check it"
 	line "for you."

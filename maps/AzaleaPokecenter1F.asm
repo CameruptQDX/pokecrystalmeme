@@ -26,53 +26,38 @@ AzaleaPokecenter1FPokefanFScript:
 	jumptextfaceplayer AzaleaPokecenter1FPokefanFText
 
 AzaleaPokecenter1FGentlemanText:
-	text "Do your #MON"
-	line "know HM moves?"
-
-	para "Those moves can"
-	line "be used even if"
-
-	para "your #MON has"
-	line "fainted."
-	done
-
-AzaleaPokecenter1FUnusedText:
-; unreferenced
-	text "This BILL guy"
-	line "created the system"
-
-	para "for storing"
-	line "#MON in a PC."
-
-	para "BILL's PC can"
-	line "store up to 20"
-	cont "#MON per BOX."
+	text "#MON can use"
+	line "HM moves even when"
+	cont "faitned, but isn't"
+	cont "that rather cruel?"
 	done
 
 AzaleaPokecenter1FFishingGuruText:
 	text "BILL's PC can"
 	line "store up to 20"
 	cont "#MON per BOX."
+	
+	para "Forget to switch"
+	line "your boxes and you"
+	cont "could be out of"
+	cont "luck next time"
+	cont "you go to catch"
+	cont "a #MON!"
 	done
 
 AzaleaPokecenter1FPokefanFText:
-	text "Do you know about"
-	line "APRICORNS?"
-
-	para "Crack one open,"
-	line "hollow it out and"
-
-	para "fit it with a"
-	line "special device."
-
-	para "Then you can catch"
-	line "#MON with it."
-
-	para "Before # BALLS"
+	text "Before # BALLS"
 	line "were invented,"
-
-	para "everyone used"
-	line "APRICORNS."
+	cont "everyone used"
+	cont "APRICORNS."
+	
+	para "How did they"
+	line "know how to fit"
+	cont "them such that"
+	cont "they would work"
+	cont "as a # BALL"
+	cont "before # BALLs"
+	cont "were invented?"
 	done
 
 AzaleaPokecenter1F_MapEvents:

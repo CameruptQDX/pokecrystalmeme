@@ -21,26 +21,23 @@ AzaleaMartBugCatcherScript:
 	jumptextfaceplayer AzaleaMartBugCatcherText
 
 AzaleaMartCooltrainerMText:
-	text "There's no GREAT"
-	line "BALL here. #"
-
-	para "BALLS will have"
-	line "to do."
-
-	para "I wish KURT would"
-	line "make me some of"
-	cont "his custom BALLS."
+	text "The BALLs you can"
+	line "buy at the store"
+	cont "are fine, but"
+	cont "KURT's balls have"
+	cont "stronger catch"
+	cont "rates under some"
+	cont "conditions."
 	done
 
 AzaleaMartBugCatcherText:
-	text "A GREAT BALL is"
-	line "better for catch-"
-	cont "ing #MON than a"
-	cont "# BALL."
-
-	para "But KURT's might"
-	line "be better some-"
-	cont "times."
+	text "KURT only lends"
+	line "his services to"
+	cont "special trainers,"
+	cont "so a lowly BUG"
+	cont "CATCHER like me"
+	cont "is stuck with"
+	cont "store-brand BALLs."
 	done
 
 AzaleaMart_MapEvents:

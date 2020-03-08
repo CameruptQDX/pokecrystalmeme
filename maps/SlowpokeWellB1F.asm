@@ -160,9 +160,8 @@ SlowpokeWellB1FKurtText:
 
 	para "Rats! If I were"
 	line "fit, my #MON"
-
-	para "would've punished"
-	line "them…"
+	cont "would've punished"
+	cont "them…"
 
 	para "Ah, it can't be"
 	line "helped."
@@ -327,9 +326,8 @@ SlowpokeWellB1FSlowpokeMailText:
 
 	para "Be good and look"
 	line "after the house"
-
-	para "with Grandpa and"
-	line "SLOWPOKE."
+	cont "with Grandpa and"
+	cont "SLOWPOKE."
 
 	para "Love, Dad"
 	done

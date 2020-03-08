@@ -741,11 +741,10 @@ IlexForestApprenticeIntroText:
 	line "is going to be"
 	cont "steaming…"
 
-	para "The FARFETCH'D"
+	para "The SANDSLASH"
 	line "that CUTS trees"
-
-	para "for charcoal took"
-	line "off on me."
+	cont "for charcoal took"
+	cont "off on me."
 
 	para "I can't go looking"
 	line "for it here in the"
@@ -771,20 +770,19 @@ Text_ItsTheMissingPokemon:
 	done
 
 Text_Kwaaaa:
-	text "FARFETCH'D: Kwaa!"
+	text "SANDSLASH: Keee!"
 	done
 
 Text_CharcoalMasterIntro:
-	text "Ah! My FARFETCH'D!"
+	text "Ah! My SANDSLASH!"
 
 	para "You found it for"
 	line "us, kid?"
 
 	para "Without it, we"
 	line "wouldn't be able"
-
-	para "to CUT trees for"
-	line "charcoal."
+	cont "to CUT trees for"
+	cont "charcoal."
 
 	para "Thanks, kid!"
 
@@ -797,24 +795,22 @@ Text_CharcoalMasterIntro:
 
 Text_CharcoalMasterOutro:
 	text "That's the CUT HM."
-	line "Teach that to a"
-
-	para "#MON to clear"
-	line "small trees."
+	
+	para "Teach that to a"
+	line "#MON to clear"
+	cont "small trees."
 
 	para "Of course, you"
 	line "have to have the"
-
-	para "GYM BADGE from"
-	line "AZALEA to use it."
+	cont "GYM BADGE from"
+	cont "AZALEA to use it."
 	done
 
 Text_CharcoalMasterTalkAfter:
 	text "Do you want to"
 	line "apprentice as a"
-
-	para "charcoal maker"
-	line "with me?"
+	cont "charcoal maker"
+	cont "with me?"
 
 	para "You'll be first-"
 	line "rate in ten years!"
@@ -826,8 +822,13 @@ Text_HeadbuttIntro:
 	para "I'm shaking trees"
 	line "using HEADBUTT."
 
-	para "It's fun. Here,"
-	line "you try it too!"
+	para "Concussions?"
+	
+	para "Now where's the"
+	line "fun in worrying"
+	cont "about those?"
+	
+	para "Here, you try!"
 	done
 
 Text_HeadbuttOutro:
@@ -835,6 +836,11 @@ Text_HeadbuttOutro:
 	line "HEADBUTT. Some-"
 	cont "times, sleeping"
 	cont "#MON fall out."
+	
+	para "Personally I"
+	line "have no problem"
+	cont "butting into"
+	cont "their buisness!"
 	done
 
 Text_IlexForestLass:
@@ -876,9 +882,8 @@ Text_ShrineCelebiEvent:
 
 	para "It's a hole."
 	line "It looks like the"
-
-	para "GS BALL would fit"
-	line "inside it."
+	cont "GS BALL would fit"
+	cont "inside it."
 
 	para "Want to put the GS"
 	line "BALL here?"
@@ -910,29 +915,21 @@ Text_KurtCaughtCelebi:
 	done
 
 BugCatcherWayneSeenText:
-	text "Don't sneak up on"
-	line "me like that!"
-
-	para "You frightened a"
-	line "#MON away!"
+	text "Take this battle"
+	line "easy, I'm still in"
+	cont "recovery!"
 	done
 
 BugCatcherWayneBeatenText:
-	text "I hadn't seen that"
-	line "#MON before…"
+	text "Yowch!"
 	done
 
 BugCatcherWayneAfterBattleText:
-	text "A #MON I've"
-	line "never seen before"
-
-	para "fell out of the"
-	line "tree when I used"
-	cont "HEADBUTT."
-
-	para "I ought to use"
-	line "HEADBUTT in other"
-	cont "places too."
+	text "Recovering from"
+	line "what? Oh, I got"
+	cont "bit in the rear"
+	cont "by a wild"
+	cont "TOTODILE! Ow!"
 	done
 
 IlexJungleVendingMachine:
@@ -1052,7 +1049,7 @@ IlexForest_MapEvents:
 	bg_event 19, 47, BGEVENT_UP, IlexJungleVendingMachine
 
 	db 11 ; object events
-	object_event 14, 31, SPRITE_BIRD, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, IlexForestFarfetchdScript, EVENT_ILEX_FOREST_FARFETCHD
+	object_event 14, 31, SPRITE_MONSTER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, IlexForestFarfetchdScript, EVENT_ILEX_FOREST_FARFETCHD
 	object_event  7, 28, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, IlexForestCharcoalApprenticeScript, EVENT_ILEX_FOREST_APPRENTICE
 	object_event  5, 28, SPRITE_BLACK_BELT, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, IlexForestCharcoalMasterScript, EVENT_ILEX_FOREST_CHARCOAL_MASTER
 	object_event 15, 14, SPRITE_ROCKER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, IlexForestHeadbuttGuyScript, -1

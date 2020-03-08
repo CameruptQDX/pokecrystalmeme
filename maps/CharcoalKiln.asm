@@ -64,7 +64,7 @@ CharcoalKilnFarfetchd:
 	faceplayer
 	opentext
 	writetext FarfetchdText
-	cry MISSINGNO ; farfetch'd culled
+	cry SANDSLASH ;it's sandslash now :^))
 	waitbutton
 	closetext
 	end
@@ -84,9 +84,9 @@ CharcoalKilnBossText1:
 	line "tector may be"
 	cont "angry with us…"
 
-	para "It may be a bad"
-	line "omen. We should"
-	cont "stay in."
+	para "Is this the final"
+	line "punishment for"
+	cont "AZALEA TOWN?"
 	done
 
 CharcoalKilnBossText2:
@@ -95,30 +95,33 @@ CharcoalKilnBossText2:
 
 	para "But my APPRENTICE"
 	line "hasn't come back"
-	cont "from ILEX FOREST."
+	cont "from ILEX JUNGLE."
 
 	para "Where in the world"
 	line "is that lazy guy?"
 	done
 
 CharcoalKilnBossText3:
-	text "You chased off"
-	line "TEAM ROCKET and"
-
-	para "went to ILEX"
-	line "FOREST alone?"
-
-	para "That takes guts!"
-	line "I like that. Come"
-	cont "train with us."
+	text "So the SLOWPOKE"
+	line "disappeared becau-"
+	cont "se of a bunch of"
+	cont "political goons?"
+	
+	para "Well whatever"
+	line "camp they came"
+	cont "from isn't getting"
+	cont "my vote next"
+	cont "election!"
 	done
 
 CharcoalKilnApprenticeText1:
 	text "Where have all the"
 	line "SLOWPOKE gone?"
 
-	para "Are they out play-"
-	line "ing somewhere?"
+	para "Man we can't deal"
+	line "with any less"
+	cont "rain here, it's"
+	cont "already scarce!"
 	done
 
 CharcoalKilnApprenticeText2:
@@ -136,14 +139,14 @@ CharcoalKilnApprenticeText2:
 CharcoalKilnApprenticeText3:
 	text "The SLOWPOKE came"
 	line "back, and you even"
-	cont "found FARFETCH'D."
+	cont "found SANDSLASH."
 
 	para "You're the cool-"
 	line "est, man!"
 	done
 
 FarfetchdText:
-	text "FARFETCH'D: Kwaa!"
+	text "SANDSLASH: Keee!"
 	done
 
 CharcoalKiln_MapEvents:
@@ -163,4 +166,4 @@ CharcoalKiln_MapEvents:
 	db 3 ; object events
 	object_event  2,  3, SPRITE_BLACK_BELT, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, CharcoalKilnBoss, EVENT_CHARCOAL_KILN_BOSS
 	object_event  5,  3, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, CharcoalKilnApprentice, EVENT_CHARCOAL_KILN_APPRENTICE
-	object_event  5,  6, SPRITE_MOLTRES, SPRITEMOVEDATA_POKEMON, 2, 2, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, CharcoalKilnFarfetchd, EVENT_CHARCOAL_KILN_FARFETCH_D
+	object_event  5,  6, SPRITE_MONSTER, SPRITEMOVEDATA_POKEMON, 2, 2, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, CharcoalKilnFarfetchd, EVENT_CHARCOAL_KILN_FARFETCH_D

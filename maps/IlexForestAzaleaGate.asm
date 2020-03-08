@@ -24,8 +24,9 @@ IlexForestAzaleaGateGrannyText:
 	line "watched over by"
 	cont "its protector."
 
-	para "Stay out of"
-	line "mischief!"
+	para "If you trip on"
+	line "a vine, you'll"
+	cont "know why!"
 	done
 
 IlexForestAzaleaGate_MapEvents:

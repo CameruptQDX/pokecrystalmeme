@@ -90,33 +90,37 @@ Route34IlexForestGateTeacherText:
 	text "Oh, honey. You're"
 	line "making a #DEX?"
 
-	para "It must be hard if"
-	line "#MON won't"
-
-	para "appear. Try using"
-	line "this TM."
+	para "More #MON live"
+	line "in the wild than"
+	cont "most people know."
+	
+	para "If you want to"
+	line "find them all"
+	cont "this might make"
+	cont "it a bit easier."
 	done
 
 Route34IlexForestGateTeacher_GotSweetScent:
 	text "It's SWEET SCENT."
 
 	para "Use it wherever"
-	line "#MON appear."
-
-	para "#MON will be"
-	line "enticed by it."
+	line "#MON appear,"
+	cont "and they'll come"
+	cont "running straight"
+	cont "into your"
+	cont "# BALLs!"
 	done
 
 Route34IlexForestGateTeacher_ForestIsRestless:
 	text "Something's wrong"
-	line "in ILEX FOREST…"
+	line "in ILEX JUNGLE…"
 
 	para "You should stay"
 	line "away right now."
 	done
 
 Route34IlexForestGateButterfreeText:
-	text "BUTTERFREE: Freeh!"
+	text "VENOMOTH: Voool!"
 	done
 
 Route34IlexForestGateLassText:
@@ -128,9 +132,11 @@ Route34IlexForestGateLassText:
 	line "the FOREST from"
 	cont "across time."
 
-	para "I think that it"
-	line "must be a grass-"
-	cont "type #MON."
+	para "I wonder what"
+	line "would happen to"
+	cont "the forest if"
+	cont "someone actually"
+	cont "caught it?"
 	done
 
 Route34IlexForestGate_MapEvents:
