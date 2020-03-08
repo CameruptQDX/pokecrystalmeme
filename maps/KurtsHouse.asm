@@ -602,9 +602,8 @@ UnknownText_0x18e95c:
 KurtsGranddaughterSlowpokeGoneText:
 	text "The SLOWPOKE are"
 	line "gone… Were they"
-
-	para "taken away by bad"
-	line "people?"
+	cont "taken away by bad"
+	cont "people?"
 	done
 
 KurtsGranddaughterLonelyText:

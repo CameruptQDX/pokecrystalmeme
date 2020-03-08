@@ -21,10 +21,10 @@ AzaleaMartBugCatcherScript:
 	jumptextfaceplayer AzaleaMartBugCatcherText
 
 AzaleaMartCooltrainerMText:
-	text "The BALLs you can"
+	text "The BALLS you can"
 	line "buy at the store"
 	cont "are fine, but"
-	cont "KURT's balls have"
+	cont "KURT's BALLS have"
 	cont "stronger catch"
 	cont "rates under some"
 	cont "conditions."
@@ -37,7 +37,7 @@ AzaleaMartBugCatcherText:
 	cont "so a lowly BUG"
 	cont "CATCHER like me"
 	cont "is stuck with"
-	cont "store-brand BALLs."
+	cont "store-brand BALLS."
 	done
 
 AzaleaMart_MapEvents:

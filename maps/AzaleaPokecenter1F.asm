@@ -28,7 +28,7 @@ AzaleaPokecenter1FPokefanFScript:
 AzaleaPokecenter1FGentlemanText:
 	text "#MON can use"
 	line "HM moves even when"
-	cont "faitned, but isn't"
+	cont "fainted, but isn't"
 	cont "that rather cruel?"
 	done
 
@@ -52,12 +52,11 @@ AzaleaPokecenter1FPokefanFText:
 	cont "APRICORNS."
 	
 	para "How did they"
-	line "know how to fit"
-	cont "them such that"
-	cont "they would work"
-	cont "as a # BALL"
-	cont "before # BALLs"
-	cont "were invented?"
+	line "know what to"
+	cont "do with them"
+	cont "if # BALLS"
+	cont "weren't inve-"
+	cont "nted yet though?"
 	done
 
 AzaleaPokecenter1F_MapEvents:
