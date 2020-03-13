@@ -49,13 +49,13 @@ SECTION "bank4", ROMX
 
 INCLUDE "engine/items/pack.asm"
 INCLUDE "engine/overworld/time.asm"
-INCLUDE "engine/items/tmhm2.asm"
-INCLUDE "engine/menus/naming_screen.asm"
+
+
 INCLUDE "engine/events/misc_scripts.asm"
 INCLUDE "engine/events/heal_machine_anim.asm"
 INCLUDE "engine/events/whiteout.asm"
 INCLUDE "engine/events/forced_movement.asm"
-INCLUDE "engine/events/itemfinder.asm"
+
 INCLUDE "engine/menus/start_menu.asm"
 INCLUDE "engine/pokemon/mon_menu.asm"
 INCLUDE "engine/overworld/select_menu.asm"
@@ -640,3 +640,10 @@ OurheggieTilemap:
 INCBIN "gfx/yehaw_splashes/ourheggie.tilemap.lz"
 OurheggiePals:
 INCBIN "gfx/yehaw_splashes/ourheggie.gbcpal"
+
+
+SECTION "Moved Bank4 stuff", ROMX
+
+INCLUDE "engine/events/itemfinder.asm"
+INCLUDE "engine/items/tmhm2.asm"
+INCLUDE "engine/menus/naming_screen.asm"
