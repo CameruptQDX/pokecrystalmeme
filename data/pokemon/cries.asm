@@ -119,11 +119,11 @@ PokemonCries::
 	mon_cry CRY_RHYDON,      $000,  $100 ; RHYDON
 	mon_cry CRY_PIDGEOTTO,   $00a,  $140 ; CHANSEY
 	mon_cry CRY_GOLEM,       $000,  $100 ; TANGELA
-	mon_cry CRY_KANGASKHAN,  $000,  $100 ; KANGASKHAN
+	mon_cry CRY_NIDORAN_M,      0,     0 ; ANIMUST
 	mon_cry CRY_CLEFAIRY,    $099,  $090 ; HORSEA
 	mon_cry CRY_CLEFAIRY,    $03c,  $081 ; SEADRA
-	mon_cry CRY_CATERPIE,    $080,  $0c0 ; GOLDEEN
-	mon_cry CRY_CATERPIE,    $010,  $17f ; SEAKING
+	mon_cry CRY_NIDORAN_M,      0,     0 ; MORAYNE
+	mon_cry CRY_NIDORAN_M,      0,     0 ; PYREAP
 	mon_cry CRY_PARAS,       $002,  $0a0 ; STARYU
 	mon_cry CRY_PARAS,       $000,  $100 ; STARMIE
 	mon_cry CRY_KRABBY,      $008,  $0c0 ; MR__MIME

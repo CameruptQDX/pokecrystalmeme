@@ -18,33 +18,33 @@ BugContestantPointers:
 ;   dbw 2nd-place mon, score
 ;   dbw 3rd-place mon, score
 
-BugContestant_BugCatcherDon: ; NEED TO COME BACK AND REPLACE ALL THE MISSINGNO
+BugContestant_BugCatcherDon: ; NEED TO COME BACK AND REPLACE ALL THE JIGGLYPUFF
 	db BUG_CATCHER, DON
-	dbw MISSINGNO,     300
-	dbw MISSINGNO,    285
+	dbw JIGGLYPUFF,     300
+	dbw JIGGLYPUFF,    285
 	dbw EXEGGCUTE,   226
 
 BugContestant_BugCatcherEd:
 	db BUG_CATCHER, ED
-	dbw KANGASKHAN, 286
-	dbw KANGASKHAN, 251
+	dbw CHANSEY, 286
+	dbw CHANSEY, 251
 	dbw EXEGGCUTE,   237
 
 BugContestant_CooltrainerMNick:
 	db COOLTRAINERM, NICK
 	dbw PINSIR,    357
-	dbw KANGASKHAN, 349
+	dbw CHANSEY, 349
 	dbw SCYTHER,     368
 
 BugContestant_PokefanMWilliam:
 	db POKEFANM, WILLIAM
 	dbw SCYTHER,     332
-	dbw KANGASKHAN, 324
+	dbw CHANSEY, 324
 	dbw RHYHORN,    321
 
 BugContestant_BugCatcherBenny:
 	db BUG_CATCHER, BUG_CATCHER_BENNY
-	dbw KANGASKHAN, 318
+	dbw CHANSEY, 318
 	dbw PARAS,     295
 	dbw EXEGGCUTE,   285
 
@@ -52,19 +52,19 @@ BugContestant_CamperBarry:
 	db CAMPER, BARRY
 	dbw SCYTHER,     366
 	dbw RHYHORN,    329
-	dbw MISSINGNO,     314
+	dbw JIGGLYPUFF,     314
 
 BugContestant_PicnickerCindy:
 	db PICNICKER, CINDY
-	dbw KANGASKHAN, 341
-	dbw MISSINGNO,    301
+	dbw CHANSEY, 341
+	dbw JIGGLYPUFF,    301
 	dbw EXEGGCUTE,   264
 
 BugContestant_BugCatcherJosh:
 	db BUG_CATCHER, JOSH
 	dbw PINSIR,    326
-	dbw KANGASKHAN, 292
-	dbw MISSINGNO,    282
+	dbw CHANSEY, 292
+	dbw JIGGLYPUFF,    282
 
 BugContestant_YoungsterSamuel:
 	db YOUNGSTER, SAMUEL
@@ -76,4 +76,4 @@ BugContestant_SchoolboyKipp:
 	db SCHOOLBOY, KIPP
 	dbw RHYHORN,    267
 	dbw PIKACHU,      254
-	dbw MISSINGNO,     259
+	dbw JIGGLYPUFF,     259

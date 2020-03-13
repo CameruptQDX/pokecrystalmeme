@@ -84,8 +84,6 @@ NewPokedexOrder:
 	db POLITOED
 	db MAGIKARP
 	db GYARADOS
-	db GOLDEEN
-	db SEAKING
 	db SLOWPOKE
 	db SLOWBRO
 	db SLOWKING
@@ -207,7 +205,9 @@ NewPokedexOrder:
 	db RAPIDASH
 	db CUBONE
 	db MAROWAK
-	db KANGASKHAN
+	db MORAYNE
+	db PYREAP
+	db ANIMUST
 	db RHYHORN
 	db RHYDON
 	db RHINOX

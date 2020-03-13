@@ -133,11 +133,11 @@
 	const RHYDON     ; 70
 	const CHANSEY    ; 71
 	const TANGELA    ; 72
-	const KANGASKHAN ; 73
+	const ANIMUST ; 73
 	const HORSEA     ; 74
 	const SEADRA     ; 75
-	const GOLDEEN    ; 76
-	const SEAKING    ; 77
+	const MORAYNE    ; 76
+	const PYREAP    ; 77
 	const STARYU     ; 78
 	const STARMIE    ; 79
 	const MR__MIME   ; 7a

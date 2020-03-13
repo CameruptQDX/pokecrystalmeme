@@ -5,6 +5,7 @@ AlphabeticalPokedexOrder:
 	db AIPOM
 	db ALAKAZAM
 	db AMPHAROS
+	db ANIMUST
 	db ARBOK
 	db ARCANINE
 	db ARIADOS
@@ -72,7 +73,6 @@ AlphabeticalPokedexOrder:
 	db GLOOM
 	db GOGO
 	db GOLBAT
-	db GOLDEEN
 	db GOLDUCK
 	db GOLEM
 	db GRANBULL
@@ -99,7 +99,6 @@ AlphabeticalPokedexOrder:
 	db JUMPLUFF
 	db JYNX
 	db KADABRA
-	db KANGASKHAN
 	db KECLEON
 	db KETTELDER
 	db KIEKEADA
@@ -137,6 +136,7 @@ AlphabeticalPokedexOrder:
 	db MISDREAVUS
 	db MISSINGNO
 	db MOCKEREY
+	db MORAYNE
 	db MR__MIME
 	db MUK
 	db MURKROW
@@ -176,6 +176,7 @@ AlphabeticalPokedexOrder:
 	db PRISMAN
 	db PSYDUCK
 	db PUPITAR
+	db PYREAP
 	db QUAGSIRE
 	db QUILAVA
 	db QWILFISH
@@ -194,7 +195,6 @@ AlphabeticalPokedexOrder:
 	db SCIZOR
 	db SCYTHER
 	db SEADRA
-	db SEAKING
 	db SEEL
 	db SENTRET
 	db SHELLDER

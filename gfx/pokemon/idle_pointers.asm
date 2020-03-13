@@ -113,11 +113,11 @@ AnimationIdlePointers:
 	dw RhydonAnimationIdle
 	dw ChanseyAnimationIdle
 	dw TangelaAnimationIdle
-	dw KangaskhanAnimationIdle
+	dw AnimustAnimationIdle
 	dw HorseaAnimationIdle
 	dw SeadraAnimationIdle
-	dw GoldeenAnimationIdle
-	dw SeakingAnimationIdle
+	dw MorayneAnimationIdle
+	dw PyreapAnimationIdle
 	dw StaryuAnimationIdle
 	dw StarmieAnimationIdle
 	dw MrMimeAnimationIdle

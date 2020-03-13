@@ -356,12 +356,12 @@ TangelaEggMoves:
 	db AMNESIA
 	db -1 ; end
 
-KangaskhanEggMoves:
-	db STOMP
+AnimustEggMoves:
+	db CRUNCH
+	db MEGA_PUNCH
+	db COMET_PUNCH
+	db COUNTER
 	db FORESIGHT
-	db FOCUS_ENERGY
-	db SAFEGUARD
-	db DISABLE
 	db -1 ; end
 
 HorseaEggMoves:
@@ -373,12 +373,20 @@ HorseaEggMoves:
 	db DRAGON_RAGE
 	db -1 ; end
 
-GoldeenEggMoves:
-	db PSYBEAM
-	db HAZE
-	db HYDRO_PUMP
+MorayneEggMoves:
+	db DISABLE
+	db ICY_WIND
+	db OCTAZOOKA
+	db CONFUSE_RAY
 	db -1 ; end
 
+PyreapEggMoves:
+	db THRASH
+	db FAINT_ATTACK
+	db BITE
+	db SCREECH
+	db CRUNCH
+	db -1 ; end
 
 MrMimeEggMoves:
 	db FUTURE_SIGHT

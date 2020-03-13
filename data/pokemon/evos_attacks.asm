@@ -1511,9 +1511,6 @@ CuboneEvosAttacks:
 MarowakEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, GROWL
-	db 1, TAIL_WHIP
-	db 1, BONE_CLUB
-	db 1, HEADBUTT
 	db 5, TAIL_WHIP
 	db 9, BONE_CLUB
 	db 13, HEADBUTT
@@ -1590,8 +1587,6 @@ WeezingEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POISON_GAS
 	db 1, TACKLE
-	db 1, SMOG
-	db 1, SELFDESTRUCT
 	db 9, SMOG
 	db 17, SELFDESTRUCT
 	db 21, SLUDGE
@@ -1662,19 +1657,17 @@ TangelaEvosAttacks:
 	db 42, SLAM
 	db 0 ; no more level-up moves
 
-KangaskhanEvosAttacks:
+AnimustEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, COMET_PUNCH
-	db 7, LEER
-	db 13, BITE
-	db 19, TAIL_WHIP
-	db 25, MEGA_PUNCH
-	db 31, RAGE
-	db 34, DIZZY_PUNCH
-	db 37, ENDURE
-	db 43, CRUNCH
-	db 48, OUTRAGE
-	db 49, REVERSAL
+	db 1, SCRATCH
+	db 1, LEER
+	db 12, DIZZY_PUNCH
+	db 19, DISABLE
+	db 27, SLASH
+	db 36, SHADOW_BALL
+	db 41, PAIN_SPLIT
+	db 46, DOUBLE_EDGE
+	db 53, SWORDS_DANCE
 	db 0 ; no more level-up moves
 
 HorseaEvosAttacks:
@@ -1693,9 +1686,6 @@ SeadraEvosAttacks:
 	db EVOLVE_ITEM, DRAGON_SCALE, KINGDRA
 	db 0 ; no more evolutions
 	db 1, BUBBLE
-	db 1, SMOKESCREEN
-	db 1, LEER
-	db 1, WATER_GUN
 	db 8, SMOKESCREEN
 	db 15, LEER
 	db 22, WATER_GUN
@@ -1704,31 +1694,31 @@ SeadraEvosAttacks:
 	db 51, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
-GoldeenEvosAttacks:
-	db EVOLVE_LEVEL, 33, SEAKING
+MorayneEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, PECK
-	db 1, TAIL_WHIP
-	db 10, SUPERSONIC
-	db 15, HORN_ATTACK
-	db 24, FLAIL
-	db 29, FURY_ATTACK
-	db 38, WATERFALL
-	db 43, MEGAHORN
-	db 52, AGILITY
+	db 1, BUBBLE
+	db 1, GROWL
+	db 12, NIGHT_SHADE
+	db 19, SUPERSONIC
+	db 27, BUBBLEBEAM
+	db 36, RAIN_DANCE
+	db 41, RECOVER
+	db 46, SHADOW_BALL
+	db 53, DESTINY_BOND
 	db 0 ; no more level-up moves
 
-SeakingEvosAttacks:
+PyreapEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, PECK
-	db 1, TAIL_WHIP
-	db 10, SUPERSONIC
-	db 15, HORN_ATTACK
-	db 24, FLAIL
-	db 29, FURY_ATTACK
-	db 41, WATERFALL
-	db 49, MEGAHORN
-	db 61, AGILITY
+	db 1, EMBER
+	db 1, LEER
+	db 12, PURSUIT
+	db 19, CONFUSE_RAY
+	db 27, FLAME_WHEEL
+	db 36, LOCK_ON
+	db 36, MEAN_LOOK
+	db 41, FIRE_SPIN
+	db 46, PERISH_SONG
+	db 53, FLAMETHROWER
 	db 0 ; no more level-up moves
 
 StaryuEvosAttacks:

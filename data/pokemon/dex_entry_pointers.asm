@@ -114,11 +114,11 @@ PokedexDataPointerTable:
 	dw RhydonPokedexEntry
 	dw ChanseyPokedexEntry
 	dw TangelaPokedexEntry
-	dw KangaskhanPokedexEntry
+	dw AnimustPokedexEntry
 	dw HorseaPokedexEntry
 	dw SeadraPokedexEntry
-	dw GoldeenPokedexEntry
-	dw SeakingPokedexEntry
+	dw MoraynePokedexEntry
+	dw PyreapPokedexEntry
 	dw StaryuPokedexEntry
 	dw StarmiePokedexEntry
 	dw MrMimePokedexEntry

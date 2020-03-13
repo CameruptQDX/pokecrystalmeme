@@ -115,11 +115,11 @@ EvosAttacksPointers::
 	dw RhydonEvosAttacks
 	dw ChanseyEvosAttacks
 	dw TangelaEvosAttacks
-	dw KangaskhanEvosAttacks
+	dw AnimustEvosAttacks
 	dw HorseaEvosAttacks
 	dw SeadraEvosAttacks
-	dw GoldeenEvosAttacks
-	dw SeakingEvosAttacks
+	dw MorayneEvosAttacks
+	dw PyreapEvosAttacks
 	dw StaryuEvosAttacks
 	dw StarmieEvosAttacks
 	dw MrMimeEvosAttacks

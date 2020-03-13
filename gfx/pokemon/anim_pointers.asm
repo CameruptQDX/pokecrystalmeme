@@ -113,11 +113,11 @@ AnimationPointers:
 	dw RhydonAnimation
 	dw ChanseyAnimation
 	dw TangelaAnimation
-	dw KangaskhanAnimation
+	dw AnimustAnimation
 	dw HorseaAnimation
 	dw SeadraAnimation
-	dw GoldeenAnimation
-	dw SeakingAnimation
+	dw MorayneAnimation
+	dw PyreapAnimation
 	dw StaryuAnimation
 	dw StarmieAnimation
 	dw MrMimeAnimation

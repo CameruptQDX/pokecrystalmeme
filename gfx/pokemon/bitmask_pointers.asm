@@ -113,11 +113,11 @@ BitmasksPointers:
 	dw RhydonBitmasks
 	dw ChanseyBitmasks
 	dw TangelaBitmasks
-	dw KangaskhanBitmasks
+	dw AnimustBitmasks
 	dw HorseaBitmasks
 	dw SeadraBitmasks
-	dw GoldeenBitmasks
-	dw SeakingBitmasks
+	dw MorayneBitmasks
+	dw PyreapBitmasks
 	dw StaryuBitmasks
 	dw StarmieBitmasks
 	dw MrMimeBitmasks

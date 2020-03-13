@@ -230,16 +230,16 @@ PokemonPicPointers::
 	dba_pic ChanseyBackpic
 	dba_pic TangelaFrontpic
 	dba_pic TangelaBackpic
-	dba_pic KangaskhanFrontpic
-	dba_pic KangaskhanBackpic
+	dba_pic AnimustFrontpic
+	dba_pic AnimustBackpic
 	dba_pic HorseaFrontpic
 	dba_pic HorseaBackpic
 	dba_pic SeadraFrontpic
 	dba_pic SeadraBackpic
-	dba_pic GoldeenFrontpic
-	dba_pic GoldeenBackpic
-	dba_pic SeakingFrontpic
-	dba_pic SeakingBackpic
+	dba_pic MorayneFrontpic
+	dba_pic MorayneBackpic
+	dba_pic PyreapFrontpic
+	dba_pic PyreapBackpic
 	dba_pic StaryuFrontpic
 	dba_pic StaryuBackpic
 	dba_pic StarmieFrontpic

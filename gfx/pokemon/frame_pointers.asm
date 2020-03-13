@@ -113,11 +113,11 @@ FramesPointers:
 	dw RhydonFrames
 	dw ChanseyFrames
 	dw TangelaFrames
-	dw KangaskhanFrames
+	dw AnimustFrames
 	dw HorseaFrames
 	dw SeadraFrames
-	dw GoldeenFrames
-	dw SeakingFrames
+	dw MorayneFrames
+	dw PyreapFrames
 	dw StaryuFrames
 	dw StarmieFrames
 	dw MrMimeFrames
