@@ -147,9 +147,9 @@ ItemEffects:
 	dw NoEffect            ; STAR_PIECE
 	dw BasementKeyEffect   ; BASEMENT_KEY
 	dw NoEffect            ; PASS
-	dw NoEffect            ; ITEM_87
-	dw NoEffect            ; ITEM_88
-	dw NoEffect            ; ITEM_89
+	dw CutterEffect            ; cutter
+	dw StrongArmEffect            ; strong arm
+	dw FlashlightEffect            ; flashlight
 	dw NoEffect            ; CHARCOAL
 	dw RestoreHPEffect     ; BERRY_JUICE
 	dw NoEffect            ; SCOPE_LENS
@@ -174,7 +174,7 @@ ItemEffects:
 	dw PokeBallEffect      ; LEVEL_BALL
 	dw PokeBallEffect      ; LURE_BALL
 	dw PokeBallEffect      ; FAST_BALL
-	dw NoEffect            ; ITEM_A2
+	dw WhirlpullerEffect            ; whirlpuller
 	dw NoEffect            ; LIGHT_BALL
 	dw PokeBallEffect      ; FRIEND_BALL
 	dw PokeBallEffect      ; MOON_BALL
@@ -188,11 +188,64 @@ ItemEffects:
 	dw RestoreHPEffect     ; BERRY
 	dw RestoreHPEffect     ; GOLD_BERRY
 	dw SquirtbottleEffect  ; SQUIRTBOTTLE
-	dw NoEffect            ; ITEM_B0
+	dw WaterfallerEffect            ; waterfaller
 	dw PokeBallEffect      ; PARK_BALL
 	dw NoEffect            ; RAINBOW_WING
-	dw NoEffect            ; ITEM_B3
+	dw RoboLaprasEffect            ; robo lapras
+	dw NoEffect ; brick piece
+	dw NoEffect ;mail from here down except last
+	dw NoEffect
+	dw NoEffect
+	dw NoEffect
+	dw NoEffect
+	dw NoEffect
+	dw NoEffect
+	dw NoEffect
+	dw NoEffect
+	dw HelibirdEffect ; helibird
 
+CutterEffect:
+	ld a, 1
+	ld [wUsingHMItem], a
+	farcall CutFunction
+	ret
+	
+StrongArmEffect:
+	ld a, 1
+	ld [wUsingHMItem], a
+	farcall StrengthFunction
+	ret
+	
+FlashlightEffect:
+	ld a, 1
+	ld [wUsingHMItem], a
+	farcall OWFlash
+	ret
+	
+WhirlpullerEffect:
+	ld a, 1
+	ld [wUsingHMItem], a
+	farcall WhirlpoolFunction
+	ret
+	
+WaterfallerEffect:
+	ld a, 1
+	ld [wUsingHMItem], a
+	farcall WaterfallFunction
+	ret
+	
+RoboLaprasEffect:
+	ld a, 1
+	ld [wUsingHMItem], a
+	farcall SurfFunction
+	ret
+	
+HelibirdEffect:
+	ld a, 1
+	ld [wUsingHMItem], a
+	farcall FlyFunction
+	ret
+	
 PokeBallEffect:
 	ld a, [wBattleMode]
 	dec a

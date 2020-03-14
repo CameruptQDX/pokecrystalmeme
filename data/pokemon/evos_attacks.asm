@@ -704,7 +704,7 @@ DiglettEvosAttacks:
 	db 7, MUD_SLAP
 	db 14, MAGNITUDE
 	db 17, DIG
-	db 25, SAND_ATTACK
+	db 25, SAND_ATTACK ; move earlier
 	db 33, SLASH
 	db 41, EARTHQUAKE
 	db 49, EXTREMESPEED

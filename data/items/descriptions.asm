@@ -790,13 +790,16 @@ PassDesc:
 	next "MAGNET TRAIN.@"
 
 TeruSama9Desc:
-	db   "?@"
+	db   "GEAR that performs"
+	next "HM CUT.@"
 
 TeruSama10Desc:
-	db   "?@"
+	db   "GEAR that performs"
+	next "HM STRENGTH.@"
 
 TeruSama11Desc:
-	db   "?@"
+	db   "GEAR that performs"
+	next "HM FLASH.@"
 
 CharcoalDesc:
 	db   "Powers up fire-"
@@ -895,7 +898,8 @@ FastBallDesc: ; palette ball
 	next "colored #MON.@"
 
 TeruSama21Desc:
-	db   "?@"
+	db   "GEAR that performs"
+	next "HM WHIRLPOOL.@"
 
 LightBallDesc:
 	db   "An odd, electrical"
@@ -950,7 +954,8 @@ SquirtBottleDesc:
 	next "watering plants.@"
 
 TeruSama23Desc:
-	db   "?@"
+	db   "GEAR that performs"
+	next "HM WATERFALL.@"
 
 ParkBallDesc:
 	db   "The Bug-Catching"
@@ -961,7 +966,8 @@ RainbowWingDesc:
 	next "of rainbow colors.@"
 
 TeruSama24Desc:
-	db   "?@"
+	db   "GEAR that performs"
+	next "HM SURF.@"
 
 BrickPieceDesc:
 	db   "A rare chunk of"
@@ -1004,7 +1010,8 @@ MewMailDesc:
 	next "(HOLD)@"
 
 TeruSama25Desc:
-	db   "?@"
+	db   "GEAR that performs"
+	next "HM FLY.@"
 
 TeruSama26Desc:
 	db   "?@"

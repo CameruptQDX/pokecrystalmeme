@@ -140,9 +140,9 @@
 	const STAR_PIECE   ; 84
 	const BASEMENT_KEY ; 85
 	const PASS         ; 86
-	const ITEM_87      ; 87
-	const ITEM_88      ; 88
-	const ITEM_89      ; 89
+	const CUTTER      ; 87
+	const STRONG_ARM      ; 88
+	const FLASHLIGHT      ; 89
 	const CHARCOAL     ; 8a
 	const BERRY_JUICE  ; 8b
 	const SCOPE_LENS   ; 8c
@@ -167,7 +167,7 @@
 	const LEVEL_BALL   ; 9f
 	const LURE_BALL    ; a0
 	const FAST_BALL    ; a1
-	const ITEM_A2      ; a2
+	const WHIRLPULLER      ; a2
 	const LIGHT_BALL   ; a3
 	const FRIEND_BALL  ; a4
 	const MOON_BALL    ; a5
@@ -181,10 +181,10 @@
 	const BERRY        ; ad
 	const GOLD_BERRY   ; ae
 	const SQUIRTBOTTLE ; af
-	const ITEM_B0      ; b0
+	const WATERFALLER      ; b0
 	const PARK_BALL    ; b1
 	const RAINBOW_WING ; b2
-	const ITEM_B3      ; b3
+	const ROBO_LAPRAS      ; b3
 	const BRICK_PIECE  ; b4
 	const SURF_MAIL    ; b5
 	const LITEBLUEMAIL ; b6
@@ -195,7 +195,7 @@
 	const BLUESKY_MAIL ; bb
 	const MUSIC_MAIL   ; bc
 	const MIRAGE_MAIL  ; bd
-	const ITEM_BE      ; be
+	const HELIBIRD   ; be
 
 add_tm: MACRO
 if !DEF(TM01)
