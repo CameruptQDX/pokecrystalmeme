@@ -292,8 +292,9 @@ UnknownText_0x1c05c8::
 	prompt
 
 UnknownText_0x1c05dd::
-	text "You CUT away"
-	line "the bush!"
+	text_from_ram wStringBuffer2
+	text " used"
+	line "CUT!"
 	prompt
 
 UnknownText_0x1c05ec::
@@ -308,7 +309,9 @@ UnknownText_0x1c0609::
 	db "@@"
 
 _UsedSurfText::
-	text "dummied"
+	text_from_ram wStringBuffer2
+	text " used"
+	line "SURF!"
 	done
 
 _CantSurfText::
@@ -327,7 +330,8 @@ _AskSurfText::
 	done
 
 UnknownText_0x1c068e::
-	text "You rode the"
+	text_from_ram wStringBuffer2
+	text " used"
 	line "WATERFALL!"
 	done
 
@@ -375,17 +379,19 @@ UnknownText_0x1c0751::
 	prompt
 
 UnknownText_0x1c0774::
-	text "You deployed"
+	text_from_ram wStringBuffer2
+	text " used"
 	line "STRENGTH!"
 	done
 
 UnknownText_0x1c0788::
-	text "You can"
+	text_from_ram wStringBuffer1
+	text " can"
 	line "move boulders."
 	prompt
 
 UnknownText_0x1c07a0::
-	text "You may be"
+	text "A #MON may be"
 	line "able to move this."
 
 	para "Want to use"
@@ -398,12 +404,13 @@ UnknownText_0x1c07d8::
 	done
 
 UnknownText_0x1c07f4::
-	text "You may be"
+	text "A #MON may be"
 	line "able to move this."
 	done
 
 UnknownText_0x1c0816::
-	text "You used"
+	text_from_ram wStringBuffer2
+	text " used"
 	line "WHIRLPOOL!"
 	prompt
 
@@ -411,7 +418,7 @@ UnknownText_0x1c082b::
 	text "It's a vicious"
 	line "whirlpool!"
 
-	para "You may be"
+	para "A #MON may be"
 	line "able to pass it."
 	done
 

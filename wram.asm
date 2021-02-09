@@ -2665,10 +2665,7 @@ wParryFightCount::   db
 wErinFightCount::    db
 ; da0e
 
-	ds 84 ; was 100, took 15 for the bag pockets (37+32 = 69, 69- 54 above = 15)
-	;took one more byte for the HM thing below
-	
-wUsingHMItem:: db
+	ds 86 ; was 100, took 14 for the bag pockets (37+31 = 68, 68- 54 above = 14)
 
 wEventFlags:: flag_array NUM_EVENTS ; da72
 ; db6c

@@ -132,7 +132,7 @@ CutFunction:
 	dw .DoCut
 	dw .FailCut
 
-.CheckAble: ; Due to HM item implementation, this section may need to be changed. Last part of the wiki tutorial
+.CheckAble:
 	ld de, ENGINE_HIVEBADGE
 	call CheckBadge
 	jr c, .nohivebadge
@@ -211,7 +211,7 @@ Script_CutFromMenu:
 	special UpdateTimePals
 
 Script_Cut:
-;	callasm GetPartyNick
+	callasm GetPartyNick
 	writetext Text_UsedCut
 	reloadmappart
 	callasm CutDownTreeOrGrass
@@ -386,7 +386,7 @@ SurfFunction:
 .DoSurf:
 	call GetSurfType
 	ld [wBuffer2], a
-;	call GetPartyNick
+	call GetPartyNick
 	ld hl, SurfFromMenuScript
 	call QueueScript
 	ld a, $81
@@ -408,11 +408,11 @@ SurfFromMenuScript:
 	special UpdateTimePals
 
 UsedSurfScript:
-	;writetext UsedSurfText ; "used SURF!"
-	;waitbutton
-	;closetext
+	writetext UsedSurfText ; "used SURF!"
+	waitbutton
+	closetext
 
-	;callasm .empty_fn ; empty function
+	callasm .empty_fn ; empty function
 
 	copybytetovar wBuffer2
 	writevarcode VAR_MOVEMENT
@@ -428,9 +428,9 @@ UsedSurfScript:
 	farcall StubbedTrainerRankings_Surf
 	ret
 
-;UsedSurfText:
-;	text_jump _UsedSurfText
-;	db "@"
+UsedSurfText:
+	text_jump _UsedSurfText
+	db "@"
 
 CantSurfText:
 	text_jump _CantSurfText
@@ -523,7 +523,7 @@ TrySurfOW::
 
 	call GetSurfType
 	ld [wBuffer2], a
-;	call GetPartyNick
+	call GetPartyNick
 
 	ld a, BANK(AskSurfScript)
 	ld hl, AskSurfScript
@@ -681,7 +681,7 @@ Script_WaterfallFromMenu:
 	special UpdateTimePals
 
 Script_UsedWaterfall:
-;	callasm GetPartyNick
+	callasm GetPartyNick
 	writetext .Text_UsedWaterfall
 	waitbutton
 	closetext
@@ -1014,7 +1014,7 @@ SetStrengthFlag:
 	add hl, de
 	ld a, [hl]
 	ld [wBuffer6], a
-;	call GetPartyNick
+	call GetPartyNick
 	ret
 
 Script_StrengthFromMenu:
@@ -1184,7 +1184,7 @@ Script_WhirlpoolFromMenu:
 	special UpdateTimePals
 
 Script_UsedWhirlpool:
-;	callasm GetPartyNick
+	callasm GetPartyNick
 	writetext Text_UsedWhirlpool
 	reloadmappart
 	callasm DisappearWhirlpool
