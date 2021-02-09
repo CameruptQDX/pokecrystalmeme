@@ -16,8 +16,6 @@ _ReceiveItem::
 	dw .KeyItem
 	dw .Ball
 	dw .TMHM
-	dw .Berry
-	dw .Gear
 
 .Item:
 	ld h, d
@@ -33,14 +31,6 @@ _ReceiveItem::
 	ld hl, wNumBalls
 	jp PutItemInPocket
 
-.Berry:
-	ld hl, wNumBerries
-	jp PutItemInPocket
-	
-.Gear:
-	ld hl, wNumGear
-	jp PutItemInPocket
-	
 .TMHM:
 	ld h, d
 	ld l, e
@@ -67,19 +57,9 @@ _TossItem::
 	dw .KeyItem
 	dw .Ball
 	dw .TMHM
-	dw .Berry
-	dw .Gear
 
 .Ball:
 	ld hl, wNumBalls
-	jp RemoveItemFromPocket
-	
-.Berry:
-	ld hl, wNumBerries
-	jp RemoveItemFromPocket
-	
-.Gear:
-	ld hl, wNumGear
 	jp RemoveItemFromPocket
 
 .TMHM:
@@ -120,21 +100,11 @@ _CheckItem::
 	dw .KeyItem
 	dw .Ball
 	dw .TMHM
-	dw .Berry
-	dw .Gear
 
 .Ball:
 	ld hl, wNumBalls
 	jp CheckTheItem
 
-.Berry:
-	ld hl, wNumBerries
-	jp CheckTheItem
-	
-.Gear:
-	ld hl, wNumGear
-	jp CheckTheItem
-	
 .TMHM:
 	ld h, d
 	ld l, e
@@ -182,24 +152,6 @@ GetPocketCapacity:
 	ret z
 
 .not_pc
-	ld c, MAX_BERRIES
-	ld a, e
-	cp LOW(wBerries)
-	jr nz, .not_berries
-	ld a, d
-	cp HIGH(wBerries)
-	ret z
-
-.not_berries
-	ld c, MAX_GEAR
-	ld a, e
-	cp LOW(wGear)
-	jr nz, .not_gear
-	ld a, d
-	cp HIGH(wGear)
-	ret z
-
-.not_gear		
 	ld c, MAX_BALLS
 	ret
 

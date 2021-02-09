@@ -1867,8 +1867,6 @@ wItemsPocketCursor::    db
 wKeyItemsPocketCursor:: db
 wBallsPocketCursor::    db
 wTMHMPocketCursor::     db
-wBerryPocketCursor::    db
-wGearPocketCursor::     db
 
 wPCItemsScrollPosition::        db
 wPartyMenuScrollPosition::      db ; unused
@@ -1876,8 +1874,6 @@ wItemsPocketScrollPosition::    db
 wKeyItemsPocketScrollPosition:: db
 wBallsPocketScrollPosition::    db
 wTMHMPocketScrollPosition::     db
-wBerryPocketScrollPosition::    db
-wGearPocketScrollPosition::     db
 
 wSwitchMon::
 wSwitchItem::
@@ -2270,8 +2266,6 @@ wDudeNumItems:: db
 wDudeItems:: ds 2 * 4
 wDudeItemsEnd:: db
 
-wDudeNumBerries::
-wDudeNumGear::
 wDudeNumKeyItems:: db ; d292
 wDudeKeyItems:: ds 18
 wDudeKeyItemsEnd:: db
@@ -2519,14 +2513,6 @@ wNumBalls:: db ; d8d7
 wBalls:: ds MAX_BALLS * 2 + 1 ; d8d8
 wBallsEnd::
 
-wNumBerries:: db
-wBerries:: ds MAX_BERRIES * 2 + 1
-wBerriesEnd::
-
-wNumGear:: db
-wGear:: ds MAX_GEAR * 2 + 1
-wGearEnd::
-
 wPCItems:: ds MAX_PC_ITEMS * 2 + 1 ; d8f1
 wPCItemsEnd::
 
@@ -2632,7 +2618,7 @@ wMountMoonSquareSceneID::                         db ; d9be
 wMobileTradeRoomSceneID::                         db ; d9bf
 wMobileBattleRoomSceneID::                        db ; d9c0
 
-	;ds 54   COMMENTED TO MAKE ROOM FOR THE NEW BAG POCKETS (54/68 needed)
+	ds 54
 
 ; fight counts
 wJackFightCount::    db ; d9f2
@@ -2665,7 +2651,7 @@ wParryFightCount::   db
 wErinFightCount::    db
 ; da0e
 
-	ds 86 ; was 100, took 14 for the bag pockets (37+31 = 68, 68- 54 above = 14)
+	ds 100
 
 wEventFlags:: flag_array NUM_EVENTS ; da72
 ; db6c
