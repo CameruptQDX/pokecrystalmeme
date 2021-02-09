@@ -1641,7 +1641,7 @@ DrawPocketName:
 	db $02, $05, $05, $05, $03 ; bottom border
 ; GEAR_POCKET
 	db $00, $04, $04, $04, $01 ; top border
-	db $40, $41, $42, $43, $19 ; Gear (need to check which)
+	db $20, $21, $22, $23, $24 ; Gear (need to check which)
 	db $02, $05, $05, $05, $03 ; bottom border
 
 Pack_GetItemName:
