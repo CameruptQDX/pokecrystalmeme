@@ -1962,7 +1962,7 @@ CheckUserHasEnoughHP:
 	and a
 	jr z, .ok
 	ld hl, wEnemyMonHP + 1
-.ok
+.ok:
 	ld a, c
 	sub [hl]
 	dec hl
@@ -1970,13 +1970,13 @@ CheckUserHasEnoughHP:
 	sbc [hl]
 	ret
 
-RestoreHP
+RestoreHP:
 	ld hl, wEnemyMonMaxHP
 	ldh a, [hBattleTurn]
 	and a
 	jr z, .ok
 	ld hl, wBattleMonMaxHP
-.ok
+.ok:
 	ld a, [hli]
 	ld [wBuffer2], a
 	ld a, [hld]

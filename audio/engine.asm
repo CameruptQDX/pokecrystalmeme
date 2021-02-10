@@ -1617,7 +1617,7 @@ Music_JumpIf:
 	ld [hl], d
 	ret
 
-MusicEE
+MusicEE:
 ; conditional jump
 ; checks a byte in ram corresponding to the current channel
 ; doesn't seem to be set by any commands
@@ -1653,7 +1653,7 @@ MusicEE
 	ld [hl], e
 	ret
 
-.jump
+.jump:
 	; reset jump flag
 	ld [hl], 0
 	; de = pointer
