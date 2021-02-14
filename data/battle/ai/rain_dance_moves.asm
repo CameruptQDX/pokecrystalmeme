@@ -12,4 +12,5 @@ RainDanceMoves:
 	db HOLY_GALE
 	db OCTAZOOKA
 	db WHIRLPOOL
+	db THUNDER_COLLIDER
 	db -1 ; end

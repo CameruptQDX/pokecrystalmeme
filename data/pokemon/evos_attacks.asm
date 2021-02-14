@@ -803,13 +803,13 @@ PrimeapeEvosAttacks:
 	db 1, SCRATCH
 	db 1, LEER
 	db 1, LOW_KICK
-	db 1, RAGE
+	;db 1, RAGE
 	db 9, LOW_KICK
 	db 15, KARATE_CHOP
 	db 17, PURSUIT
 	db 21, FURY_SWIPES
 	db 27, FOCUS_ENERGY
-	db 27, RAGE
+	;db 27, RAGE
 	db 36, SEISMIC_TOSS
 	db 38, SWAGGER
 	db 45, CROSS_CHOP
@@ -1201,7 +1201,7 @@ DoduoEvosAttacks:
 	db 1, PECK
 	db 1, GROWL
 	db 5, QUICK_ATTACK
-	db 8, RAGE
+	;db 8, RAGE
 	db 12, FURY_ATTACK
 	db 15, PURSUIT
 	db 26, AGILITY
@@ -1216,7 +1216,7 @@ DodrioEvosAttacks:
 	db 1, PECK
 	db 1, GROWL
 	db 5, QUICK_ATTACK
-	db 8, RAGE
+	;db 8, RAGE
 	db 12, FURY_ATTACK
 	db 15, PURSUIT
 	db 26, AGILITY
@@ -1257,7 +1257,7 @@ DewgongEvosAttacks:
 GrimerEvosAttacks:
 	db EVOLVE_LEVEL, 38, MUK
 	db 0 ; no more evolutions
-	db 1, POISON_GAS
+	;db 1, POISON_GAS
 	db 1, POUND
 	db 5, HARDEN
 	db 7, MUD_SLAP
@@ -1271,7 +1271,7 @@ GrimerEvosAttacks:
 
 MukEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, POISON_GAS
+	;db 1, POISON_GAS
 	db 1, POUND
 	db 7, MUD_SLAP
 	db 33, HARDEN
@@ -1364,7 +1364,7 @@ OnixEvosAttacks:
 	db 1, WRAP
 	db 4, CURSE
 	db 7, ROCK_THROW
-	db 13, RAGE
+	;db 13, RAGE
 	db 23, DRAGONBREATH
 	db 28, SLAM
 	db 31, SCREECH
@@ -1383,7 +1383,7 @@ DrowzeeEvosAttacks:
 	db 10, DISABLE
 	db 18, CONFUSION
 	db 25, HEADBUTT
-	db 31, POISON_GAS
+	;db 31, POISON_GAS
 	db 36, MEDITATE
 	db 40, PSYCHIC_M
 	db 43, PSYCH_UP
@@ -1400,7 +1400,7 @@ HypnoEvosAttacks:
 	db 10, DISABLE
 	db 18, CONFUSION
 	db 25, HEADBUTT
-	db 33, POISON_GAS
+	;db 33, POISON_GAS
 	db 40, MEDITATE
 	db 49, PSYCHIC_M
 	db 55, PSYCH_UP
@@ -1501,7 +1501,7 @@ CuboneEvosAttacks:
 	db 17, LEER
 	db 21, FOCUS_ENERGY
 	;db 25, BONEMERANG
-	db 29, RAGE
+	;db 29, RAGE
 	db 33, FALSE_SWIPE
 	db 37, THRASH
 	db 39, DOUBLE_EDGE
@@ -1517,7 +1517,7 @@ MarowakEvosAttacks:
 	db 17, LEER
 	db 21, FOCUS_ENERGY
 	;db 25, BONEMERANG
-	db 32, RAGE
+	;db 32, RAGE
 	db 39, FALSE_SWIPE
 	db 46, THRASH
 	db 48, DOUBLE_EDGE
@@ -1571,7 +1571,7 @@ KecleonEvosAttacks:
 KoffingEvosAttacks:
 	db EVOLVE_LEVEL, 35, WEEZING
 	db 0 ; no more evolutions
-	db 1, POISON_GAS
+	;db 1, POISON_GAS
 	db 1, TACKLE
 	db 9, SMOG
 	db 17, SELFDESTRUCT
@@ -1585,7 +1585,7 @@ KoffingEvosAttacks:
 
 WeezingEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, POISON_GAS
+	;db 1, POISON_GAS
 	db 1, TACKLE
 	db 9, SMOG
 	db 17, SELFDESTRUCT
@@ -1849,7 +1849,7 @@ TaurosEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 4, TAIL_WHIP
-	db 8, RAGE
+	;db 8, RAGE
 	db 13, HORN_ATTACK
 	db 19, SCARY_FACE
 	db 26, PURSUIT
@@ -2267,7 +2267,7 @@ TotodileEvosAttacks:
 	db 1, SCRATCH
 	db 1, LEER
 	db 6, WATER_GUN
-	db 8, RAGE
+	;db 8, RAGE
 	db 13, BITE
 	db 15, SCARY_FACE
 	db 22, FLAIL
@@ -2283,7 +2283,7 @@ CroconawEvosAttacks:
 	db 1, SCRATCH
 	db 1, LEER
 	db 6, WATER_GUN
-	db 8, RAGE
+	;db 8, RAGE
 	db 13, BITE
 	db 15, SCARY_FACE
 	db 24, FLAIL
@@ -2298,7 +2298,7 @@ FeraligatrEvosAttacks:
 	db 1, SCRATCH
 	db 1, LEER
 	db 6, WATER_GUN
-	db 8, RAGE
+	;db 8, RAGE
 	db 13, BITE
 	db 15, SCARY_FACE
 	db 24, FLAIL
@@ -2917,7 +2917,7 @@ ForretressEvosAttacks:
 
 DunsparceEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, RAGE
+	db 1, TACKLE
 	db 1, DEFENSE_CURL
 	db 3, ROLLOUT
 	db 8, PURSUIT
@@ -2953,7 +2953,7 @@ SteelixEvosAttacks:
 	db 1, WRAP
 	db 4, CURSE
 	db 7, ROCK_THROW
-	db 13, RAGE
+	;db 13, RAGE
 	db 23, DRAGONBREATH
 	db 28, SLAM
 	db 31, SCREECH
@@ -2974,7 +2974,7 @@ SnubbullEvosAttacks:
 	db 13, BITE
 	db 19, LICK
 	db 26, ROAR
-	db 34, RAGE
+	;db 34, RAGE
 	db 43, TAKE_DOWN
 	db 45, CRUNCH
 	db 0 ; no more level-up moves
@@ -2988,7 +2988,7 @@ GranbullEvosAttacks:
 	db 13, BITE
 	db 19, LICK
 	db 28, ROAR
-	db 38, RAGE
+	;db 38, RAGE
 	db 51, TAKE_DOWN
 	db 53, CRUNCH
 	db 61, OUTRAGE

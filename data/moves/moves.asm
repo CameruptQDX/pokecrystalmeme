@@ -110,7 +110,7 @@ Moves:
 	move MEDITATE,     EFFECT_ATTACK_UP,           0, PSYCHIC,  100, 40,   0
 	move AGILITY,      EFFECT_SPEED_UP_2,          0, PSYCHIC,  100, 30,   0
 	move QUICK_ATTACK, EFFECT_PRIORITY_HIT,       40, NORMAL,   100, 30,   0
-	move RAGE,         EFFECT_RAGE,               20, NORMAL,   100, 20,   0
+	move THUNDER_COLLIDER, EFFECT_NORMAL_HIT,     120, ELECTRIC,   85, 10,   0 ; needs effect implemented
 	move TELEPORT,     EFFECT_TELEPORT,            0, PSYCHIC,  100, 20,   0
 	move NIGHT_SHADE,  EFFECT_LEVEL_DAMAGE,        1, GHOST,    100, 15,   0
 	move MIMIC,        EFFECT_MIMIC,               0, NORMAL,   100, 10,   0
@@ -150,7 +150,7 @@ Moves:
 	move HI_JUMP_KICK, EFFECT_JUMP_KICK,          130, FIGHTING,  90, 10,   0
 	move GLARE,        EFFECT_PARALYZE,            0, NORMAL,    100, 30,   0
 	move DREAM_EATER,  EFFECT_DREAM_EATER,       100, PSYCHIC,  100, 15,   0
-	move POISON_GAS,   EFFECT_POISON,              0, POISON,    90, 40,   0
+	move MAGMA_BREAKER,   EFFECT_NORMAL_HIT,     120, FIRE,   85, 10,   0 ; needs effect implemented
 	move CANNON_BALL,  EFFECT_MULTI_HIT,          25, STEEL,     90,  20,   0
 	move LEECH_LIFE,   EFFECT_LEECH_HIT,          80, BUG,      100, 10,   0
 	move LOVELY_KISS,  EFFECT_SLEEP,               0, NORMAL,    75, 10,   0

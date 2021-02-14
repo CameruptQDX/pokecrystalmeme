@@ -9,4 +9,5 @@ SunnyDayMoves:
 	db SACRED_FIRE
 	db MORNING_SUN
 	db SYNTHESIS
+	db MAGMA_BREAKER
 	db -1 ; end

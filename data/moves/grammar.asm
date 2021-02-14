@@ -77,7 +77,6 @@ MoveGrammar:
 	db METRONOME
 	db LICK
 	db CLAMP
-	db POISON_GAS
 	db BUBBLE
 	db SLASH
 	db SPIDER_WEB

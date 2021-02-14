@@ -55,7 +55,7 @@ EvolutionMoves::
 	db NO_MOVE
 	db NO_MOVE
 	db NO_MOVE
-	db RAGE         ; PRIMEAPE
+	db NO_MOVE         ; PRIMEAPE
 	db NO_MOVE
 	db NO_MOVE
 	db NO_MOVE
