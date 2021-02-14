@@ -1983,7 +1983,7 @@ DoseetanEvosAttacks:
 	db 1, DISABLE
 	db 10, CONFUSION
 	db 18, RING_FRISBEE
-	db 25, STORM_ORBIT
+	db 25, STORMY_ORBIT
 	db 31, CONFUSE_RAY
 	db 0 ; no more level-up moves
 
@@ -1993,7 +1993,7 @@ ComettonEvosAttacks:
 	db 1, DISABLE
 	db 10, CONFUSION
 	db 18, RING_FRISBEE
-	db 25, STORM_ORBIT
+	db 25, STORMY_ORBIT
 	db 36, CONFUSE_RAY
 	db 40, COMET_TAIL
 	db 45, HAZE

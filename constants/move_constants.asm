@@ -155,9 +155,9 @@
 	const SPORE        ; 93
 	const FLASH        ; 94
 	const PSYWAVE      ; 95
-	const STORM_ORBIT       ; 96
+	const STORMY_ORBIT       ; 96
 	const ACID_ARMOR   ; 97
-	const KERNEL_BOMB   ; 98
+	const KERNEL_BLAST   ; 98
 	const EXPLOSION    ; 99
 	const FURY_SWIPES  ; 9a
 	const STICKY_GRAB   ; 9b

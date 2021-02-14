@@ -161,9 +161,9 @@ Moves:
 	move SPORE,        EFFECT_SLEEP,               0, GRASS,    100, 15,   0 
 	move FLASH,        EFFECT_ACCURACY_DOWN,       0, NORMAL,    100, 20,   0
 	move PSYWAVE,      EFFECT_PSYWAVE,             1, PSYCHIC,   100, 15,   0
-	move STORM_ORBIT, EFFECT_CONFUSE_HIT,        75, STAR,     100, 15,  20
+	move STORMY_ORBIT, EFFECT_CONFUSE_HIT,        75, STAR,     100, 15,  20
 	move ACID_ARMOR,   EFFECT_DEFENSE_UP_2,        0, POISON,   100, 20,   0
-	move KERNEL_BOMB,   EFFECT_BURN_HIT,         80, GRASS,     100, 10,  40
+	move KERNEL_BLAST,   EFFECT_BURN_HIT,         80, GRASS,     100, 10,  40
 	move EXPLOSION,    EFFECT_SELFDESTRUCT,      250, NORMAL,   100,  5,   0
 	move FURY_SWIPES,  EFFECT_MULTI_HIT,          18, NORMAL,    80, 15,   0
 	move STICKY_GRAB,   EFFECT_POISON_HIT,         70, FIGHTING,    90, 15,  45
