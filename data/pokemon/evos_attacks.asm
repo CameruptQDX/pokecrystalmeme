@@ -435,7 +435,7 @@ MockereyEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 5, TAIL_WHIP
-	db 9, PAY_DAY
+	db 9, COIN_HURL
 	db 13, BITE
 	db 17, PSYBEAM
 	db 23, PAIN_SPLIT
@@ -730,7 +730,7 @@ MeowthEvosAttacks:
 	db 1, SCRATCH
 	db 1, GROWL
 	db 11, BITE
-	db 20, PAY_DAY
+	;db 20, PAY_DAY
 	db 28, FAINT_ATTACK
 	db 35, SCREECH
 	db 41, FURY_SWIPES
@@ -744,7 +744,7 @@ PersianEvosAttacks:
 	db 1, BITE
 	db 1, SWIFT
 	db 11, BITE
-	db 20, PAY_DAY
+	;db 20, PAY_DAY
 	db 29, FAINT_ATTACK
 	db 38, SCREECH
 	db 46, FURY_SWIPES
@@ -893,7 +893,7 @@ KadabraEvosAttacks:
 	db EVOLVE_TRADE, -1, ALAKAZAM
 	db 0 ; no more evolutions
 	db 1, TELEPORT
-	db 1, KINESIS
+	;db 1, KINESIS
 	db 1, CONFUSION
 	db 16, CONFUSION
 	db 18, DISABLE
@@ -907,7 +907,7 @@ KadabraEvosAttacks:
 AlakazamEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TELEPORT
-	db 1, KINESIS
+	;db 1, KINESIS
 	db 1, CONFUSION
 	db 16, CONFUSION
 	db 18, DISABLE
@@ -1420,7 +1420,7 @@ KrabbyEvosAttacks:
 	db 25, STOMP
 	db 27, SUBMISSION
 	db 34, PROTECT
-	db 41, CRABHAMMER
+	;db 41, CRABHAMMER
 	db 45, FLAIL
 	db 0 ; no more level-up moves
 
@@ -1435,7 +1435,7 @@ KinglerEvosAttacks:
 	db 25, STOMP
 	db 27, SUBMISSION
 	db 38, PROTECT
-	db 49, CRABHAMMER
+	;db 49, CRABHAMMER
 	db 52, FLAIL
 	db 0 ; no more level-up moves
 
@@ -1500,7 +1500,7 @@ CuboneEvosAttacks:
 	db 13, HEADBUTT
 	db 17, LEER
 	db 21, FOCUS_ENERGY
-	db 25, BONEMERANG
+	;db 25, BONEMERANG
 	db 29, RAGE
 	db 33, FALSE_SWIPE
 	db 37, THRASH
@@ -1516,7 +1516,7 @@ MarowakEvosAttacks:
 	db 13, HEADBUTT
 	db 17, LEER
 	db 21, FOCUS_ENERGY
-	db 25, BONEMERANG
+	;db 25, BONEMERANG
 	db 32, RAGE
 	db 39, FALSE_SWIPE
 	db 46, THRASH
@@ -1863,7 +1863,7 @@ TaurosEvosAttacks:
 MagikarpEvosAttacks:
 	db EVOLVE_LEVEL, 20, GYARADOS
 	db 0 ; no more evolutions
-	db 1, SPLASH
+	db 1, TACKLE
 	db 15, TACKLE
 	db 30, FLAIL
 	db 0 ; no more level-up moves
@@ -1983,7 +1983,7 @@ DoseetanEvosAttacks:
 	db 1, DISABLE
 	db 10, CONFUSION
 	db 18, RING_FRISBEE
-	db 25, STORMY_ORBIT
+	db 25, STORM_ORBIT
 	db 31, CONFUSE_RAY
 	db 0 ; no more level-up moves
 
@@ -1993,7 +1993,7 @@ ComettonEvosAttacks:
 	db 1, DISABLE
 	db 10, CONFUSION
 	db 18, RING_FRISBEE
-	db 25, STORMY_ORBIT
+	db 25, STORM_ORBIT
 	db 36, CONFUSE_RAY
 	db 40, COMET_TAIL
 	db 45, HAZE
@@ -2005,7 +2005,7 @@ UnluckyEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 5, TAIL_WHIP
-	db 9, PAY_DAY
+	db 9, COIN_HURL
 	db 13, BITE
 	db 17, DOUBLESLAP
 	db 23, PAIN_SPLIT
@@ -2080,7 +2080,7 @@ FijiEvosAttacks:
 	db 60, EXPLOSION
 	db 70, GIGA_DRAIN
 	db 80, SPORE
-	db 90, AEROBLAST
+	;db 90, AEROBLAST
 	db 0 ; no more level-up moves
 
 KiekeadaEvosAttacks:
@@ -2146,7 +2146,7 @@ RainerEvosAttacks:
 	db 1, CLAMP
 	db 1, BONE_RUSH
 	db 1, JUMP_KICK
-	db 60, BONEMERANG 
+	;db 60, BONEMERANG 
 	db 70, LEECH_LIFE
 	db 80, LOCK_ON
 	db 90, EARTHQUAKE
@@ -2664,7 +2664,6 @@ PolitoedEvosAttacks:
 HoppipEvosAttacks:
 	db EVOLVE_LEVEL, 18, SKIPLOOM
 	db 0 ; no more evolutions
-	db 1, SPLASH
 	db 1, ABSORB
 	db 5, SYNTHESIS
 	db 5, TAIL_WHIP
@@ -2681,7 +2680,6 @@ HoppipEvosAttacks:
 SkiploomEvosAttacks:
 	db EVOLVE_LEVEL, 27, JUMPLUFF
 	db 0 ; no more evolutions
-	db 1, SPLASH
 	db 1, ABSORB
 	db 5, SYNTHESIS
 	db 5, TAIL_WHIP
@@ -2697,7 +2695,6 @@ SkiploomEvosAttacks:
 
 JumpluffEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, SPLASH
 	db 1, ABSORB
 	db 5, SYNTHESIS
 	db 5, TAIL_WHIP
@@ -3252,7 +3249,7 @@ HoundourEvosAttacks:
 	db 20, BITE
 	db 23, BEAT_UP
 	db 27, FAINT_ATTACK
-	db 32, BONEMERANG
+	;db 32, BONEMERANG
 	db 35, FLAMETHROWER
 	db 43, CRUNCH
 	db 0 ; no more level-up moves
@@ -3266,7 +3263,7 @@ HoundoomEvosAttacks:
 	db 20, BITE
 	db 23, BEAT_UP
 	db 30, FAINT_ATTACK
-	db 34, BONEMERANG
+	;db 34, BONEMERANG
 	db 41, FLAMETHROWER
 	db 52, CRUNCH
 	db 0 ; no more level-up moves
@@ -3550,7 +3547,7 @@ TyranitarEvosAttacks:
 
 LugiaEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, AEROBLAST
+	;db 1, AEROBLAST
 	db 11, SAFEGUARD
 	db 22, GUST
 	db 33, RECOVER
@@ -3605,7 +3602,7 @@ DoomsdayEvosAttacks:
 	
 OmegaZeroEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, ZERO_CANNON
+	;db 1, ZERO_CANNON
 	db 1, THUNDERBOLT
 	db 1, ICE_BEAM
 	db 1, SKY_ATTACK

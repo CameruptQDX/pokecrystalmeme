@@ -5,7 +5,7 @@ MoveDescriptions::
 	dw DoubleslapDescription
 	dw CometPunchDescription
 	dw MegaPunchDescription
-	dw PayDayDescription
+	dw MuddyStareDescription
 	dw FirePunchDescription
 	dw IcePunchDescription
 	dw ThunderpunchDescription
@@ -40,7 +40,7 @@ MoveDescriptions::
 	dw DoubleEdgeDescription
 	dw TailWhipDescription
 	dw PoisonStingDescription
-	dw MuddyStareDescription
+	dw TwineedleDescription
 	dw PinMissileDescription
 	dw LeerDescription
 	dw BiteDescription
@@ -109,7 +109,7 @@ MoveDescriptions::
 	dw MinimizeDescription
 	dw SmokescreenDescription
 	dw ConfuseRayDescription
-	dw StormyOrbitDescription
+	dw CrystalClawDescription
 	dw DefenseCurlDescription
 	dw BarrierDescription
 	dw LightScreenDescription
@@ -133,7 +133,7 @@ MoveDescriptions::
 	dw SpikeCannonDescription
 	dw PhoneHomeDescription
 	dw AmnesiaDescription
-	dw KinesisDescription
+	dw DarkeningDescription
 	dw SoftboiledDescription
 	dw HiJumpKickDescription
 	dw GlareDescription
@@ -149,12 +149,12 @@ MoveDescriptions::
 	dw SporeDescription
 	dw FlashDescription
 	dw PsywaveDescription
-	dw SplashDescription
+	dw StormOrbitDescription
 	dw AcidArmorDescription
-	dw CrabhammerDescription
+	dw KernelBombDescription
 	dw ExplosionDescription
 	dw FurySwipesDescription
-	dw BonemerangDescription
+	dw StickyGrabDescription
 	dw RestDescription
 	dw RockSlideDescription
 	dw LeadWeightDescription
@@ -164,7 +164,7 @@ MoveDescriptions::
 	dw LeadFangDescription
 	dw SlashDescription
 	dw SubstituteDescription
-	dw StruggleDescription
+	dw CrossCutterDescription
 	dw SketchDescription
 	dw TripleKickDescription
 	dw ThiefDescription
@@ -176,7 +176,7 @@ MoveDescriptions::
 	dw CurseDescription
 	dw FlailDescription
 	dw Conversion2Description
-	dw AeroblastDescription
+	dw MetalmorphDescription
 	dw CottonSporeDescription
 	dw ReversalDescription
 	dw SpiteDescription
@@ -251,13 +251,12 @@ MoveDescriptions::
 	dw RockSmashDescription
 	dw WhirlpoolDescription
 	dw BeatUpDescription
-	dw CrystalClawDescription
-	dw DarkeningDescription
-	dw ZeroCannonDescription
-	dw MoveFFDescription
+	dw CoinHurlDescription
+	dw MegaphoneDescription
+	dw RockHeadDescription
+	dw StruggleDescription
 	dw Move00Description
 
-MoveFFDescription:
 Move00Description:
 	db "?@"
 
@@ -353,6 +352,7 @@ VineWhipDescription:
 	db   "Whips the foe with"
 	next "slender vines.@"
 
+RockHeadDescription:
 StompDescription:
 	db   "An attack that may"
 	next "cause flinching.@"
@@ -701,7 +701,7 @@ ConfuseRayDescription:
 	db   "A move that causes"
 	next "confusion.@"
 
-StormyOrbitDescription:
+StormOrbitDescription:
 	db   "Spins around the"
 	next "foe to confuse.@"
 
@@ -797,10 +797,6 @@ AmnesiaDescription:
 	db   "Sharply raises the"
 	next "user's SPCL.DEF.@"
 
-KinesisDescription:
-	db   "Reduces the foe's"
-	next "accuracy.@"
-
 SoftboiledDescription:
 	db   "Restores HP by 1/2"
 	next "the user's max HP.@"
@@ -861,17 +857,9 @@ PsywaveDescription:
 	db   "An attack with"
 	next "variable power.@"
 
-SplashDescription:
-	db   "Has no effect"
-	next "whatsoever.@"
-
 AcidArmorDescription:
 	db   "Sharply raises the"
 	next "user's DEFENSE.@"
-
-CrabhammerDescription:
-	db   "Has a high criti-"
-	next "cal hit ratio.@"
 
 ExplosionDescription:
 	db   "Very powerful but"
@@ -880,10 +868,6 @@ ExplosionDescription:
 FurySwipesDescription:
 	db   "Quickly scratches"
 	next "2-5 times.@"
-
-BonemerangDescription:
-	db   "An attack that"
-	next "strikes twice.@"
 
 RestDescription:
 	db   "Sleep for 2 turns"
@@ -968,10 +952,6 @@ FlailDescription:
 Conversion2Description:
 	db   "The user's type is"
 	next "made resistant.@"
-
-AeroblastDescription:
-	db   "Has a high criti-"
-	next "cal hit ratio.@"
 
 CottonSporeDescription:
 	db   "Sharply reduces"
@@ -1277,6 +1257,30 @@ DarkeningDescription:
 	db   "Steals 1/2 of the"
 	next "damage inflicted.@"
 	
-ZeroCannonDescription:
-	db   "1st turn: Attack"
-	next "2nd turn: Rest@"
+CoinHurlDescription:
+	db   "Stronger the more"
+    next "¥ the owner has.@"
+	
+MegaphoneDescription:
+	db   "A loud noise that"
+	next "lowers SPCL.ATK.@"
+	
+CrossCutterDescription:
+	db   "Has a high criti-"
+	next "cal hit ratio.@"
+	
+TwineedleDescription:
+	db   "Jabs the foe twice"
+	next "using stingers.@"
+
+KernelBombDescription:
+	db   "Hot seeds can burn"
+	next "the foe.@"
+
+StickyGrabDescription:
+	db   "Slams the foe with"
+	next "toxic skin.@"
+	
+MetalmorphDescription:
+	db   "User becomes the"
+	next "foe plus STEEL.@"

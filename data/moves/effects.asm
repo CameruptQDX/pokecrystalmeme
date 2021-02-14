@@ -754,12 +754,13 @@ AllUpHit:
 	allstatsup
 	endmove
 
-PayDay:
+CoinHurl:
 	checkobedience
 	usedmovetext
 	doturn
 	critical
 	damagestats
+	coinhurl
 	damagecalc
 	stab
 	damagevariation
@@ -769,7 +770,6 @@ PayDay:
 	applydamage
 	criticaltext
 	supereffectivetext
-	payday
 	checkfaint
 	buildopponentrage
 	kingsrock

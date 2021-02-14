@@ -34,7 +34,7 @@ MoveEffectsPointers:
 	dw FlinchHit
 	dw Heal
 	dw Toxic
-	dw PayDay
+	dw CoinHurl
 	dw LightScreen
 	dw TriAttack
 	dw EggCrack

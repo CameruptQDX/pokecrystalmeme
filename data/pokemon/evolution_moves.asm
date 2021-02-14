@@ -62,8 +62,8 @@ EvolutionMoves::
 	db NO_MOVE
 	db SUBMISSION   ; POLIWRATH
 	db NO_MOVE
-	db KINESIS      ; KADABRA
-	db KINESIS      ; ALAKAZAM
+	db NO_MOVE      ; KADABRA
+	db NO_MOVE      ; ALAKAZAM
 	db NO_MOVE
 	db NO_MOVE
 	db STRENGTH     ; MACHAMP

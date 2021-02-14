@@ -179,7 +179,7 @@ GrowlitheEggMoves:
 
 PoliwagEggMoves:
 	db MIST
-	db SPLASH
+	;db SPLASH
 	db BUBBLEBEAM
 	db HAZE
 	db MIND_READER
@@ -369,7 +369,7 @@ HorseaEggMoves:
 	db AURORA_BEAM
 	db OCTAZOOKA
 	db DISABLE
-	db SPLASH
+	;db SPLASH
 	db DRAGON_RAGE
 	db -1 ; end
 
@@ -535,7 +535,7 @@ CleffaEggMoves:
 	db METRONOME
 	db AMNESIA
 	db BELLY_DRUM
-	db SPLASH
+	;db SPLASH
 	db MIMIC
 	db -1 ; end
 
@@ -592,7 +592,7 @@ HoppipEggMoves:
 	db DOUBLE_EDGE
 	db REFLECT
 	db AMNESIA
-	db PAY_DAY
+	;db PAY_DAY
 	db -1 ; end
 
 AipomEggMoves:
@@ -740,7 +740,7 @@ DelibirdEggMoves:
 	db AURORA_BEAM
 	db QUICK_ATTACK
 	db FUTURE_SIGHT
-	db SPLASH
+	;db SPLASH
 	db RAPID_SPIN
 	db -1 ; end
 

@@ -218,6 +218,7 @@ NUM_ANIM_OBJECTS EQU 10 ; see wActiveAnimObjects
 	const ANIM_OBJ_ENEMYFEETFOLLOW
 	const ANIM_OBJ_PLAYERHEADFOLLOW
 	const ANIM_OBJ_ENEMYHEADFOLLOW
+	const ANIM_OBJ_MEGAPHONE
 
 ; DoBattleAnimFrame arguments (see engine/battle_anims/functions.asm)
 	const_def

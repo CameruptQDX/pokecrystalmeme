@@ -15,9 +15,7 @@ MoveGrammar:
 	db SMOG
 	db BONE_CLUB
 	db FLASH
-	db SPLASH
 	db ACID_ARMOR
-	db BONEMERANG
 	db REST
 	db SHARPEN
 	db SUBSTITUTE
